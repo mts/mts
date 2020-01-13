@@ -2,7 +2,7 @@ module.exports = {
   testMatch: ['**/?(*.)test.js?(x)'],
   roots: ['<rootDir>'],
   transform: {
-    '^.+\\.jsx?$': 'babel-jest'
+    '^.+\\.jsx?$': 'babel-jest',
   },
   coverageDirectory: './coverage/',
   collectCoverage: true,
@@ -30,10 +30,10 @@ module.exports = {
   moduleFileExtensions: ['js', 'jsx'],
   coverageThreshold: {
     global: {
-      statements: 1,
-      branches: 1,
-      functions: 1,
-      lines: 1,
+      statements: 94,
+      branches: 50,
+      functions: 92,
+      lines: 94,
     },
   },
 }
