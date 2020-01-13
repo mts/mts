@@ -5,7 +5,7 @@ require('dotenv').config()
 
 // Webpack settings exports
 module.exports = {
-  name: 'MTS GitHub IO',
+  name: 'MTS',
   copyright: 'MTS',
   paths: {
     src: {
