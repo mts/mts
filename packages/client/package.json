@@ -1,11 +1,11 @@
 {
-  "name": "mts.github.io-client",
-  "description": "MTS GitHub IO Client",
-  "homepage": "https://github.com/mts/mts.github.io/#readme",
+  "name": "mts-client",
+  "description": "MTS Client",
+  "homepage": "https://github.com/mts/mts/#readme",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mts/mts.github.io.git",
+    "url": "https://github.com/mts/mts.git",
     "directory": "packages/client"
   },
   "version": "0.1.0",
@@ -14,7 +14,7 @@
     "build"
   ],
   "keywords": [
-    "mts github io client"
+    "mts client"
   ],
   "author": {
     "name": "MTS",

@@ -106,7 +106,7 @@ const configureCleanWebpack = () => {
 // Configure Html webpack
 const configureHtml = () => {
   return {
-    title: 'MTS GitHub IO Client',
+    title: 'MTS Client',
   }
 }
 

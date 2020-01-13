@@ -1,10 +1,10 @@
 {
-  "name": "mts.github.io",
-  "description": "MTS GitHub IO",
-  "homepage": "https://github.com/mts/mts.github.io/#readme",
+  "name": "mts",
+  "description": "MTS",
+  "homepage": "https://github.com/mts/mts/#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mts/mts.github.io.git"
+    "url": "https://github.com/mts/mts.git"
   },
   "scripts": {
     "release": "lerna publish",

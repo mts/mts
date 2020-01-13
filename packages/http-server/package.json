@@ -1,11 +1,11 @@
 {
-  "name": "mts.github.io-server",
-  "description": "MTS GitHub IO Server",
-  "homepage": "https://github.com/mts/mts.github.io/#readme",
+  "name": "mts-http-server",
+  "description": "MTS HTTP Server",
+  "homepage": "https://github.com/mts/mts/#readme",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mts/mts.github.io.git",
+    "url": "https://github.com/mts/mts.git",
     "directory": "packages/server"
   },
   "version": "0.1.0",
@@ -14,7 +14,7 @@
     "build"
   ],
   "keywords": [
-    "mts github io server"
+    "mts http server"
   ],
   "author": {
     "name": "MTS",

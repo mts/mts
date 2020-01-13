@@ -3,7 +3,7 @@
 exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
 <div>
   <h2>
-    MTS GitHub IO
+    MTS Home Page
   </h2>
   <div
     className="homeTemplate"
