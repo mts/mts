@@ -11,7 +11,7 @@ server.get('/', (req, res) => {
   res.send('MTS GitHub IO!')
 })
 
-const PORT = process.env.SERVER_PORT || 3002
+const PORT = process.env.PORT || 3002
 
 server.listen(PORT, () => {
   console.log(`🚀 Server listening on port ${PORT}`)
