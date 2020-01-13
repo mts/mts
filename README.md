@@ -14,5 +14,5 @@
 ## Server
 
 - NodeJS & ExpressJS Server
-  - deployed to https://dashboard.heroku.com/apps/mts-github-io
-  - running at https://mts-github-io.herokuapp.com/
+  - deployed to https://dashboard.heroku.com/apps/mts-github-io-server
+  - running at https://mts-github-io-server.herokuapp.com/
