@@ -14,7 +14,7 @@ const setup = () => {
     options: {
       theme: create({
         base: 'light',
-        brandTitle: `MTS GitHub IO v${version}`,
+        brandTitle: `MTS v${version}`,
         brandUrl: 'https://github.com/mts/mts.github.io',
         brandImage: logo,
       }),
