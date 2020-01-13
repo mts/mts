@@ -11,7 +11,7 @@ app.sublime-workspace
 # Test
 coverage
 
-# NPM MTS GitHub IO
+# NPM MTS
 .npmrc
 npm-debug.log
 lerna-debug.log
@@ -19,14 +19,14 @@ package-lock.json
 node_modules
 asset
 
-# NPM MTS GitHub IO Client Package
+# NPM MTS Client Package
 packages/client/package-lock.json
 packages/client/build
 packages/client/node_modules
 packages/client/.env.develop
 packages/client/.env.release
 
-# NPM MTS GitHub IO Server Package
+# NPM MTS Server Package
 packages/server/package-lock.json
 packages/server/build
 packages/server/node_modules
