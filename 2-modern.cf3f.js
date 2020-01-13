@@ -1,3 +1,3 @@
-/*! For license information please see 2-modern.1183.js.LICENSE */
+/*! For license information please see 2-modern.cf3f.js.LICENSE */
 (window.webpackJsonp=window.webpackJsonp||[]).push([[2],{30:function(e,a,n){"use strict";var t=n(0),r=n.n(t);const s={className:n(1).string};function c(e){let{className:a}=e;return r.a.createElement("div",{className:a},"Under construction"," ",r.a.createElement("span",{role:"img","aria-label":"emoji"},"🙂"))}c.defaultProps={className:""},c.propTypes=s,n.d(a,"a",(function(){return c}))},32:function(e,a,n){"use strict";n.r(a),n.d(a,"NotFoundPage",(function(){return l}));var t=n(0),r=n.n(t),s=n(30),c=n(4);function l(e){let{className:a,location:n}=e;return r.a.createElement("div",null,r.a.createElement(s.a,{className:a}),r.a.createElement("div",null,n.pathname))}l.defaultProps=c.a,l.propTypes=c.b,a.default=l}}]);
-//# sourceMappingURL=2-modern.1183.js.map
+//# sourceMappingURL=2-modern.cf3f.js.map
