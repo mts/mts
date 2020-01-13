@@ -1,4 +1,4 @@
 module.exports.infoData = {
   id: 'home',
-  name: 'MTS GitHub IO',
+  name: 'MTS Home Page',
 }
