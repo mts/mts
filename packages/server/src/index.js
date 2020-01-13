@@ -8,7 +8,7 @@ const server = express()
 server.use(cors())
 
 server.get('/', (req, res) => {
-  res.send('MTS GitHub IO!')
+  res.send('MTS Server up and running!')
 })
 
 const PORT = process.env.PORT || 3002
