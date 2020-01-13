@@ -36,3 +36,8 @@
 - `Monitor`: `heroku logs --tail`
 - `Check app`: `https://mts-http-server.herokuapp.com/`
 - `Help`: `https://help.heroku.com/P1AVPANS/why-is-my-node-js-app-crashing-with-an-r10-error`
+
+## Github Pages
+
+- rm -rf node_modules/gh-pages/.cache
+- change `https://github.com/mts/mts.git` to `git@github.com:mts/mts.git` in `.git/config`
