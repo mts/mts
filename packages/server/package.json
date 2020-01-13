@@ -1,0 +1,40 @@
+{
+  "name": "mts.github.io-server",
+  "description": "MTS GitHub IO Server",
+  "homepage": "https://github.com/mts/mts.github.io/#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mts/mts.github.io.git",
+    "directory": "packages/server"
+  },
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "mts github io server"
+  ],
+  "author": {
+    "name": "MTS",
+    "url": "https://github.com/mts"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "serve": "npm start",
+    "prebuild": "rimraf build",
+    "build": "babel src --out-dir build --copy-files",
+    "release": "npm publish",
+    "uninstall-packages": "rm -rf node_modules package-lock.json",
+    "install-packages": "npm install",
+    "reinstall-packages": "npm-run-all uninstall-packages install-packages",
+    "npm-update": "npm update"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.8.0",
+    "nodemon": "^1.19.4",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.0"
+  }
+}
