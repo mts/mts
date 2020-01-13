@@ -1,6 +1,6 @@
-# mts.github.io Client
+# MTS Client
 
-> mts.github.io Client implements an ReactJS, ReduxJS Client
+> MTS Client implements an ReactJS, ReduxJS Client
 
 ## Scripts
 
