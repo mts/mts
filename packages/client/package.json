@@ -1,6 +1,6 @@
 {
-  "name": "mts-github-io-client",
-  "description": "MTS GitHub IO Client",
+  "name": "mts-client",
+  "description": "MTS Client",
   "homepage": "https://github.com/mts/mts.github.io/#readme",
   "license": "MIT",
   "repository": {
@@ -14,7 +14,7 @@
     "build"
   ],
   "keywords": [
-    "mts github io client"
+    "mts client"
   ],
   "author": {
     "name": "MTS",
