@@ -1,3 +1,3 @@
-/*! For license information please see 1-modern.aa03.js.LICENSE */
+/*! For license information please see 1-modern.1183.js.LICENSE */
 (window.webpackJsonp=window.webpackJsonp||[]).push([[1],{30:function(e,a,n){"use strict";var t=n(0),s=n.n(t);const r={className:n(1).string};function c(e){let{className:a}=e;return s.a.createElement("div",{className:a},"Under construction"," ",s.a.createElement("span",{role:"img","aria-label":"emoji"},"🙂"))}c.defaultProps={className:""},c.propTypes=r,n.d(a,"a",(function(){return c}))},31:function(e,a,n){"use strict";n.r(a),n.d(a,"HomePage",(function(){return o}));var t=n(0),s=n.n(t),r=n(30),c=n(3);function o(e){let{className:a}=e;return s.a.createElement(r.a,{className:a})}o.defaultProps=c.a,o.propTypes=c.b,a.default=o}}]);
-//# sourceMappingURL=1-modern.aa03.js.map
+//# sourceMappingURL=1-modern.1183.js.map
