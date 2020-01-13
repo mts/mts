@@ -17,7 +17,7 @@ module.exports = {
     },
   },
   urls: {
-    publicPath: '/',
+    publicPath: '/mts/',
   },
   vars: {
     cssName: 'styles',
