@@ -8,9 +8,11 @@ const server = express()
 server.use(cors())
 
 server.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('MTS GitHub IO!')
 })
 
-server.listen(process.env.SERVER_PORT, () => {
-  console.log(`🚀 Server ready at ${process.env.SERVER_PORT}`)
+const SERVER_PORT = process.env.PORT || 3000
+
+server.listen(SERVER_PORT, () => {
+  console.log(`🚀 Server listening on port ${SERVER_PORT}`)
 })
