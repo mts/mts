@@ -31,7 +31,7 @@
 - `Set build pack 1`: `heroku buildpacks:set -a mts-github-io-server https://github.com/Pagedraw/heroku-buildpack-select-subdir`
 - `Set build pack 2`: `heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#v133 -a mts-github-io-server`
 - `Configure build pack`: `heroku config:add BUILDPACK='packages/server=https://github.com/heroku/heroku-buildpack-nodejs#v133' -a mts-github-io-server`
-- `Add environment variable(s)`: `heroku config:add SERVER_PORT='3000' -a mts-github-io-server`
+- `Add environment variable(s)`: `heroku config:add PORT='3001' -a mts-github-io-server`
 - `Deploy`: `git push heroku master`
 - `Monitor`: `heroku logs --tail`
 - `Check app`: `https://mts-github-io-server.herokuapp.com/`
