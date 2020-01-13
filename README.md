@@ -29,3 +29,4 @@
 - `Deploy`: `git push heroku master`
 - `Monitor`: `heroku logs --tail`
 - `Check app`: `https://mts-github-io-server.herokuapp.com/`
+- `Help`: `https://help.heroku.com/P1AVPANS/why-is-my-node-js-app-crashing-with-an-r10-error`
