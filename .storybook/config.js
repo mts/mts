@@ -15,7 +15,7 @@ const setup = () => {
       theme: create({
         base: 'light',
         brandTitle: `MTS v${version}`,
-        brandUrl: 'https://github.com/mts/mts.github.io',
+        brandUrl: 'https://mts.github.io/mts/',
         brandImage: logo,
       }),
       isFullscreen: false,
