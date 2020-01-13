@@ -6,6 +6,12 @@
 
 <p align="center">https://mts.github.io/ website</p>
 
+<p align="center">
+  <a href="https://codecov.io/gh/mts/mts.github.io">
+    <img src="https://codecov.io/gh/mts/mts.github.io/branch/master/graph/badge.svg" />
+  </a>
+</p>
+
 ## Client
 
 - ReactJS, ReduxJS Client
