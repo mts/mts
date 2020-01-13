@@ -1,6 +1,6 @@
-# mts.github.io Server
+# MTS HTTP Server
 
-> mts.github.io Server implements an ExpressJS Server
+> MTS HTTP Server implements an ExpressJS Server
 
 ## Scripts
 
