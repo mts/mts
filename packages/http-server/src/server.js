@@ -12,13 +12,12 @@ function renderFullPage(html, finalState) {
     <!DOCTYPE html>
     <html>
       <head>
-        <title>MTS</title>
+        <meta charset="UTF-8">
+        <title>MTS Server</title>
       </head>
       <body>
         <div id="app">${html}</div>
-        <script>
-          window.__PRELOADED_STATE__ = ${JSON.stringify(finalState).replace(/</g, '\\u003c')}
-        </script>
+        <script>window.__PRELOADED_STATE__ = ${JSON.stringify(finalState).replace(/</g, '\\u003c')}</script>
       </body>
     </html>
     `
