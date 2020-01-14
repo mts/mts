@@ -1,1 +1,4 @@
-export { AsyncHomePage } from './AsyncHomePage'
+import { HomePage } from './HomePage'
+import { AsyncHomePage } from './AsyncHomePage'
+
+export { AsyncHomePage, HomePage }
