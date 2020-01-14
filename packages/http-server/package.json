@@ -9,7 +9,7 @@
     "directory": "packages/server"
   },
   "version": "0.2.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "files": [
     "build"
   ],
@@ -21,7 +21,7 @@
     "url": "https://github.com/mts"
   },
   "scripts": {
-    "start": "DEV_ENV=true nodemon --ext '.js,.jsx' --ignore 'build' src/index.js",
+    "start": "nodemon --ext '.js,.jsx' --ignore 'build' src/index.js",
     "serve": "npm start",
     "prebuild": "rimraf build",
     "build": "babel src --out-dir build --copy-files --extensions '.js,.jsx'",
