@@ -19,19 +19,23 @@ const App = () => (
 addDivWithIdToBody('app')
 checkAccessibilityIssues(React, ReactDOM, 1000)
 
-const StrictApp = () => (
-  <React.StrictMode>
+export function StrictApp() {
+  return (
+    <React.StrictMode>
+      <ErrorBoundary>
+        <App />
+      </ErrorBoundary>
+    </React.StrictMode>
+  )
+}
+
+export function RegularApp() {
+  return (
     <ErrorBoundary>
       <App />
     </ErrorBoundary>
-  </React.StrictMode>
-)
-
-const RegularApp = () => (
-  <ErrorBoundary>
-    <App />
-  </ErrorBoundary>
-)
+  )
+}
 
 ReactDOM.render(<RegularApp />, document.getElementById('app'))
 
