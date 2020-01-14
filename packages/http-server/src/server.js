@@ -19,7 +19,6 @@ function renderFullPage(html, finalState) {
         <script>
           window.__PRELOADED_STATE__ = ${JSON.stringify(finalState).replace(/</g, '\\u003c')}
         </script>
-        <script src="/static/bundle.js"></script>
       </body>
     </html>
     `
