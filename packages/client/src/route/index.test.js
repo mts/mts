@@ -6,7 +6,7 @@ const mockRequireHomePage = () => {
   jest.mock(homePagePath, () => {
     return <div>HomePage</div>
   })
-  return require(homePagePath).AsyncHomePage
+  return require(homePagePath)
 }
 
 const mockRequireNotFoundPage = () => {
@@ -14,7 +14,7 @@ const mockRequireNotFoundPage = () => {
   jest.mock(notFoundPagePath, () => {
     return <div>NotFoundPage</div>
   })
-  return require(notFoundPagePath).AsyncNotFoundPage
+  return require(notFoundPagePath)
 }
 
 const mockRequirePath = () => {
@@ -35,11 +35,13 @@ describe('index', () => {
   const expectedHomePageRoute = {
     path: path.homePagePath,
     exact: true,
-    component: homePage,
+    clientComponent: homePage.AsyncHomePage,
+    serverComponent: homePage.HomePage,
   }
 
   const expectedNotFoundPageRoute = {
-    component: notFoundPage,
+    clientComponent: notFoundPage.AsyncNotFoundPage,
+    serverComponent: notFoundPage.NotFoundPage,
   }
 
   const requireIndex = () => {
