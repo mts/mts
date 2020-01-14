@@ -9,7 +9,7 @@
     "directory": "packages/client"
   },
   "version": "0.2.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "files": [
     "build"
   ],
