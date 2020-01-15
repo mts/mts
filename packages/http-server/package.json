@@ -21,7 +21,7 @@
     "url": "https://github.com/mts"
   },
   "scripts": {
-    "start": "nodemon --ext '.js,.jsx' --ignore 'build' src/index.js",
+    "start": "nodemon --ext '.js,.jsx' --ignore 'src/mts' src/index.js",
     "serve": "npm start",
     "prebuild": "rimraf build",
     "build": "babel src --out-dir build --copy-files --extensions '.js,.jsx'",
