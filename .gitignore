@@ -15,18 +15,16 @@ coverage
 .npmrc
 npm-debug.log
 lerna-debug.log
-package-lock.json
 node_modules
 
 # NPM MTS Client Package
-packages/client/package-lock.json
 packages/client/build
 packages/client/node_modules
 packages/client/.env.develop
 packages/client/.env.release
 
 # NPM MTS HTTP Server Package
-packages/server/package-lock.json
-packages/server/build
-packages/server/node_modules
-packages/server/.env
+packages/http-server/src/mts
+packages/http-server/build
+packages/http-server/node_modules
+packages/http-server/.env

@@ -1,9 +1,8 @@
 import React from 'react'
-import { UnderConstruction } from '../../atom/info/UnderConstruction'
 import { homePageDefaultProps, homePagePropTypes } from './HomePage.props'
 
 export function HomePage({ className }) {
-  return <UnderConstruction className={className} />
+  return <div className={className}>HomePage server side rendered!!!</div>
 }
 
 HomePage.defaultProps = homePageDefaultProps

@@ -1,1 +1,4 @@
-export { AsyncNotFoundPage } from './AsyncNotFoundPage'
+import { NotFoundPage } from './NotFoundPage'
+import { AsyncNotFoundPage } from './AsyncNotFoundPage'
+
+export { AsyncNotFoundPage, NotFoundPage }
