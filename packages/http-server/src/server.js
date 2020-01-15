@@ -1,4 +1,6 @@
 /* eslint no-console: 0 */
+import path from 'path'
+import fs from 'fs-extra'
 import dotenv from 'dotenv'
 import cors from 'cors'
 import express from 'express'
@@ -6,22 +8,6 @@ import React from 'react'
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import { renderToString } from 'react-dom/server'
-
-function renderFullPage(html, finalState) {
-  return `
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="UTF-8">
-        <title>MTS Server</title>
-      </head>
-      <body>
-        <div id="app">${html}</div>
-        <script>window.__PRELOADED_STATE__ = ${JSON.stringify(finalState).replace(/</g, '\\u003c')}</script>
-      </body>
-    </html>
-    `
-}
 
 function someReducer(state = [], action) {
   switch (action.type) {
@@ -44,18 +30,51 @@ async function handleRender(req, res) {
 
   const finalState = store.getState()
 
-  res.send(renderFullPage(html, finalState))
+  return fs.readFile(path.resolve(__dirname, './mts/index.html'), 'utf8', (err, data) => {
+    let replacedData
+
+    if (err) {
+      console.error(err)
+      return res.status(500).send('An error occurred')
+    }
+
+    replacedData = data.replace(
+      '<div id="app"></div>',
+      `<div id="app">${html}</div><script>window.__PRELOADED_STATE__ = ${JSON.stringify(finalState).replace(/</g, '\\u003c')}</script>`,
+    )
+
+    replacedData = replacedData.replace('<title>MTS Client</title>', '<title>MTS Server</title>')
+
+    return res.send(replacedData)
+  })
 }
+
+async function copyFiles() {
+  try {
+    await fs.remove(path.resolve(__dirname, 'mts/'))
+    await fs.copy(path.resolve(__dirname, '../../client/build/'), path.resolve(__dirname, 'mts/'))
+    console.log('success!')
+  } catch (err) {
+    console.error(err)
+  }
+}
+
+copyFiles()
 
 dotenv.config()
 
 const server = express()
+const router = express.Router()
 
 server.use(cors())
 
-server.use('/static', express.static('static'))
+router.get('/mts', (req, res) => {
+  return handleRender(req, res)
+})
 
-server.use(handleRender)
+server.use(router)
+
+server.use(express.static(path.resolve(__dirname)))
 
 const PORT = process.env.PORT || 3001
 
