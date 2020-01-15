@@ -24,7 +24,6 @@ packages/client/.env.develop
 packages/client/.env.release
 
 # NPM MTS HTTP Server Package
-packages/http-server/src/mts
 packages/http-server/build
 packages/http-server/node_modules
 packages/http-server/.env
