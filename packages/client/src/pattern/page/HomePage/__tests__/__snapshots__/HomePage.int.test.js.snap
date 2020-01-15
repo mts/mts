@@ -1,18 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<HomePage /> Snaphot must match asyncRender 1`] = `null`;
+exports[`<HomePage /> Snaphot must match asyncRender 1`] = `
+<div>
+  AsyncHomePage client side rendered!!!
+</div>
+`;
 
 exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
 <div
   className=""
 >
-  Under construction
-   
-  <span
-    aria-label="emoji"
-    role="img"
-  >
-    🙂
-  </span>
+  HomePage server side rendered!!!
 </div>
 `;

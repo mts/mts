@@ -11,3 +11,5 @@ before_script:
   - npm run install-packages
 script:
   - npm run bootstrap
+env:
+  - CODECOV_TOKEN="839c85bc-9a42-420d-8079-de153b3971e2"

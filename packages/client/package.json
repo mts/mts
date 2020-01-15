@@ -8,8 +8,8 @@
     "url": "https://github.com/mts/mts.git",
     "directory": "packages/client"
   },
-  "version": "0.1.0",
-  "main": "index.js",
+  "version": "0.2.0",
+  "main": "src/index.js",
   "files": [
     "build"
   ],

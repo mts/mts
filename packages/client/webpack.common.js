@@ -14,6 +14,7 @@ const ManifestPlugin = require('webpack-manifest-plugin')
 
 const CleanWebpackPlugin = require('clean-webpack-plugin').CleanWebpackPlugin
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackRootPlugin = require('html-webpack-root-plugin')
 
 // config files
 const pkg = require('./package.json')
@@ -121,7 +122,13 @@ const baseConfig = {
   module: {
     rules: [configureFontLoader()],
   },
-  plugins: [new CleanWebpackPlugin(configureCleanWebpack()), new HtmlWebpackPlugin(configureHtml())],
+  plugins: [
+    new CleanWebpackPlugin(configureCleanWebpack()),
+    new HtmlWebpackPlugin(configureHtml()),
+    new HtmlWebpackRootPlugin({
+      tagName: 'div',
+      tagId: 'app'
+  })],
   resolve: {
     extensions: ['.js', '.jsx'],
   },
