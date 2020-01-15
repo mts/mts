@@ -16,7 +16,6 @@ const App = () => (
   </BrowserRouter>
 )
 
-addDivWithIdToBody('app')
 checkAccessibilityIssues(React, ReactDOM, 1000)
 
 export function StrictApp() {
@@ -37,7 +36,7 @@ export function RegularApp() {
   )
 }
 
-ReactDOM.render(<RegularApp />, document.getElementById('app'))
+ReactDOM.hydrate(<RegularApp />, document.getElementById('app'))
 
 if (module.hot) {
   module.hot.accept()
