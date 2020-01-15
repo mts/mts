@@ -42,6 +42,8 @@
 
 <blockquote style="margin: 0; padding: 0 24px; color: olive; font-weight: 600; font-size:1em">🐝 Sharing is caring. Following is a collection of concepts which any maintainer needs to master in order to gracefully maintain this project and scale its implementation along with its unit and integration tests.</blockquote>
 
+<h2 style="color: #006400;">🗿 Concepts</h2>
+
 ## Client
 
 - ReactJS, ReduxJS Client
