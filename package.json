@@ -12,7 +12,7 @@
     "install-packages": "lerna run install-packages --stream",
     "reinstall-packages": "lerna run reinstall-packages --stream",
     "npm-update": "lerna run npm-update",
-    "heroku-prebuild": "git init && git remote add origin git@github.com:mts/mts.git && pack-refs --all",
+    "heroku-prebuild": "echo This runs before Heroku installs your dependencies",
     "start": "lerna run serve --stream",
     "heroku-postbuild": "npm-run-all install-packages build",
     "start-storybook": "NODE_ENV=develop start-storybook -p 3003 -c .storybook",
