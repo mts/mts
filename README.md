@@ -28,6 +28,8 @@
 - `Login`: `heroku login`
 - `Create app`: `heroku create mts-http-server`
 - `Add remote`: `git remote add origin https://git.heroku.com/mts-http-server.git`
+- `heroku buildpacks:set https://github.com/kreativgebiet/heroku-buildpack-webpack`
+- `heroku buildpacks:add --index 1 heroku/nodejs`
 - `Set build pack 1`: `heroku buildpacks:set -a mts-http-server https://github.com/Pagedraw/heroku-buildpack-select-subdir`
 - `Set build pack 2`: `heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#v133 -a mts-http-server`
 - `Configure build pack`: `heroku config:add BUILDPACK='packages/server=https://github.com/heroku/heroku-buildpack-nodejs#v133' -a mts-http-server`
