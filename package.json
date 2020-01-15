@@ -14,7 +14,7 @@
     "npm-update": "lerna run npm-update",
     "heroku-prebuild": "echo This runs before Heroku installs your dependencies",
     "start": "lerna run serve --stream",
-    "heroku-postbuild": "npm-run-all install-packages build",
+    "heroku-postbuild": "npm-run-all install-packages",
     "start-storybook": "NODE_ENV=develop start-storybook -p 3003 -c .storybook",
     "build-storybook": "NODE_ENV=develop build-storybook -c .storybook -o .storybook-static",
     "deploy-client": "gh-pages -d packages/client/build",
