@@ -44,6 +44,26 @@
 
 <h2 style="color: #006400;">🗿 Concepts</h2>
 
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 JavaScript Runtime</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <details>
+      <summary style="color: #006400;">Node.js</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Node</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Package(s): <a style="color: #006400;" href="https://github.com/nodejs/node">node</a> repository on GitHub</li>
+              <li>Information: <strong><em>Node is required to bootstrap the project. Linting, formatting, testing and building scripts run all on Node.</em></strong></li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </blockquote>
+</details>
+
 ## Client
 
 - ReactJS, ReduxJS Client
