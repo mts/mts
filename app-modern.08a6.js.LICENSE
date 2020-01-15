@@ -1,11 +1,20 @@
 /*!
  * @project        MTS
- * @name           app-modern.cf3f.js
+ * @name           app-modern.08a6.js
  * @author         MTS
- * @build          Mon, Jan 13, 2020 10:27 PM ET
- * @release        6448ec97af4f3294c0b2849d2784541adc7edc11 [master]
+ * @build          Wed, Jan 15, 2020 1:37 AM ET
+ * @release        6cb9196e3026fd970d7965c2c75a32792a8e02ef [setup-server-side-render]
  * @copyright      Copyright (c) 2020 MTS
  *
+ */
+
+/** @license React v16.12.0
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
  */
 
 /*! axe v3.4.1
@@ -18,13 +27,4 @@
  * This entire copyright notice must appear in every copy of this file you
  * distribute or in any file that contains substantial portions of this source
  * code.
- */
-
-/** @license React v16.12.0
- * react-is.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
  */

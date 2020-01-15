@@ -1,12 +1,6 @@
 {
-  "app.js": "/mts/app-modern.cf3f.js",
-  "app.js.map": "/mts/app-modern.cf3f.js.map",
-  "1-modern.cf3f.js": "/mts/1-modern.cf3f.js",
-  "1-modern.cf3f.js.map": "/mts/1-modern.cf3f.js.map",
-  "2-modern.cf3f.js": "/mts/2-modern.cf3f.js",
-  "2-modern.cf3f.js.map": "/mts/2-modern.cf3f.js.map",
-  "1-modern.cf3f.js.LICENSE": "/mts/1-modern.cf3f.js.LICENSE",
-  "2-modern.cf3f.js.LICENSE": "/mts/2-modern.cf3f.js.LICENSE",
-  "app-modern.cf3f.js.LICENSE": "/mts/app-modern.cf3f.js.LICENSE",
+  "app.js": "/mts/app-modern.08a6.js",
+  "app.js.map": "/mts/app-modern.08a6.js.map",
+  "app-modern.08a6.js.LICENSE": "/mts/app-modern.08a6.js.LICENSE",
   "index.html": "/mts/index.html"
 }
