@@ -51,9 +51,12 @@ async function handleRender(req, res) {
 
 async function copyFiles() {
   try {
-    await fs.remove(path.resolve(__dirname, 'mts/'))
-    await fs.copy(path.resolve(__dirname, '../../client/build/'), path.resolve(__dirname, 'mts/'))
-    console.log('success!')
+    if (!fs.existsSync(path.resolve(__dirname, 'mts/'))) {
+      await fs.copy(path.resolve(__dirname, '../../client/build/'), path.resolve(__dirname, 'mts/'))
+      await fs.remove(path.resolve(__dirname, 'mts/report-modern.html'))
+      await fs.remove(path.resolve(__dirname, 'mts/manifest.json'))
+      console.log('success!')
+    }
   } catch (err) {
     console.error(err)
   }
