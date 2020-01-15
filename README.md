@@ -64,6 +64,79 @@
   </blockquote>
 </details>
 
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 Version Control</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <details>
+      <summary style="color: #006400;">Git (self)</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+        <summary style="color: #006400;">📜 Git</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li><a style="color: #006400;" href="https://git-scm.com/">Git</a> distributed version control system</li>
+              <li><a style="color: #006400;" href="https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud">Git Commands</a> documentation by Atlassian</li>
+              <li>Information: <strong><em>Project source code is maintained in a Git repository. Using Git commands through the command prompt or a Git Client is essential.</em></strong></li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+    <details>
+      <summary style="color: #006400;">Git Hooks</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+        <summary style="color: #006400;">📜 Using Git Hooks</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Package(s): <a style="color: #006400;" href="https://github.com/typicode/husky">husky</a> repository on GitHub</li>
+              <li>Setup file(s):<a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.huskyrc">.huskyrc</a></li>
+              <li>Script(s) in project's package.json: n/a</li>
+              <li>Information: <strong><em>Husky utilizes Git hooks such as pre-commit and pre-push</em></strong></li>
+            </ul>
+          </blockquote>
+        </details>
+        <details>
+          <summary style="color: #006400;">📜 Running linters and testers against staged git files</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Package(s): <a style="color: #006400;" href="https://github.com/okonet/lint-staged">lint-staged</a> repository on GitHub</li>
+              <li>Setup file(s):
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.lintstagedrc">.lintstagedrc</a>
+              </li>
+              <li>Script(s) in project's package.json: n/a</li>
+              <li>Information: <strong><em>lint-staged runs linters and testers against staged git files. Using lint-staged combined with husky and thus targeting pre-commit and pre-push Git hooks prevents source code not conforming to linting rules and formatting style being committed or pushed to the Git repository's origin</em></strong></li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+    <details>
+      <summary style="color: #006400;">Git Client</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Git Kraken</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li><a style="color: #006400;" href="https://www.gitkraken.com/">Website</a></li>
+              <li>Information: <strong><em>The coolest, the finest and the best Git client in the world 👌 Over 1.5 Million GitKraken Users❗</em></strong></li>
+            </ul>
+          </blockquote>
+        </details>
+        <details>
+          <summary style="color: #006400;">📜 Sourcetree</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li><a style="color: #006400;" href="https://www.sourcetreeapp.com/">Website</a></li>
+              <li>Information: <strong><em>Sourcetree simplifies how you interact with your Git repositories so you can focus on coding. Visualize and manage your repositories through Sourcetree's simple Git GUI.</em></strong></li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </blockquote>
+</details>
+
 ## Client
 
 - ReactJS, ReduxJS Client
