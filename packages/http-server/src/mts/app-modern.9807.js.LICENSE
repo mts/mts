@@ -1,0 +1,30 @@
+/*!
+ * @project        MTS
+ * @name           app-modern.9807.js
+ * @author         MTS
+ * @build          Wed, Jan 15, 2020 4:07 AM ET
+ * @release        7cbad640311e9b218dcb8d8a38470848324327f7 [master]
+ * @copyright      Copyright (c) 2020 MTS
+ *
+ */
+
+/** @license React v16.12.0
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/*! axe v3.4.1
+ * Copyright (c) 2019 Deque Systems, Inc.
+ *
+ * Your use of this Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This entire copyright notice must appear in every copy of this file you
+ * distribute or in any file that contains substantial portions of this source
+ * code.
+ */

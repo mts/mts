@@ -9,6 +9,10 @@
     "directory": "packages/server"
   },
   "version": "0.2.0",
+  "engines": {
+    "node": "13.0.6",
+    "npm": "6.13.6"
+  },
   "main": "src/index.js",
   "files": [
     "build"
