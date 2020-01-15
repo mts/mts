@@ -44,13 +44,13 @@
 
 <h2 style="color: #006400;">🗿 Concepts</h2>
 
-<details>
+<details open>
   <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 JavaScript Runtime</span></summary>
   <blockquote style="margin: 0; padding: 0 24px">
-    <details>
+    <details open>
       <summary style="color: #006400;">Node.js</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        <details>
+        <details open>
           <summary style="color: #006400;">📜 Node</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
@@ -64,13 +64,13 @@
   </blockquote>
 </details>
 
-<details>
+<details open>
   <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 Version Control</span></summary>
   <blockquote style="margin: 0; padding: 0 24px">
-    <details>
+    <details open>
       <summary style="color: #006400;">Git (self)</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        <details>
+        <details open>
         <summary style="color: #006400;">📜 Git</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
@@ -82,10 +82,10 @@
         </details>
       </blockquote>
     </details>
-    <details>
+    <details open>
       <summary style="color: #006400;">Git Hooks</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        <details>
+        <details open>
         <summary style="color: #006400;">📜 Using Git Hooks</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
@@ -96,7 +96,7 @@
             </ul>
           </blockquote>
         </details>
-        <details>
+        <details open>
           <summary style="color: #006400;">📜 Running linters and testers against staged git files</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
@@ -111,10 +111,10 @@
         </details>
       </blockquote>
     </details>
-    <details>
+    <details open>
       <summary style="color: #006400;">Git Client</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        <details>
+        <details open>
           <summary style="color: #006400;">📜 Git Kraken</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
@@ -123,7 +123,7 @@
             </ul>
           </blockquote>
         </details>
-        <details>
+        <details open>
           <summary style="color: #006400;">📜 Sourcetree</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
@@ -132,6 +132,45 @@
             </ul>
           </blockquote>
         </details>
+      </blockquote>
+    </details>
+  </blockquote>
+</details>
+
+<details open>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 Bootstrap</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <details open>
+      <summary style="color: #006400;">Install</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        Run <kbd>rm -rf node_modules package-lock.json && npm install</kbd> for<br>
+        <kbd>repository root</kbd>, <kbd>packages/http-server folder</kbd> and <kbd>packages/client folder</kbd><br>
+        <strong><em> to remove node_modules directory, package-lock.json file and install all packages from scratch</em></strong>
+      </blockquote>
+    </details>
+    <details open>
+      <summary style="color: #006400;">Bootstrap</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        Run <kbd>npm run bootstrap</kbd>
+        <strong><em>to run linting, formatting, testing and building sequentially</em></strong>
+      </blockquote>
+    </details>
+    <details open>
+      <summary style="color: #006400;">Start</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        Run <kbd>npm start</kbd><strong><em> in 1st terminal in packages/http-server folder to start up http-server</em></strong><br>
+        Run <kbd>npm start</kbd><strong><em> in 2nd terminal in packages/client to start up webpack-dev-server</em></strong><br>
+        Run <kbd>npm run test -- --watch --onlyChanged --verbose</kbd><strong><em> in 3rd terminal to let Jest watch changed tests</em></strong><br>
+      </blockquote>
+    </details>
+    <details open>
+      <summary style="color: #006400;">Dynamic Code Splitting</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <ul>
+          <li><strong><em>Babel</em></strong> enables parsing dynamic imports through <a href="https://babeljs.io/docs/en/babel-plugin-syntax-dynamic-import">@babel/plugin-syntax-dynamic-import</a> since <a href="https://babeljs.io/blog/2019/07/03/7.5.0">v7.5.0</a></li>
+          <li><strong><em>Webpack</em></strong> recommends this <a href="https://webpack.js.org/guides/code-splitting/#dynamic-imports">technique</a> instead of the legacy webpack-specific approach through optimization.splitChunks configuration option.
+          </li>
+        </ul>
       </blockquote>
     </details>
   </blockquote>
