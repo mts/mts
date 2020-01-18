@@ -1,13 +1,13 @@
 import React from 'react'
 import cx from 'classnames'
 import { homeTemplate } from './HomeTemplate.scss'
+import { Navigation } from '../../molecule/Navigation'
 import { homeTemplateDefaultProps, homeTemplatePropTypes } from './HomeTemplate.props'
 
-export function HomeTemplate({ className, data }) {
+export function HomeTemplate({ className }) {
   return (
-    <div>
-      <h2>{data.info.name}</h2>
-      <div className={cx(className, homeTemplate)} />
+    <div className={cx(className, homeTemplate)}>
+      <Navigation />
     </div>
   )
 }
