@@ -1,15 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<HomePage /> Snaphot must match asyncRender 1`] = `
-<div>
-  AsyncHomePage client side rendered!!!
-</div>
-`;
+exports[`<HomePage /> Snaphot must match asyncRender 1`] = `null`;
 
 exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
 <div
   className=""
 >
-  HomePage server side rendered!!!
+  <div
+    className="homeTemplate"
+  >
+    <nav
+      className="navigation"
+      role="navigation"
+    >
+      <div
+        className="navigationBar"
+      >
+        <a
+          className="navigationBarLogo"
+          href="/"
+        >
+          <img
+            alt="logo"
+            height="40"
+            src="/logo.svg"
+          />
+        </a>
+        <ul
+          className="navigationBarList"
+        >
+          <li
+            className="navigationBarListItem"
+          >
+            <a
+              className="navigationBarListItemLink"
+              href="/about"
+            >
+              About
+            </a>
+          </li>
+          <li
+            className="navigationBarListItem"
+          >
+            <a
+              className="navigationBarListItemLink"
+              href="/about"
+            >
+              Blog
+            </a>
+          </li>
+          <li
+            className="navigationBarListItem"
+          >
+            <a
+              className="navigationBarListItemLink"
+              href="/about"
+            >
+              Courses
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 </div>
 `;
