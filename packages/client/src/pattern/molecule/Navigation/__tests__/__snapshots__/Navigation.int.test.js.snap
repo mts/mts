@@ -2,50 +2,49 @@
 
 exports[`<Navigation /> Snaphot must match defaultRender 1`] = `
 <nav
-  className="navigation"
-  role="navigation"
+  className="nav"
 >
   <div
-    className="navigationBar"
+    className="navBar"
   >
     <a
-      className="navigationBarLogo"
+      className="navBarLogo"
       href="/"
     >
       <img
         alt="logo"
         height="40"
-        src="/logo.svg"
+        src="/"
       />
     </a>
     <ul
-      className="navigationBarList"
+      className="navBarList"
     >
       <li
-        className="navigationBarListItem"
+        className="navBarListItem"
       >
         <a
-          className="navigationBarListItemLink"
+          className="navBarListItemLink"
           href="/about"
         >
           About
         </a>
       </li>
       <li
-        className="navigationBarListItem"
+        className="navBarListItem"
       >
         <a
-          className="navigationBarListItemLink"
+          className="navBarListItemLink"
           href="/blog"
         >
           Blog
         </a>
       </li>
       <li
-        className="navigationBarListItem"
+        className="navBarListItem"
       >
         <a
-          className="navigationBarListItemLink"
+          className="navBarListItemLink"
           href="/courses"
         >
           Courses
