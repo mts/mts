@@ -10,50 +10,49 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
     className="homeTemplate"
   >
     <nav
-      className="navigation"
-      role="navigation"
+      className="nav"
     >
       <div
-        className="navigationBar"
+        className="navBar"
       >
         <a
-          className="navigationBarLogo"
+          className="navBarLogo"
           href="/"
         >
           <img
             alt="logo"
             height="40"
-            src="/logo.svg"
+            src="/"
           />
         </a>
         <ul
-          className="navigationBarList"
+          className="navBarList"
         >
           <li
-            className="navigationBarListItem"
+            className="navBarListItem"
           >
             <a
-              className="navigationBarListItemLink"
+              className="navBarListItemLink"
               href="/about"
             >
               About
             </a>
           </li>
           <li
-            className="navigationBarListItem"
+            className="navBarListItem"
           >
             <a
-              className="navigationBarListItemLink"
+              className="navBarListItemLink"
               href="/blog"
             >
               Blog
             </a>
           </li>
           <li
-            className="navigationBarListItem"
+            className="navBarListItem"
           >
             <a
-              className="navigationBarListItemLink"
+              className="navBarListItemLink"
               href="/courses"
             >
               Courses
@@ -62,6 +61,41 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
         </ul>
       </div>
     </nav>
+    <main
+      className="main"
+    >
+      <div
+        className="mainModule"
+      >
+        <div
+          className="mainBackground"
+        >
+          <picture>
+            <img
+              alt="cover"
+              src={Object {}}
+            />
+          </picture>
+          <div
+            className="mainBackgroundDimmer"
+          />
+          <div
+            className="mainBackgroundCaption"
+          >
+            <h1
+              className="mainBackgroundCaptionPrimaryHeader"
+            >
+              MTS
+            </h1>
+            <h2
+              className="mainBackgroundCaptionSecondaryHeader"
+            >
+              React.js, Node.js and GraphQL
+            </h2>
+          </div>
+        </div>
+      </div>
+    </main>
   </div>
 </div>
 `;
