@@ -1,4 +1,4 @@
 import React from 'react'
-import { MainContent } from '../MainContent'
+import { MainContent } from '../index'
 
 export const defaultRender = <MainContent />
