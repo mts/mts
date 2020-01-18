@@ -19,7 +19,7 @@ export function MainContent({ className }) {
       <div className={mainModule}>
         <div className={mainBackground}>
           <picture>
-            <img className={mainBackgroundImage} src={Cover} alt="cover" />
+            <img className={mainBackgroundImage} src={typeof window === 'undefined' ? 'static/cover.jpg' : Cover} alt="cover" />
           </picture>
           <div className={mainBackgroundDimmer} />
           <div className={mainBackgroundCaption}>
