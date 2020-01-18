@@ -1,35 +1,28 @@
 import React from 'react'
 import cx from 'classnames'
-import {
-  navigation,
-  navigationBar,
-  navigationBarLogo,
-  navigationBarList,
-  navigationBarListItem,
-  navigationBarListItemLink,
-} from './Navigation.scss'
+import { nav, navBar, navBarLogo, navBarList, navBarListItem, navBarListItemLink } from './Navigation.scss'
 import { navigationDefaultProps, navigationPropTypes } from './Navigation.props'
 
 export function Navigation({ className }) {
   return (
-    <nav role="navigation" className={cx(className, navigation)}>
-      <div className={navigationBar}>
-        <a className={navigationBarLogo} href="/">
+    <nav role="navigation" className={cx(className, nav)}>
+      <div className={navBar}>
+        <a className={navBarLogo} href="/">
           <img height="40" src="/logo.svg" alt="logo" />
         </a>
-        <ul className={navigationBarList}>
-          <li className={navigationBarListItem}>
-            <a className={navigationBarListItemLink} href="/about">
+        <ul className={navBarList}>
+          <li className={navBarListItem}>
+            <a className={navBarListItemLink} href="/about">
               About
             </a>
           </li>
-          <li className={navigationBarListItem}>
-            <a className={navigationBarListItemLink} href="/blog">
+          <li className={navBarListItem}>
+            <a className={navBarListItemLink} href="/blog">
               Blog
             </a>
           </li>
-          <li className={navigationBarListItem}>
-            <a className={navigationBarListItemLink} href="/courses">
+          <li className={navBarListItem}>
+            <a className={navBarListItemLink} href="/courses">
               Courses
             </a>
           </li>
