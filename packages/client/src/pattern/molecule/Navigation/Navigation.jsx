@@ -5,7 +5,7 @@ import { navigationDefaultProps, navigationPropTypes } from './Navigation.props'
 
 export function Navigation({ className }) {
   return (
-    <nav role="navigation" className={cx(className, nav)}>
+    <nav className={cx(className, nav)}>
       <div className={navBar}>
         <a className={navBarLogo} href="/">
           <img height="40" src="/logo.svg" alt="logo" />
