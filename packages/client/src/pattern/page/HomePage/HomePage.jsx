@@ -5,7 +5,7 @@ import { homePageDefaultProps, homePagePropTypes } from './HomePage.props'
 export function HomePage({ className }) {
   return (
     <div className={className}>
-      <HomeTemplate />
+      <HomeTemplate data={{}} />
     </div>
   )
 }
