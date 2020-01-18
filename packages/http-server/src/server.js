@@ -94,6 +94,7 @@ router.get('/mts', (req, res) => {
 server.use(router)
 
 server.use(express.static(path.resolve(__dirname)))
+server.use(express.static(path.resolve(__dirname, 'mts/static')))
 
 const PORT = process.env.PORT || 3001
 
