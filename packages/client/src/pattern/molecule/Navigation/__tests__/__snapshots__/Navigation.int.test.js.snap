@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navigation /> Snaphot must match defaultRender 1`] = `
+<nav
+  className="navigation"
+  role="navigation"
+>
+  <div
+    className="navigationBar"
+  >
+    <a
+      className="navigationBarLogo"
+      href="/"
+    >
+      <img
+        alt="logo"
+        height="40"
+        src="/logo.svg"
+      />
+    </a>
+    <ul
+      className="navigationBarList"
+    >
+      <li
+        className="navigationBarListItem"
+      >
+        <a
+          className="navigationBarListItemLink"
+          href="/about"
+        >
+          About
+        </a>
+      </li>
+      <li
+        className="navigationBarListItem"
+      >
+        <a
+          className="navigationBarListItemLink"
+          href="/about"
+        >
+          Blog
+        </a>
+      </li>
+      <li
+        className="navigationBarListItem"
+      >
+        <a
+          className="navigationBarListItemLink"
+          href="/about"
+        >
+          Courses
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;
