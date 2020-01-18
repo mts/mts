@@ -8,8 +8,8 @@ import { homeTemplateDefaultProps, homeTemplatePropTypes } from './HomeTemplate.
 export function HomeTemplate({ className }) {
   return (
     <div className={cx(className, homeTemplate)}>
-      <Navigation />
-      <MainContent />
+      <Navigation data={{}} />
+      <MainContent data={{}} />
     </div>
   )
 }
