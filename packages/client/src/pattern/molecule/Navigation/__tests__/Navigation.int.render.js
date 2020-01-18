@@ -1,4 +1,4 @@
 import React from 'react'
-import { Navigation } from '../Navigation'
+import { Navigation } from '../index'
 
 export const defaultRender = <Navigation />
