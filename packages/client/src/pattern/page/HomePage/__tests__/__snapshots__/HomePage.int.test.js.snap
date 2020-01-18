@@ -73,6 +73,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           <picture>
             <img
               alt="cover"
+              className="mainBackgroundImage"
               src={Object {}}
             />
           </picture>
