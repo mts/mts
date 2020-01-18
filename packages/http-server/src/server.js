@@ -32,22 +32,28 @@ async function handleRender(req, res) {
 
   const finalState = store.getState()
 
-  return fs.readFile(path.resolve(__dirname, './mts/index.html'), 'utf8', (err, data) => {
+  return fs.readFile(path.resolve(__dirname, './mts/index.html'), 'utf8', (err, htmlData) => {
+    const hrefStart = htmlData.search('<link href="')
+    const hrefEnd = htmlData.search('.css')
+    const cssFileName = htmlData.substring(hrefStart + 13, hrefEnd + 4)
+
     let replacedData
 
-    if (err) {
-      console.error(err)
-      return res.status(500).send('An error occurred')
-    }
+    return fs.readFile(path.resolve(__dirname, cssFileName), 'utf8', (cssErr, cssData) => {
+      if (err) {
+        console.error(err)
+        return res.status(500).send('An error occurred')
+      }
 
-    replacedData = data.replace(
-      '<div id="app"></div>',
-      `<div id="app">${html}</div><script>window.__PRELOADED_STATE__ = ${JSON.stringify(finalState).replace(/</g, '\\u003c')}</script>`,
-    )
+      replacedData = htmlData.replace(
+        '<div id="app"></div>',
+        `<div id="app">${html}</div><script>window.__PRELOADED_STATE__ = ${JSON.stringify(finalState).replace(/</g, '\\u003c')}</script>`,
+      )
 
-    replacedData = replacedData.replace('<title>MTS Client</title>', '<title>MTS Server</title>')
+      replacedData = replacedData.replace('<title>MTS Client</title>', `<title>MTS Server</title><style type="text/css">${cssData}</style>`)
 
-    return res.send(replacedData)
+      return res.send(replacedData)
+    })
   })
 }
 
@@ -57,7 +63,6 @@ async function copyFiles() {
       await fs.copy(path.resolve(__dirname, '../../client/build/'), path.resolve(__dirname, 'mts/'))
       await fs.remove(path.resolve(__dirname, 'mts/report-modern.html'))
       await fs.remove(path.resolve(__dirname, 'mts/manifest.json'))
-      console.log('success!')
     }
   } catch (err) {
     console.error(err)
