@@ -39,7 +39,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
         >
           <a
             className="navigationBarListItemLink"
-            href="/about"
+            href="/blog"
           >
             Blog
           </a>
@@ -49,9 +49,9 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
         >
           <a
             className="navigationBarListItemLink"
-            href="/about"
+            href="/projects"
           >
-            Courses
+            Projects
           </a>
         </li>
       </ul>
