@@ -8,7 +8,7 @@ export function Navigation({ className }) {
     <nav className={cx(className, nav)}>
       <div className={navBar}>
         <a className={navBarLogo} href="/">
-          <img height="40" src="/logo.svg" alt="logo" />
+          <img height="40" src="/" alt="logo" />
         </a>
         <ul className={navBarList}>
           <li className={navBarListItem}>
