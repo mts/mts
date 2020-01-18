@@ -77,7 +77,7 @@ const configureImageLoader = buildType => {
         {
           loader: 'file-loader',
           options: {
-            name: 'img/[name].[hash].[ext]',
+            name: 'static/[name].[ext]',
           },
         },
       ],
@@ -90,7 +90,7 @@ const configureImageLoader = buildType => {
         {
           loader: 'file-loader',
           options: {
-            name: 'img/[name].[hash].[ext]',
+            name: 'static/[name].[ext]',
           },
         },
         {
