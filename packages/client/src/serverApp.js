@@ -8,7 +8,7 @@ import { ErrorBoundary } from './pattern/atom/error/ErrorBoundary'
 function App() {
   return (
     <StaticRouter>
-      <homePageRoute.serverComponent />
+      <homePageRoute.serverComponent className="serverApp" />
     </StaticRouter>
   )
 }
