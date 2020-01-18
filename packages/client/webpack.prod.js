@@ -77,7 +77,7 @@ const configureImageLoader = buildType => {
         {
           loader: 'file-loader',
           options: {
-            name: 'img/[name].[hash].[ext]',
+            name: 'static/[name].[ext]',
           },
         },
       ],
@@ -90,7 +90,7 @@ const configureImageLoader = buildType => {
         {
           loader: 'file-loader',
           options: {
-            name: 'img/[name].[hash].[ext]',
+            name: 'static/[name].[ext]',
           },
         },
         {
@@ -169,7 +169,7 @@ const configurePostcssLoader = buildType => {
             importLoaders: 2,
             sourceMap: true,
             modules: {
-              localIdentName: '[name]_[local]_[hash:base64:5]',
+              localIdentName: '[name]_[local]',
             },
           },
         },

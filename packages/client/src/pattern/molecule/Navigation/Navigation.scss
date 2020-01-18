@@ -1,0 +1,50 @@
+.nav {
+  //
+  background-color: transparent;
+  box-shadow: none;
+  //
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  // background-color: #fff;
+  // box-shadow: 0 5px 20px -10px #000;
+
+  &Bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+    padding: 10px 15px 10px 50px;
+
+    &Logo {
+      opacity: 0;
+      //
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &List {
+      //
+      display: flex;
+      margin: 0;
+      //
+      margin: 20px 0;
+      padding: 0;
+      list-style: none;
+
+      &Item {
+        margin: 0 10px;
+
+        &Link {
+          color: #fff;
+          text-transform: uppercase;
+          letter-spacing: 3.5px;
+          font-weight: 200;
+        }
+      }
+    }
+  }
+}
