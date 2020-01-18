@@ -8,7 +8,7 @@
     "url": "https://github.com/mts/mts.git",
     "directory": "packages/server"
   },
-  "version": "0.2.0",
+  "version": "0.3.0",
   "engines": {
     "node": "13.0.6",
     "npm": "6.13.6"
@@ -25,7 +25,7 @@
     "url": "https://github.com/mts"
   },
   "scripts": {
-    "start": "nodemon --ext '.js,.jsx' --ignore 'src/mts' src/index.js",
+    "start": "rimraf src/mts && nodemon --watch src/server.js --watch ../client/src --ext '.js,.jsx' --ignore 'src/mts' src/index.js",
     "serve": "npm start",
     "prebuild": "rimraf build",
     "build": "babel src --out-dir build --copy-files --extensions '.js,.jsx'",

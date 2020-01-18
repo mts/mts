@@ -1,8 +1,13 @@
 import React from 'react'
+import { HomeTemplate } from '../../template/HomeTemplate'
 import { homePageDefaultProps, homePagePropTypes } from './HomePage.props'
 
 export function HomePage({ className }) {
-  return <div className={className}>HomePage server side rendered!!!</div>
+  return (
+    <div className={className}>
+      <HomeTemplate data={{}} />
+    </div>
+  )
 }
 
 HomePage.defaultProps = homePageDefaultProps

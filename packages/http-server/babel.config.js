@@ -10,5 +10,20 @@ module.exports = {
     '@babel/plugin-transform-runtime',
     '@babel/plugin-transform-spread',
     'syntax-async-functions',
+    [
+      'css-modules-transform',
+      {
+        generateScopedName: '[name]_[local]',
+        preprocessCss: './src/processSass.js',
+        extensions: ['.css', '.scss'],
+      },
+    ],
+    [
+      'transform-assets',
+      {
+        extensions: ['jpg'],
+        name: '[name].[ext]',
+      },
+    ],
   ],
 }

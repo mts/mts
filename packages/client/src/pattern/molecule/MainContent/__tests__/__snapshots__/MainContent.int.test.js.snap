@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainContent /> Snaphot must match defaultRender 1`] = `
+<main
+  className="main"
+>
+  <div
+    className="mainModule"
+  >
+    <div
+      className="mainBackground"
+    >
+      <picture>
+        <img
+          alt="cover"
+          className="mainBackgroundImage"
+          src={Object {}}
+        />
+      </picture>
+      <div
+        className="mainBackgroundDimmer"
+      />
+      <div
+        className="mainBackgroundCaption"
+      >
+        <h1
+          className="mainBackgroundCaptionPrimaryHeader"
+        >
+          MTS
+        </h1>
+        <h2
+          className="mainBackgroundCaptionSecondaryHeader"
+        >
+          React.js, Node.js and GraphQL
+        </h2>
+      </div>
+    </div>
+  </div>
+</main>
+`;

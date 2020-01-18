@@ -1,12 +1,90 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
-<div>
-  <h2>
-    MTS Home Page
-  </h2>
-  <div
-    className="homeTemplate"
-  />
+<div
+  className="homeTemplate"
+>
+  <nav
+    className="nav"
+  >
+    <div
+      className="navBar"
+    >
+      <a
+        className="navBarLogo"
+        href="/"
+      />
+      <ul
+        className="navBarList"
+      >
+        <li
+          className="navBarListItem"
+        >
+          <a
+            className="navBarListItemLink"
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="navBarListItem"
+        >
+          <a
+            className="navBarListItemLink"
+            href="/blog"
+          >
+            Blog
+          </a>
+        </li>
+        <li
+          className="navBarListItem"
+        >
+          <a
+            className="navBarListItemLink"
+            href="/courses"
+          >
+            Courses
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main
+    className="main"
+  >
+    <div
+      className="mainModule"
+    >
+      <div
+        className="mainBackground"
+      >
+        <picture>
+          <img
+            alt="cover"
+            className="mainBackgroundImage"
+            src={Object {}}
+          />
+        </picture>
+        <div
+          className="mainBackgroundDimmer"
+        />
+        <div
+          className="mainBackgroundCaption"
+        >
+          <h1
+            className="mainBackgroundCaptionPrimaryHeader"
+          >
+            MTS
+          </h1>
+          <h2
+            className="mainBackgroundCaptionSecondaryHeader"
+          >
+            React.js, Node.js and GraphQL
+          </h2>
+        </div>
+      </div>
+    </div>
+  </main>
 </div>
 `;
