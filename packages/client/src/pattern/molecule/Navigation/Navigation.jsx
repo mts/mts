@@ -29,8 +29,8 @@ export function Navigation({ className }) {
             </a>
           </li>
           <li className={navigationBarListItem}>
-            <a className={navigationBarListItemLink} href="/projects">
-              Projects
+            <a className={navigationBarListItemLink} href="/courses">
+              Courses
             </a>
           </li>
         </ul>

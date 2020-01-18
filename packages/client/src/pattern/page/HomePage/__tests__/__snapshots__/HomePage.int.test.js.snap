@@ -54,9 +54,9 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           >
             <a
               className="navigationBarListItemLink"
-              href="/projects"
+              href="/courses"
             >
-              Projects
+              Courses
             </a>
           </li>
         </ul>
