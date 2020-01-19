@@ -2,7 +2,7 @@
 
 import './index.scss'
 import { data as appDefaultState } from '../../http-server/src/data'
-import { isRunningOnLocalHost, isRunningOnGitHubPages, isRunningOnHeroku } from './bootstrap/app'
+import { isRunningOnLocalHost, isRunningOnGitHubPages } from './bootstrap/app'
 
 require('@babel/register')({
   extensions: ['.js', '.jsx'],
@@ -16,12 +16,12 @@ if (typeof window === 'undefined') {
     uiData: { homePageData, notFoundPageData },
   } = appDefaultState
 
-  if (!isRunningOnHeroku && (isRunningOnLocalHost || isRunningOnGitHubPages)) {
+  if (isRunningOnLocalHost || isRunningOnGitHubPages) {
     window.appDefaultState = {
       context: {
         isRunningOnLocalHost,
         isRunningOnGitHubPages,
-        isRunningOnHeroku,
+        isRunningOnHeroku: false,
       },
       api: {},
       ui: {
