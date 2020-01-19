@@ -1,3 +1,3 @@
 export const getDefaultState = () => {
-  return window?.appDefaultState
+  return window.appDefaultState
 }
