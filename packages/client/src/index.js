@@ -16,7 +16,7 @@ if (typeof window === 'undefined') {
     uiData: { homePageData, notFoundPageData },
   } = appDefaultState
 
-  if (isRunningOnLocalHost) {
+  if (!isRunningOnHeroku && (isRunningOnLocalHost || isRunningOnGitHubPages)) {
     window.appDefaultState = {
       context: {
         isRunningOnLocalHost,
