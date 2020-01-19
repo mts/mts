@@ -6,6 +6,5 @@ export const notFoundTemplateDefaultProps = {
 
 export const notFoundTemplatePropTypes = {
   className: string,
-  data: object.isRequired,
   location: object.isRequired,
 }

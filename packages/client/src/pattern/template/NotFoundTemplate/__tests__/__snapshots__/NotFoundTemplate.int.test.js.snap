@@ -5,7 +5,7 @@ exports[`<NotFoundTemplate /> Snaphot must match defaultRender 1`] = `
   className=""
 >
   <h2>
-    MTS Not Found Page
+    Not Found
   </h2>
   <div
     className=""
