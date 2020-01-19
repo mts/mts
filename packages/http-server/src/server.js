@@ -10,6 +10,7 @@ import { Provider } from 'react-redux'
 import { renderToString } from 'react-dom/server'
 import winston from 'winston'
 import expressWinston from 'express-winston'
+import { data as appDefaultState } from './data'
 
 function someReducer(state = [], action) {
   switch (action.type) {
@@ -19,7 +20,18 @@ function someReducer(state = [], action) {
 }
 
 async function handleRender(req, res) {
-  const store = createStore(someReducer, { someState: 'some-state' })
+  const {
+    pageData: { homePageData, notFoundPageData },
+  } = appDefaultState
+
+  const store = createStore(someReducer, {
+    context: {},
+    api: {},
+    ui: {
+      homePageData,
+      notFoundPageData,
+    },
+  })
 
   await import('../../client/src/index')
   const { RegularApp } = await import('../../client/src/serverApp')
@@ -47,7 +59,7 @@ async function handleRender(req, res) {
 
       replacedData = data.replace(
         '<div id="app"></div>',
-        `<div id="app">${html}</div><script>window.__PRELOADED_STATE__ = ${JSON.stringify(finalState).replace(/</g, '\\u003c')}</script>`,
+        `<div id="app">${html}</div><script>window.appDefaultState = ${JSON.stringify(finalState).replace(/</g, '\\u003c')}</script>`,
       )
 
       replacedData = replacedData.replace('<title>MTS Client</title>', `<title>MTS Server</title><style type="text/css">${cssData}</style>`)
