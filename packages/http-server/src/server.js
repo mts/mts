@@ -11,6 +11,7 @@ import { renderToString } from 'react-dom/server'
 import winston from 'winston'
 import expressWinston from 'express-winston'
 import { data as appDefaultState } from './data'
+import { isRunningOnLocalHost, isRunningOnGitHubPages, isRunningOnHeroku } from '../../client/src/bootstrap/app'
 
 function someReducer(state = [], action) {
   switch (action.type) {
@@ -25,7 +26,11 @@ async function handleRender(req, res) {
   } = appDefaultState
 
   const store = createStore(someReducer, {
-    context: {},
+    context: {
+      isRunningOnLocalHost,
+      isRunningOnGitHubPages,
+      isRunningOnHeroku,
+    },
     api: {},
     ui: {
       homePageData,
