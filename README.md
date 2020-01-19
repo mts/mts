@@ -329,6 +329,7 @@
 - `Monitor`: `heroku logs --tail`
 - `Check app`: `https://mts-http-server.herokuapp.com/`
 - `Help`: `https://help.heroku.com/P1AVPANS/why-is-my-node-js-app-crashing-with-an-r10-error`
+- `Clone`: `heroku git:clone -a mts-http-server`
 
 ## Github Pages
 
