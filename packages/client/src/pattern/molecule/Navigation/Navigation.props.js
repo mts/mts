@@ -6,5 +6,5 @@ export const navigationDefaultProps = {
 
 export const navigationPropTypes = {
   className: string,
-  data: object.isRequired,
+  ui: object.isRequired,
 }

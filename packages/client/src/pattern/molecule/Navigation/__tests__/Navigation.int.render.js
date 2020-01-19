@@ -1,5 +1,13 @@
 import React from 'react'
+import { Provider } from 'react-redux'
 import { Navigation } from '../index'
-import { homePageData } from '../../../../../../http-server/src/data/ui/home'
+import { getAppMockStore } from '../../../../bootstrap/store/mock'
+import { mockAppState } from '../../../../store/state/mock'
 
-export const defaultRender = <Navigation data={homePageData.navigation} />
+export const defaultRender = (() => {
+  return (
+    <Provider store={getAppMockStore(mockAppState)}>
+      <Navigation />
+    </Provider>
+  )
+})()
