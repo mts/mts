@@ -32,10 +32,10 @@ async function handleRender(req, res) {
 
   const finalState = store.getState()
 
-  return fs.readFile(path.resolve(__dirname, './mts/index.html'), 'utf8', (err, htmlData) => {
-    const hrefStart = htmlData.search('<link href="')
-    const hrefEnd = htmlData.search('.css')
-    const cssFileName = htmlData.substring(hrefStart + 13, hrefEnd + 4)
+  return fs.readFile(path.resolve(__dirname, './mts/index.html'), 'utf8', (err, data) => {
+    const hrefStart = data.search('<link href="')
+    const hrefEnd = data.search('.css')
+    const cssFileName = data.substring(hrefStart + 13, hrefEnd + 4)
 
     let replacedData
 
@@ -45,7 +45,7 @@ async function handleRender(req, res) {
         return res.status(500).send('An error occurred')
       }
 
-      replacedData = htmlData.replace(
+      replacedData = data.replace(
         '<div id="app"></div>',
         `<div id="app">${html}</div><script>window.__PRELOADED_STATE__ = ${JSON.stringify(finalState).replace(/</g, '\\u003c')}</script>`,
       )
@@ -60,7 +60,9 @@ async function handleRender(req, res) {
 async function copyFiles() {
   try {
     if (!fs.existsSync(path.resolve(__dirname, 'mts/'))) {
-      await fs.copy(path.resolve(__dirname, '../../client/build/'), path.resolve(__dirname, 'mts/'))
+      if (fs.existsSync(path.resolve(__dirname, '../../client/build/'))) {
+        await fs.copy(path.resolve(__dirname, '../../client/build/'), path.resolve(__dirname, 'mts/'))
+      }
       await fs.remove(path.resolve(__dirname, 'mts/report-modern.html'))
       await fs.remove(path.resolve(__dirname, 'mts/manifest.json'))
     }
