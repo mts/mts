@@ -1,6 +1,8 @@
 /* eslint global-require: 0 */
 
 import './index.scss'
+import { data as appDefaultState } from '../../http-server/src/data'
+import { isRunningOnLocalHost, isRunningOnGitHubPages, isRunningOnHeroku } from './bootstrap/app'
 
 require('@babel/register')({
   extensions: ['.js', '.jsx'],
@@ -10,5 +12,24 @@ require('@babel/register')({
 if (typeof window === 'undefined') {
   require('./serverApp')
 } else {
+  const {
+    uiData: { homePageData, notFoundPageData },
+  } = appDefaultState
+
+  if (!isRunningOnHeroku && (isRunningOnLocalHost || isRunningOnGitHubPages)) {
+    window.appDefaultState = {
+      context: {
+        isRunningOnLocalHost,
+        isRunningOnGitHubPages,
+        isRunningOnHeroku,
+      },
+      api: {},
+      ui: {
+        homePageData,
+        notFoundPageData,
+      },
+    }
+  }
+
   require('./clientApp')
 }

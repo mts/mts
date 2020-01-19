@@ -314,7 +314,7 @@
 
 - NodeJS & ExpressJS Server
   - deployed to https://dashboard.heroku.com/apps/mts-http-server
-  - running at https://mts-http-server.herokuapp.com/
+  - running at https://mts-http-server.herokuapp.com/mts
 
 ## Heroku Setup, Deployment and Monitoring
 
@@ -335,3 +335,7 @@
 
 - rm -rf node_modules/gh-pages/.cache
 - change `https://github.com/mts/mts.git` to `git@github.com:mts/mts.git` in `.git/config`
+
+## Localhost
+
+- `Free port 3000`: `kill $(lsof -t -i :3000)`

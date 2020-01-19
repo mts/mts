@@ -1,5 +1,11 @@
 import React from 'react'
+import { Provider } from 'react-redux'
 import { HomeTemplate } from '../index'
-import { homePageData } from '../../../../../../http-server/src/data/page/home'
+import { getAppMockStore } from '../../../../bootstrap/store/mock'
+import { mockAppState } from '../../../../store/state/mock'
 
-export const defaultRender = <HomeTemplate data={homePageData} />
+export const defaultRender = (
+  <Provider store={getAppMockStore(mockAppState)}>
+    <HomeTemplate />
+  </Provider>
+)

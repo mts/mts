@@ -17,6 +17,8 @@ module.exports = {
     '!packages/**/*.story.js',
     '!packages/**/*.test.js',
     '!packages/**/build/**',
+    '!packages/**/src/data/**',
+    '!packages/**/src/mts/**',
     '!packages/**/node_modules/**',
     '!packages/**/webpack*',
     '!packages/client/**/route/**',
