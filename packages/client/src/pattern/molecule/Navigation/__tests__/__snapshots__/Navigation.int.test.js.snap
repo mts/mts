@@ -18,6 +18,7 @@ exports[`<Navigation /> Snaphot must match defaultRender 1`] = `
         className="navBarListItem"
       >
         <a
+          aria-label="About Page"
           className="navBarListItemLink"
           href="/about"
         >
@@ -28,6 +29,7 @@ exports[`<Navigation /> Snaphot must match defaultRender 1`] = `
         className="navBarListItem"
       >
         <a
+          aria-label="Blog Page"
           className="navBarListItemLink"
           href="/blog"
         >
@@ -38,6 +40,7 @@ exports[`<Navigation /> Snaphot must match defaultRender 1`] = `
         className="navBarListItem"
       >
         <a
+          aria-label="Courses Page"
           className="navBarListItemLink"
           href="/courses"
         >
