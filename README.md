@@ -314,7 +314,7 @@
 
 - NodeJS & ExpressJS Server
   - deployed to https://dashboard.heroku.com/apps/mts-http-server
-  - running at https://mts-http-server.herokuapp.com/
+  - running at https://mts-http-server.herokuapp.com/mts
 
 ## Heroku Setup, Deployment and Monitoring
 
