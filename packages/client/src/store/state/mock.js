@@ -1,12 +1,19 @@
-import { data } from '../../../../http-server/src/data'
+import { data as appDefaultState } from '../../../../http-server/src/data'
+import { isRunningOnLocalHost, isRunningOnGitHubPages, isRunningOnHeroku } from '../../bootstrap/app'
 
-const { home, notFound } = data
+const {
+  uiData: { homePageData, notFoundPageData },
+} = appDefaultState
 
 export const mockAppState = {
-  context: {},
+  context: {
+    isRunningOnLocalHost,
+    isRunningOnGitHubPages,
+    isRunningOnHeroku,
+  },
   api: {},
   ui: {
-    home,
-    notFound,
+    homePageData,
+    notFoundPageData,
   },
 }
