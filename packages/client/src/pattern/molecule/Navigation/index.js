@@ -12,17 +12,17 @@ export function Navigation({ className }) {
         </a>
         <ul className={navBarList}>
           <li className={navBarListItem}>
-            <a className={navBarListItemLink} href="/about">
+            <a className={navBarListItemLink} href="/about" aria-label="About Page">
               About
             </a>
           </li>
           <li className={navBarListItem}>
-            <a className={navBarListItemLink} href="/blog">
+            <a className={navBarListItemLink} href="/blog" aria-label="Blog Page">
               Blog
             </a>
           </li>
           <li className={navBarListItem}>
-            <a className={navBarListItemLink} href="/courses">
+            <a className={navBarListItemLink} href="/courses" aria-label="Courses Page">
               Courses
             </a>
           </li>
