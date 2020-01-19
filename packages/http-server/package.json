@@ -25,7 +25,8 @@
     "url": "https://github.com/mts"
   },
   "scripts": {
-    "start": "rimraf src/mts && nodemon --watch src/server.js --watch ../client/src --ext '.js,.jsx' --ignore 'src/mts' src/index.js",
+    "start": "nodemon --watch src/server.js --watch ../client/src --ext '.js,.jsx' --ignore 'src/mts' src/index.js",
+    "start-local": "rimraf src/mts && nodemon --watch src/server.js --watch ../client/src --ext '.js,.jsx' --ignore 'src/mts' src/index.js",
     "serve": "npm start",
     "prebuild": "rimraf build",
     "build": "babel src --out-dir build --copy-files --extensions '.js,.jsx'",
