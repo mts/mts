@@ -1,7 +1,3 @@
 export const getDefaultState = () => {
-  return {
-    context: {},
-    api: {},
-    ui: {},
-  }
+  return window?.appDefaultState
 }
