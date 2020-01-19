@@ -1,5 +1,5 @@
-const { pageData } = require('./page')
+const { uiData } = require('./ui')
 
 module.exports.data = {
-  pageData,
+  uiData,
 }

@@ -21,7 +21,7 @@ function someReducer(state = [], action) {
 
 async function handleRender(req, res) {
   const {
-    pageData: { homePageData, notFoundPageData },
+    uiData: { homePageData, notFoundPageData },
   } = appDefaultState
 
   const store = createStore(someReducer, {
