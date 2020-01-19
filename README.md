@@ -335,3 +335,7 @@
 
 - rm -rf node_modules/gh-pages/.cache
 - change `https://github.com/mts/mts.git` to `git@github.com:mts/mts.git` in `.git/config`
+
+## Localhost
+
+- `Free port 3000`: `kill $(lsof -t -i :3000)`
