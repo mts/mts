@@ -6,6 +6,7 @@ import { create } from '@storybook/theming'
 import { version } from '../lerna.json'
 import logo from './logo.png'
 import { BrowserRouter } from 'react-router-dom'
+import '../packages/client/src/index.scss'
 
 const setup = () => {
   addDecorator(withInfo)

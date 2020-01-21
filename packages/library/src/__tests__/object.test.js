@@ -1,4 +1,4 @@
-import { deepCloneObject } from '../library'
+import { deepCloneObject } from '../object'
 
 describe('library', () => {
   describe('deepCloneObject()', () => {

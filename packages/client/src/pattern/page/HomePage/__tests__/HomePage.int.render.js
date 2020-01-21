@@ -2,8 +2,8 @@ import React from 'react'
 import { Provider } from 'react-redux'
 import { AsyncHomePage } from '../AsyncHomePage'
 import { HomePage } from '../HomePage'
-import { getAppMockStore } from '../../../../bootstrap/store/mock'
-import { mockAppState } from '../../../../store/state/mock'
+import { getAppMockStore } from '../../../../store/mock'
+import { mockAppState } from '../../../../../../library/src/state/mock'
 
 export const asyncRender = (
   <Provider store={getAppMockStore(mockAppState)}>

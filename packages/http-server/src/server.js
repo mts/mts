@@ -5,49 +5,18 @@ import dotenv from 'dotenv'
 import cors from 'cors'
 import express from 'express'
 import React from 'react'
-import { createStore } from 'redux'
-import { Provider } from 'react-redux'
 import { renderToString } from 'react-dom/server'
 import winston from 'winston'
 import expressWinston from 'express-winston'
-import { data as appDefaultState } from './data'
-import { isRunningOnGitHubPages } from '../../client/src/bootstrap/app'
-
-function someReducer(state = [], action) {
-  switch (action.type) {
-    default:
-      return state
-  }
-}
+import { serverAppStore } from '../../client/src/store'
 
 async function handleRender(req, res) {
-  const {
-    uiData: { homePageData, notFoundPageData },
-  } = appDefaultState
-
-  const store = createStore(someReducer, {
-    context: {
-      isRunningOnLocalHost: process.env.PORT === '3000',
-      isRunningOnGitHubPages,
-      isRunningOnHeroku: true,
-    },
-    api: {},
-    ui: {
-      homePageData,
-      notFoundPageData,
-    },
-  })
-
   await import('../../client/src/index')
-  const { RegularApp } = await import('../../client/src/serverApp')
+  const { App } = await import('../../client/src/serverRenderApp')
 
-  const html = renderToString(
-    <Provider store={store}>
-      <RegularApp />
-    </Provider>,
-  )
+  const html = renderToString(<App />)
 
-  const finalState = store.getState()
+  const finalState = serverAppStore.getState()
 
   return fs.readFile(path.resolve(__dirname, './mts/index.html'), 'utf8', (err, data) => {
     const hrefStart = data.search('<link href="')
