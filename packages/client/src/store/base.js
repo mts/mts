@@ -1,7 +1,7 @@
 import { applyMiddleware, compose } from 'redux'
 import { createLogger } from 'redux-logger'
 import thunk from 'redux-thunk'
-import { isRunningOnLocalHost } from '../../../library/src/environment'
+import { isRunningOnLocalHostViaDomain } from '../../../library/src/environment'
 
 class Store {
   constructor() {
@@ -12,7 +12,7 @@ class Store {
   setMiddlewares() {
     this.middlewares = [thunk]
 
-    if (isRunningOnLocalHost) {
+    if (isRunningOnLocalHostViaDomain) {
       const logger = createLogger({
         collapsed: true,
         logger: console,
@@ -27,7 +27,7 @@ class Store {
   /* istanbul ignore next */
   setEnhancer() {
     const composeEnhancers =
-      typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ && isRunningOnLocalHost
+      typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ && isRunningOnLocalHostViaDomain
         ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({})
         : compose
 
