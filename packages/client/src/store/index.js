@@ -1,5 +1,5 @@
 import { createStore } from 'redux'
-import { Store } from '../bootstrap/store'
+import { Store } from './base'
 import { getDefaultState } from './state/default'
 import { getAppReducer } from './reducer'
 
