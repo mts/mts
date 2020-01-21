@@ -7,40 +7,26 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { homePageRoute, notFoundPageRoute } from './route'
 import { checkAccessibilityIssues } from '../../library/src/client/startup'
 import { ErrorBoundary } from './pattern/atom/error/ErrorBoundary'
-import { appStore } from './store'
-
-const App = () => (
-  <Provider store={appStore}>
-    <BrowserRouter>
-      <Switch>
-        <Route exact={homePageRoute.exact} path={homePageRoute.path} component={homePageRoute.clientComponent} />
-        <Route component={withRouter(notFoundPageRoute.clientComponent)} />
-      </Switch>
-    </BrowserRouter>
-  </Provider>
-)
+import { clientAppStore } from './store'
 
 checkAccessibilityIssues(React, ReactDOM, 1000)
 
-export function StrictApp() {
-  return (
-    <React.StrictMode>
-      <ErrorBoundary>
-        <App />
-      </ErrorBoundary>
-    </React.StrictMode>
-  )
-}
-
-export function RegularApp() {
+export function App() {
   return (
     <ErrorBoundary>
-      <App />
+      <Provider store={clientAppStore}>
+        <BrowserRouter>
+          <Switch>
+            <Route exact={homePageRoute.exact} path={homePageRoute.path} component={homePageRoute.clientComponent} />
+            <Route component={withRouter(notFoundPageRoute.clientComponent)} />
+          </Switch>
+        </BrowserRouter>
+      </Provider>
     </ErrorBoundary>
   )
 }
 
-ReactDOM.hydrate(<RegularApp />, document.getElementById('app'))
+ReactDOM.hydrate(<App />, document.getElementById('app'))
 
 if (module.hot) {
   module.hot.accept()
