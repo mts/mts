@@ -1,32 +1,20 @@
 /* eslint no-unused-vars : 0 */
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { Provider } from 'react-redux'
 import { StaticRouter } from 'react-router'
 import { homePageRoute, notFoundPageRoute } from './route'
 import { ErrorBoundary } from './pattern/atom/error/ErrorBoundary'
+import { serverAppStore } from './store'
 
-function App() {
-  return (
-    <StaticRouter>
-      <homePageRoute.serverComponent className="serverRenderApp" />
-    </StaticRouter>
-  )
-}
-
-export function StrictApp() {
-  return (
-    <React.StrictMode>
-      <ErrorBoundary>
-        <App />
-      </ErrorBoundary>
-    </React.StrictMode>
-  )
-}
-
-export function RegularApp() {
+export function App() {
   return (
     <ErrorBoundary>
-      <App />
+      <Provider store={serverAppStore}>
+        <StaticRouter>
+          <homePageRoute.serverComponent className="serverRenderApp" />
+        </StaticRouter>
+      </Provider>
     </ErrorBoundary>
   )
 }
