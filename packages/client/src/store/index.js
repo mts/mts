@@ -1,11 +1,10 @@
 import { createStore } from 'redux'
 import { Store } from './base'
-import { getDefaultState } from './state/default'
+import { getAppDefaultStateFromWindow, getAppDefaultStateFromData } from '../../../library/src/state/default'
 import { getAppReducer } from './reducer'
+import { isRunningOnLocalHostViaPort } from '../../../library/src/environment'
 
-class AppStore extends Store {
-  static appStore
-
+export class AppStore extends Store {
   constructor() {
     super()
 
@@ -15,12 +14,12 @@ class AppStore extends Store {
   }
 
   setAppDefaultState() {
-    this.appState = getDefaultState()
+    this.appState = getAppDefaultStateFromWindow()
   }
 
   setAppStore() {
     this.appReducer = getAppReducer()
-    this.appStore = this.appStore || createStore(this.appReducer, this.appState, this.enhancer)
+    this.clientAppStore = this.clientAppStore || createStore(this.appReducer, this.appState, this.enhancer)
   }
 
   /* istanbul ignore next */
@@ -28,11 +27,19 @@ class AppStore extends Store {
     if (module.hot) {
       module.hot.accept(['./reducer'], () => {
         const nextAppReducer = this.appReducer.default
-        this.appStore.replaceReducer(nextAppReducer)
+        this.clientAppStore.replaceReducer(nextAppReducer)
       })
     }
   }
 }
 
-export { AppStore }
-export const { appStore } = new AppStore()
+export const serverAppStore = createStore(
+  getAppReducer(),
+  getAppDefaultStateFromData({
+    isRunningOnLocalHostOverwrite: isRunningOnLocalHostViaPort,
+    isRunningOnGitHubPagesOverwrite: false,
+    isRunningOnHeroku: !isRunningOnLocalHostViaPort,
+  }),
+)
+
+export const { clientAppStore } = new AppStore()
