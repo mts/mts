@@ -10,8 +10,8 @@ import { Provider } from 'react-redux'
 import { renderToString } from 'react-dom/server'
 import winston from 'winston'
 import expressWinston from 'express-winston'
-import { data as appDefaultState } from './data'
 import { isRunningOnGitHubPages } from '../../library/environment'
+import { getAppDefaultState } from '../../library/state'
 
 function someReducer(state = [], action) {
   switch (action.type) {
@@ -21,22 +21,14 @@ function someReducer(state = [], action) {
 }
 
 async function handleRender(req, res) {
-  const {
-    uiData: { homePageData, notFoundPageData },
-  } = appDefaultState
-
-  const store = createStore(someReducer, {
-    context: {
-      isRunningOnLocalHost: process.env.PORT === '3000',
-      isRunningOnGitHubPages,
+  const store = createStore(
+    someReducer,
+    getAppDefaultState({
+      isRunningOnLocalHostOverwrite: process.env.PORT === '3000',
+      isRunningOnGitHubPagesOverwrite: isRunningOnGitHubPages,
       isRunningOnHeroku: true,
-    },
-    api: {},
-    ui: {
-      homePageData,
-      notFoundPageData,
-    },
-  })
+    }),
+  )
 
   await import('../../client/src/index')
   const { RegularApp } = await import('../../client/src/serverRenderApp')
