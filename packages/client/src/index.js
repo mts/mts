@@ -10,7 +10,7 @@ require('@babel/register')({
 })
 
 if (typeof window === 'undefined') {
-  require('./serverApp')
+  require('./serverRenderApp')
 } else {
   const {
     uiData: { homePageData, notFoundPageData },
@@ -31,5 +31,5 @@ if (typeof window === 'undefined') {
     }
   }
 
-  require('./clientApp')
+  require('./clientRenderApp')
 }

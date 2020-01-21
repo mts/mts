@@ -39,7 +39,7 @@ async function handleRender(req, res) {
   })
 
   await import('../../client/src/index')
-  const { RegularApp } = await import('../../client/src/serverApp')
+  const { RegularApp } = await import('../../client/src/serverRenderApp')
 
   const html = renderToString(
     <Provider store={store}>
