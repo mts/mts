@@ -1,7 +1,7 @@
 import { applyMiddleware, compose } from 'redux'
 import { createLogger } from 'redux-logger'
 import thunk from 'redux-thunk'
-import { isRunningOnLocalHost } from '../app'
+import { isRunningOnLocalHost } from '../../../../library/environment'
 
 class Store {
   constructor() {

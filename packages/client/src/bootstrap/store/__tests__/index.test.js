@@ -3,12 +3,12 @@ import { Store } from '../index'
 jest.mock('redux', () => ({ applyMiddleware: () => {}, compose: () => {} }))
 jest.mock('redux-logger', () => ({ createLogger: () => {} }))
 jest.mock('redux-thunk', () => ({ applyMiddleware: () => {}, compose: () => {} }))
-jest.mock('../../app', () => ({ isRunningOnLocalHost: true }))
+jest.mock('../../../../../library/environment', () => ({ isRunningOnLocalHost: true }))
 
 const reduxMockObject = require('redux') // eslint-disable-line
 const reduxLoggerMockObject = require('redux-logger')
 const reduxThunkMockObject = require('redux-thunk')
-const bootstrapAppMockObject = require('../../app')
+const bootstrapAppMockObject = require('../../../../../library/environment')
 
 describe('index', () => {
   const createLoggerMockObject = { someLogger: 'some-logger' }

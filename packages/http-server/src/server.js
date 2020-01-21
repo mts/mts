@@ -11,7 +11,7 @@ import { renderToString } from 'react-dom/server'
 import winston from 'winston'
 import expressWinston from 'express-winston'
 import { data as appDefaultState } from './data'
-import { isRunningOnGitHubPages } from '../../client/src/bootstrap/app'
+import { isRunningOnGitHubPages } from '../../library/environment'
 
 function someReducer(state = [], action) {
   switch (action.type) {

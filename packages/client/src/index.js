@@ -2,7 +2,7 @@
 
 import './index.scss'
 import { data as appDefaultState } from '../../http-server/src/data'
-import { isRunningOnLocalHost, isRunningOnGitHubPages } from './bootstrap/app'
+import { isRunningOnLocalHost, isRunningOnGitHubPages } from '../../library/environment'
 
 require('@babel/register')({
   extensions: ['.js', '.jsx'],
