@@ -9,19 +9,22 @@ jest.mock('redux', () => ({
 jest.mock('redux-logger', () => ({ createLogger: () => {} }))
 jest.mock('redux-thunk', () => ({ applyMiddleware: () => {}, compose: () => {} }))
 jest.mock('../../../../library/src/environment', () => ({ isRunningOnLocalHostViaDomain: true }))
-jest.mock('../../../../library/src/state/default', () => ({ getDefaultState: () => ({}) }))
+jest.mock('../../../../library/src/state/default', () => ({
+  getAppDefaultStateFromData: () => ({}),
+  getAppDefaultStateFromWindow: () => ({}),
+}))
 jest.mock('../reducer', () => ({ getAppReducer: () => {} }))
 
 const reduxMockObject = require('redux') // eslint-disable-line
 const reduxLoggerMockObject = require('redux-logger') // eslint-disable-line
 const reduxThunkMockObject = require('redux-thunk') // eslint-disable-line
-const bootstrapAppMockObject = require('../../../../library/src/environment') // eslint-disable-line
+const environmentAppMockObject = require('../../../../library/src/environment') // eslint-disable-line
 const stateDefaultMockObject = require('../../../../library/src/state/default')
 const reducerMockObject = require('../reducer')
 
 describe('index', () => {
   beforeEach(() => {
-    jest.spyOn(stateDefaultMockObject, 'getDefaultState').mockReturnValue(mockAppState)
+    jest.spyOn(stateDefaultMockObject, 'getAppDefaultStateFromData').mockReturnValue(mockAppState)
     jest.spyOn(reducerMockObject, 'getAppReducer').mockImplementation(jest.fn())
   })
 
