@@ -5,41 +5,18 @@ import dotenv from 'dotenv'
 import cors from 'cors'
 import express from 'express'
 import React from 'react'
-import { createStore } from 'redux'
-import { Provider } from 'react-redux'
 import { renderToString } from 'react-dom/server'
 import winston from 'winston'
 import expressWinston from 'express-winston'
-import { isRunningOnGitHubPages } from '../../library/src/environment'
-import { getAppDefaultState } from '../../library/src/state'
-
-function someReducer(state = [], action) {
-  switch (action.type) {
-    default:
-      return state
-  }
-}
+import { serverAppStore } from '../../client/src/store'
 
 async function handleRender(req, res) {
-  const store = createStore(
-    someReducer,
-    getAppDefaultState({
-      isRunningOnLocalHostOverwrite: process.env.PORT === '3000',
-      isRunningOnGitHubPagesOverwrite: isRunningOnGitHubPages,
-      isRunningOnHeroku: true,
-    }),
-  )
-
   await import('../../client/src/index')
-  const { RegularApp } = await import('../../client/src/serverRenderApp')
+  const { App } = await import('../../client/src/serverRenderApp')
 
-  const html = renderToString(
-    <Provider store={store}>
-      <RegularApp />
-    </Provider>,
-  )
+  const html = renderToString(<App />)
 
-  const finalState = store.getState()
+  const finalState = serverAppStore.getState()
 
   return fs.readFile(path.resolve(__dirname, './mts/index.html'), 'utf8', (err, data) => {
     const hrefStart = data.search('<link href="')
