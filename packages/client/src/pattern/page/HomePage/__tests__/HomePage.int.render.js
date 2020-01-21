@@ -2,7 +2,7 @@ import React from 'react'
 import { Provider } from 'react-redux'
 import { AsyncHomePage } from '../AsyncHomePage'
 import { HomePage } from '../HomePage'
-import { getAppMockStore } from '../../../../store/mock'
+import { getAppMockStore } from '../../../../../../library/src/store/mock'
 import { mockAppState } from '../../../../../../library/src/state/mock'
 
 export const asyncRender = (
