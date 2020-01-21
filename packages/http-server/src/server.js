@@ -10,8 +10,8 @@ import { Provider } from 'react-redux'
 import { renderToString } from 'react-dom/server'
 import winston from 'winston'
 import expressWinston from 'express-winston'
-import { isRunningOnGitHubPages } from '../../library/environment'
-import { getAppDefaultState } from '../../library/state'
+import { isRunningOnGitHubPages } from '../../library/src/environment'
+import { getAppDefaultState } from '../../library/src/state'
 
 function someReducer(state = [], action) {
   switch (action.type) {

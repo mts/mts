@@ -1,8 +1,8 @@
 /* eslint global-require: 0 */
 
 import './index.scss'
-import { isRunningOnLocalHost, isRunningOnGitHubPages } from '../../library/environment'
-import { getAppDefaultState } from '../../library/state'
+import { isRunningOnLocalHost, isRunningOnGitHubPages } from '../../library/src/environment'
+import { getAppDefaultState } from '../../library/src/state'
 
 require('@babel/register')({
   extensions: ['.js', '.jsx'],

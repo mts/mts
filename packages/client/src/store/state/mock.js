@@ -1,4 +1,4 @@
-import { getAppDefaultState } from '../../../../library/state'
+import { getAppDefaultState } from '../../../../library/src/state'
 
 export const mockAppState = getAppDefaultState({
   isRunningOnLocalHostOverwrite: true,

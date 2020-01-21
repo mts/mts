@@ -1,4 +1,4 @@
-import { data } from '../http-server/src/data'
+import { data } from '../../http-server/src/data'
 import { isRunningOnLocalHost, isRunningOnGitHubPages } from './environment'
 
 export function getAppDefaultState({ isRunningOnLocalHostOverwrite, isRunningOnGitHubPagesOverwrite, isRunningOnHeroku }) {
