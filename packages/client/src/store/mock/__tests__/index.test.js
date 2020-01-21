@@ -1,6 +1,6 @@
 import { getAppMockStore } from '../index'
 
-jest.mock('../../state/mock', () => ({
+jest.mock('../../../../../library/src/state/mock', () => ({
   mockAppState: { someData: 'some-data' },
 }))
 
