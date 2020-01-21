@@ -1,8 +1,8 @@
 /* eslint global-require: 0 */
 
 import './index.scss'
-import { isRunningOnLocalHost, isRunningOnGitHubPages } from '../../library/src/environment'
-import { getAppDefaultState } from '../../library/src/state'
+import { isRunningOnLocalHostViaDomain, isRunningOnGitHubPages } from '../../library/src/environment'
+import { getAppDefaultStateFromData } from '../../library/src/state/default'
 
 require('@babel/register')({
   extensions: ['.js', '.jsx'],
@@ -12,9 +12,9 @@ require('@babel/register')({
 if (typeof window === 'undefined') {
   require('./serverRenderApp')
 } else {
-  if (isRunningOnLocalHost || isRunningOnGitHubPages) {
-    window.appDefaultState = getAppDefaultState({
-      isRunningOnLocalHostOverwrite: isRunningOnLocalHost,
+  if (isRunningOnLocalHostViaDomain || isRunningOnGitHubPages) {
+    window.appDefaultState = getAppDefaultStateFromData({
+      isRunningOnLocalHostViaDomainOverwrite: isRunningOnLocalHostViaDomain,
       isRunningOnGitHubPagesOverwrite: isRunningOnGitHubPages,
       isRunningOnHeroku: false,
     })
