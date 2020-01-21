@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import { withRouter } from 'react-router'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { homePageRoute, notFoundPageRoute } from './route'
-import { addDivWithIdToBody, checkAccessibilityIssues } from '../../library/src/client/startup'
+import { checkAccessibilityIssues } from '../../library/src/client/startup'
 import { ErrorBoundary } from './pattern/atom/error/ErrorBoundary'
 import { appStore } from './store'
 
