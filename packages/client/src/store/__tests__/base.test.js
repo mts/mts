@@ -1,14 +1,14 @@
-import { Store } from '../index'
+import { Store } from '../base'
 
 jest.mock('redux', () => ({ applyMiddleware: () => {}, compose: () => {} }))
 jest.mock('redux-logger', () => ({ createLogger: () => {} }))
 jest.mock('redux-thunk', () => ({ applyMiddleware: () => {}, compose: () => {} }))
-jest.mock('../../app', () => ({ isRunningOnLocalHost: true }))
+jest.mock('../../../../library/src/environment', () => ({ isRunningOnLocalHostViaDomain: true }))
 
 const reduxMockObject = require('redux') // eslint-disable-line
 const reduxLoggerMockObject = require('redux-logger')
 const reduxThunkMockObject = require('redux-thunk')
-const bootstrapAppMockObject = require('../../app')
+const bootstrapAppMockObject = require('../../../../library/src/environment')
 
 describe('index', () => {
   const createLoggerMockObject = { someLogger: 'some-logger' }
@@ -23,7 +23,7 @@ describe('index', () => {
 
   describe('setMiddlewares()', () => {
     test('must have thunk and logger middleware when running on localhost', () => {
-      bootstrapAppMockObject.isRunningOnLocalHost = true
+      bootstrapAppMockObject.isRunningOnLocalHostViaDomain = true
 
       const store = new Store()
 
@@ -32,7 +32,7 @@ describe('index', () => {
     })
 
     test('must only have thunk middleware when not running on localhost', () => {
-      bootstrapAppMockObject.isRunningOnLocalHost = false
+      bootstrapAppMockObject.isRunningOnLocalHostViaDomain = false
 
       const store = new Store()
 

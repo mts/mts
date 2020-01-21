@@ -1,4 +1,4 @@
-import { mockAppState } from '../state/mock'
+import { mockAppState } from '../../../../library/src/state/mock'
 
 jest.mock('redux', () => ({
   createStore: () => ({ dispatch: jest.fn() }),
@@ -8,20 +8,23 @@ jest.mock('redux', () => ({
 }))
 jest.mock('redux-logger', () => ({ createLogger: () => {} }))
 jest.mock('redux-thunk', () => ({ applyMiddleware: () => {}, compose: () => {} }))
-jest.mock('../../bootstrap/app', () => ({ isRunningOnLocalHost: true }))
-jest.mock('../state/default', () => ({ getDefaultState: () => ({}) }))
+jest.mock('../../../../library/src/environment', () => ({ isRunningOnLocalHostViaDomain: true }))
+jest.mock('../../../../library/src/state/default', () => ({
+  getAppDefaultStateFromData: () => ({}),
+  getAppDefaultStateFromWindow: () => ({}),
+}))
 jest.mock('../reducer', () => ({ getAppReducer: () => {} }))
 
 const reduxMockObject = require('redux') // eslint-disable-line
 const reduxLoggerMockObject = require('redux-logger') // eslint-disable-line
 const reduxThunkMockObject = require('redux-thunk') // eslint-disable-line
-const bootstrapAppMockObject = require('../../bootstrap/app') // eslint-disable-line
-const stateDefaultMockObject = require('../state/default')
+const environmentAppMockObject = require('../../../../library/src/environment') // eslint-disable-line
+const stateDefaultMockObject = require('../../../../library/src/state/default')
 const reducerMockObject = require('../reducer')
 
 describe('index', () => {
   beforeEach(() => {
-    jest.spyOn(stateDefaultMockObject, 'getDefaultState').mockReturnValue(mockAppState)
+    jest.spyOn(stateDefaultMockObject, 'getAppDefaultStateFromData').mockReturnValue(mockAppState)
     jest.spyOn(reducerMockObject, 'getAppReducer').mockImplementation(jest.fn())
   })
 
@@ -31,9 +34,9 @@ describe('index', () => {
     test('must set app state', async () => {
       const { AppStore } = await import('../index')
 
-      const appStore = new AppStore()
+      const clientAppStore = new AppStore()
 
-      expect(appStore.appState).toMatchObject(mockAppState)
+      expect(clientAppStore.appState).toMatchObject(mockAppState)
     })
   })
 })

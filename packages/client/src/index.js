@@ -1,8 +1,8 @@
 /* eslint global-require: 0 */
 
 import './index.scss'
-import { data as appDefaultState } from '../../http-server/src/data'
-import { isRunningOnLocalHost, isRunningOnGitHubPages } from './bootstrap/app'
+import { isRunningOnLocalHostViaDomain, isRunningOnGitHubPages } from '../../library/src/environment'
+import { getAppDefaultStateFromData } from '../../library/src/state/default'
 
 require('@babel/register')({
   extensions: ['.js', '.jsx'],
@@ -10,26 +10,15 @@ require('@babel/register')({
 })
 
 if (typeof window === 'undefined') {
-  require('./serverApp')
+  require('./serverRenderApp')
 } else {
-  const {
-    uiData: { homePageData, notFoundPageData },
-  } = appDefaultState
-
-  if (isRunningOnLocalHost || isRunningOnGitHubPages) {
-    window.appDefaultState = {
-      context: {
-        isRunningOnLocalHost,
-        isRunningOnGitHubPages,
-        isRunningOnHeroku: false,
-      },
-      api: {},
-      ui: {
-        homePageData,
-        notFoundPageData,
-      },
-    }
+  if (isRunningOnLocalHostViaDomain || isRunningOnGitHubPages) {
+    window.appDefaultState = getAppDefaultStateFromData({
+      isRunningOnLocalHostViaDomainOverwrite: isRunningOnLocalHostViaDomain,
+      isRunningOnGitHubPagesOverwrite: isRunningOnGitHubPages,
+      isRunningOnHeroku: false,
+    })
   }
 
-  require('./clientApp')
+  require('./clientRenderApp')
 }

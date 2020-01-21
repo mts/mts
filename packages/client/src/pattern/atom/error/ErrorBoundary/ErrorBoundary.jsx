@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable no-unused-vars, no-console */
 import React from 'react'
 import { errorBoundaryPropTypes } from './ErrorBoundary.props'
 
@@ -11,6 +11,12 @@ export class ErrorBoundary extends React.Component {
   static getDerivedStateFromError(error) {
     // Update state so the next render will show the fallback UI.
     return { hasError: true }
+  }
+
+  componentDidCatch(error, errorInfo) {
+    // You can also log the error to an error reporting service
+    console.log('~error~', error)
+    console.log('~errorInfo~', errorInfo)
   }
 
   render() {
@@ -27,4 +33,4 @@ export class ErrorBoundary extends React.Component {
 }
 
 ErrorBoundary.propTypes = errorBoundaryPropTypes
-/* eslint-enable no-unused-vars */
+/* eslint-enable no-unused-vars, no-console */

@@ -14,7 +14,7 @@ module.exports = {
       'css-modules-transform',
       {
         generateScopedName: '[name]_[local]',
-        preprocessCss: './src/processSass.js',
+        preprocessCss: '../library/src/server/processSass.js',
         extensions: ['.css', '.scss'],
       },
     ],
