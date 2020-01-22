@@ -18,7 +18,7 @@ export const getAppReducer = () =>
               ...state.rest,
               github: {
                 ...state.rest.github,
-                MTSRepos: { ...action.payload },
+                MTSRepos: [...action.payload],
               },
             },
           }
