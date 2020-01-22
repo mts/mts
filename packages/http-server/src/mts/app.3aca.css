@@ -1,9 +1,9 @@
 /*!
  * @project        MTS
- * @name           app.dfb3.css
+ * @name           app.3aca.css
  * @author         MTS
- * @build          Wed, Jan 22, 2020 2:24 PM ET
- * @release        0f447c9da2a2cb36e31fc3588c6c7898cb368be9 [build-home-main-content-2]
+ * @build          Wed, Jan 22, 2020 5:54 PM ET
+ * @release        c8e63ec4da885820803a91d6a345906b6dde7f8a [build-home-main-content-2]
  * @copyright      Copyright (c) 2020 MTS
  *
  */
@@ -17,4 +17,4 @@ body,html{margin:0;padding:0;font-family:-apple-system, BlinkMacSystemFont, Sego
 .MainContent_main{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.MainContent_mainModule{position:relative;width:100%}.MainContent_mainBackground{position:relative;overflow:hidden;top:0;left:0;width:100%;z-index:-1;height:100vh}.MainContent_mainBackgroundImage{position:absolute;top:0;left:0;width:100%;height:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:center center;object-position:center center;opacity:1;-webkit-transition:opacity 500ms ease 0s;transition:opacity 500ms ease 0s}.MainContent_mainBackgroundDimmer{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-color:#000;opacity:0.5}.MainContent_mainBackgroundCaption{position:absolute;left:0;top:45%;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center;color:#fff}.MainContent_mainBackgroundCaptionPrimaryHeader{margin:0;padding:0 0 10px;font-size:48px;font-weight:300;line-height:1.2;letter-spacing:5.5px;text-transform:uppercase}.MainContent_mainBackgroundCaptionSecondaryHeader{margin:0;padding:0 0 10px;font-size:12px;font-weight:500;line-height:1.5;letter-spacing:3.5px;text-transform:uppercase;opacity:0.7}
 
 
-/*# sourceMappingURL=app.dfb3.css.map*/
+/*# sourceMappingURL=app.3aca.css.map*/
