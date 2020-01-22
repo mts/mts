@@ -1,12 +1,27 @@
 /*!
  * @project        MTS
- * @name           app-modern.ad29.js
+ * @name           app-modern.90ab.js
  * @author         MTS
- * @build          Wed, Jan 22, 2020 8:23 PM ET
+ * @build          Wed, Jan 22, 2020 8:26 PM ET
  * @release        f2bcc07bac2aa5e62da9e0497278160d6a4ffc3f [master]
  * @copyright      Copyright (c) 2020 MTS
  *
  */
+
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+MERCHANTABLITY OR NON-INFRINGEMENT.
+
+See the Apache Version 2.0 License for specific language governing permissions
+and limitations under the License.
+***************************************************************************** */
 
 /*!
   Copyright (c) 2017 Jed Watson.
