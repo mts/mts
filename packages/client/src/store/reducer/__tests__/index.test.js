@@ -6,6 +6,10 @@ jest.mock('../../../../../library/src/state/default', () => ({
   getAppDefaultStateFromData: () => ({}),
 }))
 
+jest.mock('../../thunk/completeState', () => ({
+  setAppCompleteStateThunk: () => async dispatch => {}, // eslint-disable-line
+}))
+
 const stateDefaultMockObject = require('../../../../../library/src/state/default')
 
 describe('index', () => {
@@ -23,7 +27,7 @@ describe('index', () => {
           { id: 2, name: 'some-other-name' },
         ]
 
-        const { clientAppStore } = await import('../../index')
+        const { clientAppStore } = await import('../../client')
 
         clientAppStore.dispatch(apiRestGitHubSetMTSRepositoriesAction(payload))
         expect(clientAppStore.getState().api.rest.github.MTSRepos).toMatchObject(payload)
