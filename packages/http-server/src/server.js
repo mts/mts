@@ -11,7 +11,6 @@ import expressWinston from 'express-winston'
 import { serverAppStore } from '../../client/src/store/server'
 
 async function handleRender(req, res) {
-  await import('../../client/src/index')
   const { App } = await import('../../client/src/serverRenderApp')
 
   const html = renderToString(<App />)
@@ -35,8 +34,6 @@ async function handleRender(req, res) {
         '<div id="app"></div>',
         `<div id="app">${html}</div><script>window.appDefaultState = ${JSON.stringify(finalState).replace(/</g, '\\u003c')}</script>`,
       )
-
-      replacedData = data.replace('<html>', '<html lang="en-US>"')
 
       replacedData = replacedData.replace('<title>MTS Client</title>', `<title>MTS Server</title><style type="text/css">${cssData}</style>`)
 

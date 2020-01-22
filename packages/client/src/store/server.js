@@ -8,6 +8,6 @@ export const serverAppStore = createStore(
   getAppDefaultStateFromData({
     isRunningOnLocalHost: isRunningOnLocalHostViaPort,
     isRunningOnGitHubPages: false,
-    isRunningOnHeroku: true,
+    isRunningOnHeroku: !isRunningOnLocalHostViaPort,
   }),
 )
