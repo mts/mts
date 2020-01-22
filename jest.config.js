@@ -25,7 +25,7 @@ module.exports = {
     '!packages/client/**/graphql/**',
     '!packages/client/**/route/**',
     '!packages/client/**/library/**',
-    '!packages/server/**',
+    '!packages/http-server/**',
   ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleNameMapper: {
