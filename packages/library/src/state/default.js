@@ -24,6 +24,9 @@ export function getAppDefaultStateFromData({ isRunningOnLocalHost, isRunningOnGi
       rest: {
         github: {},
       },
+      graphql: {
+        github: {},
+      },
     },
     ui: {
       homePageData,
