@@ -14,6 +14,7 @@ jest.mock('../../../../library/src/state/default', () => ({
   getAppDefaultStateFromData: () => ({}),
 }))
 jest.mock('../reducer', () => ({ getAppReducer: () => {} }))
+jest.mock('../thunk/completeState', () => ({ setAppCompleteStateThunk: () => {} }))
 
 const reduxMockObject = require('redux') // eslint-disable-line
 const reduxLoggerMockObject = require('redux-logger') // eslint-disable-line
