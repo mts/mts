@@ -10,8 +10,8 @@ jest.mock('redux-logger', () => ({ createLogger: () => {} }))
 jest.mock('redux-thunk', () => ({ applyMiddleware: () => {}, compose: () => {} }))
 jest.mock('../../../../library/src/environment', () => ({ isRunningOnLocalHostViaDomain: true }))
 jest.mock('../../../../library/src/state/default', () => ({
-  getAppDefaultStateFromData: () => ({}),
   getAppDefaultStateFromWindow: () => ({}),
+  getAppDefaultStateFromData: () => ({}),
 }))
 jest.mock('../reducer', () => ({ getAppReducer: () => {} }))
 
@@ -24,7 +24,7 @@ const reducerMockObject = require('../reducer')
 
 describe('index', () => {
   beforeEach(() => {
-    jest.spyOn(stateDefaultMockObject, 'getAppDefaultStateFromData').mockReturnValue(mockAppState)
+    jest.spyOn(stateDefaultMockObject, 'getAppDefaultStateFromWindow').mockReturnValue(mockAppState)
     jest.spyOn(reducerMockObject, 'getAppReducer').mockImplementation(jest.fn())
   })
 
