@@ -21,4 +21,6 @@ if (windowObjectExists) {
   }
 
   require('./clientRenderApp')
+} else {
+  require('./serverRenderApp')
 }

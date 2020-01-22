@@ -11,6 +11,7 @@ import expressWinston from 'express-winston'
 import { serverAppStore } from '../../client/src/store/server'
 
 async function handleRender(req, res) {
+  await import('../../client/src/index')
   const { App } = await import('../../client/src/serverRenderApp')
 
   const html = renderToString(<App />)
