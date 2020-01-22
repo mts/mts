@@ -1,6 +1,6 @@
 import { windowObjectExists } from '../../../../../library/src/environment'
 
-export const getUsersMTSRepos = async () => {
+export const getUsersMTSReposRest = async () => {
   const url = 'https://api.github.com/users/mts/repos'
 
   const getRequestOptions = () => ({
