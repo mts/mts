@@ -32,7 +32,7 @@ describe('index', () => {
 
   describe('setAppDefaultState()', () => {
     test('must set app state', async () => {
-      const { AppStore } = await import('../index')
+      const { AppStore } = await import('../client')
 
       const clientAppStore = new AppStore()
 
