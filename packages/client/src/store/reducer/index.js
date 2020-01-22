@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import { API_REST_GITHUB_SET_MTS_REPOSITORIES } from '../action/actionTypes'
+import { API_REST_GITHUB_SET_MTS_REPOSITORIES, API_GRAPHQL_GITHUB_SET_MTS_REPOSITORIES } from '../action/actionTypes'
 
 export const getAppReducer = () =>
   combineReducers({
@@ -18,6 +18,17 @@ export const getAppReducer = () =>
               ...state.rest,
               github: {
                 ...state.rest.github,
+                MTSRepos: [...action.payload],
+              },
+            },
+          }
+        case API_GRAPHQL_GITHUB_SET_MTS_REPOSITORIES:
+          return {
+            ...state,
+            graphql: {
+              ...state.graphql,
+              github: {
+                ...state.graphql.github,
                 MTSRepos: [...action.payload],
               },
             },
