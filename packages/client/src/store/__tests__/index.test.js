@@ -10,10 +10,11 @@ jest.mock('redux-logger', () => ({ createLogger: () => {} }))
 jest.mock('redux-thunk', () => ({ applyMiddleware: () => {}, compose: () => {} }))
 jest.mock('../../../../library/src/environment', () => ({ isRunningOnLocalHostViaDomain: true }))
 jest.mock('../../../../library/src/state/default', () => ({
-  getAppDefaultStateFromData: () => ({}),
   getAppDefaultStateFromWindow: () => ({}),
+  getAppDefaultStateFromData: () => ({}),
 }))
 jest.mock('../reducer', () => ({ getAppReducer: () => {} }))
+jest.mock('../thunk/completeState', () => ({ setAppCompleteStateThunk: () => {} }))
 
 const reduxMockObject = require('redux') // eslint-disable-line
 const reduxLoggerMockObject = require('redux-logger') // eslint-disable-line
@@ -24,7 +25,7 @@ const reducerMockObject = require('../reducer')
 
 describe('index', () => {
   beforeEach(() => {
-    jest.spyOn(stateDefaultMockObject, 'getAppDefaultStateFromData').mockReturnValue(mockAppState)
+    jest.spyOn(stateDefaultMockObject, 'getAppDefaultStateFromWindow').mockReturnValue(mockAppState)
     jest.spyOn(reducerMockObject, 'getAppReducer').mockImplementation(jest.fn())
   })
 
@@ -32,7 +33,7 @@ describe('index', () => {
 
   describe('setAppDefaultState()', () => {
     test('must set app state', async () => {
-      const { AppStore } = await import('../index')
+      const { AppStore } = await import('../client')
 
       const clientAppStore = new AppStore()
 

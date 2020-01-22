@@ -1,22 +1,33 @@
-import { windowObjectExists, isRunningOnLocalHostViaDomain, isRunningOnGitHubPages } from '../environment'
+import {
+  windowObjectExists,
+  isRunningOnLocalHostViaDomain as isRunningOnLocalHostViaDomainDefault,
+  isRunningOnGitHubPages as isRunningOnGitHubPagesDefault,
+} from '../environment'
 import { data } from '../../../http-server/src/data'
 
 export function getAppDefaultStateFromWindow() {
   return windowObjectExists ? window.appDefaultState : {}
 }
 
-export function getAppDefaultStateFromData({ isRunningOnLocalHostOverwrite, isRunningOnGitHubPagesOverwrite, isRunningOnHeroku }) {
+export function getAppDefaultStateFromData({ isRunningOnLocalHost, isRunningOnGitHubPages, isRunningOnHeroku }) {
   const {
     uiData: { homePageData, notFoundPageData },
   } = data
 
   return {
     context: {
-      isRunningOnLocalHost: isRunningOnLocalHostOverwrite || isRunningOnLocalHostViaDomain,
-      isRunningOnGitHubPages: isRunningOnGitHubPagesOverwrite || isRunningOnGitHubPages,
+      isRunningOnLocalHost: isRunningOnLocalHost || isRunningOnLocalHostViaDomainDefault,
+      isRunningOnGitHubPages: isRunningOnGitHubPages || isRunningOnGitHubPagesDefault,
       isRunningOnHeroku,
     },
-    api: {},
+    api: {
+      rest: {
+        github: {},
+      },
+      graphql: {
+        github: {},
+      },
+    },
     ui: {
       homePageData,
       notFoundPageData,
