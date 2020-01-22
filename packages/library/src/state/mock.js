@@ -1,7 +1,7 @@
 import { getAppDefaultStateFromData } from './default'
 
 export const mockAppState = getAppDefaultStateFromData({
-  isRunningOnLocalHostOverwrite: true,
-  isRunningOnGitHubPagesOverwrite: false,
+  isRunningOnLocalHost: true,
+  isRunningOnGitHubPages: false,
   isRunningOnHeroku: false,
 })

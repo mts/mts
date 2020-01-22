@@ -36,8 +36,8 @@ export class AppStore extends Store {
 export const serverAppStore = createStore(
   getAppReducer(),
   getAppDefaultStateFromData({
-    isRunningOnLocalHostOverwrite: isRunningOnLocalHostViaPort,
-    isRunningOnGitHubPagesOverwrite: false,
+    isRunningOnLocalHost: isRunningOnLocalHostViaPort,
+    isRunningOnGitHubPages: false,
     isRunningOnHeroku: !isRunningOnLocalHostViaPort,
   }),
 )

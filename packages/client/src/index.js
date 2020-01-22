@@ -16,8 +16,8 @@ if (typeof window === 'undefined') {
 
   if (isRunningOnLocalHostViaDomain || isRunningOnGitHubPages) {
     window.appDefaultState = getAppDefaultStateFromData({
-      isRunningOnLocalHostViaDomainOverwrite: isRunningOnLocalHostViaDomain,
-      isRunningOnGitHubPagesOverwrite: isRunningOnGitHubPages,
+      isRunningOnLocalHostViaDomain,
+      isRunningOnGitHubPages,
       isRunningOnHeroku: false,
     })
   }
