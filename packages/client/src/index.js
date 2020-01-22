@@ -12,6 +12,8 @@ require('@babel/register')({
 if (typeof window === 'undefined') {
   require('./serverRenderApp')
 } else {
+  require('whatwg-fetch')
+
   if (isRunningOnLocalHostViaDomain || isRunningOnGitHubPages) {
     window.appDefaultState = getAppDefaultStateFromData({
       isRunningOnLocalHostViaDomainOverwrite: isRunningOnLocalHostViaDomain,
