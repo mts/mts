@@ -1,9 +1,8 @@
 import { createStore } from 'redux'
 import { Store } from './base'
-import { getAppDefaultStateFromWindow, getAppDefaultStateFromData } from '../../../library/src/state/default'
+import { getAppDefaultStateFromWindow } from '../../../library/src/state/default'
 import { getAppReducer } from './reducer'
 import { setAppCompleteStateThunk } from './thunk/completeState'
-import { isRunningOnLocalHostViaPort } from '../../../library/src/environment'
 
 export class AppStore extends Store {
   constructor() {
@@ -38,14 +37,5 @@ export class AppStore extends Store {
     }
   }
 }
-
-export const serverAppStore = createStore(
-  getAppReducer(),
-  getAppDefaultStateFromData({
-    isRunningOnLocalHost: isRunningOnLocalHostViaPort,
-    isRunningOnGitHubPages: false,
-    isRunningOnHeroku: !isRunningOnLocalHostViaPort,
-  }),
-)
 
 export const { clientAppStore } = new AppStore()
