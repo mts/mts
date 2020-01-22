@@ -51,6 +51,7 @@ const configureBabelLoader = browserList => {
           '@babel/plugin-transform-classes',
           '@babel/plugin-transform-runtime',
           '@babel/plugin-transform-spread',
+          'import-graphql',
           'syntax-async-functions',
         ],
       },
@@ -127,8 +128,9 @@ const baseConfig = {
     new HtmlWebpackPlugin(configureHtml()),
     new HtmlWebpackRootPlugin({
       tagName: 'div',
-      tagId: 'app'
-  })],
+      tagId: 'app',
+    }),
+  ],
   resolve: {
     extensions: ['.js', '.jsx'],
   },
