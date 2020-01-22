@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import { StaticRouter } from 'react-router'
 import { homePageRoute, notFoundPageRoute } from './route'
 import { ErrorBoundary } from './pattern/atom/error/ErrorBoundary'
-import { serverAppStore } from './store'
+import { serverAppStore } from './store/server'
 
 export function App() {
   return (
