@@ -20,7 +20,11 @@ export function getAppDefaultStateFromData({ isRunningOnLocalHost, isRunningOnGi
       isRunningOnGitHubPages: isRunningOnGitHubPages || isRunningOnGitHubPagesDefault,
       isRunningOnHeroku,
     },
-    api: {},
+    api: {
+      rest: {
+        github: {},
+      },
+    },
     ui: {
       homePageData,
       notFoundPageData,
