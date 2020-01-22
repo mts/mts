@@ -2,6 +2,7 @@ import { createStore } from 'redux'
 import { Store } from './base'
 import { getAppDefaultStateFromWindow, getAppDefaultStateFromData } from '../../../library/src/state/default'
 import { getAppReducer } from './reducer'
+import { setAppCompleteStateThunk } from './thunk/completeState'
 import { isRunningOnLocalHostViaPort } from '../../../library/src/environment'
 
 export class AppStore extends Store {
@@ -10,6 +11,7 @@ export class AppStore extends Store {
 
     this.setAppDefaultState()
     this.setAppStore()
+    this.setAppCompleteState()
     this.setHotModuleReloading()
   }
 
@@ -20,6 +22,10 @@ export class AppStore extends Store {
   setAppStore() {
     this.appReducer = getAppReducer()
     this.clientAppStore = this.clientAppStore || createStore(this.appReducer, this.appState, this.enhancer)
+  }
+
+  async setAppCompleteState() {
+    await this.clientAppStore.dispatch(setAppCompleteStateThunk())
   }
 
   /* istanbul ignore next */
