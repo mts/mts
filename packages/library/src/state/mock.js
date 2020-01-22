@@ -1,7 +1,18 @@
-import { getAppDefaultStateFromData } from './default'
+import { data } from '../../../http-server/src/data'
 
-export const mockAppState = getAppDefaultStateFromData({
-  isRunningOnLocalHost: true,
-  isRunningOnGitHubPages: false,
-  isRunningOnHeroku: false,
-})
+export const mockAppState = {
+  context: {
+    isRunningOnLocalHost: true,
+    isRunningOnGitHubPages: false,
+    isRunningOnHeroku: false,
+  },
+  api: {
+    rest: {
+      github: {},
+    },
+  },
+  ui: {
+    homePageData: data.uiData.homePageData,
+    notFoundPageData: data.uiData.notFoundPageData,
+  },
+}
