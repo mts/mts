@@ -1,11 +1,15 @@
 import { apiRestGitHubSetMTSRepositoriesAction } from '../../action/actionCreators'
 import { mockAppState } from '../../../../../library/src/state/mock'
 
+jest.mock('redux-logger', () => ({
+  createLogger: () => {
+    return () => next => action => next(action)
+  },
+}))
 jest.mock('../../../../../library/src/state/default', () => ({
   getAppDefaultStateFromWindow: () => ({}),
   getAppDefaultStateFromData: () => ({}),
 }))
-
 jest.mock('../../thunk/completeState', () => ({
   setAppCompleteStateThunk: () => async dispatch => {}, // eslint-disable-line
 }))
