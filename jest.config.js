@@ -3,6 +3,7 @@ module.exports = {
   roots: ['<rootDir>'],
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
+    '\\.(gql|graphql)$': 'jest-transform-graphql',
   },
   coverageDirectory: './coverage/',
   collectCoverage: true,
@@ -21,6 +22,7 @@ module.exports = {
     '!packages/**/src/mts/**',
     '!packages/**/node_modules/**',
     '!packages/**/webpack*',
+    '!packages/client/**/graphql/**',
     '!packages/client/**/route/**',
     '!packages/client/**/library/**',
     '!packages/server/**',
