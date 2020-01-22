@@ -1,3 +1,5 @@
+import { windowObjectExists } from '../../../../../library/src/environment'
+
 export const getUsersMTSRepos = async () => {
   const url = 'https://api.github.com/users/mts/repos'
 
@@ -10,7 +12,10 @@ export const getUsersMTSRepos = async () => {
     mode: 'cors',
   })
 
-  const response = await window.fetch(url, getRequestOptions())
+  if (windowObjectExists) {
+    const response = await window.fetch(url, getRequestOptions())
+    return response.json()
+  }
 
-  return response.json()
+  return []
 }
