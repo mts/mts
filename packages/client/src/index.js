@@ -1,7 +1,7 @@
 /* eslint global-require: 0 */
 
 import './index.scss'
-import { isRunningOnLocalHostViaDomain, isRunningOnGitHubPages } from '../../library/src/environment'
+import { windowObjectExists, isRunningOnLocalHostViaDomain, isRunningOnGitHubPages } from '../../library/src/environment'
 import { getAppDefaultStateFromData } from '../../library/src/state/default'
 
 require('@babel/register')({
@@ -9,9 +9,7 @@ require('@babel/register')({
   ignore: [],
 })
 
-if (typeof window === 'undefined') {
-  require('./serverRenderApp')
-} else {
+if (windowObjectExists) {
   require('whatwg-fetch')
 
   if (isRunningOnLocalHostViaDomain || isRunningOnGitHubPages) {
