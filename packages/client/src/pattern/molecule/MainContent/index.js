@@ -34,6 +34,16 @@ import {
   mainPortfolioItemsItemAnchor,
   mainPortfolioItemsItemAnchorImage,
   mainPortfolioItemsItemAnchorCaption,
+  mainVita,
+  mainVitaHeader,
+  mainVitaHeaderSecondary,
+  mainVitaHeaderTertiary,
+  mainVitaItems,
+  mainVitaItemsItem,
+  mainVitaItemsItemMemory,
+  mainVitaItemsItemMemoryContainer,
+  mainVitaItemsItemMemoryContainerImage,
+  mainVitaItemsItemCaption,
 } from './MainContent.scss'
 import { mainContentDefaultProps, mainContentPropTypes } from './MainContent.props'
 import { windowObjectExists } from '../../../../../library/src/environment'
@@ -42,6 +52,9 @@ import Me from '../../../asset/image/me.png'
 import PortfolioOne from '../../../asset/image/portfolio/1.jpg'
 import PortfolioTwo from '../../../asset/image/portfolio/2.jpg'
 import PortfolioThree from '../../../asset/image/portfolio/3.jpg'
+import VitaOne from '../../../asset/image/vita/1.jpg'
+// import VitaTwo from '../../../asset/image/vita/2.jpg'
+// import VitaThree from '../../../asset/image/vita/3.jpg'
 
 export function MainContent({ className }) {
   return (
@@ -257,6 +270,35 @@ export function MainContent({ className }) {
                   <p>My free content ...</p>
                 </div>
               </a>
+            </li>
+          </ul>
+        </div>
+        <div className={mainVita}>
+          <div className={mainVitaHeader}>
+            <h2 className={mainVitaHeaderSecondary}>VITA</h2>
+            <h3 className={mainVitaHeaderTertiary}>MY PROFESSIONAL STORY.</h3>
+          </div>
+          <ul className={mainVitaItems}>
+            <li className={mainVitaItemsItem}>
+              <div className={mainVitaItemsItemMemory}>
+                <div className={mainVitaItemsItemMemoryContainer}>
+                  <img
+                    className={mainVitaItemsItemMemoryContainerImage}
+                    src={!windowObjectExists ? 'mts/static/vita/1.jpg' : VitaOne}
+                    alt="portfolio one"
+                  />
+                </div>
+              </div>
+              <div className={mainVitaItemsItemCaption}>
+                <h4>1993 - 1997</h4>
+                <h4>Bachelor of Science</h4>
+                <div>
+                  <p>
+                    I graduated with a bachelor of science in computer science. Lots of this knowledge can be applied for more complex
+                    problems in client-server architectures.
+                  </p>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
