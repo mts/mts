@@ -18,8 +18,10 @@ import {
   mainAboutMeContainerImage,
   mainAboutSocialIcons,
   mainAboutSocialIconsIcon,
+  mainAboutText,
 } from './MainContent.scss'
 import { mainContentDefaultProps, mainContentPropTypes } from './MainContent.props'
+import { windowObjectExists } from '../../../../../library/src/environment'
 import Cover from '../../../asset/image/cover.jpg'
 import Me from '../../../asset/image/me.png'
 
@@ -29,7 +31,7 @@ export function MainContent({ className }) {
       <div className={mainModule}>
         <div className={mainBackground}>
           <picture>
-            <img className={mainBackgroundImage} src={typeof window === 'undefined' ? 'mts/static/cover.jpg' : Cover} alt="cover" />
+            <img className={mainBackgroundImage} src={!windowObjectExists ? 'mts/static/cover.jpg' : Cover} alt="cover" />
           </picture>
           <div className={mainBackgroundDimmer} />
           <div className={mainBackgroundCaption}>
@@ -45,10 +47,11 @@ export function MainContent({ className }) {
           <div className={mainAboutMe}>
             <div className={mainAboutMeContainer}>
               <picture>
-                <img className={mainAboutMeContainerImage} src={typeof window === 'undefined' ? 'mts/static/me.jpg' : Me} alt="cover" />
+                <img className={mainAboutMeContainerImage} src={!windowObjectExists ? 'mts/static/me.jpg' : Me} alt="cover" />
               </picture>
             </div>
           </div>
+
           <ul className={mainAboutSocialIcons}>
             <li className={mainAboutSocialIconsIcon}>
               <a
@@ -90,6 +93,17 @@ export function MainContent({ className }) {
               </a>
             </li>
           </ul>
+          <div className={mainAboutText}>
+            <p>
+              I am a self-employed software and web engineer dedicated to learning and teaching JavaScript for client-server architectures.
+              After obtaining my Bachelor&apos;s Degree in computer science, I gained experience from the startup world, where I used
+              JavaScript intensively during both my professional life and spare time. Eventually it led me to teach others about these
+              topics and to offer online courses and on-site consulting for companies. I am happy to welcome you on my website{' '}
+              <span role="img" aria-label="smiley">
+                🙂
+              </span>
+            </p>
+          </div>
         </div>
       </div>
     </main>
