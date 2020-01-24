@@ -25,6 +25,10 @@ import {
   mainOfferHeaderTertiary,
   mainOfferServices,
   mainOfferServicesItem,
+  mainPortfolio,
+  mainPortfolioHeader,
+  mainPortfolioHeaderSecondary,
+  mainPortfolioHeaderTertiary,
 } from './MainContent.scss'
 import { mainContentDefaultProps, mainContentPropTypes } from './MainContent.props'
 import { windowObjectExists } from '../../../../../library/src/environment'
@@ -182,6 +186,12 @@ export function MainContent({ className }) {
               </p>
             </li>
           </ul>
+        </div>
+        <div className={mainPortfolio}>
+          <div className={mainPortfolioHeader}>
+            <h2 className={mainPortfolioHeaderSecondary}>Portfolio</h2>
+            <h3 className={mainPortfolioHeaderTertiary}>What you can learn from me.</h3>
+          </div>
         </div>
       </div>
     </main>
