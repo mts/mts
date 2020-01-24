@@ -362,10 +362,12 @@
       &Item {
         &:nth-child(odd) {
           margin-right: 500px;
+          text-align: right;
         }
 
         &:nth-child(2n) {
           margin-left: 500px;
+          text-align: left;
         }
 
         max-width: 400px;
@@ -408,14 +410,6 @@
         }
 
         &Caption {
-          &:nth-child(odd) {
-            text-align: left;
-          }
-
-          &:nth-child(2n) {
-            text-align: right;
-          }
-
           min-height: 250px;
           padding: 0 20px;
 
