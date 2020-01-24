@@ -1,10 +1,12 @@
 {
-  "app.css": "/mts/app.90ab.css",
-  "app.js": "/mts/app-modern.90ab.js",
-  "app.css.map": "/mts/app.90ab.css.map",
-  "app.js.map": "/mts/app-modern.90ab.js.map",
-  "app-modern.90ab.js.LICENSE": "/mts/app-modern.90ab.js.LICENSE",
+  "app.css": "/mts/app.a916.css",
+  "app.js": "/mts/app-modern.a916.js",
+  "app.css.map": "/mts/app.a916.css.map",
+  "app.js.map": "/mts/app-modern.a916.js.map",
+  "app-modern.a916.js.LICENSE": "/mts/app-modern.a916.js.LICENSE",
   "index.html": "/mts/index.html",
   "static/cover.jpg": "/mts/static/cover.jpg",
-  "static/cover.webp": "/mts/static/cover.webp"
+  "static/cover.webp": "/mts/static/cover.webp",
+  "static/me.png": "/mts/static/me.png",
+  "static/me.webp": "/mts/static/me.webp"
 }
