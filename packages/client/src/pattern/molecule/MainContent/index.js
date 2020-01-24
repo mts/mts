@@ -19,6 +19,10 @@ import {
   mainAboutSocialIcons,
   mainAboutSocialIconsIcon,
   mainAboutText,
+  mainOffer,
+  mainOfferHeader,
+  mainOfferHeaderSecondary,
+  mainOfferHeaderTertiary,
 } from './MainContent.scss'
 import { mainContentDefaultProps, mainContentPropTypes } from './MainContent.props'
 import { windowObjectExists } from '../../../../../library/src/environment'
@@ -103,6 +107,12 @@ export function MainContent({ className }) {
                 🙂
               </span>
             </p>
+          </div>
+        </div>
+        <div className={mainOffer}>
+          <div className={mainOfferHeader}>
+            <h2 className={mainOfferHeaderSecondary}>What I offer</h2>
+            <h3 className={mainOfferHeaderTertiary}>Why you might want to hire me.</h3>
           </div>
         </div>
       </div>
