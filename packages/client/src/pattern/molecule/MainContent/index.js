@@ -48,7 +48,7 @@ import {
 import { mainContentDefaultProps, mainContentPropTypes } from './MainContent.props'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import Cover from '../../../asset/image/cover.jpg'
-import Me from '../../../asset/image/me.png'
+import Me from '../../../asset/image/me.jpg'
 import PortfolioOne from '../../../asset/image/portfolio/portfolio-1.jpg'
 import PortfolioTwo from '../../../asset/image/portfolio/portfolio-2.jpg'
 import PortfolioThree from '../../../asset/image/portfolio/portfolio-3.jpg'
@@ -230,7 +230,7 @@ export function MainContent({ className }) {
               >
                 <div className={mainPortfolioItemsItemAnchorImage}>
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/portfolio/portfolio-1.jpg' : PortfolioOne} alt="portfolio one" />
+                    <img src={!windowObjectExists ? 'mts/static/portfolio-1.jpg' : PortfolioOne} alt="portfolio one" />
                   </picture>
                 </div>
                 <div className={mainPortfolioItemsItemAnchorCaption}>
@@ -249,7 +249,7 @@ export function MainContent({ className }) {
               >
                 <div className={mainPortfolioItemsItemAnchorImage}>
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/portfolio/portfolio-2.jpg' : PortfolioTwo} alt="portfolio two" />
+                    <img src={!windowObjectExists ? 'mts/static/portfolio-2.jpg' : PortfolioTwo} alt="portfolio two" />
                   </picture>
                 </div>
                 <div className={mainPortfolioItemsItemAnchorCaption}>
@@ -268,7 +268,7 @@ export function MainContent({ className }) {
               >
                 <div className={mainPortfolioItemsItemAnchorImage}>
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/portfolio/portfolio-3.jpg' : PortfolioThree} alt="portfolio three" />
+                    <img src={!windowObjectExists ? 'mts/static/portfolio-3.jpg' : PortfolioThree} alt="portfolio three" />
                   </picture>
                 </div>
                 <div className={mainPortfolioItemsItemAnchorCaption}>
@@ -290,7 +290,7 @@ export function MainContent({ className }) {
                 <div className={mainVitaItemsItemMemoryContainer}>
                   <img
                     className={mainVitaItemsItemMemoryContainerImage}
-                    src={!windowObjectExists ? 'mts/static/vita/vita-1.jpg' : VitaOne}
+                    src={!windowObjectExists ? 'mts/static/vita-1.jpg' : VitaOne}
                     alt="vita one"
                   />
                 </div>
@@ -311,7 +311,7 @@ export function MainContent({ className }) {
                 <div className={mainVitaItemsItemMemoryContainer}>
                   <img
                     className={mainVitaItemsItemMemoryContainerImage}
-                    src={!windowObjectExists ? 'mts/static/vita/vita-2.jpg' : VitaTwo}
+                    src={!windowObjectExists ? 'mts/static/vita-2.jpg' : VitaTwo}
                     alt="vita two"
                   />
                 </div>
@@ -329,7 +329,7 @@ export function MainContent({ className }) {
                 <div className={mainVitaItemsItemMemoryContainer}>
                   <img
                     className={mainVitaItemsItemMemoryContainerImage}
-                    src={!windowObjectExists ? 'mts/static/vita/vita-3.jpg' : VitaThree}
+                    src={!windowObjectExists ? 'mts/static/vita-3.jpg' : VitaThree}
                     alt="vita three"
                   />
                 </div>
@@ -350,7 +350,7 @@ export function MainContent({ className }) {
                 <div className={mainVitaItemsItemMemoryContainer}>
                   <img
                     className={mainVitaItemsItemMemoryContainerImage}
-                    src={!windowObjectExists ? 'mts/static/vita/vita-4.jpg' : VitaFour}
+                    src={!windowObjectExists ? 'mts/static/vita-4.jpg' : VitaFour}
                     alt="vita four"
                   />
                 </div>
@@ -371,7 +371,7 @@ export function MainContent({ className }) {
                 <div className={mainVitaItemsItemMemoryContainer}>
                   <img
                     className={mainVitaItemsItemMemoryContainerImage}
-                    src={!windowObjectExists ? 'mts/static/vita/vita-5.jpg' : VitaFive}
+                    src={!windowObjectExists ? 'mts/static/vita-5.jpg' : VitaFive}
                     alt="vita five"
                   />
                 </div>
@@ -392,7 +392,7 @@ export function MainContent({ className }) {
                 <div className={mainVitaItemsItemMemoryContainer}>
                   <img
                     className={mainVitaItemsItemMemoryContainerImage}
-                    src={!windowObjectExists ? 'mts/static/vita/vita-6.jpg' : VitaSix}
+                    src={!windowObjectExists ? 'mts/static/vita-6.jpg' : VitaSix}
                     alt="vita six"
                   />
                 </div>
@@ -413,7 +413,7 @@ export function MainContent({ className }) {
                 <div className={mainVitaItemsItemMemoryContainer}>
                   <img
                     className={mainVitaItemsItemMemoryContainerImage}
-                    src={!windowObjectExists ? 'mts/static/vita/vita-7.jpg' : VitaSeven}
+                    src={!windowObjectExists ? 'mts/static/vita-7.jpg' : VitaSeven}
                     alt="vita seven"
                   />
                 </div>
@@ -431,7 +431,7 @@ export function MainContent({ className }) {
                 <div className={mainVitaItemsItemMemoryContainer}>
                   <img
                     className={mainVitaItemsItemMemoryContainerImage}
-                    src={!windowObjectExists ? 'mts/static/vita/vita-8.jpg' : VitaEight}
+                    src={!windowObjectExists ? 'mts/static/vita-8.jpg' : VitaEight}
                     alt="vita eight"
                   />
                 </div>
@@ -452,7 +452,7 @@ export function MainContent({ className }) {
                 <div className={mainVitaItemsItemMemoryContainer}>
                   <img
                     className={mainVitaItemsItemMemoryContainerImage}
-                    src={!windowObjectExists ? 'mts/static/vita/vita-9.jpg' : VitaNine}
+                    src={!windowObjectExists ? 'mts/static/vita-9.jpg' : VitaNine}
                     alt="vita nine"
                   />
                 </div>
