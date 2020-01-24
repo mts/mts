@@ -48,7 +48,7 @@ import {
 import { mainContentDefaultProps, mainContentPropTypes } from './MainContent.props'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import Cover from '../../../asset/image/cover.jpg'
-import Me from '../../../asset/image/me.png'
+import Me from '../../../asset/image/me.jpg'
 import PortfolioOne from '../../../asset/image/portfolio/portfolio-1.jpg'
 import PortfolioTwo from '../../../asset/image/portfolio/portfolio-2.jpg'
 import PortfolioThree from '../../../asset/image/portfolio/portfolio-3.jpg'
