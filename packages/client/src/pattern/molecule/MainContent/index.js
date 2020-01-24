@@ -54,7 +54,13 @@ import PortfolioTwo from '../../../asset/image/portfolio/2.jpg'
 import PortfolioThree from '../../../asset/image/portfolio/3.jpg'
 import VitaOne from '../../../asset/image/vita/1.jpg'
 import VitaTwo from '../../../asset/image/vita/2.jpg'
-// import VitaThree from '../../../asset/image/vita/3.jpg'
+import VitaThree from '../../../asset/image/vita/3.jpg'
+import VitaFour from '../../../asset/image/vita/4.jpg'
+import VitaFive from '../../../asset/image/vita/5.jpg'
+import VitaSix from '../../../asset/image/vita/6.jpg'
+import VitaSeven from '../../../asset/image/vita/7.jpg'
+import VitaEight from '../../../asset/image/vita/8.jpg'
+import VitaNine from '../../../asset/image/vita/9.jpg'
 
 export function MainContent({ className }) {
   return (
@@ -311,10 +317,154 @@ export function MainContent({ className }) {
                 </div>
               </div>
               <div className={mainVitaItemsItemCaption}>
-                <h4>2016 - 2019</h4>
+                <h4>2010 - 2014</h4>
                 <h4>Freelancer</h4>
                 <div>
                   <p>I got my hands dirty by writing JavaScript and C# applications for several clients.</p>
+                </div>
+              </div>
+            </li>
+            <li className={mainVitaItemsItem}>
+              <div className={mainVitaItemsItemMemory}>
+                <div className={mainVitaItemsItemMemoryContainer}>
+                  <img
+                    className={mainVitaItemsItemMemoryContainerImage}
+                    src={!windowObjectExists ? 'mts/static/vita/3.jpg' : VitaThree}
+                    alt="vita three"
+                  />
+                </div>
+              </div>
+              <div className={mainVitaItemsItemCaption}>
+                <h4>2014 - 2017</h4>
+                <h4>Startups</h4>
+                <div>
+                  <p>
+                    I worked closely with an exceptional team of engineers at a company in Berlin developing large scale applications for
+                    thousands of customers.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className={mainVitaItemsItem}>
+              <div className={mainVitaItemsItemMemory}>
+                <div className={mainVitaItemsItemMemoryContainer}>
+                  <img
+                    className={mainVitaItemsItemMemoryContainerImage}
+                    src={!windowObjectExists ? 'mts/static/vita/4.jpg' : VitaFour}
+                    alt="vita four"
+                  />
+                </div>
+              </div>
+              <div className={mainVitaItemsItemCaption}>
+                <h4>2016</h4>
+                <h4>React Book</h4>
+                <div>
+                  <p>
+                    This year I published my first book about React.js. Within the first month it had more than 10.000 readers and today it
+                    is one of the most popular React.js books.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className={mainVitaItemsItem}>
+              <div className={mainVitaItemsItemMemory}>
+                <div className={mainVitaItemsItemMemoryContainer}>
+                  <img
+                    className={mainVitaItemsItemMemoryContainerImage}
+                    src={!windowObjectExists ? 'mts/static/vita/5.jpg' : VitaFive}
+                    alt="vita five"
+                  />
+                </div>
+              </div>
+              <div className={mainVitaItemsItemCaption}>
+                <h4>2017</h4>
+                <h4>Redux Book</h4>
+                <div>
+                  <p>
+                    I published my second book about state management with Redux in React.js which I took one level further by packaging it
+                    as a full-blown online course.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className={mainVitaItemsItem}>
+              <div className={mainVitaItemsItemMemory}>
+                <div className={mainVitaItemsItemMemoryContainer}>
+                  <img
+                    className={mainVitaItemsItemMemoryContainerImage}
+                    src={!windowObjectExists ? 'mts/static/vita/6.jpg' : VitaSix}
+                    alt="vita six"
+                  />
+                </div>
+              </div>
+              <div className={mainVitaItemsItemCaption}>
+                <h4>2018</h4>
+                <h4>GraphQL Book</h4>
+                <div>
+                  <p>
+                    As an early adopter of GraphQL in my recent jobs, I wrote my third book about it for modern client-server applications
+                    using GraphQL in JavaScript.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className={mainVitaItemsItem}>
+              <div className={mainVitaItemsItemMemory}>
+                <div className={mainVitaItemsItemMemoryContainer}>
+                  <img
+                    className={mainVitaItemsItemMemoryContainerImage}
+                    src={!windowObjectExists ? 'mts/static/vita/7.jpg' : VitaSeven}
+                    alt="vita seven"
+                  />
+                </div>
+              </div>
+              <div className={mainVitaItemsItemCaption}>
+                <h4>2018</h4>
+                <h4>Developer Magazines</h4>
+                <div>
+                  <p>Every other month I write for a software developer magazine educational content about JavaScript and its ecosystem.</p>
+                </div>
+              </div>
+            </li>
+            <li className={mainVitaItemsItem}>
+              <div className={mainVitaItemsItemMemory}>
+                <div className={mainVitaItemsItemMemoryContainer}>
+                  <img
+                    className={mainVitaItemsItemMemoryContainerImage}
+                    src={!windowObjectExists ? 'mts/static/vita/8.jpg' : VitaEight}
+                    alt="vita eight"
+                  />
+                </div>
+              </div>
+              <div className={mainVitaItemsItemCaption}>
+                <h4>2018</h4>
+                <h4>Firebase Book</h4>
+                <div>
+                  <p>
+                    Later this year, I published my fourth book/course about Firebase in React to build modern frontend applications without
+                    worrying about your backend application.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className={mainVitaItemsItem}>
+              <div className={mainVitaItemsItemMemory}>
+                <div className={mainVitaItemsItemMemoryContainer}>
+                  <img
+                    className={mainVitaItemsItemMemoryContainerImage}
+                    src={!windowObjectExists ? 'mts/static/vita/9.jpg' : VitaNine}
+                    alt="vita nine"
+                  />
+                </div>
+              </div>
+              <div className={mainVitaItemsItemCaption}>
+                <h4>2017 - TODAY</h4>
+                <h4>Self-Employed</h4>
+                <div>
+                  <p>
+                    Lots of demand for JavaScript on-site or remote training, implementations for MVPs, code reviews, or complex JavaScript
+                    problem solving, led me to being self-employed.
+                  </p>
                 </div>
               </div>
             </li>
