@@ -53,7 +53,7 @@ import PortfolioOne from '../../../asset/image/portfolio/1.jpg'
 import PortfolioTwo from '../../../asset/image/portfolio/2.jpg'
 import PortfolioThree from '../../../asset/image/portfolio/3.jpg'
 import VitaOne from '../../../asset/image/vita/1.jpg'
-// import VitaTwo from '../../../asset/image/vita/2.jpg'
+import VitaTwo from '../../../asset/image/vita/2.jpg'
 // import VitaThree from '../../../asset/image/vita/3.jpg'
 
 export function MainContent({ className }) {
@@ -285,7 +285,7 @@ export function MainContent({ className }) {
                   <img
                     className={mainVitaItemsItemMemoryContainerImage}
                     src={!windowObjectExists ? 'mts/static/vita/1.jpg' : VitaOne}
-                    alt="portfolio one"
+                    alt="vita one"
                   />
                 </div>
               </div>
@@ -297,6 +297,24 @@ export function MainContent({ className }) {
                     I graduated with a bachelor of science in computer science. Lots of this knowledge can be applied for more complex
                     problems in client-server architectures.
                   </p>
+                </div>
+              </div>
+            </li>
+            <li className={mainVitaItemsItem}>
+              <div className={mainVitaItemsItemMemory}>
+                <div className={mainVitaItemsItemMemoryContainer}>
+                  <img
+                    className={mainVitaItemsItemMemoryContainerImage}
+                    src={!windowObjectExists ? 'mts/static/vita/2.jpg' : VitaTwo}
+                    alt="vita two"
+                  />
+                </div>
+              </div>
+              <div className={mainVitaItemsItemCaption}>
+                <h4>2016 - 2019</h4>
+                <h4>Freelancer</h4>
+                <div>
+                  <p>I got my hands dirty by writing JavaScript and C# applications for several clients.</p>
                 </div>
               </div>
             </li>
