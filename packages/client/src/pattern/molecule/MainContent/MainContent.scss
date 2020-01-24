@@ -136,5 +136,15 @@
         }
       }
     }
+
+    &SocialIcons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      &Icon {
+        margin: 0 10px;
+      }
+    }
   }
 }
