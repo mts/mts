@@ -154,6 +154,5 @@
     "webpack-merge": "^4.2.2",
     "whatwg-fetch": "^3.0.0",
     "winston": "^3.2.1"
-  },
-  "devDependencies": {}
+  }
 }
