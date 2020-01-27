@@ -1,9 +1,9 @@
 import { string } from 'prop-types'
 
-export const mainContentDefaultProps = {
+export const footerDefaultProps = {
   className: '',
 }
 
-export const mainContentPropTypes = {
+export const footerPropTypes = {
   className: string,
 }

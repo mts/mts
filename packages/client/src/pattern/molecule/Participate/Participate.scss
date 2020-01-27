@@ -1,0 +1,83 @@
+.part {
+  border-top: 1px solid #e4e4e4;
+
+  &Label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 85px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    //
+    margin-bottom: 20px;
+
+    &Header {
+      padding-bottom: 40px;
+
+      &Secondary {
+        margin: 0;
+        padding: 0 0 10px;
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+
+      &Tertiary {
+        margin: 0;
+        padding: 0 0 10px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 3.5px;
+        text-transform: uppercase;
+        opacity: 0.7;
+      }
+    }
+
+    &Lead {
+      font-weight: 300;
+      font-size: 21px;
+      margin: 10px 0;
+
+      svg {
+        margin-right: 10px;
+      }
+    }
+
+    &Form {
+      display: flex;
+      margin: 10px;
+
+      &Input {
+        max-width: 250px;
+        min-width: 100px;
+        margin: 0 -1px 0 0;
+      }
+
+      &Button {
+        color: #fff;
+        background-color: #823eb7;
+        margin: 0;
+
+        // button module base
+        border: 1px solid #823eb7;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        line-height: 1.42857143;
+        border-radius: 0;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+      }
+    }
+  }
+}

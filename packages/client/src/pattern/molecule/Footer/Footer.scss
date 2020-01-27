@@ -1,0 +1,67 @@
+.footer {
+  &TopLinks {
+    border-top: 1px solid #e4e4e4;
+    //
+    display: flex;
+    justify-content: flex-end;
+    padding: 85px 20px;
+
+    &Primary {
+      margin: 0 40px;
+      max-width: 350px;
+      min-width: 150px;
+
+      &Label {
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      &Link {
+        margin: 10px 0;
+      }
+    }
+
+    &Secondary {
+      margin: 0 40px;
+      max-width: 350px;
+      min-width: 150px;
+      //
+      margin-right: 0;
+
+      &Label {
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      &Link {
+        margin: 10px 0;
+      }
+    }
+  }
+
+  &SocialIcons {
+    border-top: 1px solid #e4e4e4;
+    //
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+    &List {
+      margin: 10px;
+      display: flex;
+
+      &Item {
+        margin: 0 10px;
+      }
+    }
+  }
+
+  &BottomLinks {
+    display: flex;
+
+    &Link {
+      margin: 0 10px;
+    }
+  }
+}
