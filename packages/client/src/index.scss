@@ -33,6 +33,12 @@ a:visited {
   color: #823eb7;
 }
 
+a:visited path,
+a:visited svg {
+  fill: #333;
+  stroke: #333;
+}
+
 li {
   margin: 0;
   padding: 0;
