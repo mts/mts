@@ -45,10 +45,18 @@ import {
   mainVitaItemsItemMemoryContainerImage,
   mainVitaItemsItemCaption,
   mainVitaItemsItemNewestMemory,
-  mainTestimonial,
-  mainTestimonialHeader,
-  mainTestimonialHeaderSecondary,
-  mainTestimonialHeaderTertiary,
+  mainTest,
+  mainTestHeader,
+  mainTestHeaderSecondary,
+  mainTestHeaderTertiary,
+  mainTestItems,
+  mainTestItemsItem,
+  mainTestItemsItemPerson,
+  mainTestItemsItemPersonContainer,
+  mainTestItemsItemPersonContainerImage,
+  mainTestItemsItemCaption,
+  mainTestItemsItemCaptionSecondary,
+  mainTestItemsItemCaptionTertiary,
 } from './MainContent.scss'
 import { mainContentDefaultProps, mainContentPropTypes } from './MainContent.props'
 import { windowObjectExists } from '../../../../../library/src/environment'
@@ -66,6 +74,12 @@ import VitaSix from '../../../asset/image/vita/vita-6.jpg'
 import VitaSeven from '../../../asset/image/vita/vita-7.jpg'
 import VitaEight from '../../../asset/image/vita/vita-8.jpg'
 import VitaNine from '../../../asset/image/vita/vita-9.jpg'
+import TestimonialOne from '../../../asset/image/testimonial/testimonial-1.jpg'
+import TestimonialTwo from '../../../asset/image/testimonial/testimonial-2.jpg'
+import TestimonialThree from '../../../asset/image/testimonial/testimonial-3.jpg'
+import TestimonialFour from '../../../asset/image/testimonial/testimonial-4.jpg'
+import TestimonialFive from '../../../asset/image/testimonial/testimonial-5.jpg'
+import TestimonialSix from '../../../asset/image/testimonial/testimonial-6.jpg'
 
 export function MainContent({ className }) {
   return (
@@ -484,11 +498,172 @@ export function MainContent({ className }) {
             </li>
           </ul>
         </div>
-        <div className={mainTestimonial}>
-          <div className={mainTestimonialHeader}>
-            <h2 className={mainTestimonialHeaderSecondary}>Testimonials</h2>
-            <h3 className={mainTestimonialHeaderTertiary}>What industry leaders are saying</h3>
+        <div className={mainTest}>
+          <div className={mainTestHeader}>
+            <h2 className={mainTestHeaderSecondary}>Testimonials</h2>
+            <h3 className={mainTestHeaderTertiary}>What industry leaders are saying</h3>
           </div>
+          <ul className={mainTestItems}>
+            <li className={mainTestItemsItem}>
+              <a
+                href="https://twitter.com/swyx"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Customer Testimonial Link: https://twitter.com/swyx"
+              >
+                <div className={mainTestItemsItemPerson}>
+                  <div className={mainTestItemsItemPersonContainer}>
+                    <img
+                      className={mainTestItemsItemPersonContainerImage}
+                      src={!windowObjectExists ? 'mts/static/testimonial-1.jpg' : TestimonialOne}
+                      alt="test one"
+                    />
+                  </div>
+                </div>
+              </a>
+              <div className={mainTestItemsItemCaption}>
+                <h4>Martin Lawrence</h4>
+                <p className={mainTestItemsItemCaptionSecondary}>Developer Experience at Bad Boys</p>
+                <p className={mainTestItemsItemCaptionTertiary}>
+                  MTS is one of the most consistently high quality React educators. His approach directly addresses practical concerns you
+                  *will* face in your daily React work, without talking down to you or wasting your time with fluff. Don’t just take my word
+                  for it - look at his public work and you’ll see.
+                </p>
+              </div>
+            </li>
+            <li className={mainTestItemsItem}>
+              <a
+                href="https://twitter.com/swyx"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Customer Testimonial Link: https://twitter.com/swyx"
+              >
+                <div className={mainTestItemsItemPerson}>
+                  <div className={mainTestItemsItemPersonContainer}>
+                    <img
+                      className={mainTestItemsItemPersonContainerImage}
+                      src={!windowObjectExists ? 'mts/static/testimonial-2.jpg' : TestimonialTwo}
+                      alt="test two"
+                    />
+                  </div>
+                </div>
+              </a>
+              <div className={mainTestItemsItemCaption}>
+                <h4>Mariah Carey</h4>
+                <p className={mainTestItemsItemCaptionSecondary}>JS Dev, Online Educator</p>
+                <p className={mainTestItemsItemCaptionTertiary}>
+                  MTS is an excellent teacher. His articles and tutorials are in-depth and informative, and his code is clear and concise.
+                  I&apos;ve found an answer on his site countless times when researching a problem, and I know that&apos;s one less article
+                  I have to write.
+                </p>
+              </div>
+            </li>
+            <li className={mainTestItemsItem}>
+              <a
+                href="https://twitter.com/swyx"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Customer Testimonial Link: https://twitter.com/swyx"
+              >
+                <div className={mainTestItemsItemPerson}>
+                  <div className={mainTestItemsItemPersonContainer}>
+                    <img
+                      className={mainTestItemsItemPersonContainerImage}
+                      src={!windowObjectExists ? 'mts/static/testimonial-3.jpg' : TestimonialThree}
+                      alt="test two"
+                    />
+                  </div>
+                </div>
+              </a>
+              <div className={mainTestItemsItemCaption}>
+                <h4>Bruce Willis</h4>
+                <p className={mainTestItemsItemCaptionSecondary}>Full-time JavaScript Instructor</p>
+                <p className={mainTestItemsItemCaptionTertiary}>
+                  Everything that I&apos;ve read from MTS has been top tier quality stuff. There are blog posts that I have wanted to write,
+                  but then I found one by MTS and decided I didn&apos;t need to. Fantastic content
+                </p>
+              </div>
+            </li>
+            <li className={mainTestItemsItem}>
+              <a
+                href="https://twitter.com/swyx"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Customer Testimonial Link: https://twitter.com/swyx"
+              >
+                <div className={mainTestItemsItemPerson}>
+                  <div className={mainTestItemsItemPersonContainer}>
+                    <img
+                      className={mainTestItemsItemPersonContainerImage}
+                      src={!windowObjectExists ? 'mts/static/testimonial-4.jpg' : TestimonialFour}
+                      alt="test four"
+                    />
+                  </div>
+                </div>
+              </a>
+              <div className={mainTestItemsItemCaption}>
+                <h4>Geoffrey Rush</h4>
+                <p className={mainTestItemsItemCaptionSecondary}>JS Dev, Organizer of Pirates of the Caribbean</p>
+                <p className={mainTestItemsItemCaptionTertiary}>
+                  You can tell how much time MTS has put into a teaching piece when you consume his content. I have partnered with MTS and
+                  he sets the bar high for other teachers and content creators – this results to a quality learning ecosystem for his
+                  students regardless if a content or course was thought by him or not.
+                </p>
+              </div>
+            </li>
+            <li className={mainTestItemsItem}>
+              <a
+                href="https://twitter.com/swyx"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Customer Testimonial Link: https://twitter.com/swyx"
+              >
+                <div className={mainTestItemsItemPerson}>
+                  <div className={mainTestItemsItemPersonContainer}>
+                    <img
+                      className={mainTestItemsItemPersonContainerImage}
+                      src={!windowObjectExists ? 'mts/static/testimonial-5.jpg' : TestimonialFive}
+                      alt="test five"
+                    />
+                  </div>
+                </div>
+              </a>
+              <div className={mainTestItemsItemCaption}>
+                <h4>Ray Liotta</h4>
+                <p className={mainTestItemsItemCaptionSecondary}>Goodfellas Core Team</p>
+                <p className={mainTestItemsItemCaptionTertiary}>
+                  I haven&apos;t read this book yet, but the previous educational materials made by MTS were nothing short of amazing.
+                  Thanks for creating this content and putting it out there!
+                </p>
+              </div>
+            </li>
+            <li className={mainTestItemsItem}>
+              <a
+                href="https://twitter.com/swyx"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Customer Testimonial Link: https://twitter.com/swyx"
+              >
+                <div className={mainTestItemsItemPerson}>
+                  <div className={mainTestItemsItemPersonContainer}>
+                    <img
+                      className={mainTestItemsItemPersonContainerImage}
+                      src={!windowObjectExists ? 'mts/static/testimonial-6.jpg' : TestimonialSix}
+                      alt="test six"
+                    />
+                  </div>
+                </div>
+              </a>
+              <div className={mainTestItemsItemCaption}>
+                <h4>Lorraine Bracco</h4>
+                <p className={mainTestItemsItemCaptionSecondary}>Founder & CEO of Goodfellas</p>
+                <p className={mainTestItemsItemCaptionTertiary}>
+                  If it&apos;s anything to do with React and it&apos;s written by MTS, you can trust that it&apos;ll be world-class. His
+                  books are some of the best content you&apos;ll find on the web for learning React.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </main>
