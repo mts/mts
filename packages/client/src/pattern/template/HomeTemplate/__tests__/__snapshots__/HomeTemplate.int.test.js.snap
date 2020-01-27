@@ -1086,5 +1086,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
       </div>
     </div>
   </main>
+  <div
+    className="part"
+  >
+    under construction
+  </div>
 </div>
 `;
