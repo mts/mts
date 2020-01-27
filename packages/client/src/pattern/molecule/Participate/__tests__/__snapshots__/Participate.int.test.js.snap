@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Participate /> Snaphot must match defaultRender 1`] = `
+<div
+  className="part"
+>
+  under construction
+</div>
+`;
