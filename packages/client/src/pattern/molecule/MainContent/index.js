@@ -44,6 +44,7 @@ import {
   mainVitaItemsItemMemoryContainer,
   mainVitaItemsItemMemoryContainerImage,
   mainVitaItemsItemCaption,
+  mainVitaItemsItemNewestMemory,
 } from './MainContent.scss'
 import { mainContentDefaultProps, mainContentPropTypes } from './MainContent.props'
 import { windowObjectExists } from '../../../../../library/src/environment'
@@ -465,6 +466,15 @@ export function MainContent({ className }) {
                     Lots of demand for JavaScript on-site or remote training, implementations for MVPs, code reviews, or complex JavaScript
                     problem solving, led me to being self-employed.
                   </p>
+                </div>
+              </div>
+            </li>
+            <li className={mainVitaItemsItem}>
+              <div className={mainVitaItemsItemMemory}>
+                <div className={mainVitaItemsItemMemoryContainer}>
+                  <div className={mainVitaItemsItemNewestMemory}>
+                    <h4>Be part of my story.</h4>
+                  </div>
                 </div>
               </div>
             </li>
