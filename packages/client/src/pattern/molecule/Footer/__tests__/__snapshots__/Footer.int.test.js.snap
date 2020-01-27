@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> Snaphot must match defaultRender 1`] = `
+<div
+  className="footer"
+>
+  Under Construction
+</div>
+`;
