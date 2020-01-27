@@ -33,6 +33,12 @@ a:visited {
   color: #823eb7;
 }
 
+a:visited path,
+a:visited svg {
+  fill: #333;
+  stroke: #333;
+}
+
 li {
   margin: 0;
   padding: 0;
@@ -43,4 +49,23 @@ h4 {
   margin: 0 0 10px;
   font-size: 20px;
   font-weight: 500;
+}
+
+input {
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #e4e4e4;
+  border-radius: 0;
+  -webkit-appearance: none;
+  padding: 8px;
+  display: inline-block;
+}
+
+input,
+small {
+  color: #545454;
+}
+
+small {
+  font-size: 14px;
 }
