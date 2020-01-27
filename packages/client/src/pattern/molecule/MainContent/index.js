@@ -506,10 +506,10 @@ export function MainContent({ className }) {
           <ul className={mainTestItems}>
             <li className={mainTestItemsItem}>
               <a
-                href="https://twitter.com/swyx"
+                href="https://twitter.com/martinlawrence"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Customer Testimonial Link: https://twitter.com/swyx"
+                aria-label="Customer Testimonial Link: https://twitter.com/martinlawrence"
               >
                 <div className={mainTestItemsItemPerson}>
                   <div className={mainTestItemsItemPersonContainer}>
@@ -533,10 +533,10 @@ export function MainContent({ className }) {
             </li>
             <li className={mainTestItemsItem}>
               <a
-                href="https://twitter.com/swyx"
+                href="https://twitter.com/mariahcarey"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Customer Testimonial Link: https://twitter.com/swyx"
+                aria-label="Customer Testimonial Link: https://twitter.com/mariahcarey"
               >
                 <div className={mainTestItemsItemPerson}>
                   <div className={mainTestItemsItemPersonContainer}>
@@ -560,10 +560,10 @@ export function MainContent({ className }) {
             </li>
             <li className={mainTestItemsItem}>
               <a
-                href="https://twitter.com/swyx"
+                href="https://twitter.com/brucewillis"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Customer Testimonial Link: https://twitter.com/swyx"
+                aria-label="Customer Testimonial Link: https://twitter.com/brucewillis"
               >
                 <div className={mainTestItemsItemPerson}>
                   <div className={mainTestItemsItemPersonContainer}>
@@ -586,10 +586,10 @@ export function MainContent({ className }) {
             </li>
             <li className={mainTestItemsItem}>
               <a
-                href="https://twitter.com/swyx"
+                href="https://twitter.com/geoffreyrush"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Customer Testimonial Link: https://twitter.com/swyx"
+                aria-label="Customer Testimonial Link: https://twitter.com/geoffreyrush"
               >
                 <div className={mainTestItemsItemPerson}>
                   <div className={mainTestItemsItemPersonContainer}>
@@ -613,10 +613,10 @@ export function MainContent({ className }) {
             </li>
             <li className={mainTestItemsItem}>
               <a
-                href="https://twitter.com/swyx"
+                href="https://twitter.com/rayliotta"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Customer Testimonial Link: https://twitter.com/swyx"
+                aria-label="Customer Testimonial Link: https://twitter.com/rayliotta"
               >
                 <div className={mainTestItemsItemPerson}>
                   <div className={mainTestItemsItemPersonContainer}>
@@ -639,10 +639,10 @@ export function MainContent({ className }) {
             </li>
             <li className={mainTestItemsItem}>
               <a
-                href="https://twitter.com/swyx"
+                href="https://twitter.com/lorrainebracco"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Customer Testimonial Link: https://twitter.com/swyx"
+                aria-label="Customer Testimonial Link: https://twitter.com/lorrainebracco"
               >
                 <div className={mainTestItemsItemPerson}>
                   <div className={mainTestItemsItemPersonContainer}>
