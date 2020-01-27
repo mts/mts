@@ -424,4 +424,41 @@
       }
     }
   }
+
+  &Testimonial {
+    &:nth-child(2n) {
+      background: #f7f7f7;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 85px 20px;
+
+    &Header {
+      padding-bottom: 40px;
+
+      &Secondary {
+        margin: 0;
+        padding: 0 0 10px;
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+
+      &Tertiary {
+        margin: 0;
+        padding: 0 0 10px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 3.5px;
+        text-transform: uppercase;
+        opacity: 0.7;
+      }
+    }
+  }
 }
