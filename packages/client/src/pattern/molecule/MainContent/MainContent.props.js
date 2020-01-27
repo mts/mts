@@ -1,4 +1,4 @@
-import { string, object } from 'prop-types'
+import { string } from 'prop-types'
 
 export const mainContentDefaultProps = {
   className: '',
@@ -6,5 +6,4 @@ export const mainContentDefaultProps = {
 
 export const mainContentPropTypes = {
   className: string,
-  data: object.isRequired,
 }

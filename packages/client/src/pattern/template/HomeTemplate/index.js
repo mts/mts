@@ -9,7 +9,7 @@ export function HomeTemplate({ className }) {
   return (
     <div className={cx(className, homeTemplate)}>
       <Navigation />
-      <MainContent data={{}} />
+      <MainContent />
     </div>
   )
 }
