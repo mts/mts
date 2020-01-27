@@ -45,6 +45,10 @@ import {
   mainVitaItemsItemMemoryContainerImage,
   mainVitaItemsItemCaption,
   mainVitaItemsItemNewestMemory,
+  mainTestimonial,
+  mainTestimonialHeader,
+  mainTestimonialHeaderSecondary,
+  mainTestimonialHeaderTertiary,
 } from './MainContent.scss'
 import { mainContentDefaultProps, mainContentPropTypes } from './MainContent.props'
 import { windowObjectExists } from '../../../../../library/src/environment'
@@ -479,6 +483,12 @@ export function MainContent({ className }) {
               </div>
             </li>
           </ul>
+        </div>
+        <div className={mainTestimonial}>
+          <div className={mainTestimonialHeader}>
+            <h2 className={mainTestimonialHeaderSecondary}>Testimonials</h2>
+            <h3 className={mainTestimonialHeaderTertiary}>What industry leaders are saying</h3>
+          </div>
         </div>
       </div>
     </main>
