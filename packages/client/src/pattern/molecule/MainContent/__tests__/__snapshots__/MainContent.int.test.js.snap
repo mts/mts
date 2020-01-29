@@ -574,11 +574,11 @@ exports[`<MainContent /> Snaphot must match defaultRender 1`] = `
               2016
             </h4>
             <h4>
-              React Book
+              Yellow Book
             </h4>
             <div>
               <p>
-                This year I published my first book about React.js. Within the first month it had more than 10.000 readers and today it is one of the most popular React.js books.
+                This year I published my first book about Yellow.js. Within the first month it had more than 10.000 readers and today it is one of the most popular React.js books.
               </p>
             </div>
           </div>
@@ -606,11 +606,11 @@ exports[`<MainContent /> Snaphot must match defaultRender 1`] = `
               2017
             </h4>
             <h4>
-              Redux Book
+              Gray Book
             </h4>
             <div>
               <p>
-                I published my second book about state management with Redux in React.js which I took one level further by packaging it as a full-blown online course.
+                I published my second book about state management with Gray in Yellow.js which I took one level further by packaging it as a full-blown online course.
               </p>
             </div>
           </div>
@@ -638,11 +638,11 @@ exports[`<MainContent /> Snaphot must match defaultRender 1`] = `
               2018
             </h4>
             <h4>
-              GraphQL Book
+              Pink Book
             </h4>
             <div>
               <p>
-                As an early adopter of GraphQL in my recent jobs, I wrote my third book about it for modern client-server applications using GraphQL in JavaScript.
+                As an early adopter of Pink in my recent jobs, I wrote my third book about it for modern client-server applications using Pink in JavaScript.
               </p>
             </div>
           </div>
@@ -702,7 +702,7 @@ exports[`<MainContent /> Snaphot must match defaultRender 1`] = `
               2018
             </h4>
             <h4>
-              Firebase Book
+              Orange Book
             </h4>
             <div>
               <p>
