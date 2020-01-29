@@ -376,10 +376,10 @@ export function MainContent({ className }) {
               </div>
               <div className={mainVitaItemsItemCaption}>
                 <h4>2016</h4>
-                <h4>React Book</h4>
+                <h4>Yellow Book</h4>
                 <div>
                   <p>
-                    This year I published my first book about React.js. Within the first month it had more than 10.000 readers and today it
+                    This year I published my first book about Yellow.js. Within the first month it had more than 10.000 readers and today it
                     is one of the most popular React.js books.
                   </p>
                 </div>
@@ -397,10 +397,10 @@ export function MainContent({ className }) {
               </div>
               <div className={mainVitaItemsItemCaption}>
                 <h4>2017</h4>
-                <h4>Redux Book</h4>
+                <h4>Gray Book</h4>
                 <div>
                   <p>
-                    I published my second book about state management with Redux in React.js which I took one level further by packaging it
+                    I published my second book about state management with Gray in Yellow.js which I took one level further by packaging it
                     as a full-blown online course.
                   </p>
                 </div>
@@ -418,11 +418,11 @@ export function MainContent({ className }) {
               </div>
               <div className={mainVitaItemsItemCaption}>
                 <h4>2018</h4>
-                <h4>GraphQL Book</h4>
+                <h4>Pink Book</h4>
                 <div>
                   <p>
-                    As an early adopter of GraphQL in my recent jobs, I wrote my third book about it for modern client-server applications
-                    using GraphQL in JavaScript.
+                    As an early adopter of Pink in my recent jobs, I wrote my third book about it for modern client-server applications
+                    using Pink in JavaScript.
                   </p>
                 </div>
               </div>
@@ -457,7 +457,7 @@ export function MainContent({ className }) {
               </div>
               <div className={mainVitaItemsItemCaption}>
                 <h4>2018</h4>
-                <h4>Firebase Book</h4>
+                <h4>Orange Book</h4>
                 <div>
                   <p>
                     Later this year, I published my fourth book/course about Firebase in React to build modern frontend applications without
