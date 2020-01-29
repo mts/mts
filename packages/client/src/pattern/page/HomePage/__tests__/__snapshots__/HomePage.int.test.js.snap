@@ -1092,28 +1092,28 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
       </div>
     </main>
     <div
-      className="part"
+      className="topBorder"
     >
       <label
-        className="partLabel"
+        className="label"
         htmlFor="newsletter"
       >
         <div
-          className="partLabelHeader"
+          className="labelSectionHeader"
         >
           <h2
-            className="partLabelHeaderSecondary"
+            className="labelSectionHeaderH2"
           >
             Take Part
           </h2>
           <h3
-            className="partLabelHeaderTertiary"
+            className="labelSectionHeaderH3"
           >
             Never miss an article about web development and JavaScript.
           </h3>
         </div>
         <p
-          className="partLabelLead"
+          className="labelLead"
         >
           <svg
             height="20px"
@@ -1127,7 +1127,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           Join 0+ Developers
         </p>
         <p
-          className="partLabelLead"
+          className="labelLead"
         >
           <svg
             height="20px"
@@ -1141,7 +1141,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           Learn Web Development with JavaScript
         </p>
         <p
-          className="partLabelLead"
+          className="labelLead"
         >
           <svg
             height="20px"
@@ -1155,7 +1155,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           Tips and Tricks
         </p>
         <p
-          className="partLabelLead"
+          className="labelLead"
         >
           <svg
             height="20px"
@@ -1169,7 +1169,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           Access Tutorials, eBooks and Courses
         </p>
         <p
-          className="partLabelLead"
+          className="labelLead"
         >
           <svg
             height="20px"
@@ -1182,18 +1182,25 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           </svg>
           Personal Development as a Software Engineer
         </p>
+        <div
+          style={
+            Object {
+              "marginBottom": "20px",
+            }
+          }
+        />
         <form
-          className="partLabelForm"
+          className="labelForm"
         >
           <input
             autoComplete="email"
-            className="partLabelFormInput"
+            className="labelFormInput"
             id="newsletter"
             placeholder="Your email address"
             type="email"
           />
           <button
-            className="partLabelFormButton"
+            className="labelFormButton"
             type="submit"
           >
             Subscribe
@@ -1217,22 +1224,22 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
       className=""
     >
       <div
-        className="TopBorder"
+        className="topBorder"
       >
         <div
-          className="Container1"
+          className="container1"
         >
           <div
-            className="Container1SubFooterLinks1"
+            className="container1SubFooterLinks1"
           >
             <small
-              className="Container1SubFooterLinks1Label"
+              className="container1SubFooterLinks1Label"
             >
               Portfolio
             </small>
             <ul>
               <li
-                className="Container1SubFooterLinks1Link"
+                className="container1SubFooterLinks1Link"
               >
                 <a
                   aria-label="Go To Sub Footer Link: Online Courses"
@@ -1246,7 +1253,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </a>
               </li>
               <li
-                className="Container1SubFooterLinks1Link"
+                className="container1SubFooterLinks1Link"
               >
                 <a
                   aria-label="Go To Sub Footer Link: Open Source"
@@ -1260,7 +1267,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </a>
               </li>
               <li
-                className="Container1SubFooterLinks1Link"
+                className="container1SubFooterLinks1Link"
               >
                 <a
                   aria-label="Go To Sub Footer Link: Tutorials"
@@ -1275,16 +1282,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
             </ul>
           </div>
           <div
-            className="Container1SubFooterLinks2"
+            className="container1SubFooterLinks2"
           >
             <small
-              className="Container1SubFooterLinks2Label"
+              className="container1SubFooterLinks2Label"
             >
               About
             </small>
             <ul>
               <li
-                className="Container1SubFooterLinks2Link"
+                className="container1SubFooterLinks2Link"
               >
                 <a
                   aria-label="Go To Sub Footer Link: About me"
@@ -1297,7 +1304,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </a>
               </li>
               <li
-                className="Container1SubFooterLinks2Link"
+                className="container1SubFooterLinks2Link"
               >
                 <a
                   aria-label="Go To Sub Footer Link: What I use"
@@ -1310,7 +1317,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </a>
               </li>
               <li
-                className="Container1SubFooterLinks2Link"
+                className="container1SubFooterLinks2Link"
               >
                 <a
                   aria-label="Go To Sub Footer Link: How to work with me"
@@ -1323,7 +1330,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </a>
               </li>
               <li
-                className="Container1SubFooterLinks2Link"
+                className="container1SubFooterLinks2Link"
               >
                 <a
                   aria-label="Go To Sub Footer Link: How to support me"
@@ -1340,19 +1347,19 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
         </div>
       </div>
       <div
-        className="TopBorder"
+        className="topBorder"
       >
         <div
-          className="Container2"
+          className="container2"
         >
           <small>
             © MTS
           </small>
           <ul
-            className="Container2SocialIconsLinks1"
+            className="container2SocialIconsLinks1"
           >
             <li
-              className="Container2SocialIconsLinks1Link"
+              className="container2SocialIconsLinks1Link"
             >
               <a
                 aria-label="Go To Social Media: twitter-round"
@@ -1372,7 +1379,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="Container2SocialIconsLinks1Link"
+              className="container2SocialIconsLinks1Link"
             >
               <a
                 aria-label="Go To Social Media: github-round"
@@ -1392,7 +1399,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="Container2SocialIconsLinks1Link"
+              className="container2SocialIconsLinks1Link"
             >
               <a
                 aria-label="Go To Social Media: facebook-round"
@@ -1412,7 +1419,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="Container2SocialIconsLinks1Link"
+              className="container2SocialIconsLinks1Link"
             >
               <a
                 aria-label="Go To Social Media: instagram-round"
@@ -1438,7 +1445,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="Container2SocialIconsLinks1Link"
+              className="container2SocialIconsLinks1Link"
             >
               <a
                 aria-label="Go To Social Media: email"
@@ -1462,10 +1469,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
             </li>
           </ul>
           <ul
-            className="Container2SocialIconsLinks2"
+            className="container2SocialIconsLinks2"
           >
             <li
-              className="Container2SocialIconsLinks2Link"
+              className="container2SocialIconsLinks2Link"
             >
               <a
                 aria-label="Go To Footer Link: Contact Me"
@@ -1479,7 +1486,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="Container2SocialIconsLinks2Link"
+              className="container2SocialIconsLinks2Link"
             >
               <a
                 aria-label="Go To Footer Link: Privacy & Terms"
