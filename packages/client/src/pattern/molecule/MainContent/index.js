@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
   container1,
   container1Background,
@@ -52,6 +52,7 @@ import {
   container1TestItemsItemCaptionP1,
   container1TestItemsItemCaptionP2,
 } from './MainContent.scss'
+import { navSticky, navBarLogoSticky } from '../Navigation/Navigation.scss'
 import { mainContentDefaultProps, mainContentPropTypes } from './MainContent.props'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import Cover from '../../../asset/image/cover.jpg'
@@ -76,6 +77,29 @@ import TestimonialFive from '../../../asset/image/testimonial/testimonial-5.jpg'
 import TestimonialSix from '../../../asset/image/testimonial/testimonial-6.jpg'
 
 export function MainContent({ className }) {
+  useEffect(() => {
+    const nav = document.getElementById('nav')
+    const coverImage = document.getElementById('coverImage')
+    const navBarLogo = document.getElementById('navBarLogo')
+    const navBarMobileToggle = document.getElementById('navBarMobileToggle')
+
+    const sticky = coverImage.height
+
+    function stickNavbar() {
+      if (window.pageYOffset > sticky - navBarMobileToggle.offsetHeight - 20) {
+        nav.classList.add(navSticky)
+        navBarLogo.classList.add(navBarLogoSticky)
+      } else {
+        nav.classList.remove(navSticky)
+        navBarLogo.classList.remove(navBarLogoSticky)
+      }
+    }
+
+    window.onscroll = () => {
+      stickNavbar()
+    }
+  })
+
   return (
     <main className={className} style={{ marginTop: '0', display: 'flex', justifyContent: 'center' }}>
       <div className={container1}>
@@ -83,7 +107,7 @@ export function MainContent({ className }) {
           <div className={container1BackgroundImage}>
             <div style={{ width: '100%', paddingBottom: '66.6992%' }} />
             <picture>
-              <img src={!windowObjectExists ? 'mts/static/cover.jpg' : Cover} alt="cover" />
+              <img id="coverImage" src={!windowObjectExists ? 'mts/static/cover.jpg' : Cover} alt="cover" />
             </picture>
           </div>
           <div className={container1BackgroundDimmer} />
