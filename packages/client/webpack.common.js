@@ -109,6 +109,9 @@ const configureCleanWebpack = () => {
 const configureHtml = () => {
   return {
     title: 'MTS Client',
+    meta: {
+      viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
+    },
   }
 }
 

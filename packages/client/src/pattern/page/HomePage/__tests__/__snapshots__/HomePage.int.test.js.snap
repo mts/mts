@@ -59,76 +59,101 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
       </div>
     </nav>
     <main
-      className="main"
+      className=""
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "center",
+          "marginTop": "0",
+        }
+      }
     >
       <div
-        className="mainModule"
+        className="container1"
       >
         <div
-          className="mainBackground"
+          className="container1Background"
         >
-          <picture>
-            <img
-              alt="cover"
-              className="mainBackgroundImage"
-              src={Object {}}
-            />
-          </picture>
           <div
-            className="mainBackgroundDimmer"
+            className="container1BackgroundImage"
+          >
+            <div
+              style={
+                Object {
+                  "paddingBottom": "66.6992%",
+                  "width": "100%",
+                }
+              }
+            />
+            <picture>
+              <img
+                alt="cover"
+                src={Object {}}
+              />
+            </picture>
+          </div>
+          <div
+            className="container1BackgroundDimmer"
           />
           <div
-            className="mainBackgroundCaption"
+            className="container1BackgroundCaption"
           >
             <h1
-              className="mainBackgroundCaptionPrimaryHeader"
+              className="container1BackgroundCaptionH1"
             >
               MTS
             </h1>
             <h2
-              className="mainBackgroundCaptionSecondaryHeader"
+              className="container1BackgroundCaptionH2"
             >
               React.js, Node.js and GraphQL
             </h2>
           </div>
         </div>
         <div
-          className="mainAbout"
+          className="container1About"
         >
           <div
-            className="mainAboutHeader"
+            className="container1AboutSectionHeader"
           >
             <h2
-              className="mainAboutHeaderSecondary"
+              className="container1AboutSectionHeaderH2"
             >
               About me
             </h2>
             <h3
-              className="mainAboutHeaderTertiary"
+              className="container1AboutSectionHeaderH3"
             >
               Get to know me before you dive into my content.
             </h3>
           </div>
           <div
-            className="mainAboutMe"
+            className="container1AboutImage"
           >
             <div
-              className="mainAboutMeContainer"
+              className="container1AboutImageContainer1"
             >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "100%",
+                    "width": "100%",
+                  }
+                }
+              />
               <picture>
                 <img
                   alt="me"
-                  className="mainAboutMeContainerImage"
                   src={Object {}}
                 />
               </picture>
             </div>
           </div>
           <ul
-            className="mainAboutSocialIcons"
+            className="container1AboutSocialIcons"
           >
             <li
-              className="mainAboutSocialIconsIcon"
+              className="container1AboutSocialIconsIcon"
             >
               <a
                 aria-label="Go To Social Media: twitter-round"
@@ -148,7 +173,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="mainAboutSocialIconsIcon"
+              className="container1AboutSocialIconsIcon"
             >
               <a
                 aria-label="Go To Social Media: github-round"
@@ -168,7 +193,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="mainAboutSocialIconsIcon"
+              className="container1AboutSocialIconsIcon"
             >
               <a
                 aria-label="Go To Social Media: facebook-round"
@@ -188,7 +213,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="mainAboutSocialIconsIcon"
+              className="container1AboutSocialIconsIcon"
             >
               <a
                 aria-label="Go To Social Media: email"
@@ -212,7 +237,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
             </li>
           </ul>
           <div
-            className="mainAboutText"
+            className="container1AboutText"
           >
             <p>
               I am a self-employed software and web engineer dedicated to learning and teaching JavaScript for client-server architectures. After obtaining my Bachelor's Degree in computer science, I gained experience from the startup world, where I used JavaScript intensively during both my professional life and spare time. Eventually it led me to teach others about these topics and to offer online courses and on-site consulting for companies. I am happy to welcome you on my website
@@ -227,27 +252,27 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           </div>
         </div>
         <div
-          className="mainOffer"
+          className="container1Services"
         >
           <div
-            className="mainOfferHeader"
+            className="container1ServicesHeader"
           >
             <h2
-              className="mainOfferHeaderSecondary"
+              className="container1ServicesHeaderH2"
             >
               What I offer
             </h2>
             <h3
-              className="mainOfferHeaderTertiary"
+              className="container1ServicesHeaderH3"
             >
               Why you might want to hire me.
             </h3>
           </div>
           <ul
-            className="mainOfferServices"
+            className="container1ServicesItems"
           >
             <li
-              className="mainOfferServicesItem"
+              className="container1ServicesItemsItem"
             >
               <svg
                 height="60px"
@@ -266,7 +291,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </p>
             </li>
             <li
-              className="mainOfferServicesItem"
+              className="container1ServicesItemsItem"
             >
               <svg
                 height="60px"
@@ -288,7 +313,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </p>
             </li>
             <li
-              className="mainOfferServicesItem"
+              className="container1ServicesItemsItem"
             >
               <svg
                 height="60px"
@@ -313,7 +338,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </p>
             </li>
             <li
-              className="mainOfferServicesItem"
+              className="container1ServicesItemsItem"
             >
               <svg
                 height="60px"
@@ -335,7 +360,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </p>
             </li>
             <li
-              className="mainOfferServicesItem"
+              className="container1ServicesItemsItem"
             >
               <svg
                 height="60px"
@@ -354,7 +379,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </p>
             </li>
             <li
-              className="mainOfferServicesItem"
+              className="container1ServicesItemsItem"
             >
               <svg
                 height="60px"
@@ -375,37 +400,36 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           </ul>
         </div>
         <div
-          className="mainPortfolio"
+          className="container1Portfolio"
         >
           <div
-            className="mainPortfolioHeader"
+            className="container1PortfolioHeader"
           >
             <h2
-              className="mainPortfolioHeaderSecondary"
+              className="container1PortfolioHeaderH2"
             >
               Portfolio
             </h2>
             <h3
-              className="mainPortfolioHeaderTertiary"
+              className="container1PortfolioHeaderH3"
             >
               What you can learn from me.
             </h3>
           </div>
           <ul
-            className="mainPortfolioItems"
+            className="container1PortfolioItems"
           >
             <li
-              className="mainPortfolioItemsItem"
+              className="container1PortfolioItemsItem"
             >
               <a
                 aria-label="Portfolio Link: https://mtsonlinecourses.com"
-                className="mainPortfolioItemsItemAnchor"
                 href="https://mtsonlinecourses.com"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <div
-                  className="mainPortfolioItemsItemAnchorImage"
+                  className="container1PortfolioItemsItemImage"
                 >
                   <picture>
                     <img
@@ -415,7 +439,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   </picture>
                 </div>
                 <div
-                  className="mainPortfolioItemsItemAnchorCaption"
+                  className="container1PortfolioItemsItemCaption"
                 >
                   <h4>
                     Online Courses
@@ -427,17 +451,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="mainPortfolioItemsItem"
+              className="container1PortfolioItemsItem"
             >
               <a
                 aria-label="Portfolio Link: https://www.github.com/mts"
-                className="mainPortfolioItemsItemAnchor"
                 href="https://www.github.com/mts"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <div
-                  className="mainPortfolioItemsItemAnchorImage"
+                  className="container1PortfolioItemsItemImage"
                 >
                   <picture>
                     <img
@@ -447,7 +470,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   </picture>
                 </div>
                 <div
-                  className="mainPortfolioItemsItemAnchorCaption"
+                  className="container1PortfolioItemsItemCaption"
                 >
                   <h4>
                     Open Source
@@ -459,17 +482,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="mainPortfolioItemsItem"
+              className="container1PortfolioItemsItem"
             >
               <a
                 aria-label="Portfolio Link: /blog"
-                className="mainPortfolioItemsItemAnchor"
                 href="/blog"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <div
-                  className="mainPortfolioItemsItemAnchorImage"
+                  className="container1PortfolioItemsItemImage"
                 >
                   <picture>
                     <img
@@ -479,7 +501,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   </picture>
                 </div>
                 <div
-                  className="mainPortfolioItemsItemAnchorCaption"
+                  className="container1PortfolioItemsItemCaption"
                 >
                   <h4>
                     Tutorials
@@ -493,43 +515,52 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           </ul>
         </div>
         <div
-          className="mainVita"
+          className="container1Vita"
         >
           <div
-            className="mainVitaHeader"
+            className="container1VitaSectionHeader"
           >
             <h2
-              className="mainVitaHeaderSecondary"
+              className="container1VitaSectionHeaderH2"
             >
               VITA
             </h2>
             <h3
-              className="mainVitaHeaderTertiary"
+              className="container1VitaSectionHeaderH3"
             >
               MY PROFESSIONAL STORY.
             </h3>
           </div>
           <ul
-            className="mainVitaItems"
+            className="container1VitaItems"
           >
             <li
-              className="mainVitaItemsItem"
+              className="container1VitaItemsItem"
             >
               <div
-                className="mainVitaItemsItemMemory"
+                className="container1VitaItemsItemMemoryImage"
               >
                 <div
-                  className="mainVitaItemsItemMemoryContainer"
+                  className="container1VitaItemsItemMemoryImageContainer"
                 >
-                  <img
-                    alt="vita one"
-                    className="mainVitaItemsItemMemoryContainerImage"
-                    src={Object {}}
+                  <div
+                    style={
+                      Object {
+                        "paddingBottom": "100%",
+                        "width": "100%",
+                      }
+                    }
                   />
+                  <picture>
+                    <img
+                      alt="vita one"
+                      src={Object {}}
+                    />
+                  </picture>
                 </div>
               </div>
               <div
-                className="mainVitaItemsItemCaption"
+                className="container1VitaItemsItemCaption"
               >
                 <h4>
                   1993 - 1997
@@ -545,23 +576,32 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="mainVitaItemsItem"
+              className="container1VitaItemsItem"
             >
               <div
-                className="mainVitaItemsItemMemory"
+                className="container1VitaItemsItemMemoryImage"
               >
                 <div
-                  className="mainVitaItemsItemMemoryContainer"
+                  className="container1VitaItemsItemMemoryImageContainer"
                 >
-                  <img
-                    alt="vita two"
-                    className="mainVitaItemsItemMemoryContainerImage"
-                    src={Object {}}
+                  <div
+                    style={
+                      Object {
+                        "paddingBottom": "100%",
+                        "width": "100%",
+                      }
+                    }
                   />
+                  <picture>
+                    <img
+                      alt="vita two"
+                      src={Object {}}
+                    />
+                  </picture>
                 </div>
               </div>
               <div
-                className="mainVitaItemsItemCaption"
+                className="container1VitaItemsItemCaption"
               >
                 <h4>
                   2010 - 2014
@@ -577,23 +617,32 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="mainVitaItemsItem"
+              className="container1VitaItemsItem"
             >
               <div
-                className="mainVitaItemsItemMemory"
+                className="container1VitaItemsItemMemoryImage"
               >
                 <div
-                  className="mainVitaItemsItemMemoryContainer"
+                  className="container1VitaItemsItemMemoryImageContainer"
                 >
-                  <img
-                    alt="vita three"
-                    className="mainVitaItemsItemMemoryContainerImage"
-                    src={Object {}}
+                  <div
+                    style={
+                      Object {
+                        "paddingBottom": "100%",
+                        "width": "100%",
+                      }
+                    }
                   />
+                  <picture>
+                    <img
+                      alt="vita three"
+                      src={Object {}}
+                    />
+                  </picture>
                 </div>
               </div>
               <div
-                className="mainVitaItemsItemCaption"
+                className="container1VitaItemsItemCaption"
               >
                 <h4>
                   2014 - 2017
@@ -609,119 +658,155 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="mainVitaItemsItem"
+              className="container1VitaItemsItem"
             >
               <div
-                className="mainVitaItemsItemMemory"
+                className="container1VitaItemsItemMemoryImage"
               >
                 <div
-                  className="mainVitaItemsItemMemoryContainer"
+                  className="container1VitaItemsItemMemoryImageContainer"
                 >
-                  <img
-                    alt="vita four"
-                    className="mainVitaItemsItemMemoryContainerImage"
-                    src={Object {}}
+                  <div
+                    style={
+                      Object {
+                        "paddingBottom": "100%",
+                        "width": "100%",
+                      }
+                    }
                   />
+                  <picture>
+                    <img
+                      alt="vita four"
+                      src={Object {}}
+                    />
+                  </picture>
                 </div>
               </div>
               <div
-                className="mainVitaItemsItemCaption"
+                className="container1VitaItemsItemCaption"
               >
                 <h4>
                   2016
                 </h4>
                 <h4>
-                  React Book
+                  Yellow Book
                 </h4>
                 <div>
                   <p>
-                    This year I published my first book about React.js. Within the first month it had more than 10.000 readers and today it is one of the most popular React.js books.
+                    This year I published my first book about Yellow.js. Within the first month it had more than 10.000 readers and today it is one of the most popular React.js books.
                   </p>
                 </div>
               </div>
             </li>
             <li
-              className="mainVitaItemsItem"
+              className="container1VitaItemsItem"
             >
               <div
-                className="mainVitaItemsItemMemory"
+                className="container1VitaItemsItemMemoryImage"
               >
                 <div
-                  className="mainVitaItemsItemMemoryContainer"
+                  className="container1VitaItemsItemMemoryImageContainer"
                 >
-                  <img
-                    alt="vita five"
-                    className="mainVitaItemsItemMemoryContainerImage"
-                    src={Object {}}
+                  <div
+                    style={
+                      Object {
+                        "paddingBottom": "100%",
+                        "width": "100%",
+                      }
+                    }
                   />
+                  <picture>
+                    <img
+                      alt="vita five"
+                      src={Object {}}
+                    />
+                  </picture>
                 </div>
               </div>
               <div
-                className="mainVitaItemsItemCaption"
+                className="container1VitaItemsItemCaption"
               >
                 <h4>
                   2017
                 </h4>
                 <h4>
-                  Redux Book
+                  Gray Book
                 </h4>
                 <div>
                   <p>
-                    I published my second book about state management with Redux in React.js which I took one level further by packaging it as a full-blown online course.
+                    I published my second book about state management with Gray in Yellow.js which I took one level further by packaging it as a full-blown online course.
                   </p>
                 </div>
               </div>
             </li>
             <li
-              className="mainVitaItemsItem"
+              className="container1VitaItemsItem"
             >
               <div
-                className="mainVitaItemsItemMemory"
+                className="container1VitaItemsItemMemoryImage"
               >
                 <div
-                  className="mainVitaItemsItemMemoryContainer"
+                  className="container1VitaItemsItemMemoryImageContainer"
                 >
-                  <img
-                    alt="vita six"
-                    className="mainVitaItemsItemMemoryContainerImage"
-                    src={Object {}}
+                  <div
+                    style={
+                      Object {
+                        "paddingBottom": "100%",
+                        "width": "100%",
+                      }
+                    }
                   />
+                  <picture>
+                    <img
+                      alt="vita six"
+                      src={Object {}}
+                    />
+                  </picture>
                 </div>
               </div>
               <div
-                className="mainVitaItemsItemCaption"
+                className="container1VitaItemsItemCaption"
               >
                 <h4>
                   2018
                 </h4>
                 <h4>
-                  GraphQL Book
+                  Pink Book
                 </h4>
                 <div>
                   <p>
-                    As an early adopter of GraphQL in my recent jobs, I wrote my third book about it for modern client-server applications using GraphQL in JavaScript.
+                    As an early adopter of Pink in my recent jobs, I wrote my third book about it for modern client-server applications using Pink in JavaScript.
                   </p>
                 </div>
               </div>
             </li>
             <li
-              className="mainVitaItemsItem"
+              className="container1VitaItemsItem"
             >
               <div
-                className="mainVitaItemsItemMemory"
+                className="container1VitaItemsItemMemoryImage"
               >
                 <div
-                  className="mainVitaItemsItemMemoryContainer"
+                  className="container1VitaItemsItemMemoryImageContainer"
                 >
-                  <img
-                    alt="vita seven"
-                    className="mainVitaItemsItemMemoryContainerImage"
-                    src={Object {}}
+                  <div
+                    style={
+                      Object {
+                        "paddingBottom": "100%",
+                        "width": "100%",
+                      }
+                    }
                   />
+                  <picture>
+                    <img
+                      alt="vita seven"
+                      src={Object {}}
+                    />
+                  </picture>
                 </div>
               </div>
               <div
-                className="mainVitaItemsItemCaption"
+                className="container1VitaItemsItemCaption"
               >
                 <h4>
                   2018
@@ -737,29 +822,38 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="mainVitaItemsItem"
+              className="container1VitaItemsItem"
             >
               <div
-                className="mainVitaItemsItemMemory"
+                className="container1VitaItemsItemMemoryImage"
               >
                 <div
-                  className="mainVitaItemsItemMemoryContainer"
+                  className="container1VitaItemsItemMemoryImageContainer"
                 >
-                  <img
-                    alt="vita eight"
-                    className="mainVitaItemsItemMemoryContainerImage"
-                    src={Object {}}
+                  <div
+                    style={
+                      Object {
+                        "paddingBottom": "100%",
+                        "width": "100%",
+                      }
+                    }
                   />
+                  <picture>
+                    <img
+                      alt="vita eight"
+                      src={Object {}}
+                    />
+                  </picture>
                 </div>
               </div>
               <div
-                className="mainVitaItemsItemCaption"
+                className="container1VitaItemsItemCaption"
               >
                 <h4>
                   2018
                 </h4>
                 <h4>
-                  Firebase Book
+                  Orange Book
                 </h4>
                 <div>
                   <p>
@@ -769,23 +863,32 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="mainVitaItemsItem"
+              className="container1VitaItemsItem"
             >
               <div
-                className="mainVitaItemsItemMemory"
+                className="container1VitaItemsItemMemoryImage"
               >
                 <div
-                  className="mainVitaItemsItemMemoryContainer"
+                  className="container1VitaItemsItemMemoryImageContainer"
                 >
-                  <img
-                    alt="vita nine"
-                    className="mainVitaItemsItemMemoryContainerImage"
-                    src={Object {}}
+                  <div
+                    style={
+                      Object {
+                        "paddingBottom": "100%",
+                        "width": "100%",
+                      }
+                    }
                   />
+                  <picture>
+                    <img
+                      alt="vita nine"
+                      src={Object {}}
+                    />
+                  </picture>
                 </div>
               </div>
               <div
-                className="mainVitaItemsItemCaption"
+                className="container1VitaItemsItemCaption"
               >
                 <h4>
                   2017 - TODAY
@@ -801,16 +904,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="mainVitaItemsItem"
+              className="container1VitaItemsItem"
             >
               <div
-                className="mainVitaItemsItemMemory"
+                className="container1VitaItemsItemMemoryImage"
               >
                 <div
-                  className="mainVitaItemsItemMemoryContainer"
+                  className="container1VitaItemsItemMemoryImageContainer"
                 >
                   <div
-                    className="mainVitaItemsItemNewestMemory"
+                    className="container1VitaItemsItemNewestMemory"
                   >
                     <h4>
                       Be part of my story.
@@ -822,27 +925,27 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           </ul>
         </div>
         <div
-          className="mainTest"
+          className="container1Test"
         >
           <div
-            className="mainTestHeader"
+            className="container1TestSectionHeader"
           >
             <h2
-              className="mainTestHeaderSecondary"
+              className="container1TestSectionHeaderH2"
             >
               Testimonials
             </h2>
             <h3
-              className="mainTestHeaderTertiary"
+              className="container1TestSectionHeaderH3"
             >
               What industry leaders are saying
             </h3>
           </div>
           <ul
-            className="mainTestItems"
+            className="container1TestItems"
           >
             <li
-              className="mainTestItemsItem"
+              className="container1TestItemsItem"
             >
               <a
                 aria-label="Customer Testimonial Link: https://twitter.com/martinlawrence"
@@ -851,39 +954,48 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="mainTestItemsItemPerson"
+                  className="container1TestItemsItemImage"
                 >
                   <div
-                    className="mainTestItemsItemPersonContainer"
+                    className="container1TestItemsItemImageContainer"
                   >
-                    <img
-                      alt="test one"
-                      className="mainTestItemsItemPersonContainerImage"
-                      src={Object {}}
+                    <div
+                      style={
+                        Object {
+                          "paddingBottom": "100%",
+                          "width": "100%",
+                        }
+                      }
                     />
+                    <picture>
+                      <img
+                        alt="test one"
+                        src={Object {}}
+                      />
+                    </picture>
                   </div>
                 </div>
               </a>
               <div
-                className="mainTestItemsItemCaption"
+                className="container1TestItemsItemCaption"
               >
                 <h4>
                   Martin Lawrence
                 </h4>
                 <p
-                  className="mainTestItemsItemCaptionSecondary"
+                  className="container1TestItemsItemCaptionP1"
                 >
                   Developer Experience at Bad Boys
                 </p>
                 <p
-                  className="mainTestItemsItemCaptionTertiary"
+                  className="container1TestItemsItemCaptionP2"
                 >
                   MTS is one of the most consistently high quality React educators. His approach directly addresses practical concerns you *will* face in your daily React work, without talking down to you or wasting your time with fluff. Don’t just take my word for it - look at his public work and you’ll see.
                 </p>
               </div>
             </li>
             <li
-              className="mainTestItemsItem"
+              className="container1TestItemsItem"
             >
               <a
                 aria-label="Customer Testimonial Link: https://twitter.com/mariahcarey"
@@ -892,39 +1004,48 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="mainTestItemsItemPerson"
+                  className="container1TestItemsItemImage"
                 >
                   <div
-                    className="mainTestItemsItemPersonContainer"
+                    className="container1TestItemsItemImageContainer"
                   >
-                    <img
-                      alt="test two"
-                      className="mainTestItemsItemPersonContainerImage"
-                      src={Object {}}
+                    <div
+                      style={
+                        Object {
+                          "paddingBottom": "100%",
+                          "width": "100%",
+                        }
+                      }
                     />
+                    <picture>
+                      <img
+                        alt="test two"
+                        src={Object {}}
+                      />
+                    </picture>
                   </div>
                 </div>
               </a>
               <div
-                className="mainTestItemsItemCaption"
+                className="container1TestItemsItemCaption"
               >
                 <h4>
                   Mariah Carey
                 </h4>
                 <p
-                  className="mainTestItemsItemCaptionSecondary"
+                  className="container1TestItemsItemCaptionP1"
                 >
                   JS Dev, Online Educator
                 </p>
                 <p
-                  className="mainTestItemsItemCaptionTertiary"
+                  className="container1TestItemsItemCaptionP2"
                 >
                   MTS is an excellent teacher. His articles and tutorials are in-depth and informative, and his code is clear and concise. I've found an answer on his site countless times when researching a problem, and I know that's one less article I have to write.
                 </p>
               </div>
             </li>
             <li
-              className="mainTestItemsItem"
+              className="container1TestItemsItem"
             >
               <a
                 aria-label="Customer Testimonial Link: https://twitter.com/brucewillis"
@@ -933,39 +1054,48 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="mainTestItemsItemPerson"
+                  className="container1TestItemsItemImage"
                 >
                   <div
-                    className="mainTestItemsItemPersonContainer"
+                    className="container1TestItemsItemImageContainer"
                   >
-                    <img
-                      alt="test two"
-                      className="mainTestItemsItemPersonContainerImage"
-                      src={Object {}}
+                    <div
+                      style={
+                        Object {
+                          "paddingBottom": "100%",
+                          "width": "100%",
+                        }
+                      }
                     />
+                    <picture>
+                      <img
+                        alt="test two"
+                        src={Object {}}
+                      />
+                    </picture>
                   </div>
                 </div>
               </a>
               <div
-                className="mainTestItemsItemCaption"
+                className="container1TestItemsItemCaption"
               >
                 <h4>
                   Bruce Willis
                 </h4>
                 <p
-                  className="mainTestItemsItemCaptionSecondary"
+                  className="container1TestItemsItemCaptionP1"
                 >
                   Full-time JavaScript Instructor
                 </p>
                 <p
-                  className="mainTestItemsItemCaptionTertiary"
+                  className="container1TestItemsItemCaptionP2"
                 >
                   Everything that I've read from MTS has been top tier quality stuff. There are blog posts that I have wanted to write, but then I found one by MTS and decided I didn't need to. Fantastic content
                 </p>
               </div>
             </li>
             <li
-              className="mainTestItemsItem"
+              className="container1TestItemsItem"
             >
               <a
                 aria-label="Customer Testimonial Link: https://twitter.com/geoffreyrush"
@@ -974,39 +1104,48 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="mainTestItemsItemPerson"
+                  className="container1TestItemsItemImage"
                 >
                   <div
-                    className="mainTestItemsItemPersonContainer"
+                    className="container1TestItemsItemImageContainer"
                   >
-                    <img
-                      alt="test four"
-                      className="mainTestItemsItemPersonContainerImage"
-                      src={Object {}}
+                    <div
+                      style={
+                        Object {
+                          "paddingBottom": "100%",
+                          "width": "100%",
+                        }
+                      }
                     />
+                    <picture>
+                      <img
+                        alt="test four"
+                        src={Object {}}
+                      />
+                    </picture>
                   </div>
                 </div>
               </a>
               <div
-                className="mainTestItemsItemCaption"
+                className="container1TestItemsItemCaption"
               >
                 <h4>
                   Geoffrey Rush
                 </h4>
                 <p
-                  className="mainTestItemsItemCaptionSecondary"
+                  className="container1TestItemsItemCaptionP1"
                 >
                   JS Dev, Organizer of Pirates of the Caribbean
                 </p>
                 <p
-                  className="mainTestItemsItemCaptionTertiary"
+                  className="container1TestItemsItemCaptionP2"
                 >
                   You can tell how much time MTS has put into a teaching piece when you consume his content. I have partnered with MTS and he sets the bar high for other teachers and content creators – this results to a quality learning ecosystem for his students regardless if a content or course was thought by him or not.
                 </p>
               </div>
             </li>
             <li
-              className="mainTestItemsItem"
+              className="container1TestItemsItem"
             >
               <a
                 aria-label="Customer Testimonial Link: https://twitter.com/rayliotta"
@@ -1015,39 +1154,48 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="mainTestItemsItemPerson"
+                  className="container1TestItemsItemImage"
                 >
                   <div
-                    className="mainTestItemsItemPersonContainer"
+                    className="container1TestItemsItemImageContainer"
                   >
-                    <img
-                      alt="test five"
-                      className="mainTestItemsItemPersonContainerImage"
-                      src={Object {}}
+                    <div
+                      style={
+                        Object {
+                          "paddingBottom": "100%",
+                          "width": "100%",
+                        }
+                      }
                     />
+                    <picture>
+                      <img
+                        alt="test five"
+                        src={Object {}}
+                      />
+                    </picture>
                   </div>
                 </div>
               </a>
               <div
-                className="mainTestItemsItemCaption"
+                className="container1TestItemsItemCaption"
               >
                 <h4>
                   Ray Liotta
                 </h4>
                 <p
-                  className="mainTestItemsItemCaptionSecondary"
+                  className="container1TestItemsItemCaptionP1"
                 >
                   Goodfellas Core Team
                 </p>
                 <p
-                  className="mainTestItemsItemCaptionTertiary"
+                  className="container1TestItemsItemCaptionP2"
                 >
                   I haven't read this book yet, but the previous educational materials made by MTS were nothing short of amazing. Thanks for creating this content and putting it out there!
                 </p>
               </div>
             </li>
             <li
-              className="mainTestItemsItem"
+              className="container1TestItemsItem"
             >
               <a
                 aria-label="Customer Testimonial Link: https://twitter.com/lorrainebracco"
@@ -1056,32 +1204,41 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="mainTestItemsItemPerson"
+                  className="container1TestItemsItemImage"
                 >
                   <div
-                    className="mainTestItemsItemPersonContainer"
+                    className="container1TestItemsItemImageContainer"
                   >
-                    <img
-                      alt="test six"
-                      className="mainTestItemsItemPersonContainerImage"
-                      src={Object {}}
+                    <div
+                      style={
+                        Object {
+                          "paddingBottom": "100%",
+                          "width": "100%",
+                        }
+                      }
                     />
+                    <picture>
+                      <img
+                        alt="test six"
+                        src={Object {}}
+                      />
+                    </picture>
                   </div>
                 </div>
               </a>
               <div
-                className="mainTestItemsItemCaption"
+                className="container1TestItemsItemCaption"
               >
                 <h4>
                   Lorraine Bracco
                 </h4>
                 <p
-                  className="mainTestItemsItemCaptionSecondary"
+                  className="container1TestItemsItemCaptionP1"
                 >
                   Founder & CEO of Goodfellas
                 </p>
                 <p
-                  className="mainTestItemsItemCaptionTertiary"
+                  className="container1TestItemsItemCaptionP2"
                 >
                   If it's anything to do with React and it's written by MTS, you can trust that it'll be world-class. His books are some of the best content you'll find on the web for learning React.
                 </p>
@@ -1092,28 +1249,28 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
       </div>
     </main>
     <div
-      className="part"
+      className="topBorder"
     >
       <label
-        className="partLabel"
+        className="label"
         htmlFor="newsletter"
       >
         <div
-          className="partLabelHeader"
+          className="labelSectionHeader"
         >
           <h2
-            className="partLabelHeaderSecondary"
+            className="labelSectionHeaderH2"
           >
             Take Part
           </h2>
           <h3
-            className="partLabelHeaderTertiary"
+            className="labelSectionHeaderH3"
           >
             Never miss an article about web development and JavaScript.
           </h3>
         </div>
         <p
-          className="partLabelLead"
+          className="labelLead"
         >
           <svg
             height="20px"
@@ -1127,7 +1284,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           Join 0+ Developers
         </p>
         <p
-          className="partLabelLead"
+          className="labelLead"
         >
           <svg
             height="20px"
@@ -1141,7 +1298,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           Learn Web Development with JavaScript
         </p>
         <p
-          className="partLabelLead"
+          className="labelLead"
         >
           <svg
             height="20px"
@@ -1155,7 +1312,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           Tips and Tricks
         </p>
         <p
-          className="partLabelLead"
+          className="labelLead"
         >
           <svg
             height="20px"
@@ -1169,7 +1326,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           Access Tutorials, eBooks and Courses
         </p>
         <p
-          className="partLabelLead"
+          className="labelLead"
         >
           <svg
             height="20px"
@@ -1182,18 +1339,25 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           </svg>
           Personal Development as a Software Engineer
         </p>
+        <div
+          style={
+            Object {
+              "marginBottom": "20px",
+            }
+          }
+        />
         <form
-          className="partLabelForm"
+          className="labelForm"
         >
           <input
             autoComplete="email"
-            className="partLabelFormInput"
+            className="labelFormInput"
             id="newsletter"
             placeholder="Your email address"
             type="email"
           />
           <button
-            className="partLabelFormButton"
+            className="labelFormButton"
             type="submit"
           >
             Subscribe
@@ -1214,277 +1378,285 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
       </label>
     </div>
     <footer
-      className="footer"
+      className=""
     >
       <div
-        className="footerTopLinks"
+        className="topBorder"
       >
         <div
-          className="footerTopLinksPrimary"
+          className="container1"
         >
-          <small
-            className="footerTopLinksPrimaryLabel"
+          <div
+            className="container1SubFooterLinks1"
           >
-            Portfolio
-          </small>
-          <ul>
-            <li
-              className="footerTopLinksPrimaryLink"
+            <small
+              className="container1SubFooterLinks1Label"
             >
-              <a
-                aria-label="Go To Sub Footer Link: Online Courses"
-                href="https://mtsonlinecourses.com/"
-                rel="noopener noreferrer"
-                target="_blank"
+              Portfolio
+            </small>
+            <ul>
+              <li
+                className="container1SubFooterLinks1Link"
               >
-                <small>
-                  Online Courses
-                </small>
-              </a>
-            </li>
-            <li
-              className="footerTopLinksPrimaryLink"
-            >
-              <a
-                aria-label="Go To Sub Footer Link: Open Source"
-                href="https://github.com/mts"
-                rel="noopener noreferrer"
-                target="_blank"
+                <a
+                  aria-label="Go To Sub Footer Link: Online Courses"
+                  href="https://mtsonlinecourses.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <small>
+                    Online Courses
+                  </small>
+                </a>
+              </li>
+              <li
+                className="container1SubFooterLinks1Link"
               >
-                <small>
-                  Open Source
-                </small>
-              </a>
-            </li>
-            <li
-              className="footerTopLinksPrimaryLink"
-            >
-              <a
-                aria-label="Go To Sub Footer Link: Tutorials"
-                href="/blog"
-                itemProp="url"
+                <a
+                  aria-label="Go To Sub Footer Link: Open Source"
+                  href="https://github.com/mts"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <small>
+                    Open Source
+                  </small>
+                </a>
+              </li>
+              <li
+                className="container1SubFooterLinks1Link"
               >
-                <small>
-                  Tutorials
-                </small>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div
-          className="footerTopLinksSecondary"
-        >
-          <small
-            className="footerTopLinksSecondaryLabel"
+                <a
+                  aria-label="Go To Sub Footer Link: Tutorials"
+                  href="/blog"
+                  itemProp="url"
+                >
+                  <small>
+                    Tutorials
+                  </small>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            className="container1SubFooterLinks2"
           >
-            About
-          </small>
-          <ul>
-            <li
-              className="footerTopLinksSecondaryLink"
+            <small
+              className="container1SubFooterLinks2Label"
             >
-              <a
-                aria-label="Go To Sub Footer Link: About me"
-                href="/about"
-                itemProp="url"
+              About
+            </small>
+            <ul>
+              <li
+                className="container1SubFooterLinks2Link"
               >
-                <small>
-                  About me
-                </small>
-              </a>
-            </li>
-            <li
-              className="footerTopLinksSecondaryLink"
-            >
-              <a
-                aria-label="Go To Sub Footer Link: What I use"
-                href="/about#what-i-use"
-                itemProp="url"
+                <a
+                  aria-label="Go To Sub Footer Link: About me"
+                  href="/about"
+                  itemProp="url"
+                >
+                  <small>
+                    About me
+                  </small>
+                </a>
+              </li>
+              <li
+                className="container1SubFooterLinks2Link"
               >
-                <small>
-                  What I use
-                </small>
-              </a>
-            </li>
-            <li
-              className="footerTopLinksSecondaryLink"
-            >
-              <a
-                aria-label="Go To Sub Footer Link: How to work with me"
-                href="/work-with-me"
-                itemProp="url"
+                <a
+                  aria-label="Go To Sub Footer Link: What I use"
+                  href="/about#what-i-use"
+                  itemProp="url"
+                >
+                  <small>
+                    What I use
+                  </small>
+                </a>
+              </li>
+              <li
+                className="container1SubFooterLinks2Link"
               >
-                <small>
-                  How to work with me
-                </small>
-              </a>
-            </li>
-            <li
-              className="footerTopLinksSecondaryLink"
-            >
-              <a
-                aria-label="Go To Sub Footer Link: How to support me"
-                href="/about#support-me"
-                itemProp="url"
+                <a
+                  aria-label="Go To Sub Footer Link: How to work with me"
+                  href="/work-with-me"
+                  itemProp="url"
+                >
+                  <small>
+                    How to work with me
+                  </small>
+                </a>
+              </li>
+              <li
+                className="container1SubFooterLinks2Link"
               >
-                <small>
-                  How to support me
-                </small>
-              </a>
-            </li>
-          </ul>
+                <a
+                  aria-label="Go To Sub Footer Link: How to support me"
+                  href="/about#support-me"
+                  itemProp="url"
+                >
+                  <small>
+                    How to support me
+                  </small>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div
-        className="footerSocialIcons"
+        className="topBorder"
       >
-        <small>
-          © MTS
-        </small>
-        <ul
-          className="footerSocialIconsList"
+        <div
+          className="container2"
         >
-          <li
-            className="footerSocialIconsListItem"
+          <small>
+            © MTS
+          </small>
+          <ul
+            className="container2SocialIconsLinks1"
           >
-            <a
-              aria-label="Go To Social Media: twitter-round"
-              href="https://twitter.com/hashtag/willsmith"
-              rel="noopener noreferrer"
-              target="_blank"
+            <li
+              className="container2SocialIconsLinks1Link"
             >
-              <svg
-                height="30px"
-                viewBox="0 0 49.652 49.652"
-                width="30px"
+              <a
+                aria-label="Go To Social Media: twitter-round"
+                href="https://twitter.com/hashtag/willsmith"
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <path
-                  d="M24.826 0C11.137 0 0 11.137 0 24.826c0 13.688 11.137 24.826 24.826 24.826 13.688 0 24.826-11.138 24.826-24.826C49.652 11.137 38.516 0 24.826 0zm11.075 19.144c.011.246.017.494.017.742 0 7.551-5.746 16.255-16.259 16.255-3.227 0-6.231-.943-8.759-2.565.447.053.902.08 1.363.08 2.678 0 5.141-.914 7.097-2.446a5.72 5.72 0 0 1-5.338-3.969 5.76 5.76 0 0 0 2.58-.096 5.715 5.715 0 0 1-4.583-5.603l.001-.072a5.69 5.69 0 0 0 2.587.714 5.71 5.71 0 0 1-2.541-4.755c0-1.048.281-2.03.773-2.874a16.225 16.225 0 0 0 11.777 5.972 5.707 5.707 0 0 1-.147-1.303 5.714 5.714 0 0 1 9.884-3.91 11.406 11.406 0 0 0 3.63-1.387 5.74 5.74 0 0 1-2.516 3.162 11.36 11.36 0 0 0 3.282-.899 11.494 11.494 0 0 1-2.848 2.954z"
-                />
-              </svg>
-            </a>
-          </li>
-          <li
-            className="footerSocialIconsListItem"
-          >
-            <a
-              aria-label="Go To Social Media: github-round"
-              href="https://www.github.com/mts/"
-              rel="noopener noreferrer"
-              target="_blank"
+                <svg
+                  height="30px"
+                  viewBox="0 0 49.652 49.652"
+                  width="30px"
+                >
+                  <path
+                    d="M24.826 0C11.137 0 0 11.137 0 24.826c0 13.688 11.137 24.826 24.826 24.826 13.688 0 24.826-11.138 24.826-24.826C49.652 11.137 38.516 0 24.826 0zm11.075 19.144c.011.246.017.494.017.742 0 7.551-5.746 16.255-16.259 16.255-3.227 0-6.231-.943-8.759-2.565.447.053.902.08 1.363.08 2.678 0 5.141-.914 7.097-2.446a5.72 5.72 0 0 1-5.338-3.969 5.76 5.76 0 0 0 2.58-.096 5.715 5.715 0 0 1-4.583-5.603l.001-.072a5.69 5.69 0 0 0 2.587.714 5.71 5.71 0 0 1-2.541-4.755c0-1.048.281-2.03.773-2.874a16.225 16.225 0 0 0 11.777 5.972 5.707 5.707 0 0 1-.147-1.303 5.714 5.714 0 0 1 9.884-3.91 11.406 11.406 0 0 0 3.63-1.387 5.74 5.74 0 0 1-2.516 3.162 11.36 11.36 0 0 0 3.282-.899 11.494 11.494 0 0 1-2.848 2.954z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li
+              className="container2SocialIconsLinks1Link"
             >
-              <svg
-                height="30px"
-                viewBox="0 0 438.549 438.549"
-                width="30px"
+              <a
+                aria-label="Go To Social Media: github-round"
+                href="https://www.github.com/mts/"
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <path
-                  d="M409.132 114.573c-19.608-33.596-46.205-60.194-79.798-79.8-33.598-19.607-70.277-29.408-110.063-29.408-39.781 0-76.472 9.804-110.063 29.408-33.596 19.605-60.192 46.204-79.8 79.8C9.803 148.168 0 184.854 0 224.63c0 47.78 13.94 90.745 41.827 128.906 27.884 38.164 63.906 64.572 108.063 79.227 5.14.954 8.945.283 11.419-1.996 2.475-2.282 3.711-5.14 3.711-8.562 0-.571-.049-5.708-.144-15.417a2549.81 2549.81 0 0 1-.144-25.406l-6.567 1.136c-4.187.767-9.469 1.092-15.846 1-6.374-.089-12.991-.757-19.842-1.999-6.854-1.231-13.229-4.086-19.13-8.559-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-.951-2.568-2.098-3.711-3.429-1.142-1.331-1.997-2.663-2.568-3.997-.572-1.335-.098-2.43 1.427-3.289s4.281-1.276 8.28-1.276l5.708.853c3.807.763 8.516 3.042 14.133 6.851 5.614 3.806 10.229 8.754 13.846 14.842 4.38 7.806 9.657 13.754 15.846 17.847 6.184 4.093 12.419 6.136 18.699 6.136s11.704-.476 16.274-1.423c4.565-.952 8.848-2.383 12.847-4.285 1.713-12.758 6.377-22.559 13.988-29.41-10.848-1.14-20.601-2.857-29.264-5.14-8.658-2.286-17.605-5.996-26.835-11.14-9.235-5.137-16.896-11.516-22.985-19.126-6.09-7.614-11.088-17.61-14.987-29.979-3.901-12.374-5.852-26.648-5.852-42.826 0-23.035 7.52-42.637 22.557-58.817-7.044-17.318-6.379-36.732 1.997-58.24 5.52-1.715 13.706-.428 24.554 3.853 10.85 4.283 18.794 7.952 23.84 10.994 5.046 3.041 9.089 5.618 12.135 7.708 17.705-4.947 35.976-7.421 54.818-7.421s37.117 2.474 54.823 7.421l10.849-6.849c7.419-4.57 16.18-8.758 26.262-12.565 10.088-3.805 17.802-4.853 23.134-3.138 8.562 21.509 9.325 40.922 2.279 58.24 15.036 16.18 22.559 35.787 22.559 58.817 0 16.178-1.958 30.497-5.853 42.966-3.9 12.471-8.941 22.457-15.125 29.979-6.191 7.521-13.901 13.85-23.131 18.986-9.232 5.14-18.182 8.85-26.84 11.136-8.662 2.286-18.415 4.004-29.263 5.146 9.894 8.562 14.842 22.077 14.842 40.539v60.237c0 3.422 1.19 6.279 3.572 8.562 2.379 2.279 6.136 2.95 11.276 1.995 44.163-14.653 80.185-41.062 108.068-79.226 27.88-38.161 41.825-81.126 41.825-128.906-.01-39.771-9.818-76.454-29.414-110.049z"
-                />
-              </svg>
-            </a>
-          </li>
-          <li
-            className="footerSocialIconsListItem"
-          >
-            <a
-              aria-label="Go To Social Media: facebook-round"
-              href="https://www.facebook.com/Will-Smith-92304305160/"
-              rel="noopener noreferrer"
-              target="_blank"
+                <svg
+                  height="30px"
+                  viewBox="0 0 438.549 438.549"
+                  width="30px"
+                >
+                  <path
+                    d="M409.132 114.573c-19.608-33.596-46.205-60.194-79.798-79.8-33.598-19.607-70.277-29.408-110.063-29.408-39.781 0-76.472 9.804-110.063 29.408-33.596 19.605-60.192 46.204-79.8 79.8C9.803 148.168 0 184.854 0 224.63c0 47.78 13.94 90.745 41.827 128.906 27.884 38.164 63.906 64.572 108.063 79.227 5.14.954 8.945.283 11.419-1.996 2.475-2.282 3.711-5.14 3.711-8.562 0-.571-.049-5.708-.144-15.417a2549.81 2549.81 0 0 1-.144-25.406l-6.567 1.136c-4.187.767-9.469 1.092-15.846 1-6.374-.089-12.991-.757-19.842-1.999-6.854-1.231-13.229-4.086-19.13-8.559-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-.951-2.568-2.098-3.711-3.429-1.142-1.331-1.997-2.663-2.568-3.997-.572-1.335-.098-2.43 1.427-3.289s4.281-1.276 8.28-1.276l5.708.853c3.807.763 8.516 3.042 14.133 6.851 5.614 3.806 10.229 8.754 13.846 14.842 4.38 7.806 9.657 13.754 15.846 17.847 6.184 4.093 12.419 6.136 18.699 6.136s11.704-.476 16.274-1.423c4.565-.952 8.848-2.383 12.847-4.285 1.713-12.758 6.377-22.559 13.988-29.41-10.848-1.14-20.601-2.857-29.264-5.14-8.658-2.286-17.605-5.996-26.835-11.14-9.235-5.137-16.896-11.516-22.985-19.126-6.09-7.614-11.088-17.61-14.987-29.979-3.901-12.374-5.852-26.648-5.852-42.826 0-23.035 7.52-42.637 22.557-58.817-7.044-17.318-6.379-36.732 1.997-58.24 5.52-1.715 13.706-.428 24.554 3.853 10.85 4.283 18.794 7.952 23.84 10.994 5.046 3.041 9.089 5.618 12.135 7.708 17.705-4.947 35.976-7.421 54.818-7.421s37.117 2.474 54.823 7.421l10.849-6.849c7.419-4.57 16.18-8.758 26.262-12.565 10.088-3.805 17.802-4.853 23.134-3.138 8.562 21.509 9.325 40.922 2.279 58.24 15.036 16.18 22.559 35.787 22.559 58.817 0 16.178-1.958 30.497-5.853 42.966-3.9 12.471-8.941 22.457-15.125 29.979-6.191 7.521-13.901 13.85-23.131 18.986-9.232 5.14-18.182 8.85-26.84 11.136-8.662 2.286-18.415 4.004-29.263 5.146 9.894 8.562 14.842 22.077 14.842 40.539v60.237c0 3.422 1.19 6.279 3.572 8.562 2.379 2.279 6.136 2.95 11.276 1.995 44.163-14.653 80.185-41.062 108.068-79.226 27.88-38.161 41.825-81.126 41.825-128.906-.01-39.771-9.818-76.454-29.414-110.049z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li
+              className="container2SocialIconsLinks1Link"
             >
-              <svg
-                height="30px"
-                viewBox="0 0 97.75 97.75"
-                width="30px"
+              <a
+                aria-label="Go To Social Media: facebook-round"
+                href="https://www.facebook.com/Will-Smith-92304305160/"
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <path
-                  d="M48.875 0C21.882 0 0 21.882 0 48.875S21.882 97.75 48.875 97.75 97.75 75.868 97.75 48.875 75.868 0 48.875 0zm18.646 24.89l-6.76.003c-5.301 0-6.326 2.519-6.326 6.215v8.15h12.641l-.006 12.765H54.436v32.758H41.251V52.023H30.229V39.258h11.022v-9.414c0-10.925 6.675-16.875 16.42-16.875l9.851.015V24.89h-.001z"
-                />
-              </svg>
-            </a>
-          </li>
-          <li
-            className="footerSocialIconsListItem"
-          >
-            <a
-              aria-label="Go To Social Media: instagram-round"
-              href="https://www.instagram.com/willsmith/"
-              rel="noopener noreferrer"
-              target="_blank"
+                <svg
+                  height="30px"
+                  viewBox="0 0 97.75 97.75"
+                  width="30px"
+                >
+                  <path
+                    d="M48.875 0C21.882 0 0 21.882 0 48.875S21.882 97.75 48.875 97.75 97.75 75.868 97.75 48.875 75.868 0 48.875 0zm18.646 24.89l-6.76.003c-5.301 0-6.326 2.519-6.326 6.215v8.15h12.641l-.006 12.765H54.436v32.758H41.251V52.023H30.229V39.258h11.022v-9.414c0-10.925 6.675-16.875 16.42-16.875l9.851.015V24.89h-.001z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li
+              className="container2SocialIconsLinks1Link"
             >
-              <svg
-                height="30px"
-                viewBox="0 0 49.652 49.652"
-                width="30px"
+              <a
+                aria-label="Go To Social Media: instagram-round"
+                href="https://www.instagram.com/willsmith/"
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <path
-                  d="M24.825 29.796a4.978 4.978 0 0 0 4.972-4.97 4.954 4.954 0 0 0-.94-2.897 4.964 4.964 0 0 0-4.029-2.073c-1.659 0-3.126.82-4.031 2.072a4.947 4.947 0 0 0-.94 2.897 4.973 4.973 0 0 0 4.968 4.971zM35.678 18.746V13.96l-.623.002-4.164.013.016 4.787z"
-                />
-                <path
-                  d="M24.826 0C11.137 0 0 11.137 0 24.826c0 13.688 11.137 24.826 24.826 24.826 13.688 0 24.826-11.138 24.826-24.826C49.652 11.137 38.516 0 24.826 0zm14.119 21.929v11.56a5.463 5.463 0 0 1-5.457 5.458H16.164a5.462 5.462 0 0 1-5.457-5.458V16.165a5.462 5.462 0 0 1 5.457-5.457h17.323a5.463 5.463 0 0 1 5.458 5.457v5.764z"
-                />
-                <path
-                  d="M32.549 24.826c0 4.257-3.464 7.723-7.723 7.723s-7.722-3.466-7.722-7.723a7.67 7.67 0 0 1 .568-2.897h-4.215v11.56a2.706 2.706 0 0 0 2.706 2.704h17.323a2.707 2.707 0 0 0 2.706-2.704v-11.56h-4.217c.367.894.574 1.873.574 2.897z"
-                />
-              </svg>
-            </a>
-          </li>
-          <li
-            className="footerSocialIconsListItem"
-          >
-            <a
-              aria-label="Go To Social Media: email"
-              href="mailto:will@belairathletics.com/"
-              rel="noopener noreferrer"
-              target="_blank"
+                <svg
+                  height="30px"
+                  viewBox="0 0 49.652 49.652"
+                  width="30px"
+                >
+                  <path
+                    d="M24.825 29.796a4.978 4.978 0 0 0 4.972-4.97 4.954 4.954 0 0 0-.94-2.897 4.964 4.964 0 0 0-4.029-2.073c-1.659 0-3.126.82-4.031 2.072a4.947 4.947 0 0 0-.94 2.897 4.973 4.973 0 0 0 4.968 4.971zM35.678 18.746V13.96l-.623.002-4.164.013.016 4.787z"
+                  />
+                  <path
+                    d="M24.826 0C11.137 0 0 11.137 0 24.826c0 13.688 11.137 24.826 24.826 24.826 13.688 0 24.826-11.138 24.826-24.826C49.652 11.137 38.516 0 24.826 0zm14.119 21.929v11.56a5.463 5.463 0 0 1-5.457 5.458H16.164a5.462 5.462 0 0 1-5.457-5.458V16.165a5.462 5.462 0 0 1 5.457-5.457h17.323a5.463 5.463 0 0 1 5.458 5.457v5.764z"
+                  />
+                  <path
+                    d="M32.549 24.826c0 4.257-3.464 7.723-7.723 7.723s-7.722-3.466-7.722-7.723a7.67 7.67 0 0 1 .568-2.897h-4.215v11.56a2.706 2.706 0 0 0 2.706 2.704h17.323a2.707 2.707 0 0 0 2.706-2.704v-11.56h-4.217c.367.894.574 1.873.574 2.897z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li
+              className="container2SocialIconsLinks1Link"
             >
-              <svg
-                height="30px"
-                viewBox="0 0 512 512"
-                width="30px"
+              <a
+                aria-label="Go To Social Media: email"
+                href="mailto:will@belairathletics.com/"
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                <path
-                  d="M507.49 101.721L352.211 256 507.49 410.279c2.807-5.867 4.51-12.353 4.51-19.279V121c0-6.927-1.703-13.412-4.51-19.279zM467 76H45c-6.927 0-13.412 1.703-19.279 4.51l198.463 197.463c17.548 17.548 46.084 17.548 63.632 0L486.279 80.51C480.412 77.703 473.927 76 467 76zM4.51 101.721C1.703 107.588 0 114.073 0 121v270c0 6.927 1.703 13.413 4.51 19.279L159.789 256 4.51 101.721z"
-                />
-                <path
-                  d="M331 277.211l-21.973 21.973c-29.239 29.239-76.816 29.239-106.055 0L181 277.211 25.721 431.49C31.588 434.297 38.073 436 45 436h422c6.927 0 13.412-1.703 19.279-4.51L331 277.211z"
-                />
-              </svg>
-            </a>
-          </li>
-        </ul>
-        <ul
-          className="footerBottomLinks"
-        >
-          <li
-            className="footerBottomLinksLink"
+                <svg
+                  height="30px"
+                  viewBox="0 0 512 512"
+                  width="30px"
+                >
+                  <path
+                    d="M507.49 101.721L352.211 256 507.49 410.279c2.807-5.867 4.51-12.353 4.51-19.279V121c0-6.927-1.703-13.412-4.51-19.279zM467 76H45c-6.927 0-13.412 1.703-19.279 4.51l198.463 197.463c17.548 17.548 46.084 17.548 63.632 0L486.279 80.51C480.412 77.703 473.927 76 467 76zM4.51 101.721C1.703 107.588 0 114.073 0 121v270c0 6.927 1.703 13.413 4.51 19.279L159.789 256 4.51 101.721z"
+                  />
+                  <path
+                    d="M331 277.211l-21.973 21.973c-29.239 29.239-76.816 29.239-106.055 0L181 277.211 25.721 431.49C31.588 434.297 38.073 436 45 436h422c6.927 0 13.412-1.703 19.279-4.51L331 277.211z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <ul
+            className="container2SocialIconsLinks2"
           >
-            <a
-              aria-label="Go To Footer Link: Contact Me"
-              href="mailto:will@belairathletics.com/"
-              rel="noopener noreferrer"
-              target="_blank"
+            <li
+              className="container2SocialIconsLinks2Link"
             >
-              <small>
-                Contact Me
-              </small>
-            </a>
-          </li>
-          <li
-            className="footerBottomLinksLink"
-          >
-            <a
-              aria-label="Go To Footer Link: Privacy & Terms"
-              href="/legal"
-              itemProp="url"
+              <a
+                aria-label="Go To Footer Link: Contact Me"
+                href="mailto:will@belairathletics.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <small>
+                  Contact Me
+                </small>
+              </a>
+            </li>
+            <li
+              className="container2SocialIconsLinks2Link"
             >
-              <small>
-                Privacy & Terms
-              </small>
-            </a>
-          </li>
-        </ul>
+              <a
+                aria-label="Go To Footer Link: Privacy & Terms"
+                href="/legal"
+                itemProp="url"
+              >
+                <small>
+                  Privacy & Terms
+                </small>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </div>
