@@ -52,7 +52,6 @@ import {
   container1TestItemsItemCaptionP1,
   container1TestItemsItemCaptionP2,
 } from './MainContent.scss'
-import { navSticky, navBarLogoSticky, navBarListItemLinkSticky } from '../Navigation/Navigation.scss'
 import { mainContentDefaultProps, mainContentPropTypes } from './MainContent.props'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import Cover from '../../../asset/image/cover.jpg'
@@ -75,36 +74,11 @@ import TestimonialThree from '../../../asset/image/testimonial/testimonial-3.jpg
 import TestimonialFour from '../../../asset/image/testimonial/testimonial-4.jpg'
 import TestimonialFive from '../../../asset/image/testimonial/testimonial-5.jpg'
 import TestimonialSix from '../../../asset/image/testimonial/testimonial-6.jpg'
+import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 
 export function MainContent({ className }) {
   useEffect(() => {
-    const nav = document.querySelector(`[class*="Navigation_nav"]`)
-    const backgroundImage = document.querySelector(`[class*="MainContent_container1BackgroundImage"]`).querySelector('picture img')
-    const navBarLogo = document.querySelector(`[class*="Navigation_navBarLogo"]`)
-    const navBarMobileToggle = document.querySelector(`[class*="Navigation_navBarMobileToggle"]`)
-    const navBarListItemLinks = document.querySelectorAll(`[class*="Navigation_navBarListItemLink"]`)
-
-    const sticky = backgroundImage.height - navBarMobileToggle.offsetHeight - 20
-
-    function stickNavbar() {
-      if (window.pageYOffset > sticky) {
-        nav.classList.add(navSticky)
-        navBarLogo.classList.add(navBarLogoSticky)
-        navBarListItemLinks.forEach(navBarListItemLink => {
-          navBarListItemLink.classList.add(navBarListItemLinkSticky)
-        })
-      } else {
-        nav.classList.remove(navSticky)
-        navBarLogo.classList.remove(navBarLogoSticky)
-        navBarListItemLinks.forEach(navBarListItemLink => {
-          navBarListItemLink.classList.remove(navBarListItemLinkSticky)
-        })
-      }
-    }
-
-    window.onscroll = () => {
-      stickNavbar()
-    }
+    handleStickyNavBar()
   })
 
   return (
