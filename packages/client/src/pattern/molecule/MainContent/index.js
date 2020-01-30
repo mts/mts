@@ -83,10 +83,10 @@ export function MainContent({ className }) {
     const navBarLogo = document.getElementById('navBarLogo')
     const navBarMobileToggle = document.getElementById('navBarMobileToggle')
 
-    const sticky = coverImage.height
+    const sticky = coverImage.height - navBarMobileToggle.offsetHeight - 20
 
     function stickNavbar() {
-      if (window.pageYOffset > sticky - navBarMobileToggle.offsetHeight - 20) {
+      if (window.pageYOffset > sticky) {
         nav.classList.add(navSticky)
         navBarLogo.classList.add(navBarLogoSticky)
       } else {
