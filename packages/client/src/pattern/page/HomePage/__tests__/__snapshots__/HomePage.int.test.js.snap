@@ -515,33 +515,33 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           </ul>
         </div>
         <div
-          className="container1Vita"
+          className="container1Timeline"
         >
           <div
-            className="container1VitaSectionHeader"
+            className="container1TimelineSectionHeader"
           >
             <h2
-              className="container1VitaSectionHeaderH2"
+              className="container1TimelineSectionHeaderH2"
             >
-              VITA
+              TIMELINE
             </h2>
             <h3
-              className="container1VitaSectionHeaderH3"
+              className="container1TimelineSectionHeaderH3"
             >
               MY PROFESSIONAL STORY.
             </h3>
           </div>
           <ul
-            className="container1VitaItems"
+            className="container1TimelineItems"
           >
             <li
-              className="container1VitaItemsItem"
+              className="container1TimelineItemsItem"
             >
               <div
-                className="container1VitaItemsItemMemoryImage"
+                className="container1TimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1VitaItemsItemMemoryImageContainer"
+                  className="container1TimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -553,14 +553,14 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   />
                   <picture>
                     <img
-                      alt="vita one"
+                      alt="timeline one"
                       src={Object {}}
                     />
                   </picture>
                 </div>
               </div>
               <div
-                className="container1VitaItemsItemCaption"
+                className="container1TimelineItemsItemCaption"
               >
                 <h4>
                   1993 - 1997
@@ -576,13 +576,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1VitaItemsItem"
+              className="container1TimelineItemsItem"
             >
               <div
-                className="container1VitaItemsItemMemoryImage"
+                className="container1TimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1VitaItemsItemMemoryImageContainer"
+                  className="container1TimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -594,14 +594,14 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   />
                   <picture>
                     <img
-                      alt="vita two"
+                      alt="timeline two"
                       src={Object {}}
                     />
                   </picture>
                 </div>
               </div>
               <div
-                className="container1VitaItemsItemCaption"
+                className="container1TimelineItemsItemCaption"
               >
                 <h4>
                   2010 - 2014
@@ -617,13 +617,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1VitaItemsItem"
+              className="container1TimelineItemsItem"
             >
               <div
-                className="container1VitaItemsItemMemoryImage"
+                className="container1TimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1VitaItemsItemMemoryImageContainer"
+                  className="container1TimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -635,14 +635,14 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   />
                   <picture>
                     <img
-                      alt="vita three"
+                      alt="timeline three"
                       src={Object {}}
                     />
                   </picture>
                 </div>
               </div>
               <div
-                className="container1VitaItemsItemCaption"
+                className="container1TimelineItemsItemCaption"
               >
                 <h4>
                   2014 - 2017
@@ -658,13 +658,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1VitaItemsItem"
+              className="container1TimelineItemsItem"
             >
               <div
-                className="container1VitaItemsItemMemoryImage"
+                className="container1TimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1VitaItemsItemMemoryImageContainer"
+                  className="container1TimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -676,14 +676,14 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   />
                   <picture>
                     <img
-                      alt="vita four"
+                      alt="timeline four"
                       src={Object {}}
                     />
                   </picture>
                 </div>
               </div>
               <div
-                className="container1VitaItemsItemCaption"
+                className="container1TimelineItemsItemCaption"
               >
                 <h4>
                   2016
@@ -699,13 +699,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1VitaItemsItem"
+              className="container1TimelineItemsItem"
             >
               <div
-                className="container1VitaItemsItemMemoryImage"
+                className="container1TimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1VitaItemsItemMemoryImageContainer"
+                  className="container1TimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -717,14 +717,14 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   />
                   <picture>
                     <img
-                      alt="vita five"
+                      alt="timeline five"
                       src={Object {}}
                     />
                   </picture>
                 </div>
               </div>
               <div
-                className="container1VitaItemsItemCaption"
+                className="container1TimelineItemsItemCaption"
               >
                 <h4>
                   2017
@@ -740,13 +740,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1VitaItemsItem"
+              className="container1TimelineItemsItem"
             >
               <div
-                className="container1VitaItemsItemMemoryImage"
+                className="container1TimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1VitaItemsItemMemoryImageContainer"
+                  className="container1TimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -758,14 +758,14 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   />
                   <picture>
                     <img
-                      alt="vita six"
+                      alt="timeline six"
                       src={Object {}}
                     />
                   </picture>
                 </div>
               </div>
               <div
-                className="container1VitaItemsItemCaption"
+                className="container1TimelineItemsItemCaption"
               >
                 <h4>
                   2018
@@ -781,13 +781,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1VitaItemsItem"
+              className="container1TimelineItemsItem"
             >
               <div
-                className="container1VitaItemsItemMemoryImage"
+                className="container1TimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1VitaItemsItemMemoryImageContainer"
+                  className="container1TimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -799,14 +799,14 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   />
                   <picture>
                     <img
-                      alt="vita seven"
+                      alt="timeline seven"
                       src={Object {}}
                     />
                   </picture>
                 </div>
               </div>
               <div
-                className="container1VitaItemsItemCaption"
+                className="container1TimelineItemsItemCaption"
               >
                 <h4>
                   2018
@@ -822,13 +822,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1VitaItemsItem"
+              className="container1TimelineItemsItem"
             >
               <div
-                className="container1VitaItemsItemMemoryImage"
+                className="container1TimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1VitaItemsItemMemoryImageContainer"
+                  className="container1TimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -840,14 +840,14 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   />
                   <picture>
                     <img
-                      alt="vita eight"
+                      alt="timeline eight"
                       src={Object {}}
                     />
                   </picture>
                 </div>
               </div>
               <div
-                className="container1VitaItemsItemCaption"
+                className="container1TimelineItemsItemCaption"
               >
                 <h4>
                   2018
@@ -863,13 +863,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1VitaItemsItem"
+              className="container1TimelineItemsItem"
             >
               <div
-                className="container1VitaItemsItemMemoryImage"
+                className="container1TimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1VitaItemsItemMemoryImageContainer"
+                  className="container1TimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -881,14 +881,14 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   />
                   <picture>
                     <img
-                      alt="vita nine"
+                      alt="timeline nine"
                       src={Object {}}
                     />
                   </picture>
                 </div>
               </div>
               <div
-                className="container1VitaItemsItemCaption"
+                className="container1TimelineItemsItemCaption"
               >
                 <h4>
                   2017 - TODAY
@@ -904,16 +904,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1VitaItemsItem"
+              className="container1TimelineItemsItem"
             >
               <div
-                className="container1VitaItemsItemMemoryImage"
+                className="container1TimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1VitaItemsItemMemoryImageContainer"
+                  className="container1TimelineItemsItemMemoryImageContainer"
                 >
                   <div
-                    className="container1VitaItemsItemNewestMemory"
+                    className="container1TimelineItemsItemNewestMemory"
                   >
                     <h4>
                       Be part of my story.
