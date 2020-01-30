@@ -52,7 +52,7 @@ import {
   container1TestItemsItemCaptionP1,
   container1TestItemsItemCaptionP2,
 } from './MainContent.scss'
-import { navSticky, navBarLogoSticky } from '../Navigation/Navigation.scss'
+import { navSticky, navBarLogoSticky, navBarListItemLinkSticky } from '../Navigation/Navigation.scss'
 import { mainContentDefaultProps, mainContentPropTypes } from './MainContent.props'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import Cover from '../../../asset/image/cover.jpg'
@@ -78,20 +78,27 @@ import TestimonialSix from '../../../asset/image/testimonial/testimonial-6.jpg'
 
 export function MainContent({ className }) {
   useEffect(() => {
-    const nav = document.getElementById('nav')
-    const coverImage = document.getElementById('coverImage')
-    const navBarLogo = document.getElementById('navBarLogo')
-    const navBarMobileToggle = document.getElementById('navBarMobileToggle')
+    const nav = document.querySelector(`[class*="Navigation_nav"]`)
+    const backgroundImage = document.querySelector(`[class*="MainContent_container1BackgroundImage"]`).querySelector('picture img')
+    const navBarLogo = document.querySelector(`[class*="Navigation_navBarLogo"]`)
+    const navBarMobileToggle = document.querySelector(`[class*="Navigation_navBarMobileToggle"]`)
+    const navBarListItemLinks = document.querySelectorAll(`[class*="Navigation_navBarListItemLink"]`)
 
-    const sticky = coverImage.height - navBarMobileToggle.offsetHeight - 20
+    const sticky = backgroundImage.height - navBarMobileToggle.offsetHeight - 20
 
     function stickNavbar() {
       if (window.pageYOffset > sticky) {
         nav.classList.add(navSticky)
         navBarLogo.classList.add(navBarLogoSticky)
+        navBarListItemLinks.forEach(navBarListItemLink => {
+          navBarListItemLink.classList.add(navBarListItemLinkSticky)
+        })
       } else {
         nav.classList.remove(navSticky)
         navBarLogo.classList.remove(navBarLogoSticky)
+        navBarListItemLinks.forEach(navBarListItemLink => {
+          navBarListItemLink.classList.remove(navBarListItemLinkSticky)
+        })
       }
     }
 
@@ -107,7 +114,7 @@ export function MainContent({ className }) {
           <div className={container1BackgroundImage}>
             <div style={{ width: '100%', paddingBottom: '66.6992%' }} />
             <picture>
-              <img id="coverImage" src={!windowObjectExists ? 'mts/static/cover.jpg' : Cover} alt="cover" />
+              <img src={!windowObjectExists ? 'mts/static/cover.jpg' : Cover} alt="cover" />
             </picture>
           </div>
           <div className={container1BackgroundDimmer} />
