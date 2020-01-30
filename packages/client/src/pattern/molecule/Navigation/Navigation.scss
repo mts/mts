@@ -54,14 +54,14 @@
         }
 
         &Link {
-          &:visited {
-            color: #fff;
-          }
-
           text-transform: uppercase;
           letter-spacing: 3.5px;
           font-weight: 200;
-          color: #333;
+          color: #fff;
+
+          &Sticky {
+            color: #333;
+          }
         }
       }
     }
