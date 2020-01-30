@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
   container1,
   container1Background,
@@ -30,16 +30,16 @@ import {
   container1PortfolioItemsItem,
   container1PortfolioItemsItemImage,
   container1PortfolioItemsItemCaption,
-  container1Vita,
-  container1VitaSectionHeader,
-  container1VitaSectionHeaderH2,
-  container1VitaSectionHeaderH3,
-  container1VitaItems,
-  container1VitaItemsItem,
-  container1VitaItemsItemMemoryImage,
-  container1VitaItemsItemMemoryImageContainer,
-  container1VitaItemsItemCaption,
-  container1VitaItemsItemNewestMemory,
+  container1Timeline,
+  container1TimelineSectionHeader,
+  container1TimelineSectionHeaderH2,
+  container1TimelineSectionHeaderH3,
+  container1TimelineItems,
+  container1TimelineItemsItem,
+  container1TimelineItemsItemMemoryImage,
+  container1TimelineItemsItemMemoryImageContainer,
+  container1TimelineItemsItemCaption,
+  container1TimelineItemsItemNewestMemory,
   container1Test,
   container1TestSectionHeader,
   container1TestSectionHeaderH2,
@@ -59,23 +59,28 @@ import Me from '../../../asset/image/me.jpg'
 import PortfolioOne from '../../../asset/image/portfolio/portfolio-1.jpg'
 import PortfolioTwo from '../../../asset/image/portfolio/portfolio-2.jpg'
 import PortfolioThree from '../../../asset/image/portfolio/portfolio-3.jpg'
-import VitaOne from '../../../asset/image/vita/vita-1.jpg'
-import VitaTwo from '../../../asset/image/vita/vita-2.jpg'
-import VitaThree from '../../../asset/image/vita/vita-3.jpg'
-import VitaFour from '../../../asset/image/vita/vita-4.jpg'
-import VitaFive from '../../../asset/image/vita/vita-5.jpg'
-import VitaSix from '../../../asset/image/vita/vita-6.jpg'
-import VitaSeven from '../../../asset/image/vita/vita-7.jpg'
-import VitaEight from '../../../asset/image/vita/vita-8.jpg'
-import VitaNine from '../../../asset/image/vita/vita-9.jpg'
+import TimelineOne from '../../../asset/image/timeline/timeline-1.jpg'
+import TimelineTwo from '../../../asset/image/timeline/timeline-2.jpg'
+import TimelineThree from '../../../asset/image/timeline/timeline-3.jpg'
+import TimelineFour from '../../../asset/image/timeline/timeline-4.jpg'
+import TimelineFive from '../../../asset/image/timeline/timeline-5.jpg'
+import TimelineSix from '../../../asset/image/timeline/timeline-6.jpg'
+import TimelineSeven from '../../../asset/image/timeline/timeline-7.jpg'
+import TimelineEight from '../../../asset/image/timeline/timeline-8.jpg'
+import TimelineNine from '../../../asset/image/timeline/timeline-9.jpg'
 import TestimonialOne from '../../../asset/image/testimonial/testimonial-1.jpg'
 import TestimonialTwo from '../../../asset/image/testimonial/testimonial-2.jpg'
 import TestimonialThree from '../../../asset/image/testimonial/testimonial-3.jpg'
 import TestimonialFour from '../../../asset/image/testimonial/testimonial-4.jpg'
 import TestimonialFive from '../../../asset/image/testimonial/testimonial-5.jpg'
 import TestimonialSix from '../../../asset/image/testimonial/testimonial-6.jpg'
+import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 
 export function MainContent({ className }) {
+  useEffect(() => {
+    handleStickyNavBar()
+  })
+
   return (
     <main className={className} style={{ marginTop: '0', display: 'flex', justifyContent: 'center' }}>
       <div className={container1}>
@@ -289,22 +294,22 @@ export function MainContent({ className }) {
             </li>
           </ul>
         </div>
-        <div className={container1Vita}>
-          <div className={container1VitaSectionHeader}>
-            <h2 className={container1VitaSectionHeaderH2}>VITA</h2>
-            <h3 className={container1VitaSectionHeaderH3}>MY PROFESSIONAL STORY.</h3>
+        <div className={container1Timeline}>
+          <div className={container1TimelineSectionHeader}>
+            <h2 className={container1TimelineSectionHeaderH2}>TIMELINE</h2>
+            <h3 className={container1TimelineSectionHeaderH3}>MY PROFESSIONAL STORY.</h3>
           </div>
-          <ul className={container1VitaItems}>
-            <li className={container1VitaItemsItem}>
-              <div className={container1VitaItemsItemMemoryImage}>
-                <div className={container1VitaItemsItemMemoryImageContainer}>
+          <ul className={container1TimelineItems}>
+            <li className={container1TimelineItemsItem}>
+              <div className={container1TimelineItemsItemMemoryImage}>
+                <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/vita-1.jpg' : VitaOne} alt="vita one" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-1.jpg' : TimelineOne} alt="timeline one" />
                   </picture>
                 </div>
               </div>
-              <div className={container1VitaItemsItemCaption}>
+              <div className={container1TimelineItemsItemCaption}>
                 <h4>1993 - 1997</h4>
                 <h4>Bachelor of Science</h4>
                 <div>
@@ -315,16 +320,16 @@ export function MainContent({ className }) {
                 </div>
               </div>
             </li>
-            <li className={container1VitaItemsItem}>
-              <div className={container1VitaItemsItemMemoryImage}>
-                <div className={container1VitaItemsItemMemoryImageContainer}>
+            <li className={container1TimelineItemsItem}>
+              <div className={container1TimelineItemsItemMemoryImage}>
+                <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/vita-2.jpg' : VitaTwo} alt="vita two" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-2.jpg' : TimelineTwo} alt="timeline two" />
                   </picture>
                 </div>
               </div>
-              <div className={container1VitaItemsItemCaption}>
+              <div className={container1TimelineItemsItemCaption}>
                 <h4>2010 - 2014</h4>
                 <h4>Freelancer</h4>
                 <div>
@@ -332,16 +337,16 @@ export function MainContent({ className }) {
                 </div>
               </div>
             </li>
-            <li className={container1VitaItemsItem}>
-              <div className={container1VitaItemsItemMemoryImage}>
-                <div className={container1VitaItemsItemMemoryImageContainer}>
+            <li className={container1TimelineItemsItem}>
+              <div className={container1TimelineItemsItemMemoryImage}>
+                <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/vita-3.jpg' : VitaThree} alt="vita three" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-3.jpg' : TimelineThree} alt="timeline three" />
                   </picture>
                 </div>
               </div>
-              <div className={container1VitaItemsItemCaption}>
+              <div className={container1TimelineItemsItemCaption}>
                 <h4>2014 - 2017</h4>
                 <h4>Startups</h4>
                 <div>
@@ -352,16 +357,16 @@ export function MainContent({ className }) {
                 </div>
               </div>
             </li>
-            <li className={container1VitaItemsItem}>
-              <div className={container1VitaItemsItemMemoryImage}>
-                <div className={container1VitaItemsItemMemoryImageContainer}>
+            <li className={container1TimelineItemsItem}>
+              <div className={container1TimelineItemsItemMemoryImage}>
+                <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/vita-4.jpg' : VitaFour} alt="vita four" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-4.jpg' : TimelineFour} alt="timeline four" />
                   </picture>
                 </div>
               </div>
-              <div className={container1VitaItemsItemCaption}>
+              <div className={container1TimelineItemsItemCaption}>
                 <h4>2016</h4>
                 <h4>Yellow Book</h4>
                 <div>
@@ -372,16 +377,16 @@ export function MainContent({ className }) {
                 </div>
               </div>
             </li>
-            <li className={container1VitaItemsItem}>
-              <div className={container1VitaItemsItemMemoryImage}>
-                <div className={container1VitaItemsItemMemoryImageContainer}>
+            <li className={container1TimelineItemsItem}>
+              <div className={container1TimelineItemsItemMemoryImage}>
+                <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/vita-5.jpg' : VitaFive} alt="vita five" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-5.jpg' : TimelineFive} alt="timeline five" />
                   </picture>
                 </div>
               </div>
-              <div className={container1VitaItemsItemCaption}>
+              <div className={container1TimelineItemsItemCaption}>
                 <h4>2017</h4>
                 <h4>Gray Book</h4>
                 <div>
@@ -392,16 +397,16 @@ export function MainContent({ className }) {
                 </div>
               </div>
             </li>
-            <li className={container1VitaItemsItem}>
-              <div className={container1VitaItemsItemMemoryImage}>
-                <div className={container1VitaItemsItemMemoryImageContainer}>
+            <li className={container1TimelineItemsItem}>
+              <div className={container1TimelineItemsItemMemoryImage}>
+                <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/vita-6.jpg' : VitaSix} alt="vita six" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-6.jpg' : TimelineSix} alt="timeline six" />
                   </picture>
                 </div>
               </div>
-              <div className={container1VitaItemsItemCaption}>
+              <div className={container1TimelineItemsItemCaption}>
                 <h4>2018</h4>
                 <h4>Pink Book</h4>
                 <div>
@@ -412,16 +417,16 @@ export function MainContent({ className }) {
                 </div>
               </div>
             </li>
-            <li className={container1VitaItemsItem}>
-              <div className={container1VitaItemsItemMemoryImage}>
-                <div className={container1VitaItemsItemMemoryImageContainer}>
+            <li className={container1TimelineItemsItem}>
+              <div className={container1TimelineItemsItemMemoryImage}>
+                <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/vita-7.jpg' : VitaSeven} alt="vita seven" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-7.jpg' : TimelineSeven} alt="timeline seven" />
                   </picture>
                 </div>
               </div>
-              <div className={container1VitaItemsItemCaption}>
+              <div className={container1TimelineItemsItemCaption}>
                 <h4>2018</h4>
                 <h4>Developer Magazines</h4>
                 <div>
@@ -429,16 +434,16 @@ export function MainContent({ className }) {
                 </div>
               </div>
             </li>
-            <li className={container1VitaItemsItem}>
-              <div className={container1VitaItemsItemMemoryImage}>
-                <div className={container1VitaItemsItemMemoryImageContainer}>
+            <li className={container1TimelineItemsItem}>
+              <div className={container1TimelineItemsItemMemoryImage}>
+                <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/vita-8.jpg' : VitaEight} alt="vita eight" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-8.jpg' : TimelineEight} alt="timeline eight" />
                   </picture>
                 </div>
               </div>
-              <div className={container1VitaItemsItemCaption}>
+              <div className={container1TimelineItemsItemCaption}>
                 <h4>2018</h4>
                 <h4>Orange Book</h4>
                 <div>
@@ -449,16 +454,16 @@ export function MainContent({ className }) {
                 </div>
               </div>
             </li>
-            <li className={container1VitaItemsItem}>
-              <div className={container1VitaItemsItemMemoryImage}>
-                <div className={container1VitaItemsItemMemoryImageContainer}>
+            <li className={container1TimelineItemsItem}>
+              <div className={container1TimelineItemsItemMemoryImage}>
+                <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/vita-9.jpg' : VitaNine} alt="vita nine" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-9.jpg' : TimelineNine} alt="timeline nine" />
                   </picture>
                 </div>
               </div>
-              <div className={container1VitaItemsItemCaption}>
+              <div className={container1TimelineItemsItemCaption}>
                 <h4>2017 - TODAY</h4>
                 <h4>Self-Employed</h4>
                 <div>
@@ -469,10 +474,10 @@ export function MainContent({ className }) {
                 </div>
               </div>
             </li>
-            <li className={container1VitaItemsItem}>
-              <div className={container1VitaItemsItemMemoryImage}>
-                <div className={container1VitaItemsItemMemoryImageContainer}>
-                  <div className={container1VitaItemsItemNewestMemory}>
+            <li className={container1TimelineItemsItem}>
+              <div className={container1TimelineItemsItemMemoryImage}>
+                <div className={container1TimelineItemsItemMemoryImageContainer}>
+                  <div className={container1TimelineItemsItemNewestMemory}>
                     <h4>Be part of my story.</h4>
                   </div>
                 </div>
