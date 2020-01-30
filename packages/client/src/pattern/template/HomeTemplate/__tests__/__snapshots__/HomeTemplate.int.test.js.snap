@@ -126,6 +126,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
       >
         <button
           className="navBarMobileToggleButton"
+          onClick={[Function]}
           type="button"
         >
           <svg
