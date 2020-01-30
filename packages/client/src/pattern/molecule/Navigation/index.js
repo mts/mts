@@ -14,7 +14,7 @@ import {
 } from './Navigation.scss'
 import { navigationDefaultProps, navigationPropTypes } from './Navigation.props'
 import { windowObjectExists } from '../../../../../library/src/environment'
-import Logo from '../../../asset/image/logo.svg'
+import Logo from '../../../asset/image/logo.jpg'
 
 function Component({ className, ui }) {
   const {
@@ -26,10 +26,10 @@ function Component({ className, ui }) {
   } = ui
 
   return (
-    <nav className={cx(className, nav)}>
+    <nav id="nav" className={cx(className, nav)}>
       <div className={navBar}>
-        <a className={navBarLogo} href="/">
-          <img height="40" src={!windowObjectExists ? 'mts/static/logo.svg' : Logo} alt="logo" />
+        <a id="navBarLogo" className={navBarLogo} href="/">
+          <img height="40" src={!windowObjectExists ? 'mts/static/logo.jpg' : Logo} alt="logo" />
         </a>
         <ul className={navBarList}>
           <li className={navBarListItem}>
@@ -48,12 +48,12 @@ function Component({ className, ui }) {
             </a>
           </li>
         </ul>
-        <div className={navBarMobileToggle}>
-          <div className={navBarMobileToggleButton}>
+        <div id="navBarMobileToggle" className={navBarMobileToggle}>
+          <button type="button" className={navBarMobileToggleButton}>
             <svg width="24px" height="24px" viewBox="0 0 124 124">
               <path d="M112 6H12C5.4 6 0 11.4 0 18s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12zM112 50H12C5.4 50 0 55.4 0 62s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12zM112 94H12c-6.6 0-12 5.4-12 12s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12z" />
             </svg>
-          </div>
+          </button>
         </div>
       </div>
     </nav>
