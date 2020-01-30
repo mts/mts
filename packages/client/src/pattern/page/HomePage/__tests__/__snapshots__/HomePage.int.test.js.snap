@@ -9,6 +9,11 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
   <div
     className="homeTemplate"
   >
+    <div
+      className="share"
+    >
+      Under construction
+    </div>
     <nav
       className="nav"
     >
