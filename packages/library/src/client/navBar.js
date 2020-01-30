@@ -1,3 +1,4 @@
+/* eslint no-unused-expressions : 0 */
 import { navSticky, navBarLogoSticky, navBarListItemLinkSticky } from '../../../client/src/pattern/molecule/Navigation/Navigation.scss'
 
 export function handleStickyNavBar() {
@@ -11,15 +12,15 @@ export function handleStickyNavBar() {
 
   function handleWindowOnScroll() {
     if (window.pageYOffset > sticky) {
-      nav.classList.add(navSticky)
-      navBarLogo.classList.add(navBarLogoSticky)
-      navBarListItemLinks.forEach(navBarListItemLink => {
+      nav?.classList.add(navSticky)
+      navBarLogo?.classList.add(navBarLogoSticky)
+      navBarListItemLinks?.forEach(navBarListItemLink => {
         navBarListItemLink.classList.add(navBarListItemLinkSticky)
       })
     } else {
-      nav.classList.remove(navSticky)
-      navBarLogo.classList.remove(navBarLogoSticky)
-      navBarListItemLinks.forEach(navBarListItemLink => {
+      nav?.classList.remove(navSticky)
+      navBarLogo?.classList.remove(navBarLogoSticky)
+      navBarListItemLinks?.forEach(navBarListItemLink => {
         navBarListItemLink.classList.remove(navBarListItemLinkSticky)
       })
     }
