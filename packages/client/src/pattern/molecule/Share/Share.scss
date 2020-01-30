@@ -1,0 +1,24 @@
+.buttonList {
+  position: fixed;
+  width: 50px;
+  z-index: 999;
+  margin: 0;
+  top: 40%;
+  left: 0;
+
+  @media (max-width: 460px) {
+    display: none;
+  }
+
+  &Item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+
+    a:hover svg path {
+      fill: #823eb7;
+      stroke: #823eb7;
+    }
+  }
+}

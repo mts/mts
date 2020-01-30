@@ -2,6 +2,11 @@ import React from 'react'
 import { asyncRender, defaultRender } from './HomePage.int.render'
 
 jest.mock('react-router-dom', () => ({ Link: () => <div>some link</div> }))
+jest.mock('../../../../../../library/src/client/navBar', () => {
+  return {
+    handleStickyNavBar: () => {},
+  }
+})
 
 describe('<HomePage />', () => {
   afterEach(() => jest.clearAllMocks())

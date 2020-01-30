@@ -49,7 +49,8 @@
       align-items: center;
       text-align: center;
 
-      h1 h2 {
+      h1,
+      h2 {
         color: #fff;
       }
 
@@ -308,7 +309,7 @@
         }
 
         &Image {
-          width: 300px;
+          width: 100%;
         }
 
         &Caption {
@@ -328,7 +329,7 @@
     }
   }
 
-  &Vita {
+  &Timeline {
     &:not(:last-child) {
       border-bottom: 1px solid #e4e4e4;
     }
