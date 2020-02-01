@@ -4,6 +4,7 @@ import { blogTemplate } from './BlogTemplate.scss'
 import { blogTemplateDefaultProps, blogTemplatePropTypes } from './BlogTemplate.props'
 import { ShareButtons } from '../../molecule/ShareButtons'
 import { Navigation } from '../../molecule/Navigation'
+import { AboutMain } from '../../molecule/AboutMain'
 import { Newsletter } from '../../molecule/Newsletter'
 import { Footer } from '../../molecule/Footer'
 
@@ -12,6 +13,7 @@ export function BlogTemplate({ className }) {
     <div className={cx(className, blogTemplate)}>
       <ShareButtons />
       <Navigation />
+      <AboutMain />
       <Newsletter />
       <Footer />
     </div>

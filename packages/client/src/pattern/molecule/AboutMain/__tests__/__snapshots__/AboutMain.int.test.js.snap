@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AboutMain /> Snaphot must match defaultRender 1`] = `
+<main
+  className=""
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+      "marginTop": "55",
+    }
+  }
+>
+  <div
+    className="container1"
+  >
+    AboutMain under construction
+  </div>
+</main>
+`;

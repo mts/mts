@@ -147,6 +147,22 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
         </div>
       </div>
     </nav>
+    <main
+      className=""
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "center",
+          "marginTop": "55",
+        }
+      }
+    >
+      <div
+        className="container1"
+      >
+        AboutMain under construction
+      </div>
+    </main>
     <div
       className="topBorder"
     >
