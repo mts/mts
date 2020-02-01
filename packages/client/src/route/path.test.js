@@ -32,6 +32,36 @@ describe('path', () => {
       expect(homePagePath).toBe('/')
     })
   })
+
+  describe('aboutPagePath', () => {
+    test('must return path with base url when process.env.BASE_URL is present', () => {
+      jest.resetModules()
+      extendEnvironmentVariables()
+      const { aboutPagePath } = requirePath()
+      expect(aboutPagePath).toBe(`${process.env.BASE_URL}/about`)
+    })
+
+    test('must return path without base url when process.env.BASE_URL is absent', () => {
+      jest.resetModules()
+      const { aboutPagePath } = requirePath()
+      expect(aboutPagePath).toBe('/about')
+    })
+  })
+
+  describe(' blogPagePath', () => {
+    test('must return path with base url when process.env.BASE_URL is present', () => {
+      jest.resetModules()
+      extendEnvironmentVariables()
+      const { blogPagePath } = requirePath()
+      expect(blogPagePath).toBe(`${process.env.BASE_URL}/blog`)
+    })
+
+    test('must return path without base url when process.env.BASE_URL is absent', () => {
+      jest.resetModules()
+      const { blogPagePath } = requirePath()
+      expect(blogPagePath).toBe('/blog')
+    })
+  })
 })
 
 /* eslint-enable global-require */
