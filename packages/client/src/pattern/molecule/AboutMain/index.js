@@ -10,7 +10,7 @@ export function AboutMain({ className }) {
 
   return (
     <main className={className} style={{ marginTop: '55', display: 'flex', justifyContent: 'center' }}>
-      <div className={container1}>AboutMain under construction</div>
+      <section className={container1}>AboutMain under construction</section>
     </main>
   )
 }
