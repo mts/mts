@@ -5,6 +5,7 @@ import { aboutTemplateDefaultProps, aboutTemplatePropTypes } from './AboutTempla
 import { ShareButtons } from '../../molecule/ShareButtons'
 import { Navigation } from '../../molecule/Navigation'
 import { Newsletter } from '../../molecule/Newsletter'
+import { Footer } from '../../molecule/Footer'
 
 export function AboutTemplate({ className }) {
   return (
@@ -12,6 +13,7 @@ export function AboutTemplate({ className }) {
       <ShareButtons />
       <Navigation />
       <Newsletter />
+      <Footer />
     </div>
   )
 }
