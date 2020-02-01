@@ -3,12 +3,12 @@ import { navSticky, navBarLogoSticky, navBarListItemLinkSticky } from '../../../
 
 export function handleStickyNavBar() {
   const nav = document.querySelector(`[class*="Navigation_nav"]`)
-  const backgroundImage = document.querySelector(`[class*="MainContent_container1BackgroundImage"]`).querySelector('picture img')
+  const backgroundImage = document.querySelector(`[class*="MainContent_container1BackgroundImage"]`)?.querySelector('picture img')
   const navBarLogo = document.querySelector(`[class*="Navigation_navBarLogo"]`)
   const navBarMobileToggle = document.querySelector(`[class*="Navigation_navBarMobileToggle"]`)
   const navBarListItemLinks = document.querySelectorAll(`[class*="Navigation_navBarListItemLink"]`)
 
-  const sticky = backgroundImage.height - navBarMobileToggle.offsetHeight - 20
+  const sticky = backgroundImage?.height - navBarMobileToggle?.offsetHeight - 20
 
   function handleWindowOnScroll() {
     if (window.pageYOffset > sticky) {
