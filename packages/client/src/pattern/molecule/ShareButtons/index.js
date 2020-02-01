@@ -1,9 +1,9 @@
 import React from 'react'
 import cx from 'classnames'
-import { buttonList, buttonListItem } from './Share.scss'
-import { shareDefaultProps, sharePropTypes } from './Share.props'
+import { buttonList, buttonListItem } from './ShareButtons.scss'
+import { shareButtonsDefaultProps, shareButtonsPropTypes } from './ShareButtons.props'
 
-export function Share({ className }) {
+export function ShareButtons({ className }) {
   return (
     <ul className={cx(className, buttonList)}>
       <li className={buttonListItem}>
@@ -31,6 +31,6 @@ export function Share({ className }) {
   )
 }
 
-Share.defaultProps = shareDefaultProps
+ShareButtons.defaultProps = shareButtonsDefaultProps
 
-Share.propTypes = sharePropTypes
+ShareButtons.propTypes = shareButtonsPropTypes
