@@ -1,9 +1,9 @@
 import { string } from 'prop-types'
 
-export const participateDefaultProps = {
+export const newsletterDefaultProps = {
   className: '',
 }
 
-export const participatePropTypes = {
+export const newsletterPropTypes = {
   className: string,
 }

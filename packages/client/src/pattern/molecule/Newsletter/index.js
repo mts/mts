@@ -10,10 +10,10 @@ import {
   labelForm,
   labelFormInput,
   labelFormButton,
-} from './Participate.scss'
-import { participateDefaultProps, participatePropTypes } from './Participate.props'
+} from './Newsletter.scss'
+import { newsletterDefaultProps, newsletterPropTypes } from './Newsletter.props'
 
-export function Participate({ className }) {
+export function Newsletter({ className }) {
   return (
     <div className={cx(className, topBorder)}>
       <label htmlFor="newsletter" className={label}>
@@ -72,6 +72,6 @@ export function Participate({ className }) {
   )
 }
 
-Participate.defaultProps = participateDefaultProps
+Newsletter.defaultProps = newsletterDefaultProps
 
-Participate.propTypes = participatePropTypes
+Newsletter.propTypes = newsletterPropTypes

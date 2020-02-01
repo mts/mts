@@ -1,6 +1,6 @@
-import { defaultRender } from './Participate.int.render'
+import { defaultRender } from './Newsletter.int.render'
 
-describe('<Participate />', () => {
+describe('<Newsletter />', () => {
   describe('Snaphot', () => {
     test('must match defaultRender', () => {
       expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
