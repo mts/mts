@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<MainContent /> Snaphot must match defaultRender 1`] = `
+exports[`<HomeMain /> Snaphot must match defaultRender 1`] = `
 <main
   className=""
   style={

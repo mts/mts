@@ -51,8 +51,8 @@ import {
   container1TestItemsItemCaption,
   container1TestItemsItemCaptionP1,
   container1TestItemsItemCaptionP2,
-} from './MainContent.scss'
-import { mainContentDefaultProps, mainContentPropTypes } from './MainContent.props'
+} from './HomeMain.scss'
+import { homeMainDefaultProps, homeMainPropTypes } from './HomeMain.props'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import Cover from '../../../asset/image/cover.jpg'
 import Me from '../../../asset/image/me.jpg'
@@ -76,7 +76,7 @@ import TestimonialFive from '../../../asset/image/testimonial/testimonial-5.jpg'
 import TestimonialSix from '../../../asset/image/testimonial/testimonial-6.jpg'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 
-export function MainContent({ className }) {
+export function HomeMain({ className }) {
   useEffect(() => {
     handleStickyNavBar()
   })
@@ -651,6 +651,6 @@ export function MainContent({ className }) {
   )
 }
 
-MainContent.defaultProps = mainContentDefaultProps
+HomeMain.defaultProps = homeMainDefaultProps
 
-MainContent.propTypes = mainContentPropTypes
+HomeMain.propTypes = homeMainPropTypes
