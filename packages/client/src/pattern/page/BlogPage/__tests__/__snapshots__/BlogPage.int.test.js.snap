@@ -160,7 +160,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
       <div
         className="container1"
       >
-        AboutMain under construction
+        BlogMain under construction
       </div>
     </main>
     <div
