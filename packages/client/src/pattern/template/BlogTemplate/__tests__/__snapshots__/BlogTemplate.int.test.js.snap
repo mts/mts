@@ -68,5 +68,79 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
       </a>
     </li>
   </ul>
+  <nav
+    className="nav"
+  >
+    <div
+      className="navBar"
+    >
+      <a
+        className="navBarLogo"
+        href="/"
+      >
+        <img
+          alt="logo"
+          height="40"
+          src={Object {}}
+        />
+      </a>
+      <ul
+        className="navBarList"
+      >
+        <li
+          className="navBarListItem"
+        >
+          <a
+            aria-label="About Page"
+            className="navBarListItemLink"
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="navBarListItem"
+        >
+          <a
+            aria-label="Blog Page"
+            className="navBarListItemLink"
+            href="/blog"
+          >
+            Blog
+          </a>
+        </li>
+        <li
+          className="navBarListItem"
+        >
+          <a
+            aria-label="Courses Page"
+            className="navBarListItemLink"
+            href="/courses"
+          >
+            Courses
+          </a>
+        </li>
+      </ul>
+      <div
+        className="navBarMobileToggle"
+      >
+        <button
+          className="navBarMobileToggleButton"
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            height="24px"
+            viewBox="0 0 124 124"
+            width="24px"
+          >
+            <path
+              d="M112 6H12C5.4 6 0 11.4 0 18s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12zM112 50H12C5.4 50 0 55.4 0 62s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12zM112 94H12c-6.6 0-12 5.4-12 12s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
 </div>
 `;
