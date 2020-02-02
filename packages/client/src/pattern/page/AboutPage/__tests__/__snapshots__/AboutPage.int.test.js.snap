@@ -374,6 +374,170 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
             </a>
             You like my content? Here are a couple of ways to support it.
           </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt. Curabitur commodo, sapien id mattis sagittis, lectus dolor ullamcorper purus, et lacinia elit urna tincidunt massa. Nam pretium nisi at vehicula placerat. Ut molestie eros in sapien mollis, tincidunt vehicula arcu pellentesque. Proin vel elementum ante. Curabitur ut erat massa. Integer pellentesque mauris sed libero scelerisque molestie.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+          </p>
+          <h3>
+            <a
+              aria-label="be my patron permalink"
+              href="#be-my-patron"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                height="0"
+                width="0"
+              />
+            </a>
+            Be my Patron
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+          </p>
+          <h3>
+            <a
+              aria-label="follow me permalink"
+              href="#follow-me"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                height="0"
+                width="0"
+              />
+            </a>
+            Follow Me
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+          </p>
+          <h3>
+            <a
+              aria-label="leave a review permalink"
+              href="#leave-a-review"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                height="0"
+                width="0"
+              />
+            </a>
+            Leave a Review
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+          </p>
+          <h3>
+            <a
+              aria-label="share permalink"
+              href="#share"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                height="0"
+                width="0"
+              />
+            </a>
+            Share
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+          </p>
+          <h3>
+            <a
+              aria-label="learn react permalink"
+              href="#learn-react"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                height="0"
+                width="0"
+              />
+            </a>
+            Learn React
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+          </p>
+          <h3>
+            <a
+              aria-label="contribute permalink"
+              href="#contribute"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                height="0"
+                width="0"
+              />
+            </a>
+            Contribute
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+          </p>
+          <h3>
+            <a
+              aria-label="donate permalink"
+              href="#donate"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                height="0"
+                width="0"
+              />
+            </a>
+            Donate
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
+          </p>
+          <h2
+            className="container1Title"
+          >
+            <a
+              aria-label="what i use permalink"
+              href="#what-i-use"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                height="0"
+                width="0"
+              />
+            </a>
+            What I Use
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+          </p>
+          <h3>
+            <a
+              aria-label="heroku and github pages permalink"
+              href="#heroku-and-github-pages"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                height="0"
+                width="0"
+              />
+            </a>
+            Heroku and GitHub Pages
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
+          </p>
         </arcticle>
       </section>
     </main>
