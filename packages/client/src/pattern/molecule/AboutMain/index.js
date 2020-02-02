@@ -11,6 +11,8 @@ import {
   container1Title,
   container1List,
   container1ListItem,
+  container1Divider,
+  container1DividerButton,
 } from './AboutMain.scss'
 import { aboutMainDefaultProps, aboutMainPropTypes } from './AboutMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
@@ -285,7 +287,26 @@ export function AboutMain({ className }) {
             <li className={container1ListItem}>great pricing model for a larger audience</li>
             <li className={container1ListItem}>statistics and analytics</li>
           </ul>
+          <h3>
+            <a href="leanpub" target="_blank" rel="noopener noreferrer" aria-label="leanpub permalink">
+              <svg height="0" width="0" />
+            </a>
+            Leanpub
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
+          <h3>
+            <a href="educative" target="_blank" rel="noopener noreferrer" aria-label="educative permalink">
+              <svg height="0" width="0" />
+            </a>
+            Educative
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
+          <hr className={container1Divider} />
+          <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
         </arcticle>
+        <div className={container1DividerButton}>
+          <button type="button">Show Comments</button>
+        </div>
       </section>
     </main>
   )
