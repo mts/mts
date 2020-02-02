@@ -9,18 +9,20 @@ export function LoremIpsum({ className, container, length, count }) {
       switch (length) {
         case size.x2Small:
           return (
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.</p>
+            <p className={className}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
+            </p>
           )
         case size.x1Small:
           return (
-            <p>
+            <p className={className}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed
               quis purus quis metus sagittis sollicitudin accumsan in ante.
             </p>
           )
         case size.small:
           return (
-            <p>
+            <p className={className}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed
               quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis.
               Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est.
@@ -29,7 +31,7 @@ export function LoremIpsum({ className, container, length, count }) {
           )
         case size.medium:
           return (
-            <p>
+            <p className={className}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed
               quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis.
               Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est.
@@ -40,7 +42,7 @@ export function LoremIpsum({ className, container, length, count }) {
           )
         case size.large:
           return (
-            <p>
+            <p className={className}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed
               quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis.
               Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est.
@@ -73,9 +75,9 @@ export function LoremIpsum({ className, container, length, count }) {
   }
 
   return (
-    <React.Fragment className={className}>
+    <>
       <LoremIpsumTimesCount />
-    </React.Fragment>
+    </>
   )
 }
 
