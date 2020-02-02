@@ -278,6 +278,13 @@ export function AboutMain({ className }) {
             Revue
           </h3>
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
+          <ul className={container1List}>
+            <li className={container1ListItem}>permalinks to newsletters</li>
+            <li className={container1ListItem}>powerful integrations for fetching content automatically</li>
+            <li className={container1ListItem}>simple and intuitive UI/UX</li>
+            <li className={container1ListItem}>great pricing model for a larger audience</li>
+            <li className={container1ListItem}>statistics and analytics</li>
+          </ul>
         </arcticle>
       </section>
     </main>
