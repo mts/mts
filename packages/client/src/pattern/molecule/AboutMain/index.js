@@ -131,6 +131,43 @@ export function AboutMain({ className }) {
             Nullam volutpat cursus nunc, at molestie tellus pellentesque non. Vestibulum dignissim ante vel diam tincidunt iaculis.
             Vestibulum vehicula lobortis ultrices.
           </p>
+          <h2 className={container1Title}>
+            <a
+              href="#passions-beyond-software-development"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="passions beyond software development permalink"
+            >
+              <svg height="0" width="0" />
+            </a>
+            Passions beyond Software Development
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis
+            purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis.
+            Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis
+            purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis.
+            Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis
+            purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis.
+            Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio.
+          </p>
+          <h2 className={container1Title}>
+            <a
+              href="#you-like-my-content-here-are-a-couple-of-ways-to-support-it"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="you like my content here are a couple of ways to support it permalink"
+            >
+              <svg height="0" width="0" />
+            </a>
+            You like my content? Here are a couple of ways to support it.
+          </h2>
         </arcticle>
       </section>
     </main>
