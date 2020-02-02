@@ -115,9 +115,7 @@ export function AboutMain({ className }) {
             </a>
             Passions beyond Software Development
           </h2>
-          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
-          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
-          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
+          <LoremIpsum container={element.paragraph} length={size.small} count={3} />
           <h2 className={container1Title}>
             <a
               href="#you-like-my-content-here-are-a-couple-of-ways-to-support-it"
@@ -172,15 +170,14 @@ export function AboutMain({ className }) {
             </a>
             Contribute
           </h3>
-          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
-          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
+          <LoremIpsum container={element.paragraph} length={size.small} count={2} />
           <h3>
             <a href="#donate" target="_blank" rel="noopener noreferrer" aria-label="donate permalink">
               <svg height="0" width="0" />
             </a>
             Donate
           </h3>
-          <LoremIpsum container={element.paragraph} length={size.extraSmall} count={1} />
+          <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
           <h2 className={container1Title}>
             <a href="#what-i-use" target="_blank" rel="noopener noreferrer" aria-label="what i use permalink">
               <svg height="0" width="0" />
@@ -194,7 +191,21 @@ export function AboutMain({ className }) {
             </a>
             Heroku and GitHub Pages
           </h3>
-          <LoremIpsum container={element.paragraph} length={size.extraSmall} count={1} />
+          <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
+          <h3>
+            <a href="#email" target="_blank" rel="noopener noreferrer" aria-label="email permalink">
+              <svg height="0" width="0" />
+            </a>
+            Email
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
+          <h3>
+            <a href="#editor-and-terminal" target="_blank" rel="noopener noreferrer" aria-label="editor and terminal permalink">
+              <svg height="0" width="0" />
+            </a>
+            Editor and Terminal
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
         </arcticle>
       </section>
     </main>
