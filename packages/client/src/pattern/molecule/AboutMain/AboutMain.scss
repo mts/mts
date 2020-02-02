@@ -109,4 +109,38 @@
       list-style-type: square;
     }
   }
+
+  &Divider {
+    &::before {
+      letter-spacing: 0.6em;
+      content: '...';
+      display: inline-block;
+      margin-left: 0.6em;
+      position: relative;
+    }
+
+    display: block;
+    border: 0;
+    text-align: center;
+    overflow: visible;
+  }
+
+  &DividerButton {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    border-bottom: 1px solid #e4e4e4;
+
+    button {
+      position: absolute;
+      top: -10px;
+      padding: 0 10px;
+      border: none;
+      cursor: pointer;
+      background-color: #fff;
+      color: #545454;
+    }
+  }
 }
