@@ -95,35 +95,23 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
           <li
             className="navBarListItem"
           >
-            <a
-              aria-label="About Page"
-              className="navBarListItemLink"
-              href="/about"
-            >
-              About
-            </a>
+            <div>
+              some link
+            </div>
           </li>
           <li
             className="navBarListItem"
           >
-            <a
-              aria-label="Blog Page"
-              className="navBarListItemLink"
-              href="/blog"
-            >
-              Blog
-            </a>
+            <div>
+              some link
+            </div>
           </li>
           <li
             className="navBarListItem"
           >
-            <a
-              aria-label="Courses Page"
-              className="navBarListItemLink"
-              href="/courses"
-            >
-              Courses
-            </a>
+            <div>
+              some link
+            </div>
           </li>
         </ul>
         <div
