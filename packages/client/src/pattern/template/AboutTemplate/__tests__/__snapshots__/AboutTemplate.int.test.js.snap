@@ -291,10 +291,14 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
       <arcticle
         itemProp="articleBody"
       >
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt. Curabitur commodo, sapien id mattis sagittis, lectus dolor ullamcorper purus, et lacinia elit urna tincidunt massa. Nam pretium nisi at vehicula placerat. Ut molestie eros in sapien mollis, tincidunt vehicula arcu pellentesque. Proin vel elementum ante. Curabitur ut erat massa. Integer pellentesque mauris sed libero scelerisque molestie. Morbi ac dapibus urna. Donec magna felis, porta eget felis vel, sodales fringilla quam. Maecenas mauris ligula, tempus et pretium quis, aliquam nec odio. Praesent mattis a leo lacinia facilisis. Integer rutrum ac purus nec blandit. Nullam et felis ut eros sodales laoreet non vel ex. Suspendisse quis viverra purus. Pellentesque lobortis semper laoreet. Proin venenatis lacus nec neque aliquam cursus. Nullam porttitor a nulla a venenatis. Duis eu sapien velit. Phasellus sagittis vitae ligula eget posuere. Nullam volutpat cursus nunc, at molestie tellus pellentesque non. Vestibulum dignissim ante vel diam tincidunt iaculis. Vestibulum vehicula lobortis ultrices.
         </p>
         <h2
@@ -313,7 +317,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Values and Mission
         </h2>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt. Curabitur commodo, sapien id mattis sagittis, lectus dolor ullamcorper purus, et lacinia elit urna tincidunt massa. Nam pretium nisi at vehicula placerat. Ut molestie eros in sapien mollis, tincidunt vehicula arcu pellentesque. Proin vel elementum ante. Curabitur ut erat massa. Integer pellentesque mauris sed libero scelerisque molestie. Morbi ac dapibus urna. Donec magna felis, porta eget felis vel, sodales fringilla quam. Maecenas mauris ligula, tempus et pretium quis, aliquam nec odio. Praesent mattis a leo lacinia facilisis. Integer rutrum ac purus nec blandit. Nullam et felis ut eros sodales laoreet non vel ex. Suspendisse quis viverra purus. Pellentesque lobortis semper laoreet. Proin venenatis lacus nec neque aliquam cursus. Nullam porttitor a nulla a venenatis. Duis eu sapien velit. Phasellus sagittis vitae ligula eget posuere. Nullam volutpat cursus nunc, at molestie tellus pellentesque non. Vestibulum dignissim ante vel diam tincidunt iaculis. Vestibulum vehicula lobortis ultrices.
         </p>
         <h2
@@ -332,13 +338,19 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Passions beyond Software Development
         </h2>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
         <h2
@@ -357,10 +369,14 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           You like my content? Here are a couple of ways to support it.
         </h2>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt. Curabitur commodo, sapien id mattis sagittis, lectus dolor ullamcorper purus, et lacinia elit urna tincidunt massa. Nam pretium nisi at vehicula placerat. Ut molestie eros in sapien mollis, tincidunt vehicula arcu pellentesque. Proin vel elementum ante. Curabitur ut erat massa. Integer pellentesque mauris sed libero scelerisque molestie.
         </p>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
         <h3>
@@ -377,7 +393,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Be my Patron
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
         <h3>
@@ -394,7 +412,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Follow Me
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
         <h3>
@@ -411,7 +431,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Leave a Review
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
         <h3>
@@ -428,7 +450,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Share
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
         <h3>
@@ -445,7 +469,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Learn React
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
         <h3>
@@ -462,10 +488,14 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Contribute
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
         <h3>
@@ -482,7 +512,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Donate
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
         </p>
         <h2
@@ -501,7 +533,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           What I Use
         </h2>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
         <h3>
@@ -518,7 +552,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Heroku and GitHub Pages
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
         </p>
         <h3>
@@ -535,7 +571,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Email
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
         </p>
         <h3>
@@ -552,7 +590,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Editor and Terminal
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
         </p>
         <h3>
@@ -569,7 +609,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Nomad Gear
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
         </p>
         <ul
@@ -653,7 +695,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Freelancers
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
         </p>
         <ul
@@ -667,7 +711,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
                 Online Marketing and Social Media:
               </strong>
                
-              <p>
+              <p
+                className=""
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
               </p>
             </p>
@@ -679,7 +725,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
               <strong>
                 Proofreader/Editor:
               </strong>
-              <p>
+              <p
+                className=""
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
               </p>
             </p>
@@ -692,7 +740,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
                 Logo Design:
               </strong>
                I worked with 
-              <p>
+              <p
+                className=""
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
               </p>
             </p>
@@ -712,7 +762,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Revue
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
         </p>
         <ul
@@ -758,7 +810,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Leanpub
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
         </p>
         <h3>
@@ -775,13 +829,17 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </a>
           Educative
         </h3>
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
         </p>
         <hr
           className="container1Divider"
         />
-        <p>
+        <p
+          className=""
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
         </p>
       </arcticle>
@@ -796,6 +854,87 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
       </div>
     </section>
   </main>
+  <div
+    className="topBorder"
+  >
+    <div
+      className="container1"
+    >
+      <div
+        className="container1Image"
+      >
+        <div
+          style={
+            Object {
+              "paddingBottom": "75%",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <img
+            alt="banner"
+            src={Object {}}
+          />
+        </picture>
+      </div>
+      <div
+        className="container1Info"
+      >
+        <h2>
+          Will Smith - A Biography
+        </h2>
+        <p
+          className="container1InfoLead"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
+        </p>
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        />
+        <div>
+          <a
+            className="container1InfoLink"
+            href="https://www.amazon.com/Will-Smith-Biography-Greenwood-Biographies/dp/0313376107"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Get the Book 
+            <svg
+              height="10px"
+              viewBox="0 0 185.343 185.343"
+              width="10px"
+            >
+              <path
+                d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                fill="#010002"
+              />
+            </svg>
+          </a>
+        </div>
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        />
+        <small>
+          <a
+            href="https://www.amazon.com/Will-Smith-Biography-Greenwood-Biographies/dp/0313376107"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Get it on Amazon.
+          </a>
+        </small>
+      </div>
+    </div>
+  </div>
   <div
     className="topBorder"
   >
