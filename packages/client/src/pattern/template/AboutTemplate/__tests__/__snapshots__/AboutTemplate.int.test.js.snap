@@ -698,6 +698,23 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
             </p>
           </li>
         </ul>
+        <h3>
+          <a
+            aria-label="revue permalink"
+            href="revue"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              height="0"
+              width="0"
+            />
+          </a>
+          Revue
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
+        </p>
       </arcticle>
     </section>
   </main>
