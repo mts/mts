@@ -271,6 +271,13 @@ export function AboutMain({ className }) {
               </p>
             </li>
           </ul>
+          <h3>
+            <a href="revue" target="_blank" rel="noopener noreferrer" aria-label="revue permalink">
+              <svg height="0" width="0" />
+            </a>
+            Revue
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
         </arcticle>
       </section>
     </main>
