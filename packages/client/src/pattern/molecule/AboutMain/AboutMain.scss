@@ -31,5 +31,41 @@
         }
       }
     }
+
+    &FollowButtons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+
+      &Item {
+        margin: 0 5px;
+
+        &FacebookFollow {
+          &:hover,
+          &:visited {
+            text-decoration: none;
+            color: #fff;
+            background-color: #3b5998;
+          }
+
+          background-color: #3b5998;
+          color: #fff;
+          margin-top: -8px;
+          padding: 0 6px;
+          border: 1px solid #3b5998;
+          border-radius: 3px;
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+
+          &:visited path,
+          &:visited svg {
+            fill: #fff;
+            stroke: #fff;
+          }
+        }
+      }
+    }
   }
 }
