@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Book /> Snaphot must match defaultRender 1`] = `
+<div
+  className="topBorder"
+>
+  Book under construction
+</div>
+`;
