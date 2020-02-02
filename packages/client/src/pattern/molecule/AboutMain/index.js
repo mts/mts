@@ -129,6 +129,58 @@ export function AboutMain({ className }) {
             </a>
             You like my content? Here are a couple of ways to support it.
           </h2>
+          <LoremIpsum container={element.paragraph} length={size.medium} count={1} />
+          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
+          <h3>
+            <a href="#be-my-patron" target="_blank" rel="noopener noreferrer" aria-label="be my patron permalink">
+              <svg height="0" width="0" />
+            </a>
+            Be my Patron
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
+          <h3>
+            <a href="#follow-me" target="_blank" rel="noopener noreferrer" aria-label="follow me permalink">
+              <svg height="0" width="0" />
+            </a>
+            Follow Me
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
+          <h3>
+            <a href="#leave-a-review" target="_blank" rel="noopener noreferrer" aria-label="leave a review permalink">
+              <svg height="0" width="0" />
+            </a>
+            Leave a Review
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
+          <h3>
+            <a href="#share" target="_blank" rel="noopener noreferrer" aria-label="share permalink">
+              <svg height="0" width="0" />
+            </a>
+            Share
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
+          <h3>
+            <a href="#learn-react" target="_blank" rel="noopener noreferrer" aria-label="learn react permalink">
+              <svg height="0" width="0" />
+            </a>
+            Learn React
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
+          <h3>
+            <a href="#contribute" target="_blank" rel="noopener noreferrer" aria-label="contribute permalink">
+              <svg height="0" width="0" />
+            </a>
+            Contribute
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
+          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
+          <h3>
+            <a href="#donate" target="_blank" rel="noopener noreferrer" aria-label="donate permalink">
+              <svg height="0" width="0" />
+            </a>
+            Donate
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.extraSmall} count={1} />
         </arcticle>
       </section>
     </main>
