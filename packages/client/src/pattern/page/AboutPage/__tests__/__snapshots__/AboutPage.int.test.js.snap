@@ -153,15 +153,94 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
         Object {
           "display": "flex",
           "justifyContent": "center",
-          "marginTop": "55",
+          "marginTop": "55px",
         }
       }
     >
-      <div
+      <section
         className="container1"
       >
-        AboutMain under construction
-      </div>
+        <header
+          className="container1Header"
+        >
+          <h1>
+            About Me
+          </h1>
+          <meta
+            content="About Me"
+            itemProp="name"
+          />
+          <span
+            className="container1HeaderSubHeader"
+          >
+            <div
+              className="container1HeaderSubHeaderPrimary"
+            >
+              <meta
+                content="Software Engineer for React.js, Node.js, GraphQL and JavaScript. English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ..."
+                itemProp="description"
+              />
+              <time
+                dateTime="01-01-2020"
+                itemProp="datePublished"
+              >
+                January 1, 2020
+              </time>
+              <meta
+                content="01-01-2020"
+                itemProp="dateModified"
+              />
+              <meta
+                content="american react consultant,american react freelancer,american javascript freelancer,american javascript consultant"
+                itemProp="keywords"
+              />
+              <meta
+                content="2384"
+                itemProp="wordCount"
+              />
+              <span>
+                 by 
+                <span>
+                  MTS
+                </span>
+                <meta
+                  content="MTS"
+                  itemProp="author"
+                />
+              </span>
+              <div
+                itemProp="publisher"
+                itemScope=""
+                itemType="https://schema.org/Organization"
+              >
+                <meta
+                  itemProp="name"
+                />
+                <div
+                  itemProp="logo"
+                  itemScope=""
+                  itemType="https://schema.org/ImageObject"
+                >
+                  <meta
+                    content="https://mts.github.io/mts/static/logo.jpg"
+                    itemProp="url"
+                  />
+                </div>
+              </div>
+              <span>
+                 - 
+                <a
+                  href="https://github.com/mts/mts"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Edit this Post
+                </a>
+              </span>
+            </div>
+          </span>
+        </header>
+      </section>
     </main>
     <div
       className="topBorder"
