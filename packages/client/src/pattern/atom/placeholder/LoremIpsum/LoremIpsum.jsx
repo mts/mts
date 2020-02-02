@@ -6,6 +6,15 @@ import { size } from '../../../../../../library/src/client/placeholder'
 export function LoremIpsum({ className, container, length, count }) {
   function LoremIpsumTimesCount() {
     function Paragraph() {
+      if (length === size.extraSmall) {
+        return (
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis
+            purus quis metus sagittis sollicitudin accumsan in ante.
+          </p>
+        )
+      }
+
       if (length === size.small) {
         return (
           <p>
