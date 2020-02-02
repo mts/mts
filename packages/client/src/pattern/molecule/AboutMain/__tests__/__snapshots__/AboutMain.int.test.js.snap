@@ -426,6 +426,149 @@ exports[`<AboutMain /> Snaphot must match defaultRender 1`] = `
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
       </p>
+      <h3>
+        <a
+          aria-label="nomad gear permalink"
+          href="#nomad-gear"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg
+            height="0"
+            width="0"
+          />
+        </a>
+        Nomad Gear
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
+      </p>
+      <ul
+        className="container1List"
+      >
+        <li
+          className="container1ListItem"
+        >
+          <a
+            href="https://amzn.to/2RwCPwg"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Trackpad
+          </a>
+           
+          and
+           
+          <a
+            href="https://amzn.to/2SPqZ1K"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Keyboard
+          </a>
+           
+        </li>
+        <li
+          className="container1ListItem"
+        >
+          <a
+            href="https://amzn.to/2RChPEq"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Display
+          </a>
+           
+        </li>
+      </ul>
+      <h3>
+        <a
+          aria-label="apps gear permalink"
+          href="#apps"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg
+            height="0"
+            width="0"
+          />
+        </a>
+        Apps
+      </h3>
+      <ul
+        className="container1List"
+      >
+        <li
+          className="container1ListItem"
+        >
+          <a
+            href="https://apps.apple.com/us/app/twitter/id333903271"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Twitter
+          </a>
+        </li>
+      </ul>
+      <h3>
+        <a
+          aria-label="freelancers permalink"
+          href="freelancers"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg
+            height="0"
+            width="0"
+          />
+        </a>
+        Freelancers
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
+      </p>
+      <ul
+        className="container1List"
+      >
+        <li
+          className="container1ListItem"
+        >
+          <p>
+            <strong>
+              Online Marketing and Social Media:
+            </strong>
+             
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
+            </p>
+          </p>
+        </li>
+        <li
+          className="container1ListItem"
+        >
+          <p>
+            <strong>
+              Proofreader/Editor:
+            </strong>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
+            </p>
+          </p>
+        </li>
+        <li
+          className="container1ListItem"
+        >
+          <p>
+            <strong>
+              Logo Design:
+            </strong>
+             I worked with 
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
+            </p>
+          </p>
+        </li>
+      </ul>
     </arcticle>
   </section>
 </main>
