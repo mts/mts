@@ -1328,6 +1328,11 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
     <div
       className="topBorder"
     >
+      Book under construction
+    </div>
+    <div
+      className="topBorder"
+    >
       <label
         className="label"
         htmlFor="newsletter"
