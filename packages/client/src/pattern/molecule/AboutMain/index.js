@@ -181,6 +181,20 @@ export function AboutMain({ className }) {
             Donate
           </h3>
           <LoremIpsum container={element.paragraph} length={size.extraSmall} count={1} />
+          <h2 className={container1Title}>
+            <a href="#what-i-use" target="_blank" rel="noopener noreferrer" aria-label="what i use permalink">
+              <svg height="0" width="0" />
+            </a>
+            What I Use
+          </h2>
+          <LoremIpsum container={element.paragraph} length={size.small} count={1} />
+          <h3>
+            <a href="#heroku-and-github-pages" target="_blank" rel="noopener noreferrer" aria-label="heroku and github pages permalink">
+              <svg height="0" width="0" />
+            </a>
+            Heroku and GitHub Pages
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.extraSmall} count={1} />
         </arcticle>
       </section>
     </main>
