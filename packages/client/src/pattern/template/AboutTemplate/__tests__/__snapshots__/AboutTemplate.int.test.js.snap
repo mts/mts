@@ -273,6 +273,28 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
             </a>
           </li>
         </ul>
+        <div
+          className="container1HeaderContainer1"
+        >
+          <div
+            style={
+              Object {
+                "paddingBottom": "75%",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <img
+              alt="banner"
+              src={Object {}}
+            />
+          </picture>
+        </div>
+        <meta
+          content={Object {}}
+          itemProp="image"
+        />
       </header>
     </section>
   </main>
