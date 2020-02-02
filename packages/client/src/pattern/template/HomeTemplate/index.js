@@ -5,6 +5,7 @@ import { homeTemplateDefaultProps, homeTemplatePropTypes } from './HomeTemplate.
 import { ShareButtons } from '../../molecule/ShareButtons'
 import { Navigation } from '../../molecule/Navigation'
 import { HomeMain } from '../../molecule/HomeMain'
+import { Book } from '../../molecule/Book'
 import { Newsletter } from '../../molecule/Newsletter'
 import { Footer } from '../../molecule/Footer'
 
@@ -14,6 +15,7 @@ export function HomeTemplate({ className }) {
       <ShareButtons />
       <Navigation />
       <HomeMain />
+      <Book />
       <Newsletter />
       <Footer />
     </div>
