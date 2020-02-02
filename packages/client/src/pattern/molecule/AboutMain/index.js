@@ -7,9 +7,12 @@ import {
   container1HeaderFollowButtons,
   container1HeaderFollowButtonsItem,
   container1HeaderFollowButtonsItemFacebookFollow,
+  container1HeaderContainer1,
 } from './AboutMain.scss'
 import { aboutMainDefaultProps, aboutMainPropTypes } from './AboutMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
+import { windowObjectExists } from '../../../../../library/src/environment'
+import Banner from '../../../asset/image/banner.jpg'
 
 export function AboutMain({ className }) {
   useEffect(() => {
@@ -78,6 +81,13 @@ export function AboutMain({ className }) {
               </a>
             </li>
           </ul>
+          <div className={container1HeaderContainer1}>
+            <div style={{ width: '100%', paddingBottom: '75%' }} />
+            <picture>
+              <img src={!windowObjectExists ? 'mts/static/banner.jpg' : Banner} alt="banner" />
+            </picture>
+          </div>
+          <meta itemProp="image" content={!windowObjectExists ? 'mts/static/banner.jpg' : Banner} />
         </header>
       </section>
     </main>
