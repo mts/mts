@@ -88,7 +88,7 @@ export function HomeMain({ className }) {
           <div className={container1BackgroundImage}>
             <div style={{ width: '100%', paddingBottom: '66.6992%' }} />
             <picture>
-              <img src={!windowObjectExists ? 'static/cover.jpg' : Cover} alt="cover" />
+              <img src={!windowObjectExists ? 'mts/static/cover.jpg' : Cover} alt="cover" />
             </picture>
           </div>
           <div className={container1BackgroundDimmer} />
@@ -107,7 +107,7 @@ export function HomeMain({ className }) {
             <div className={container1AboutImageContainer1}>
               <div style={{ width: '100%', paddingBottom: '100%' }} />
               <picture>
-                <img src={!windowObjectExists ? 'static/me.jpg' : Me} alt="me" />
+                <img src={!windowObjectExists ? 'mts/static/me.jpg' : Me} alt="me" />
               </picture>
             </div>
           </div>
@@ -252,7 +252,7 @@ export function HomeMain({ className }) {
               >
                 <div className={container1PortfolioItemsItemImage}>
                   <picture>
-                    <img src={!windowObjectExists ? 'static/portfolio-1.jpg' : PortfolioOne} alt="portfolio one" />
+                    <img src={!windowObjectExists ? 'mts/static/portfolio-1.jpg' : PortfolioOne} alt="portfolio one" />
                   </picture>
                 </div>
                 <div className={container1PortfolioItemsItemCaption}>
@@ -270,7 +270,7 @@ export function HomeMain({ className }) {
               >
                 <div className={container1PortfolioItemsItemImage}>
                   <picture>
-                    <img src={!windowObjectExists ? 'static/portfolio-2.jpg' : PortfolioTwo} alt="portfolio two" />
+                    <img src={!windowObjectExists ? 'mts/static/portfolio-2.jpg' : PortfolioTwo} alt="portfolio two" />
                   </picture>
                 </div>
                 <div className={container1PortfolioItemsItemCaption}>
@@ -283,7 +283,7 @@ export function HomeMain({ className }) {
               <a href="/blog" target="_blank" rel="noopener noreferrer" aria-label="Portfolio Link: /blog">
                 <div className={container1PortfolioItemsItemImage}>
                   <picture>
-                    <img src={!windowObjectExists ? 'static/portfolio-3.jpg' : PortfolioThree} alt="portfolio three" />
+                    <img src={!windowObjectExists ? 'mts/static/portfolio-3.jpg' : PortfolioThree} alt="portfolio three" />
                   </picture>
                 </div>
                 <div className={container1PortfolioItemsItemCaption}>
@@ -305,7 +305,7 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'static/timeline-1.jpg' : TimelineOne} alt="timeline one" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-1.jpg' : TimelineOne} alt="timeline one" />
                   </picture>
                 </div>
               </div>
@@ -325,7 +325,7 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'static/timeline-2.jpg' : TimelineTwo} alt="timeline two" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-2.jpg' : TimelineTwo} alt="timeline two" />
                   </picture>
                 </div>
               </div>
@@ -342,7 +342,7 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'static/timeline-3.jpg' : TimelineThree} alt="timeline three" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-3.jpg' : TimelineThree} alt="timeline three" />
                   </picture>
                 </div>
               </div>
@@ -362,7 +362,7 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'static/timeline-4.jpg' : TimelineFour} alt="timeline four" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-4.jpg' : TimelineFour} alt="timeline four" />
                   </picture>
                 </div>
               </div>
@@ -382,7 +382,7 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'static/timeline-5.jpg' : TimelineFive} alt="timeline five" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-5.jpg' : TimelineFive} alt="timeline five" />
                   </picture>
                 </div>
               </div>
@@ -402,7 +402,7 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'static/timeline-6.jpg' : TimelineSix} alt="timeline six" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-6.jpg' : TimelineSix} alt="timeline six" />
                   </picture>
                 </div>
               </div>
@@ -422,7 +422,7 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'static/timeline-7.jpg' : TimelineSeven} alt="timeline seven" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-7.jpg' : TimelineSeven} alt="timeline seven" />
                   </picture>
                 </div>
               </div>
@@ -439,7 +439,7 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'static/timeline-8.jpg' : TimelineEight} alt="timeline eight" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-8.jpg' : TimelineEight} alt="timeline eight" />
                   </picture>
                 </div>
               </div>
@@ -459,7 +459,7 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'static/timeline-9.jpg' : TimelineNine} alt="timeline nine" />
+                    <img src={!windowObjectExists ? 'mts/static/timeline-9.jpg' : TimelineNine} alt="timeline nine" />
                   </picture>
                 </div>
               </div>
@@ -502,7 +502,7 @@ export function HomeMain({ className }) {
                   <div className={container1TestItemsItemImageContainer}>
                     <div style={{ width: '100%', paddingBottom: '100%' }} />
                     <picture>
-                      <img src={!windowObjectExists ? 'static/testimonial-1.jpg' : TestimonialOne} alt="test one" />
+                      <img src={!windowObjectExists ? 'mts/static/testimonial-1.jpg' : TestimonialOne} alt="test one" />
                     </picture>
                   </div>
                 </div>
@@ -528,7 +528,7 @@ export function HomeMain({ className }) {
                   <div className={container1TestItemsItemImageContainer}>
                     <div style={{ width: '100%', paddingBottom: '100%' }} />
                     <picture>
-                      <img src={!windowObjectExists ? 'static/testimonial-2.jpg' : TestimonialTwo} alt="test two" />
+                      <img src={!windowObjectExists ? 'mts/static/testimonial-2.jpg' : TestimonialTwo} alt="test two" />
                     </picture>
                   </div>
                 </div>
@@ -554,7 +554,7 @@ export function HomeMain({ className }) {
                   <div className={container1TestItemsItemImageContainer}>
                     <div style={{ width: '100%', paddingBottom: '100%' }} />
                     <picture>
-                      <img src={!windowObjectExists ? 'static/testimonial-3.jpg' : TestimonialThree} alt="test two" />
+                      <img src={!windowObjectExists ? 'mts/static/testimonial-3.jpg' : TestimonialThree} alt="test two" />
                     </picture>
                   </div>
                 </div>
@@ -579,7 +579,7 @@ export function HomeMain({ className }) {
                   <div className={container1TestItemsItemImageContainer}>
                     <div style={{ width: '100%', paddingBottom: '100%' }} />
                     <picture>
-                      <img src={!windowObjectExists ? 'static/testimonial-4.jpg' : TestimonialFour} alt="test four" />
+                      <img src={!windowObjectExists ? 'mts/static/testimonial-4.jpg' : TestimonialFour} alt="test four" />
                     </picture>
                   </div>
                 </div>
@@ -605,7 +605,7 @@ export function HomeMain({ className }) {
                   <div className={container1TestItemsItemImageContainer}>
                     <div style={{ width: '100%', paddingBottom: '100%' }} />
                     <picture>
-                      <img src={!windowObjectExists ? 'static/testimonial-5.jpg' : TestimonialFive} alt="test five" />
+                      <img src={!windowObjectExists ? 'mts/static/testimonial-5.jpg' : TestimonialFive} alt="test five" />
                     </picture>
                   </div>
                 </div>
@@ -630,7 +630,7 @@ export function HomeMain({ className }) {
                   <div className={container1TestItemsItemImageContainer}>
                     <div style={{ width: '100%', paddingBottom: '100%' }} />
                     <picture>
-                      <img src={!windowObjectExists ? 'static/testimonial-6.jpg' : TestimonialSix} alt="test six" />
+                      <img src={!windowObjectExists ? 'mts/static/testimonial-6.jpg' : TestimonialSix} alt="test six" />
                     </picture>
                   </div>
                 </div>
