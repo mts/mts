@@ -55,7 +55,7 @@ export function AboutMain({ className }) {
               <div itemProp="publisher" itemScope="" itemType="https://schema.org/Organization">
                 <meta itemProp="name" />
                 <div itemProp="logo" itemScope="" itemType="https://schema.org/ImageObject">
-                  <meta itemProp="url" content="https://mts.github.io/mts/static/logo.jpg" />
+                  <meta itemProp="url" content="https://mts.github.io/static/logo.jpg" />
                 </div>
               </div>
               <span>
@@ -92,10 +92,10 @@ export function AboutMain({ className }) {
           <div className={container1HeaderContainer1}>
             <div style={{ width: '100%', paddingBottom: '75%' }} />
             <picture>
-              <img src={!windowObjectExists ? 'mts/static/banner.jpg' : Banner} alt="banner" />
+              <img src={!windowObjectExists ? 'static/banner.jpg' : Banner} alt="banner" />
             </picture>
           </div>
-          <meta itemProp="image" content={!windowObjectExists ? 'mts/static/banner.jpg' : Banner} />
+          <meta itemProp="image" content={!windowObjectExists ? 'static/banner.jpg' : Banner} />
         </header>
         <meta itemProp="mainEntityOfPage" content="https://mts.github.io/about" />
         <arcticle itemProp="articleBody">
