@@ -392,6 +392,40 @@ exports[`<AboutMain /> Snaphot must match defaultRender 1`] = `
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
       </p>
+      <h3>
+        <a
+          aria-label="email permalink"
+          href="#email"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg
+            height="0"
+            width="0"
+          />
+        </a>
+        Email
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
+      </p>
+      <h3>
+        <a
+          aria-label="editor and terminal permalink"
+          href="#editor-and-terminal"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg
+            height="0"
+            width="0"
+          />
+        </a>
+        Editor and Terminal
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
+      </p>
     </arcticle>
   </section>
 </main>
