@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import cx from 'classnames'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
+import { Link } from 'react-router-dom'
 import {
   nav,
   navBar,
@@ -18,21 +19,14 @@ import { windowObjectExists } from '../../../../../library/src/environment'
 import Logo from '../../../asset/image/logo.jpg'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { isMobile } from '../../../../../library/src/client/window'
+import { homePagePath, aboutPagePath, blogPagePath } from '../../../route/path'
 
-function Component({ className, ui }) {
+function Component({ className }) {
   const [isNavBarListToggled, toggleNavBarList] = useState(false)
 
   useEffect(() => {
     handleStickyNavBar()
   })
-
-  const {
-    homePageData: {
-      navigation: {
-        navBarList: { about, blog, courses },
-      },
-    },
-  } = ui
 
   return (
     <nav className={cx(className, nav)}>
@@ -40,9 +34,9 @@ function Component({ className, ui }) {
         {isMobile && isNavBarListToggled ? null : null}
 
         {isMobile && !isNavBarListToggled ? (
-          <a className={navBarLogo} href="/">
+          <Link className={navBarLogo} to={homePagePath} aria-label="Logo">
             <img height="40" src={!windowObjectExists ? 'mts/static/logo.jpg' : Logo} alt="logo" />
-          </a>
+          </Link>
         ) : null}
 
         {!isMobile ? (
@@ -53,19 +47,19 @@ function Component({ className, ui }) {
 
         <ul className={cx(navBarList, isNavBarListToggled ? navBarListToggle : '')}>
           <li className={navBarListItem}>
-            <a className={navBarListItemLink} href={about} aria-label="About Page">
+            <Link className={navBarListItemLink} to={aboutPagePath} aria-label="About Page">
               About
-            </a>
+            </Link>
           </li>
           <li className={navBarListItem}>
-            <a className={navBarListItemLink} href={blog} aria-label="Blog Page">
+            <Link className={navBarListItemLink} to={blogPagePath} aria-label="Blog Page">
               Blog
-            </a>
+            </Link>
           </li>
           <li className={navBarListItem}>
-            <a className={navBarListItemLink} href={courses} aria-label="Courses Page">
+            <Link className={navBarListItemLink} to={homePagePath} aria-label="Courses Page">
               Courses
-            </a>
+            </Link>
           </li>
         </ul>
         <div className={navBarMobileToggle}>

@@ -1,0 +1,146 @@
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  padding: 0 50px;
+
+  @media (max-width: 460px) {
+    padding: 0 20px;
+  }
+
+  &Header {
+    width: 100%;
+
+    &SubHeader {
+      text-transform: uppercase;
+      color: #545454;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      white-space: nowrap;
+      margin-bottom: 10px;
+
+      &Primary {
+        display: flex;
+
+        @media (max-width: 460px) {
+          flex-direction: column;
+        }
+      }
+    }
+
+    &FollowButtons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+
+      &Item {
+        margin: 0 5px;
+
+        &FacebookFollow {
+          &:hover,
+          &:visited {
+            text-decoration: none;
+            color: #fff;
+            background-color: #3b5998;
+          }
+
+          background-color: #3b5998;
+          color: #fff;
+          margin-top: -8px;
+          padding: 0 6px;
+          border: 1px solid #3b5998;
+          border-radius: 3px;
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+
+          &:visited path,
+          &:visited svg {
+            fill: #fff;
+            stroke: #fff;
+          }
+        }
+      }
+    }
+
+    &Container1 {
+      display: block;
+      width: 100%;
+      //
+      position: relative;
+      overflow: hidden;
+
+      picture img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        opacity: 1;
+        transition: opacity 500ms ease 0s;
+      }
+    }
+  }
+
+  &Title {
+    margin-top: 40px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    line-height: 1.1;
+    border-top: 1px solid #e4e4e4;
+    //
+    text-align: center;
+    font-size: 26px;
+  }
+
+  &List {
+    margin: 20px;
+
+    &Item {
+      list-style-type: square;
+    }
+  }
+
+  &Divider {
+    &::before {
+      letter-spacing: 0.6em;
+      content: '...';
+      display: inline-block;
+      margin-left: 0.6em;
+      position: relative;
+    }
+
+    display: block;
+    border: 0;
+    text-align: center;
+    overflow: visible;
+  }
+
+  &DividerButton {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    border-bottom: 1px solid #e4e4e4;
+
+    button {
+      position: absolute;
+      top: -10px;
+      padding: 0 10px;
+      border: none;
+      cursor: pointer;
+      background-color: #fff;
+      color: #545454;
+    }
+  }
+}
