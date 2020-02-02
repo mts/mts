@@ -9,6 +9,8 @@ import {
   container1HeaderFollowButtonsItemFacebookFollow,
   container1HeaderContainer1,
   container1Title,
+  container1List,
+  container1ListItem,
 } from './AboutMain.scss'
 import { aboutMainDefaultProps, aboutMainPropTypes } from './AboutMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
@@ -206,6 +208,69 @@ export function AboutMain({ className }) {
             Editor and Terminal
           </h3>
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
+          <h3>
+            <a href="#nomad-gear" target="_blank" rel="noopener noreferrer" aria-label="nomad gear permalink">
+              <svg height="0" width="0" />
+            </a>
+            Nomad Gear
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
+          <ul className={container1List}>
+            <li className={container1ListItem}>
+              <a href="https://amzn.to/2RwCPwg" target="_blank" rel="noopener noreferrer">
+                Trackpad
+              </a>{' '}
+              and{' '}
+              <a href="https://amzn.to/2SPqZ1K" target="_blank" rel="noopener noreferrer">
+                Keyboard
+              </a>{' '}
+            </li>
+            <li className={container1ListItem}>
+              <a href="https://amzn.to/2RChPEq" target="_blank" rel="noopener noreferrer">
+                Display
+              </a>{' '}
+            </li>
+          </ul>
+
+          <h3>
+            <a href="#apps" target="_blank" rel="noopener noreferrer" aria-label="apps gear permalink">
+              <svg height="0" width="0" />
+            </a>
+            Apps
+          </h3>
+          <ul className={container1List}>
+            <li className={container1ListItem}>
+              <a href="https://apps.apple.com/us/app/twitter/id333903271" target="_blank" rel="noopener noreferrer">
+                Twitter
+              </a>
+            </li>
+          </ul>
+          <h3>
+            <a href="freelancers" target="_blank" rel="noopener noreferrer" aria-label="freelancers permalink">
+              <svg height="0" width="0" />
+            </a>
+            Freelancers
+          </h3>
+          <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
+          <ul className={container1List}>
+            <li className={container1ListItem}>
+              <p>
+                <strong>Online Marketing and Social Media:</strong>{' '}
+                <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
+              </p>
+            </li>
+            <li className={container1ListItem}>
+              <p>
+                <strong>Proofreader/Editor:</strong>
+                <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
+              </p>
+            </li>
+            <li className={container1ListItem}>
+              <p>
+                <strong>Logo Design:</strong> I worked with <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
+              </p>
+            </li>
+          </ul>
         </arcticle>
       </section>
     </main>
