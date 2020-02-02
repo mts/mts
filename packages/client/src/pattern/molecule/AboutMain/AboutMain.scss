@@ -101,4 +101,12 @@
     text-align: center;
     font-size: 26px;
   }
+
+  &List {
+    margin: 20px;
+
+    &Item {
+      list-style-type: square;
+    }
+  }
 }
