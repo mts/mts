@@ -26,6 +26,8 @@ module.exports = {
     '!packages/client/**/route/**',
     '!packages/client/**/library/**',
     '!packages/http-server/**',
+    '!packages/library/src/client/startup.js',
+    '!packages/library/src/server/processSass.js',
   ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleNameMapper: {

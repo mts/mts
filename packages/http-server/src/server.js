@@ -13,7 +13,7 @@ import { serverAppStore } from '../../client/src/store/server'
 async function handleRender(req, res) {
   const { App } = await import('../../client/src/serverRenderApp')
 
-  const html = renderToString(<App />)
+  const html = renderToString(<App location={req.url} />)
 
   const finalState = serverAppStore.getState()
 
