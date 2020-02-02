@@ -1,7 +1,10 @@
 import { storiesOf } from '@storybook/react'
-import { defaultRender } from './LoremIpsum.int.render'
+import { paragraphSmallTimesOneRender, paragraphLargeTimesOneRender } from './LoremIpsum.int.render'
 import { getInfo } from '../../../../../../../../.storybook/library'
 
-const defaultRenderInfo = getInfo('default')
+const paragraphSmallTimesOneRenderInfo = getInfo('paragraphSmallTimesOne')
+const paragraphLargeTimesOneRenderInfo = getInfo('paragraphLargeTimesOne')
 
-storiesOf('Patttern/Atom/Placeholder/LoremIpsum', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+storiesOf('Patttern/Atom/Placeholder/LoremIpsum', module)
+  .add(paragraphSmallTimesOneRender.text, () => paragraphSmallTimesOneRender, paragraphSmallTimesOneRenderInfo.parameters)
+  .add(paragraphLargeTimesOneRender.text, () => paragraphLargeTimesOneRender, paragraphLargeTimesOneRenderInfo.parameters)
