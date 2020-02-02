@@ -11,7 +11,8 @@ export function LoremIpsum({ className, container, length, count }) {
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis
             purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis.
-            Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio.
+            Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est.
+            Etiam posuere hendrerit tincidunt.
           </p>
         )
       }
