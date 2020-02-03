@@ -597,10 +597,7 @@ export function HomeMain({ className }) {
               <div className={container1TestItemsItemCaption}>
                 <h4>Lorraine Bracco</h4>
                 <p className={container1TestItemsItemCaptionP1}>Founder & CEO of Goodfellas</p>
-                <p className={container1TestItemsItemCaptionP2}>
-                  If it&apos;s anything to do with React and it&apos;s written by MTS, you can trust that it&apos;ll be world-class. His
-                  books are some of the best content you&apos;ll find on the web for learning React.
-                </p>
+                <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
           </ul>
