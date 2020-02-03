@@ -421,8 +421,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             <h4>
               Complex Problems
             </h4>
-            <p>
-              Solving complex problems in JavaScript code which you want to have eliminated in your application's code base but no one dares to fix.
+            <p
+              className=""
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
             </p>
           </li>
           <li
