@@ -157,12 +157,7 @@ export function AboutMain({ className }) {
               </a>
             </li>
           </ul>
-          <h3>
-            <a href="freelancers" target="_blank" rel="noopener noreferrer" aria-label="freelancers permalink">
-              <svg height="0" width="0" />
-            </a>
-            Freelancers
-          </h3>
+          <H3 text="Freelancers" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
           <ul className={container1List}>
             <li className={container1ListItem}>
