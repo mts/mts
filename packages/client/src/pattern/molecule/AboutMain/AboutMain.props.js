@@ -7,3 +7,7 @@ export const aboutMainDefaultProps = {
 export const aboutMainPropTypes = {
   className: string,
 }
+
+export const h3PropTypes = {
+  text: string.isRequired,
+}
