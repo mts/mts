@@ -1,5 +1,15 @@
 import React from 'react'
-import { h2DefaultProps, h2PropTypes, h3PropTypes } from './AboutMain.props'
+import { aPropTypes, h2DefaultProps, h2PropTypes, h3PropTypes } from './AboutMain.props'
+
+export function A({ href, text }) {
+  return (
+    <a href={href} target="_blank" rel="noopener noreferrer">
+      {text}
+    </a>
+  )
+}
+
+A.propTypes = aPropTypes
 
 export function H2({ className, text }) {
   return (
