@@ -985,8 +985,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
                 Self-Employed
               </h4>
               <div>
-                <p>
-                  Lots of demand for JavaScript on-site or remote training, implementations for MVPs, code reviews, or complex JavaScript problem solving, led me to being self-employed.
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </div>
