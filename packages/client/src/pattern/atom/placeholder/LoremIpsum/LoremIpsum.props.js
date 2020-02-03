@@ -9,6 +9,6 @@ export const loremIpsumDefaultProps = {
 export const loremIpsumPropTypes = {
   className: string,
   container: oneOf([element.paragraph]).isRequired,
-  length: oneOf([size.small, size.medium, size.large]).isRequired,
+  length: oneOf([size.x2Small, size.x1Small, size.small, size.medium, size.large]).isRequired,
   count: number.isRequired,
 }
