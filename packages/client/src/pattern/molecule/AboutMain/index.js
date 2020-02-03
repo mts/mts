@@ -14,7 +14,7 @@ import {
   container1Divider,
   container1DividerButton,
 } from './AboutMain.scss'
-import { H3 } from './AboutMain.part'
+import { H2, H3 } from './AboutMain.part'
 import { aboutMainDefaultProps, aboutMainPropTypes } from './AboutMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { windowObjectExists } from '../../../../../library/src/environment'
@@ -102,12 +102,7 @@ export function AboutMain({ className }) {
         <arcticle itemProp="articleBody">
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
           <LoremIpsum container={element.paragraph} length={size.large} count={1} />
-          <h2 className={container1Title}>
-            <a href="#values-and-mission" target="_blank" rel="noopener noreferrer" aria-label="values and mission permalink">
-              <svg height="0" width="0" />
-            </a>
-            Values and Mission
-          </h2>
+          <H2 className={container1Title} text="Values and Mission" />
           <LoremIpsum container={element.paragraph} length={size.large} count={1} />
           <h2 className={container1Title}>
             <a
