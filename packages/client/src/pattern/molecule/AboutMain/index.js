@@ -14,7 +14,7 @@ import {
   container1Divider,
   container1DividerButton,
 } from './AboutMain.scss'
-import { H2, H3 } from './AboutMain.part'
+import { A, H2, H3 } from './AboutMain.part'
 import { aboutMainDefaultProps, aboutMainPropTypes } from './AboutMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { windowObjectExists } from '../../../../../library/src/environment'
@@ -44,10 +44,7 @@ export function AboutMain({ className }) {
                 January 1, 2020
               </time>
               <meta itemProp="dateModified" content="01-01-2020" />
-              <meta
-                itemProp="keywords"
-                content="american react consultant,american react freelancer,american javascript freelancer,american javascript consultant"
-              />
+              <meta itemProp="keywords" content="React consultant,react freelancer,javascript freelancer,javascript consultant" />
               <meta itemProp="wordCount" content="2384" />
               <span>
                 &nbsp;by&nbsp;<span>MTS</span>
@@ -135,26 +132,17 @@ export function AboutMain({ className }) {
           <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
           <ul className={container1List}>
             <li className={container1ListItem}>
-              <a href="https://amzn.to/2RwCPwg" target="_blank" rel="noopener noreferrer">
-                Trackpad
-              </a>{' '}
-              and{' '}
-              <a href="https://amzn.to/2SPqZ1K" target="_blank" rel="noopener noreferrer">
-                Keyboard
-              </a>{' '}
+              <A href="https://amzn.to/2RwCPwg" text="Trackpad" /> {' and '}
+              <A href="https://amzn.to/2SPqZ1K" text="Keyboard" />
             </li>
             <li className={container1ListItem}>
-              <a href="https://amzn.to/2RChPEq" target="_blank" rel="noopener noreferrer">
-                Display
-              </a>{' '}
+              <A href="https://amzn.to/2RChPEq" text="Display" />
             </li>
           </ul>
           <H3 text="Apps" />
           <ul className={container1List}>
             <li className={container1ListItem}>
-              <a href="https://apps.apple.com/us/app/twitter/id333903271" target="_blank" rel="noopener noreferrer">
-                Twitter
-              </a>
+              <A href="https://apps.apple.com/us/app/twitter/id333903271" text="Twitter" />
             </li>
           </ul>
           <H3 text="Freelancers" />
