@@ -16,8 +16,8 @@ import {
 import { blogMainDefaultProps, blogMainPropTypes } from './BlogMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { windowObjectExists } from '../../../../../library/src/environment'
-import Blog1 from '../../../asset/image/blog/blog-1.jpg'
-import Blog2 from '../../../asset/image/blog/blog-2.jpg'
+import Blog1 from '../../../asset/image/blog/blog-1-0.jpg'
+import Blog2 from '../../../asset/image/blog/blog-1-1.jpg'
 import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
 import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
@@ -48,7 +48,7 @@ export function BlogMain({ className }) {
             <div className={cx(container1BlogItemImage, container1BlogItemImageFeatured)}>
               <div style={{ width: '100%', paddingBottom: '64.94140625%' }} />
               <picture>
-                <img src={!windowObjectExists ? 'mts/static/blog-1.jpg' : Blog1} alt="blog 1" />
+                <img src={!windowObjectExists ? 'mts/static/blog-1-0.jpg' : Blog1} alt="blog 1" />
               </picture>
             </div>
             <div className={cx(container1BlogItemContent, container1BlogItemContentFeatured)}>
@@ -67,7 +67,7 @@ export function BlogMain({ className }) {
               <div className={container1BlogListContainer1Image}>
                 <div style={{ width: '100%', paddingBottom: '6.69921875%' }} />
                 <picture>
-                  <img src={!windowObjectExists ? 'mts/static/blog-2.jpg' : Blog2} alt="blog 2" />
+                  <img src={!windowObjectExists ? 'mts/static/blog-1-1.jpg' : Blog2} alt="blog 2" />
                 </picture>
               </div>
               <div className={container1BlogListContainer1Content}>
