@@ -149,12 +149,7 @@ export function AboutMain({ className }) {
               </a>{' '}
             </li>
           </ul>
-          <h3>
-            <a href="#apps" target="_blank" rel="noopener noreferrer" aria-label="apps gear permalink">
-              <svg height="0" width="0" />
-            </a>
-            Apps
-          </h3>
+          <H3 text="Apps" />
           <ul className={container1List}>
             <li className={container1ListItem}>
               <a href="https://apps.apple.com/us/app/twitter/id333903271" target="_blank" rel="noopener noreferrer">
