@@ -8,8 +8,8 @@
  * @project        MTS
  * @name           app-modern.6ded.js
  * @author         MTS
- * @build          Mon, Feb 3, 2020 9:06 PM ET
- * @release        c429a7039b70b10828fa389fedb4814543f0725c [responsive-blog-page]
+ * @build          Mon, Feb 3, 2020 9:09 PM ET
+ * @release        e752cfae04d1c48c18b4d362f9714916d51bd7b5 [master]
  * @copyright      Copyright (c) 2020 MTS
  *
  */
