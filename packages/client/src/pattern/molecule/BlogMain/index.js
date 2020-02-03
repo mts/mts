@@ -16,6 +16,8 @@ import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import Blog10 from '../../../asset/image/blog/blog-1-0.jpg'
 import Blog11 from '../../../asset/image/blog/blog-1-1.jpg'
+import Blog12 from '../../../asset/image/blog/blog-1-2.jpg'
+import Blog13 from '../../../asset/image/blog/blog-1-3.jpg'
 import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
 import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
@@ -61,13 +63,9 @@ export function BlogMain({ className }) {
             </div>
           </article>
           <div className={container1BlogList}>
-            <BlogListItem
-              imageName="blog-1-1"
-              image={Blog11}
-              href="/conditional-rendering-react"
-              title="React Conditional Rendering"
-              intro={null}
-            />
+            <BlogListItem imageName="blog-1-1" image={Blog11} href="/conditional-rendering-react" title="Lorem ipsum" intro={null} />
+            <BlogListItem imageName="blog-1-2" image={Blog12} href="/react-event-handler" title="Lorem ipsum" intro={null} />
+            <BlogListItem imageName="blog-1-3" image={Blog13} href="/javascript-import-export" title="Lorem ipsum" intro={null} />
           </div>
         </section>
       </div>
