@@ -179,10 +179,7 @@ export function HomeMain({ className }) {
                 <path d="M211.5 197.498h69v-69h120v69h34.799c12.468-20 19.701-42.674 19.701-67.53C455 60.686 398.847 4.51 329.579 4.51c-42.087 0-79.329 20.731-102.079 52.544C204.75 25.24 167.508 4.501 125.421 4.501 56.153 4.501 0 60.664 0 129.947c0 30.118 10.612 57.752 28.299 79.376L227.5 450.499l53-64.169v-68.832h-69v-120z" />
               </svg>
               <h4>Code Audit</h4>
-              <p>
-                Conducting code reviews for your JavaScript application together with your team or a single person which usually last 2-3
-                days.
-              </p>
+              <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
             </li>
             <li className={container1ServicesItemsItem}>
               <svg width="60px" height="60px" viewBox="0 0 557.506 557.506">
