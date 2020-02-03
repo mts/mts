@@ -464,8 +464,8 @@ export function HomeMain({ className }) {
                 </div>
               </a>
               <div className={container1TestItemsItemCaption}>
-                <h4>Martin Lawrence</h4>
-                <p className={container1TestItemsItemCaptionP1}>Developer Experience at Bad Boys</p>
+                <h4>Lorem Ipsum</h4>
+                <p className={container1TestItemsItemCaptionP1}>Lorem ipsum dolor sit</p>
                 <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
@@ -486,8 +486,8 @@ export function HomeMain({ className }) {
                 </div>
               </a>
               <div className={container1TestItemsItemCaption}>
-                <h4>Mariah Carey</h4>
-                <p className={container1TestItemsItemCaptionP1}>JS Dev, Online Educator</p>
+                <h4>Lorem Ipsum</h4>
+                <p className={container1TestItemsItemCaptionP1}>Lorem ipsum dolor sit</p>
                 <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
@@ -508,8 +508,8 @@ export function HomeMain({ className }) {
                 </div>
               </a>
               <div className={container1TestItemsItemCaption}>
-                <h4>Bruce Willis</h4>
-                <p className={container1TestItemsItemCaptionP1}>Full-time JavaScript Instructor</p>
+                <h4>Lorem Ipsum</h4>
+                <p className={container1TestItemsItemCaptionP1}>Lorem ipsum dolor sit</p>
                 <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
@@ -530,8 +530,8 @@ export function HomeMain({ className }) {
                 </div>
               </a>
               <div className={container1TestItemsItemCaption}>
-                <h4>Geoffrey Rush</h4>
-                <p className={container1TestItemsItemCaptionP1}>JS Dev, Organizer of Pirates of the Caribbean</p>
+                <h4>Lorem Ipsum</h4>
+                <p className={container1TestItemsItemCaptionP1}>Lorem ipsum dolor sit</p>
                 <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
@@ -552,8 +552,8 @@ export function HomeMain({ className }) {
                 </div>
               </a>
               <div className={container1TestItemsItemCaption}>
-                <h4>Ray Liotta</h4>
-                <p className={container1TestItemsItemCaptionP1}>Goodfellas Core Team</p>
+                <h4>Lorem Ipsum</h4>
+                <p className={container1TestItemsItemCaptionP1}>Lorem ipsum dolor sit</p>
                 <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
@@ -574,8 +574,8 @@ export function HomeMain({ className }) {
                 </div>
               </a>
               <div className={container1TestItemsItemCaption}>
-                <h4>Lorraine Bracco</h4>
-                <p className={container1TestItemsItemCaptionP1}>Founder & CEO of Goodfellas</p>
+                <h4>Lorem Ipsum</h4>
+                <p className={container1TestItemsItemCaptionP1}>Lorem ipsum dolor sit</p>
                 <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
