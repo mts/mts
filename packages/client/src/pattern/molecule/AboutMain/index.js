@@ -129,12 +129,7 @@ export function AboutMain({ className }) {
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
           <H3 text="Email" />
           <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
-          <h3>
-            <a href="#editor-and-terminal" target="_blank" rel="noopener noreferrer" aria-label="editor and terminal permalink">
-              <svg height="0" width="0" />
-            </a>
-            Editor and Terminal
-          </h3>
+          <H3 text="Editor and Terminal" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
           <h3>
             <a href="#nomad-gear" target="_blank" rel="noopener noreferrer" aria-label="nomad gear permalink">
