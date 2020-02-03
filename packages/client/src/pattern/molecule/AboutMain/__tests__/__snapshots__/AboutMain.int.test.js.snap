@@ -525,7 +525,7 @@ exports[`<AboutMain /> Snaphot must match defaultRender 1`] = `
       </ul>
       <h3>
         <a
-          aria-label="apps gear permalink"
+          aria-label="apps permalink"
           href="#apps"
           rel="noopener noreferrer"
           target="_blank"
