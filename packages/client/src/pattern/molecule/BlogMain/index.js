@@ -1,5 +1,14 @@
 import React, { useEffect } from 'react'
-import { container1, container1BlogItem, container1BlogItemImage, container1BlogItemContent } from './BlogMain.scss'
+import cx from 'classnames'
+import {
+  container1,
+  container1BlogItem,
+  container1BlogItemFeatured,
+  container1BlogItemImage,
+  container1BlogItemImageFeatured,
+  container1BlogItemContent,
+  container1BlogItemContentFeatured,
+} from './BlogMain.scss'
 import { blogMainDefaultProps, blogMainPropTypes } from './BlogMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { windowObjectExists } from '../../../../../library/src/environment'
@@ -30,14 +39,14 @@ export function BlogMain({ className }) {
               </span>
             </a>
           </h2>
-          <article className={container1BlogItem}>
-            <div className={container1BlogItemImage}>
+          <article className={cx(container1BlogItem, container1BlogItemFeatured)}>
+            <div className={cx(container1BlogItemImage, container1BlogItemImageFeatured)}>
               <div style={{ width: '100%', paddingBottom: '64.94140625%' }} />
               <picture>
                 <img src={!windowObjectExists ? 'mts/static/blog-1.jpg' : Blog1} alt="blog 1" />
               </picture>
             </div>
-            <div className={container1BlogItemContent}>
+            <div className={cx(container1BlogItemContent, container1BlogItemContentFeatured)}>
               <header>
                 <h2 itemProp="name headline">
                   <a itemProp="url" aria-label="Go To Blog Post" href="/react-libraries">
