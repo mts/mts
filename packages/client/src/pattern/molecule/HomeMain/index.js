@@ -358,10 +358,7 @@ export function HomeMain({ className }) {
                 <h4>2017</h4>
                 <h4>Gray Book</h4>
                 <div>
-                  <p>
-                    I published my second book about state management with Gray in Yellow.js which I took one level further by packaging it
-                    as a full-blown online course.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
