@@ -1312,7 +1312,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               <p
                 className="container1TestItemsItemCaptionP2"
               >
-                If it's anything to do with React and it's written by MTS, you can trust that it'll be world-class. His books are some of the best content you'll find on the web for learning React.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
               </p>
             </div>
           </li>
