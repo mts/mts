@@ -370,8 +370,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             <h4>
               Code Audit
             </h4>
-            <p>
-              Conducting code reviews for your JavaScript application together with your team or a single person which usually last 2-3 days.
+            <p
+              className=""
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
             </p>
           </li>
           <li
