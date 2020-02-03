@@ -307,7 +307,7 @@ export function HomeMain({ className }) {
                 <h4>2010 - 2014</h4>
                 <h4>Freelancer</h4>
                 <div>
-                  <p>I got my hands dirty by writing JavaScript and C# applications for several clients.</p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
