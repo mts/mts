@@ -179,7 +179,7 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
                 itemProp="dateModified"
               />
               <meta
-                content="american react consultant,american react freelancer,american javascript freelancer,american javascript consultant"
+                content="React consultant,react freelancer,javascript freelancer,javascript consultant"
                 itemProp="keywords"
               />
               <meta
@@ -633,8 +633,7 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
                 Trackpad
               </a>
                
-              and
-               
+               and 
               <a
                 href="https://amzn.to/2SPqZ1K"
                 rel="noopener noreferrer"
@@ -642,7 +641,6 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
               >
                 Keyboard
               </a>
-               
             </li>
             <li
               className="container1ListItem"
@@ -654,7 +652,6 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
               >
                 Display
               </a>
-               
             </li>
           </ul>
           <h3>
