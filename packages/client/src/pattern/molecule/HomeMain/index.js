@@ -392,7 +392,7 @@ export function HomeMain({ className }) {
                 <h4>2018</h4>
                 <h4>Developer Magazines</h4>
                 <div>
-                  <p>Every other month I write for a software developer magazine educational content about JavaScript and its ecosystem.</p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
