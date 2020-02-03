@@ -71,7 +71,7 @@ exports[`<BlogMain /> Snaphot must match defaultRender 1`] = `
                 href="/react-libraries"
                 itemProp="url"
               >
-                React Libraries in 2020
+                Lorem ipsum
               </a>
             </h2>
           </header>
