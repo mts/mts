@@ -187,12 +187,7 @@ export function AboutMain({ className }) {
             <li className={container1ListItem}>great pricing model for a larger audience</li>
             <li className={container1ListItem}>statistics and analytics</li>
           </ul>
-          <h3>
-            <a href="leanpub" target="_blank" rel="noopener noreferrer" aria-label="leanpub permalink">
-              <svg height="0" width="0" />
-            </a>
-            Leanpub
-          </h3>
+          <H3 text="Leanpub" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
           <h3>
             <a href="educative" target="_blank" rel="noopener noreferrer" aria-label="educative permalink">
