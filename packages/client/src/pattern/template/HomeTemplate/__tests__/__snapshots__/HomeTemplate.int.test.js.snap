@@ -1212,7 +1212,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               <p
                 className="container1TestItemsItemCaptionP2"
               >
-                You can tell how much time MTS has put into a teaching piece when you consume his content. I have partnered with MTS and he sets the bar high for other teachers and content creators – this results to a quality learning ecosystem for his students regardless if a content or course was thought by him or not.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
               </p>
             </div>
           </li>
