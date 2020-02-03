@@ -1,5 +1,5 @@
 import React from 'react'
-import { h2PropTypes, blogListItemPropTypes } from './BlogMain.props'
+import { h2PropTypes, blogItemRegularPropTypes } from './BlogMain.props'
 import { container1BlogListContainer1, container1BlogListContainer1Image, container1BlogListContainer1Content } from './BlogMain.scss'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
@@ -26,7 +26,7 @@ export function H2({ href, text }) {
 
 H2.propTypes = h2PropTypes
 
-export function BlogListItem({ imageName, image, href, title, text }) {
+export function BlogItemRegular({ imageName, image, href, title, text }) {
   return (
     <article className={container1BlogListContainer1}>
       <div className={container1BlogListContainer1Image}>
@@ -49,4 +49,4 @@ export function BlogListItem({ imageName, image, href, title, text }) {
   )
 }
 
-BlogListItem.propTypes = blogListItemPropTypes
+BlogItemRegular.propTypes = blogItemRegularPropTypes

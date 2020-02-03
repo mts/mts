@@ -10,7 +10,7 @@ import {
   container1BlogItemContentFeatured,
   container1BlogList,
 } from './BlogMain.scss'
-import { H2, BlogListItem } from './BlogMain.part'
+import { H2, BlogItemRegular } from './BlogMain.part'
 import { blogMainDefaultProps, blogMainPropTypes } from './BlogMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { windowObjectExists } from '../../../../../library/src/environment'
@@ -43,7 +43,7 @@ export function BlogMain({ className }) {
               <header>
                 <h2 itemProp="name headline">
                   <a itemProp="url" aria-label="Go To Blog Post" href="/react-libraries">
-                    React Libraries in 2020
+                    Lorem ipsum
                   </a>
                 </h2>
               </header>
@@ -51,9 +51,9 @@ export function BlogMain({ className }) {
             </div>
           </article>
           <div className={container1BlogList}>
-            <BlogListItem imageName="blog-1-1" image={Blog11} href="/conditional-rendering-react" title="Lorem ipsum" text={null} />
-            <BlogListItem imageName="blog-1-2" image={Blog12} href="/react-event-handler" title="Lorem ipsum" text={null} />
-            <BlogListItem imageName="blog-1-3" image={Blog13} href="/javascript-import-export" title="Lorem ipsum" text={null} />
+            <BlogItemRegular imageName="blog-1-1" image={Blog11} href="/conditional-rendering-react" title="Lorem ipsum" text={null} />
+            <BlogItemRegular imageName="blog-1-2" image={Blog12} href="/react-event-handler" title="Lorem ipsum" text={null} />
+            <BlogItemRegular imageName="blog-1-3" image={Blog13} href="/javascript-import-export" title="Lorem ipsum" text={null} />
           </div>
         </section>
       </div>

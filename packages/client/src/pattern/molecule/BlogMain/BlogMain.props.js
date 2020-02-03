@@ -13,7 +13,7 @@ export const h2PropTypes = {
   text: string.isRequired,
 }
 
-export const blogListItemPropTypes = {
+export const blogItemRegularPropTypes = {
   imageName: string.isRequired,
   image: node.isRequired,
   href: string.isRequired,
