@@ -375,10 +375,7 @@ export function HomeMain({ className }) {
                 <h4>2018</h4>
                 <h4>Pink Book</h4>
                 <div>
-                  <p>
-                    As an early adopter of Pink in my recent jobs, I wrote my third book about it for modern client-server applications
-                    using Pink in JavaScript.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
