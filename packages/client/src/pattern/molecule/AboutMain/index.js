@@ -106,17 +106,7 @@ export function AboutMain({ className }) {
           <LoremIpsum container={element.paragraph} length={size.large} count={1} />
           <H2 className={container1Title} text="Passions beyond Software Development" />
           <LoremIpsum container={element.paragraph} length={size.small} count={3} />
-          <h2 className={container1Title}>
-            <a
-              href="#you-like-my-content-here-are-a-couple-of-ways-to-support-it"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="you like my content here are a couple of ways to support it permalink"
-            >
-              <svg height="0" width="0" />
-            </a>
-            You like my content? Here are a couple of ways to support it.
-          </h2>
+          <H2 className={container1Title} text="You like my content? Here are a couple of ways to support it." />
           <LoremIpsum container={element.paragraph} length={size.medium} count={1} />
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
           <H3 text="Be my Patron" />
