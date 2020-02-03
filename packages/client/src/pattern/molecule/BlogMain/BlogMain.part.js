@@ -1,12 +1,32 @@
 import React from 'react'
-import { blogListItemPropTypes } from './BlogMain.props'
+import { h2PropTypes, blogListItemPropTypes } from './BlogMain.props'
 import { container1BlogListContainer1, container1BlogListContainer1Image, container1BlogListContainer1Content } from './BlogMain.scss'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
 import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
 
-export function BlogListItem({ imageName, image, href, title, intro }) {
+export function H2({ href, text }) {
+  return (
+    <h2>
+      <a itemProp="url" href={href}>
+        <span>
+          {text}
+          <svg viewBox="0 0 185.343 185.343" height="16px" width="16px">
+            <path
+              d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+              fill="#823eb7"
+            />
+          </svg>
+        </span>
+      </a>
+    </h2>
+  )
+}
+
+H2.propTypes = h2PropTypes
+
+export function BlogListItem({ imageName, image, href, title, text }) {
   return (
     <article className={container1BlogListContainer1}>
       <div className={container1BlogListContainer1Image}>
@@ -23,7 +43,7 @@ export function BlogListItem({ imageName, image, href, title, intro }) {
             </a>
           </h2>
         </header>
-        {intro || <LoremIpsum container={element.paragraph} length={size.small} count={1} />}
+        {text || <LoremIpsum container={element.paragraph} length={size.small} count={1} />}
       </div>
     </article>
   )
