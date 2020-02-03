@@ -409,10 +409,7 @@ export function HomeMain({ className }) {
                 <h4>2018</h4>
                 <h4>Orange Book</h4>
                 <div>
-                  <p>
-                    Later this year, I published my fourth book/course about Firebase in React to build modern frontend applications without
-                    worrying about your backend application.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
