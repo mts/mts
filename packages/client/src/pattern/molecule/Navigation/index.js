@@ -40,9 +40,9 @@ function Component({ className }) {
         ) : null}
 
         {!isMobile ? (
-          <a className={navBarLogo} href="/">
+          <Link className={navBarLogo} to={homePagePath} aria-label="Logo">
             <img height="40" src={!windowObjectExists ? 'mts/static/logo.jpg' : Logo} alt="logo" />
-          </a>
+          </Link>
         ) : null}
 
         <ul className={cx(navBarList, isNavBarListToggled ? navBarListToggle : '')}>

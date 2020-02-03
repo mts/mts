@@ -74,16 +74,9 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
     <div
       className="navBar"
     >
-      <a
-        className="navBarLogo"
-        href="/"
-      >
-        <img
-          alt="logo"
-          height="40"
-          src={Object {}}
-        />
-      </a>
+      <div>
+        some link
+      </div>
       <ul
         className="navBarList"
       >
@@ -311,15 +304,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
         <div
           className="container1AboutText"
         >
-          <p>
-            I am a self-employed software and web engineer dedicated to learning and teaching JavaScript for client-server architectures. After obtaining my Bachelor's Degree in computer science, I gained experience from the startup world, where I used JavaScript intensively during both my professional life and spare time. Eventually it led me to teach others about these topics and to offer online courses and on-site consulting for companies. I am happy to welcome you on my website
-             
-            <span
-              aria-label="smiley"
-              role="img"
-            >
-              🙂
-            </span>
+          <p
+            className=""
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
           </p>
         </div>
       </div>
@@ -358,8 +346,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             <h4>
               Workshops
             </h4>
-            <p>
-              Teaching your team on-site/remote to get them up to speed with the latest web technologies for client-server applications in JavaScript.
+            <p
+              className=""
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
             </p>
           </li>
           <li
@@ -380,8 +370,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             <h4>
               Code Audit
             </h4>
-            <p>
-              Conducting code reviews for your JavaScript application together with your team or a single person which usually last 2-3 days.
+            <p
+              className=""
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
             </p>
           </li>
           <li
@@ -405,8 +397,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             <h4>
               MVP
             </h4>
-            <p>
-              Bringing your idea to code from zero to one as a minimal viable product (MVP) and beyond within a well-architected application.
+            <p
+              className=""
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
             </p>
           </li>
           <li
@@ -427,8 +421,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             <h4>
               Complex Problems
             </h4>
-            <p>
-              Solving complex problems in JavaScript code which you want to have eliminated in your application&pos;s code base but no one dares to fix.
+            <p
+              className=""
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
             </p>
           </li>
           <li
@@ -446,8 +442,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             <h4>
               Writing Code
             </h4>
-            <p>
-              Coding along with your team on a large scale application to make your customers happy with new features and performance improvements.
+            <p
+              className=""
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
             </p>
           </li>
           <li
@@ -465,8 +463,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             <h4>
               Technical Writing
             </h4>
-            <p>
-              Writing tutorials about your technical product, open source work, or API (all related to JavaScript) to get more publicity for it.
+            <p
+              className=""
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
             </p>
           </li>
         </ul>
@@ -635,14 +635,16 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TimelineItemsItemCaption"
             >
               <h4>
-                1993 - 1997
+                Lorem ipsum
               </h4>
               <h4>
-                Bachelor of Science
+                Lorem ipsum dolor sit
               </h4>
               <div>
-                <p>
-                  I graduated with a bachelor of science in computer science. Lots of this knowledge can be applied for more complex problems in client-server architectures.
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </div>
@@ -676,14 +678,16 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TimelineItemsItemCaption"
             >
               <h4>
-                2010 - 2014
+                Lorem ipsum
               </h4>
               <h4>
-                Freelancer
+                Lorem ipsum dolor sit
               </h4>
               <div>
-                <p>
-                  I got my hands dirty by writing JavaScript and C# applications for several clients.
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </div>
@@ -717,14 +721,16 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TimelineItemsItemCaption"
             >
               <h4>
-                2014 - 2017
+                Lorem ipsum
               </h4>
               <h4>
-                Startups
+                Lorem ipsum dolor sit
               </h4>
               <div>
-                <p>
-                  I worked closely with an exceptional team of engineers at a company in Berlin developing large scale applications for thousands of customers.
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </div>
@@ -758,14 +764,16 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TimelineItemsItemCaption"
             >
               <h4>
-                2016
+                Lorem ipsum
               </h4>
               <h4>
-                Yellow Book
+                Lorem ipsum dolor sit
               </h4>
               <div>
-                <p>
-                  This year I published my first book about Yellow.js. Within the first month it had more than 10.000 readers and today it is one of the most popular React.js books.
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </div>
@@ -799,14 +807,16 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TimelineItemsItemCaption"
             >
               <h4>
-                2017
+                Lorem ipsum
               </h4>
               <h4>
-                Gray Book
+                Lorem ipsum dolor sit
               </h4>
               <div>
-                <p>
-                  I published my second book about state management with Gray in Yellow.js which I took one level further by packaging it as a full-blown online course.
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </div>
@@ -840,14 +850,16 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TimelineItemsItemCaption"
             >
               <h4>
-                2018
+                Lorem ipsum
               </h4>
               <h4>
-                Pink Book
+                Lorem ipsum dolor sit
               </h4>
               <div>
-                <p>
-                  As an early adopter of Pink in my recent jobs, I wrote my third book about it for modern client-server applications using Pink in JavaScript.
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </div>
@@ -881,14 +893,16 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TimelineItemsItemCaption"
             >
               <h4>
-                2018
+                Lorem ipsum
               </h4>
               <h4>
-                Developer Magazines
+                Lorem ipsum dolor sit
               </h4>
               <div>
-                <p>
-                  Every other month I write for a software developer magazine educational content about JavaScript and its ecosystem.
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </div>
@@ -922,14 +936,16 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TimelineItemsItemCaption"
             >
               <h4>
-                2018
+                Lorem ipsum
               </h4>
               <h4>
-                Orange Book
+                Lorem ipsum dolor sit
               </h4>
               <div>
-                <p>
-                  Later this year, I published my fourth book/course about Firebase in React to build modern frontend applications without worrying about your backend application.
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </div>
@@ -963,14 +979,16 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TimelineItemsItemCaption"
             >
               <h4>
-                2017 - TODAY
+                2020 - TODAY
               </h4>
               <h4>
                 Self-Employed
               </h4>
               <div>
-                <p>
-                  Lots of demand for JavaScript on-site or remote training, implementations for MVPs, code reviews, or complex JavaScript problem solving, led me to being self-employed.
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </div>
@@ -1052,17 +1070,17 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TestItemsItemCaption"
             >
               <h4>
-                Martin Lawrence
+                Lorem Ipsum
               </h4>
               <p
                 className="container1TestItemsItemCaptionP1"
               >
-                Developer Experience at Bad Boys
+                Lorem ipsum dolor sit
               </p>
               <p
                 className="container1TestItemsItemCaptionP2"
               >
-                MTS is one of the most consistently high quality React educators. His approach directly addresses practical concerns you *will* face in your daily React work, without talking down to you or wasting your time with fluff. Don’t just take my word for it - look at his public work and you’ll see.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
               </p>
             </div>
           </li>
@@ -1102,17 +1120,17 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TestItemsItemCaption"
             >
               <h4>
-                Mariah Carey
+                Lorem Ipsum
               </h4>
               <p
                 className="container1TestItemsItemCaptionP1"
               >
-                JS Dev, Online Educator
+                Lorem ipsum dolor sit
               </p>
               <p
                 className="container1TestItemsItemCaptionP2"
               >
-                MTS is an excellent teacher. His articles and tutorials are in-depth and informative, and his code is clear and concise. I've found an answer on his site countless times when researching a problem, and I know that's one less article I have to write.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
               </p>
             </div>
           </li>
@@ -1152,17 +1170,17 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TestItemsItemCaption"
             >
               <h4>
-                Bruce Willis
+                Lorem Ipsum
               </h4>
               <p
                 className="container1TestItemsItemCaptionP1"
               >
-                Full-time JavaScript Instructor
+                Lorem ipsum dolor sit
               </p>
               <p
                 className="container1TestItemsItemCaptionP2"
               >
-                Everything that I've read from MTS has been top tier quality stuff. There are blog posts that I have wanted to write, but then I found one by MTS and decided I didn't need to. Fantastic content
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
               </p>
             </div>
           </li>
@@ -1202,17 +1220,17 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TestItemsItemCaption"
             >
               <h4>
-                Geoffrey Rush
+                Lorem Ipsum
               </h4>
               <p
                 className="container1TestItemsItemCaptionP1"
               >
-                JS Dev, Organizer of Pirates of the Caribbean
+                Lorem ipsum dolor sit
               </p>
               <p
                 className="container1TestItemsItemCaptionP2"
               >
-                You can tell how much time MTS has put into a teaching piece when you consume his content. I have partnered with MTS and he sets the bar high for other teachers and content creators – this results to a quality learning ecosystem for his students regardless if a content or course was thought by him or not.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
               </p>
             </div>
           </li>
@@ -1252,17 +1270,17 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TestItemsItemCaption"
             >
               <h4>
-                Ray Liotta
+                Lorem Ipsum
               </h4>
               <p
                 className="container1TestItemsItemCaptionP1"
               >
-                Goodfellas Core Team
+                Lorem ipsum dolor sit
               </p>
               <p
                 className="container1TestItemsItemCaptionP2"
               >
-                I haven't read this book yet, but the previous educational materials made by MTS were nothing short of amazing. Thanks for creating this content and putting it out there!
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
               </p>
             </div>
           </li>
@@ -1302,17 +1320,17 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               className="container1TestItemsItemCaption"
             >
               <h4>
-                Lorraine Bracco
+                Lorem Ipsum
               </h4>
               <p
                 className="container1TestItemsItemCaptionP1"
               >
-                Founder & CEO of Goodfellas
+                Lorem ipsum dolor sit
               </p>
               <p
                 className="container1TestItemsItemCaptionP2"
               >
-                If it's anything to do with React and it's written by MTS, you can trust that it'll be world-class. His books are some of the best content you'll find on the web for learning React.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
               </p>
             </div>
           </li>
