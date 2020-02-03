@@ -324,10 +324,7 @@ export function HomeMain({ className }) {
                 <h4>2014 - 2017</h4>
                 <h4>Startups</h4>
                 <div>
-                  <p>
-                    I worked closely with an exceptional team of engineers at a company in Berlin developing large scale applications for
-                    thousands of customers.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
