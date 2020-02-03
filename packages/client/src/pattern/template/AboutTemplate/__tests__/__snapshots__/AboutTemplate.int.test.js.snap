@@ -684,7 +684,7 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
         <h3>
           <a
             aria-label="freelancers permalink"
-            href="freelancers"
+            href="#freelancers"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -751,7 +751,7 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
         <h3>
           <a
             aria-label="revue permalink"
-            href="revue"
+            href="#revue"
             rel="noopener noreferrer"
             target="_blank"
           >
