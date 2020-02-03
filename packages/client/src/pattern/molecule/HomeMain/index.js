@@ -290,10 +290,7 @@ export function HomeMain({ className }) {
                 <h4>1993 - 1997</h4>
                 <h4>Bachelor of Science</h4>
                 <div>
-                  <p>
-                    I graduated with a bachelor of science in computer science. Lots of this knowledge can be applied for more complex
-                    problems in client-server architectures.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
