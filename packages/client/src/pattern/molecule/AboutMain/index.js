@@ -125,12 +125,7 @@ export function AboutMain({ className }) {
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
           <H2 className={container1Title} text="What I Use" />
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
-          <h3>
-            <a href="#heroku-and-github-pages" target="_blank" rel="noopener noreferrer" aria-label="heroku and github pages permalink">
-              <svg height="0" width="0" />
-            </a>
-            Heroku and GitHub Pages
-          </h3>
+          <H3 text="Heroku and GitHub Pages" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
           <h3>
             <a href="#email" target="_blank" rel="noopener noreferrer" aria-label="email permalink">
