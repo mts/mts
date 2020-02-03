@@ -1075,12 +1075,12 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TestItemsItemCaption"
               >
                 <h4>
-                  Martin Lawrence
+                  Lorem Ipsum
                 </h4>
                 <p
                   className="container1TestItemsItemCaptionP1"
                 >
-                  Developer Experience at Bad Boys
+                  Lorem ipsum dolor sit
                 </p>
                 <p
                   className="container1TestItemsItemCaptionP2"
@@ -1125,12 +1125,12 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TestItemsItemCaption"
               >
                 <h4>
-                  Mariah Carey
+                  Lorem Ipsum
                 </h4>
                 <p
                   className="container1TestItemsItemCaptionP1"
                 >
-                  JS Dev, Online Educator
+                  Lorem ipsum dolor sit
                 </p>
                 <p
                   className="container1TestItemsItemCaptionP2"
@@ -1175,12 +1175,12 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TestItemsItemCaption"
               >
                 <h4>
-                  Bruce Willis
+                  Lorem Ipsum
                 </h4>
                 <p
                   className="container1TestItemsItemCaptionP1"
                 >
-                  Full-time JavaScript Instructor
+                  Lorem ipsum dolor sit
                 </p>
                 <p
                   className="container1TestItemsItemCaptionP2"
@@ -1225,12 +1225,12 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TestItemsItemCaption"
               >
                 <h4>
-                  Geoffrey Rush
+                  Lorem Ipsum
                 </h4>
                 <p
                   className="container1TestItemsItemCaptionP1"
                 >
-                  JS Dev, Organizer of Pirates of the Caribbean
+                  Lorem ipsum dolor sit
                 </p>
                 <p
                   className="container1TestItemsItemCaptionP2"
@@ -1275,12 +1275,12 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TestItemsItemCaption"
               >
                 <h4>
-                  Ray Liotta
+                  Lorem Ipsum
                 </h4>
                 <p
                   className="container1TestItemsItemCaptionP1"
                 >
-                  Goodfellas Core Team
+                  Lorem ipsum dolor sit
                 </p>
                 <p
                   className="container1TestItemsItemCaptionP2"
@@ -1325,12 +1325,12 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TestItemsItemCaption"
               >
                 <h4>
-                  Lorraine Bracco
+                  Lorem Ipsum
                 </h4>
                 <p
                   className="container1TestItemsItemCaptionP1"
                 >
-                  Founder & CEO of Goodfellas
+                  Lorem ipsum dolor sit
                 </p>
                 <p
                   className="container1TestItemsItemCaptionP2"
