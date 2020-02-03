@@ -14,6 +14,7 @@ import {
   container1Divider,
   container1DividerButton,
 } from './AboutMain.scss'
+import { H3 } from './AboutMain.part'
 import { aboutMainDefaultProps, aboutMainPropTypes } from './AboutMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { windowObjectExists } from '../../../../../library/src/environment'
@@ -133,12 +134,7 @@ export function AboutMain({ className }) {
           </h2>
           <LoremIpsum container={element.paragraph} length={size.medium} count={1} />
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
-          <h3>
-            <a href="#be-my-patron" target="_blank" rel="noopener noreferrer" aria-label="be my patron permalink">
-              <svg height="0" width="0" />
-            </a>
-            Be my Patron
-          </h3>
+          <H3 text="Be my Patron" />
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
           <h3>
             <a href="#follow-me" target="_blank" rel="noopener noreferrer" aria-label="follow me permalink">
@@ -233,7 +229,6 @@ export function AboutMain({ className }) {
               </a>{' '}
             </li>
           </ul>
-
           <h3>
             <a href="#apps" target="_blank" rel="noopener noreferrer" aria-label="apps gear permalink">
               <svg height="0" width="0" />
