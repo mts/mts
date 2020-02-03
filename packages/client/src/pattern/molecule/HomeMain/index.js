@@ -341,10 +341,7 @@ export function HomeMain({ className }) {
                 <h4>2016</h4>
                 <h4>Yellow Book</h4>
                 <div>
-                  <p>
-                    This year I published my first book about Yellow.js. Within the first month it had more than 10.000 readers and today it
-                    is one of the most popular React.js books.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
