@@ -14,6 +14,10 @@
       border-bottom: 1px solid #e4e4e4;
     }
 
+    &:hover {
+      box-shadow: 0 5px 20px -5px #999;
+    }
+
     &Featured {
       margin: 20px 0;
       border-bottom: 1px solid transparent;
@@ -69,6 +73,84 @@
 
       a {
         color: #333;
+
+        &::before {
+          content: '';
+          display: block;
+          position: absolute;
+          z-index: 0;
+          width: 100%;
+          height: 100%;
+          left: 0;
+          top: 0;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  &BlogList {
+    display: flex;
+    flex-direction: column;
+
+    &Container1 {
+      position: relative;
+      display: flex;
+      border-bottom: 1px solid #e4e4e4;
+
+      @media (max-width: 720px) {
+        flex-direction: column;
+      }
+
+      &:hover {
+        box-shadow: 0 5px 20px -5px #999;
+      }
+
+      &Image {
+        position: relative;
+        overflow: hidden;
+        //
+        object-fit: cover;
+        width: 280px;
+        height: 180px;
+        margin: 20px;
+
+        @media (max-width: 720px) {
+          display: none;
+        }
+
+        picture img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center center;
+          opacity: 1;
+          transition: opacity 500ms ease 0s;
+        }
+      }
+
+      &Content {
+        flex: 1 1;
+        margin: 20px;
+
+        a {
+          color: #333;
+
+          &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            z-index: 0;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background-color: transparent;
+          }
+        }
       }
     }
   }
