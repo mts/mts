@@ -101,7 +101,7 @@ exports[`<BlogMain /> Snaphot must match defaultRender 1`] = `
             />
             <picture>
               <img
-                alt="blog 2"
+                alt="blog-1-1"
                 src={Object {}}
               />
             </picture>
