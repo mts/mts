@@ -10,7 +10,7 @@ import {
   container1BlogItemContentFeatured,
   container1BlogList,
 } from './BlogMain.scss'
-import { BlogListItem } from './BlogMain.part'
+import { H2, BlogListItem } from './BlogMain.part'
 import { blogMainDefaultProps, blogMainPropTypes } from './BlogMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { windowObjectExists } from '../../../../../library/src/environment'
@@ -31,19 +31,7 @@ export function BlogMain({ className }) {
     <main className={className} style={{ marginTop: '55px', display: 'flex', justifyContent: 'center' }}>
       <div className={container1}>
         <section itemScope itemType="http://schema.org/Blog">
-          <h2>
-            <a itemProp="url" href="/categories/recent">
-              <span>
-                Recent articles
-                <svg viewBox="0 0 185.343 185.343" height="16px" width="16px">
-                  <path
-                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
-                    fill="#010002"
-                  />
-                </svg>
-              </span>
-            </a>
-          </h2>
+          <H2 href="/categories/recent" text="Recent articles" />
           <article className={cx(container1BlogItem, container1BlogItemFeatured)}>
             <div className={cx(container1BlogItemImage, container1BlogItemImageFeatured)}>
               <div style={{ width: '100%', paddingBottom: '64.94140625%' }} />
@@ -63,9 +51,9 @@ export function BlogMain({ className }) {
             </div>
           </article>
           <div className={container1BlogList}>
-            <BlogListItem imageName="blog-1-1" image={Blog11} href="/conditional-rendering-react" title="Lorem ipsum" intro={null} />
-            <BlogListItem imageName="blog-1-2" image={Blog12} href="/react-event-handler" title="Lorem ipsum" intro={null} />
-            <BlogListItem imageName="blog-1-3" image={Blog13} href="/javascript-import-export" title="Lorem ipsum" intro={null} />
+            <BlogListItem imageName="blog-1-1" image={Blog11} href="/conditional-rendering-react" title="Lorem ipsum" text={null} />
+            <BlogListItem imageName="blog-1-2" image={Blog12} href="/react-event-handler" title="Lorem ipsum" text={null} />
+            <BlogListItem imageName="blog-1-3" image={Blog13} href="/javascript-import-export" title="Lorem ipsum" text={null} />
           </div>
         </section>
       </div>
