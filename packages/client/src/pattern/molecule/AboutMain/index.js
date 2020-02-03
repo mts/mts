@@ -146,12 +146,7 @@ export function AboutMain({ className }) {
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
           <H3 text="Contribute" />
           <LoremIpsum container={element.paragraph} length={size.small} count={2} />
-          <h3>
-            <a href="#donate" target="_blank" rel="noopener noreferrer" aria-label="donate permalink">
-              <svg height="0" width="0" />
-            </a>
-            Donate
-          </h3>
+          <H3 text="Donate" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
           <h2 className={container1Title}>
             <a href="#what-i-use" target="_blank" rel="noopener noreferrer" aria-label="what i use permalink">
