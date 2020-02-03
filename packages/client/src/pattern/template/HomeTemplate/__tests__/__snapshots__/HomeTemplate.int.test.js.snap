@@ -1162,7 +1162,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               <p
                 className="container1TestItemsItemCaptionP2"
               >
-                Everything that I've read from MTS has been top tier quality stuff. There are blog posts that I have wanted to write, but then I found one by MTS and decided I didn't need to. Fantastic content
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
               </p>
             </div>
           </li>
