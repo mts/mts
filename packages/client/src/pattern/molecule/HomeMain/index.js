@@ -188,10 +188,7 @@ export function HomeMain({ className }) {
                 <path d="M249.171 235.116a38.376 38.376 0 0 0 18.844 24.701 38.024 38.024 0 0 0 11.056 3.984c2.381.462 4.832.722 7.344.722 15.055 0 28.045-8.703 34.314-21.331 1.463-2.947 2.59-6.089 3.256-9.407.494-2.454.76-4.994.76-7.595 0-2.996-.379-5.896-1.029-8.693-2.02-8.7-6.99-16.249-13.818-21.555a38.47 38.47 0 0 0-3.844-2.623 38.12 38.12 0 0 0-7.402-3.427 38.195 38.195 0 0 0-10.296-1.934c-.646-.034-1.285-.098-1.94-.098a38.144 38.144 0 0 0-20.297 5.857c-9.706 6.08-16.505 16.355-17.8 28.308-.024.217-.027.434-.058.651a38.936 38.936 0 0 0-.159 3.127c0 .128-.019.254-.019.386 0 1.239.071 2.46.187 3.669.17 1.797.491 3.545.901 5.258z" />
               </svg>
               <h4>MVP</h4>
-              <p>
-                Bringing your idea to code from zero to one as a minimal viable product (MVP) and beyond within a well-architected
-                application.
-              </p>
+              <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
             </li>
             <li className={container1ServicesItemsItem}>
               <svg width="60px" height="60px" viewBox="0 0 96 96">
