@@ -648,8 +648,10 @@ exports[`<HomeMain /> Snaphot must match defaultRender 1`] = `
               Yellow Book
             </h4>
             <div>
-              <p>
-                This year I published my first book about Yellow.js. Within the first month it had more than 10.000 readers and today it is one of the most popular React.js books.
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
               </p>
             </div>
           </div>
