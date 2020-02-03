@@ -142,12 +142,7 @@ export function AboutMain({ className }) {
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
           <H3 text="Share" />
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
-          <h3>
-            <a href="#learn-react" target="_blank" rel="noopener noreferrer" aria-label="learn react permalink">
-              <svg height="0" width="0" />
-            </a>
-            Learn React
-          </h3>
+          <H3 text="Learn React" />
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
           <h3>
             <a href="#contribute" target="_blank" rel="noopener noreferrer" aria-label="contribute permalink">
