@@ -74,16 +74,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
     <div
       className="navBar"
     >
-      <a
-        className="navBarLogo"
-        href="/"
-      >
-        <img
-          alt="logo"
-          height="40"
-          src={Object {}}
-        />
-      </a>
+      <div>
+        some link
+      </div>
       <ul
         className="navBarList"
       >
