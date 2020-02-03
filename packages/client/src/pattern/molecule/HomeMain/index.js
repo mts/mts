@@ -426,10 +426,7 @@ export function HomeMain({ className }) {
                 <h4>2017 - TODAY</h4>
                 <h4>Self-Employed</h4>
                 <div>
-                  <p>
-                    Lots of demand for JavaScript on-site or remote training, implementations for MVPs, code reviews, or complex JavaScript
-                    problem solving, led me to being self-employed.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
