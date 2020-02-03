@@ -5,6 +5,12 @@
   flex-direction: column;
   margin: 50px;
 
+  section {
+    &:not(:first-child) {
+      margin-top: 60px;
+    }
+  }
+
   &BlogItem {
     position: relative;
     display: flex;
