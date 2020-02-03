@@ -670,7 +670,7 @@ exports[`<AboutMain /> Snaphot must match defaultRender 1`] = `
       <h3>
         <a
           aria-label="leanpub permalink"
-          href="leanpub"
+          href="#leanpub"
           rel="noopener noreferrer"
           target="_blank"
         >
