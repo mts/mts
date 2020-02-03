@@ -823,7 +823,7 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
           <h3>
             <a
               aria-label="educative permalink"
-              href="educative"
+              href="#educative"
               rel="noopener noreferrer"
               target="_blank"
             >
