@@ -287,8 +287,8 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>1993 - 1997</h4>
-                <h4>Bachelor of Science</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
                   <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
@@ -304,8 +304,8 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2010 - 2014</h4>
-                <h4>Freelancer</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
                   <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
@@ -321,8 +321,8 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2014 - 2017</h4>
-                <h4>Startups</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
                   <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
@@ -338,8 +338,8 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2016</h4>
-                <h4>Yellow Book</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
                   <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
@@ -355,8 +355,8 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2017</h4>
-                <h4>Gray Book</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
                   <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
@@ -372,8 +372,8 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2018</h4>
-                <h4>Pink Book</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
                   <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
@@ -389,8 +389,8 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2018</h4>
-                <h4>Developer Magazines</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
                   <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
@@ -406,8 +406,8 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2018</h4>
-                <h4>Orange Book</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
                   <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
@@ -423,7 +423,7 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2017 - TODAY</h4>
+                <h4>2020 - TODAY</h4>
                 <h4>Self-Employed</h4>
                 <div>
                   <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
