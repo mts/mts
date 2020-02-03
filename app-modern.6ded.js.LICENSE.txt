@@ -6,10 +6,10 @@
 
 /*!
  * @project        MTS
- * @name           app-modern.ee8d.js
+ * @name           app-modern.6ded.js
  * @author         MTS
- * @build          Mon, Feb 3, 2020 12:34 PM ET
- * @release        df78f5f31aaf54c055045e712fa401b1e20eaa2c [responsive-blog-page]
+ * @build          Mon, Feb 3, 2020 9:09 PM ET
+ * @release        e752cfae04d1c48c18b4d362f9714916d51bd7b5 [master]
  * @copyright      Copyright (c) 2020 MTS
  *
  */
