@@ -210,10 +210,7 @@ export function HomeMain({ className }) {
                 <path d="M39.29 361l-30 30h252.42l-30-30zm0 0M.5 421h270v91H.5zm0 0M369.637 2.93c-3.254.468-80.13 14.218-135.719 69.808-55.59 55.59-67.41 132.465-67.883 135.719l-.234 1.602c-15.047 19.457-27.461 39.156-38.98 60.941H30.5v30h30v30h150v-30h30v-30h-79.168c9.82-16.89 19.543-32.207 31.695-47.441 17.453-3.817 55.012-14.18 91.575-38.278l6.738-4.453V150h33.531l4.496-3.86c46.582-54.214 56.867-121.437 57.278-124.277L389.559 0zm0 0" />
               </svg>
               <h4>Technical Writing</h4>
-              <p>
-                Writing tutorials about your technical product, open source work, or API (all related to JavaScript) to get more publicity
-                for it.
-              </p>
+              <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
             </li>
           </ul>
         </div>
