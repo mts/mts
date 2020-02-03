@@ -553,11 +553,7 @@ export function HomeMain({ className }) {
               <div className={container1TestItemsItemCaption}>
                 <h4>Geoffrey Rush</h4>
                 <p className={container1TestItemsItemCaptionP1}>JS Dev, Organizer of Pirates of the Caribbean</p>
-                <p className={container1TestItemsItemCaptionP2}>
-                  You can tell how much time MTS has put into a teaching piece when you consume his content. I have partnered with MTS and
-                  he sets the bar high for other teachers and content creators – this results to a quality learning ecosystem for his
-                  students regardless if a content or course was thought by him or not.
-                </p>
+                <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
             <li className={container1TestItemsItem}>
