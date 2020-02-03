@@ -947,8 +947,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   Orange Book
                 </h4>
                 <div>
-                  <p>
-                    Later this year, I published my fourth book/course about Firebase in React to build modern frontend applications without worrying about your backend application.
+                  <p
+                    className=""
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                   </p>
                 </div>
               </div>
