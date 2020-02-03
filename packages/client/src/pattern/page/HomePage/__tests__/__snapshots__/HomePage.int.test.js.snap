@@ -640,10 +640,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TimelineItemsItemCaption"
               >
                 <h4>
-                  1993 - 1997
+                  Lorem ipsum
                 </h4>
                 <h4>
-                  Bachelor of Science
+                  Lorem ipsum dolor sit
                 </h4>
                 <div>
                   <p
@@ -683,10 +683,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TimelineItemsItemCaption"
               >
                 <h4>
-                  2010 - 2014
+                  Lorem ipsum
                 </h4>
                 <h4>
-                  Freelancer
+                  Lorem ipsum dolor sit
                 </h4>
                 <div>
                   <p
@@ -726,10 +726,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TimelineItemsItemCaption"
               >
                 <h4>
-                  2014 - 2017
+                  Lorem ipsum
                 </h4>
                 <h4>
-                  Startups
+                  Lorem ipsum dolor sit
                 </h4>
                 <div>
                   <p
@@ -769,10 +769,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TimelineItemsItemCaption"
               >
                 <h4>
-                  2016
+                  Lorem ipsum
                 </h4>
                 <h4>
-                  Yellow Book
+                  Lorem ipsum dolor sit
                 </h4>
                 <div>
                   <p
@@ -812,10 +812,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TimelineItemsItemCaption"
               >
                 <h4>
-                  2017
+                  Lorem ipsum
                 </h4>
                 <h4>
-                  Gray Book
+                  Lorem ipsum dolor sit
                 </h4>
                 <div>
                   <p
@@ -855,10 +855,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TimelineItemsItemCaption"
               >
                 <h4>
-                  2018
+                  Lorem ipsum
                 </h4>
                 <h4>
-                  Pink Book
+                  Lorem ipsum dolor sit
                 </h4>
                 <div>
                   <p
@@ -898,10 +898,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TimelineItemsItemCaption"
               >
                 <h4>
-                  2018
+                  Lorem ipsum
                 </h4>
                 <h4>
-                  Developer Magazines
+                  Lorem ipsum dolor sit
                 </h4>
                 <div>
                   <p
@@ -941,10 +941,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TimelineItemsItemCaption"
               >
                 <h4>
-                  2018
+                  Lorem ipsum
                 </h4>
                 <h4>
-                  Orange Book
+                  Lorem ipsum dolor sit
                 </h4>
                 <div>
                   <p
@@ -984,7 +984,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 className="container1TimelineItemsItemCaption"
               >
                 <h4>
-                  2017 - TODAY
+                  2020 - TODAY
                 </h4>
                 <h4>
                   Self-Employed
