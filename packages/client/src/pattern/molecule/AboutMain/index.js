@@ -189,12 +189,7 @@ export function AboutMain({ className }) {
           </ul>
           <H3 text="Leanpub" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
-          <h3>
-            <a href="educative" target="_blank" rel="noopener noreferrer" aria-label="educative permalink">
-              <svg height="0" width="0" />
-            </a>
-            Educative
-          </h3>
+          <H3 text="Educative" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
           <hr className={container1Divider} />
           <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
