@@ -75,6 +75,9 @@ import TestimonialFour from '../../../asset/image/testimonial/testimonial-4.jpg'
 import TestimonialFive from '../../../asset/image/testimonial/testimonial-5.jpg'
 import TestimonialSix from '../../../asset/image/testimonial/testimonial-6.jpg'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
+import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
+import { element } from '../../../../../library/src/client/dom'
+import { size } from '../../../../../library/src/client/placeholder'
 
 export function HomeMain({ className }) {
   useEffect(() => {
@@ -154,15 +157,7 @@ export function HomeMain({ className }) {
             </li>
           </ul>
           <div className={container1AboutText}>
-            <p>
-              I am a self-employed software and web engineer dedicated to learning and teaching JavaScript for client-server architectures.
-              After obtaining my Bachelor&apos;s Degree in computer science, I gained experience from the startup world, where I used
-              JavaScript intensively during both my professional life and spare time. Eventually it led me to teach others about these
-              topics and to offer online courses and on-site consulting for companies. I am happy to welcome you on my website{' '}
-              <span role="img" aria-label="smiley">
-                🙂
-              </span>
-            </p>
+            <LoremIpsum container={element.paragraph} length={size.small} count={1} />
           </div>
         </div>
         <div className={container1Services}>
