@@ -39,10 +39,10 @@ exports[`<BlogMain /> Snaphot must match defaultRender 1`] = `
         </a>
       </h2>
       <article
-        className="container1BlogItem"
+        className="container1BlogItem container1BlogItemFeatured"
       >
         <div
-          className="container1BlogItemImage"
+          className="container1BlogItemImage container1BlogItemImageFeatured"
         >
           <div
             style={
@@ -60,7 +60,7 @@ exports[`<BlogMain /> Snaphot must match defaultRender 1`] = `
           </picture>
         </div>
         <div
-          className="container1BlogItemContent"
+          className="container1BlogItemContent container1BlogItemContentFeatured"
         >
           <header>
             <h2
