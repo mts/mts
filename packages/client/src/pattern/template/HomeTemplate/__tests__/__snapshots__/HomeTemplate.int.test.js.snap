@@ -346,8 +346,10 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
             <h4>
               Workshops
             </h4>
-            <p>
-              Teaching your team on-site/remote to get them up to speed with the latest web technologies for client-server applications in JavaScript.
+            <p
+              className=""
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
             </p>
           </li>
           <li
