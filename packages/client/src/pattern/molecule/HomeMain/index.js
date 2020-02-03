@@ -509,11 +509,7 @@ export function HomeMain({ className }) {
               <div className={container1TestItemsItemCaption}>
                 <h4>Mariah Carey</h4>
                 <p className={container1TestItemsItemCaptionP1}>JS Dev, Online Educator</p>
-                <p className={container1TestItemsItemCaptionP2}>
-                  MTS is an excellent teacher. His articles and tutorials are in-depth and informative, and his code is clear and concise.
-                  I&apos;ve found an answer on his site countless times when researching a problem, and I know that&apos;s one less article
-                  I have to write.
-                </p>
+                <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
             <li className={container1TestItemsItem}>
