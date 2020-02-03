@@ -487,11 +487,7 @@ export function HomeMain({ className }) {
               <div className={container1TestItemsItemCaption}>
                 <h4>Martin Lawrence</h4>
                 <p className={container1TestItemsItemCaptionP1}>Developer Experience at Bad Boys</p>
-                <p className={container1TestItemsItemCaptionP2}>
-                  MTS is one of the most consistently high quality React educators. His approach directly addresses practical concerns you
-                  *will* face in your daily React work, without talking down to you or wasting your time with fluff. Don’t just take my word
-                  for it - look at his public work and you’ll see.
-                </p>
+                <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
             <li className={container1TestItemsItem}>
