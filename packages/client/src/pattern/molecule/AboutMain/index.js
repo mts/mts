@@ -104,17 +104,7 @@ export function AboutMain({ className }) {
           <LoremIpsum container={element.paragraph} length={size.large} count={1} />
           <H2 className={container1Title} text="Values and Mission" />
           <LoremIpsum container={element.paragraph} length={size.large} count={1} />
-          <h2 className={container1Title}>
-            <a
-              href="#passions-beyond-software-development"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="passions beyond software development permalink"
-            >
-              <svg height="0" width="0" />
-            </a>
-            Passions beyond Software Development
-          </h2>
+          <H2 className={container1Title} text="Passions beyond Software Development" />
           <LoremIpsum container={element.paragraph} length={size.small} count={3} />
           <h2 className={container1Title}>
             <a
