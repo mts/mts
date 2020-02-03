@@ -1,6 +1,17 @@
 import React from 'react'
-import { h2PropTypes, blogItemRegularPropTypes } from './BlogMain.props'
-import { container1BlogListContainer1, container1BlogListContainer1Image, container1BlogListContainer1Content } from './BlogMain.scss'
+import cx from 'classnames'
+import { h2PropTypes, blogItemFeaturedPropTypes, blogItemRegularPropTypes } from './BlogMain.props'
+import {
+  container1BlogItem,
+  container1BlogItemFeatured,
+  container1BlogItemImage,
+  container1BlogItemImageFeatured,
+  container1BlogItemContent,
+  container1BlogItemContentFeatured,
+  container1BlogListContainer1,
+  container1BlogListContainer1Image,
+  container1BlogListContainer1Content,
+} from './BlogMain.scss'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
 import { element } from '../../../../../library/src/client/dom'
@@ -25,6 +36,31 @@ export function H2({ href, text }) {
 }
 
 H2.propTypes = h2PropTypes
+
+export function BlogItemFeatured({ imageName, image, href, title, text }) {
+  return (
+    <article className={cx(container1BlogItem, container1BlogItemFeatured)}>
+      <div className={cx(container1BlogItemImage, container1BlogItemImageFeatured)}>
+        <div style={{ width: '100%', paddingBottom: '64.94140625%' }} />
+        <picture>
+          <img src={!windowObjectExists ? `mts/static/${imageName}.jpg` : image} alt={imageName} />
+        </picture>
+      </div>
+      <div className={cx(container1BlogItemContent, container1BlogItemContentFeatured)}>
+        <header>
+          <h2 itemProp="name headline">
+            <a itemProp="url" aria-label="Go To Blog Post" href={href}>
+              {title}
+            </a>
+          </h2>
+        </header>
+        {text || <LoremIpsum container={element.paragraph} length={size.small} count={1} />}
+      </div>
+    </article>
+  )
+}
+
+BlogItemFeatured.propTypes = blogItemFeaturedPropTypes
 
 export function BlogItemRegular({ imageName, image, href, title, text }) {
   return (
