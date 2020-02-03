@@ -14,6 +14,7 @@ import {
   container1Divider,
   container1DividerButton,
 } from './AboutMain.scss'
+import { A, H2, H3 } from './AboutMain.part'
 import { aboutMainDefaultProps, aboutMainPropTypes } from './AboutMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { windowObjectExists } from '../../../../../library/src/environment'
@@ -43,10 +44,7 @@ export function AboutMain({ className }) {
                 January 1, 2020
               </time>
               <meta itemProp="dateModified" content="01-01-2020" />
-              <meta
-                itemProp="keywords"
-                content="american react consultant,american react freelancer,american javascript freelancer,american javascript consultant"
-              />
+              <meta itemProp="keywords" content="React consultant,react freelancer,javascript freelancer,javascript consultant" />
               <meta itemProp="wordCount" content="2384" />
               <span>
                 &nbsp;by&nbsp;<span>MTS</span>
@@ -101,158 +99,53 @@ export function AboutMain({ className }) {
         <arcticle itemProp="articleBody">
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
           <LoremIpsum container={element.paragraph} length={size.large} count={1} />
-          <h2 className={container1Title}>
-            <a href="#values-and-mission" target="_blank" rel="noopener noreferrer" aria-label="values and mission permalink">
-              <svg height="0" width="0" />
-            </a>
-            Values and Mission
-          </h2>
+          <H2 className={container1Title} text="Values and Mission" />
           <LoremIpsum container={element.paragraph} length={size.large} count={1} />
-          <h2 className={container1Title}>
-            <a
-              href="#passions-beyond-software-development"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="passions beyond software development permalink"
-            >
-              <svg height="0" width="0" />
-            </a>
-            Passions beyond Software Development
-          </h2>
+          <H2 className={container1Title} text="Passions beyond Software Development" />
           <LoremIpsum container={element.paragraph} length={size.small} count={3} />
-          <h2 className={container1Title}>
-            <a
-              href="#you-like-my-content-here-are-a-couple-of-ways-to-support-it"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="you like my content here are a couple of ways to support it permalink"
-            >
-              <svg height="0" width="0" />
-            </a>
-            You like my content? Here are a couple of ways to support it.
-          </h2>
+          <H2 className={container1Title} text="You like my content? Here are a couple of ways to support it." />
           <LoremIpsum container={element.paragraph} length={size.medium} count={1} />
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
-          <h3>
-            <a href="#be-my-patron" target="_blank" rel="noopener noreferrer" aria-label="be my patron permalink">
-              <svg height="0" width="0" />
-            </a>
-            Be my Patron
-          </h3>
+          <H3 text="Be my Patron" />
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
-          <h3>
-            <a href="#follow-me" target="_blank" rel="noopener noreferrer" aria-label="follow me permalink">
-              <svg height="0" width="0" />
-            </a>
-            Follow Me
-          </h3>
+          <H3 text="Follow Me" />
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
-          <h3>
-            <a href="#leave-a-review" target="_blank" rel="noopener noreferrer" aria-label="leave a review permalink">
-              <svg height="0" width="0" />
-            </a>
-            Leave a Review
-          </h3>
+          <H3 text="Leave a Review" />
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
-          <h3>
-            <a href="#share" target="_blank" rel="noopener noreferrer" aria-label="share permalink">
-              <svg height="0" width="0" />
-            </a>
-            Share
-          </h3>
+          <H3 text="Share" />
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
-          <h3>
-            <a href="#learn-react" target="_blank" rel="noopener noreferrer" aria-label="learn react permalink">
-              <svg height="0" width="0" />
-            </a>
-            Learn React
-          </h3>
+          <H3 text="Learn React" />
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
-          <h3>
-            <a href="#contribute" target="_blank" rel="noopener noreferrer" aria-label="contribute permalink">
-              <svg height="0" width="0" />
-            </a>
-            Contribute
-          </h3>
+          <H3 text="Contribute" />
           <LoremIpsum container={element.paragraph} length={size.small} count={2} />
-          <h3>
-            <a href="#donate" target="_blank" rel="noopener noreferrer" aria-label="donate permalink">
-              <svg height="0" width="0" />
-            </a>
-            Donate
-          </h3>
+          <H3 text="Donate" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
-          <h2 className={container1Title}>
-            <a href="#what-i-use" target="_blank" rel="noopener noreferrer" aria-label="what i use permalink">
-              <svg height="0" width="0" />
-            </a>
-            What I Use
-          </h2>
+          <H2 className={container1Title} text="What I Use" />
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
-          <h3>
-            <a href="#heroku-and-github-pages" target="_blank" rel="noopener noreferrer" aria-label="heroku and github pages permalink">
-              <svg height="0" width="0" />
-            </a>
-            Heroku and GitHub Pages
-          </h3>
+          <H3 text="Heroku and GitHub Pages" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
-          <h3>
-            <a href="#email" target="_blank" rel="noopener noreferrer" aria-label="email permalink">
-              <svg height="0" width="0" />
-            </a>
-            Email
-          </h3>
+          <H3 text="Email" />
           <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
-          <h3>
-            <a href="#editor-and-terminal" target="_blank" rel="noopener noreferrer" aria-label="editor and terminal permalink">
-              <svg height="0" width="0" />
-            </a>
-            Editor and Terminal
-          </h3>
+          <H3 text="Editor and Terminal" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
-          <h3>
-            <a href="#nomad-gear" target="_blank" rel="noopener noreferrer" aria-label="nomad gear permalink">
-              <svg height="0" width="0" />
-            </a>
-            Nomad Gear
-          </h3>
+          <H3 text="Nomad Gear" />
           <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
           <ul className={container1List}>
             <li className={container1ListItem}>
-              <a href="https://amzn.to/2RwCPwg" target="_blank" rel="noopener noreferrer">
-                Trackpad
-              </a>{' '}
-              and{' '}
-              <a href="https://amzn.to/2SPqZ1K" target="_blank" rel="noopener noreferrer">
-                Keyboard
-              </a>{' '}
+              <A href="https://amzn.to/2RwCPwg" text="Trackpad" /> {' and '}
+              <A href="https://amzn.to/2SPqZ1K" text="Keyboard" />
             </li>
             <li className={container1ListItem}>
-              <a href="https://amzn.to/2RChPEq" target="_blank" rel="noopener noreferrer">
-                Display
-              </a>{' '}
+              <A href="https://amzn.to/2RChPEq" text="Display" />
             </li>
           </ul>
-
-          <h3>
-            <a href="#apps" target="_blank" rel="noopener noreferrer" aria-label="apps gear permalink">
-              <svg height="0" width="0" />
-            </a>
-            Apps
-          </h3>
+          <H3 text="Apps" />
           <ul className={container1List}>
             <li className={container1ListItem}>
-              <a href="https://apps.apple.com/us/app/twitter/id333903271" target="_blank" rel="noopener noreferrer">
-                Twitter
-              </a>
+              <A href="https://apps.apple.com/us/app/twitter/id333903271" text="Twitter" />
             </li>
           </ul>
-          <h3>
-            <a href="freelancers" target="_blank" rel="noopener noreferrer" aria-label="freelancers permalink">
-              <svg height="0" width="0" />
-            </a>
-            Freelancers
-          </h3>
+          <H3 text="Freelancers" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
           <ul className={container1List}>
             <li className={container1ListItem}>
@@ -273,12 +166,7 @@ export function AboutMain({ className }) {
               </p>
             </li>
           </ul>
-          <h3>
-            <a href="revue" target="_blank" rel="noopener noreferrer" aria-label="revue permalink">
-              <svg height="0" width="0" />
-            </a>
-            Revue
-          </h3>
+          <H3 text="Revue" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
           <ul className={container1List}>
             <li className={container1ListItem}>permalinks to newsletters</li>
@@ -287,19 +175,9 @@ export function AboutMain({ className }) {
             <li className={container1ListItem}>great pricing model for a larger audience</li>
             <li className={container1ListItem}>statistics and analytics</li>
           </ul>
-          <h3>
-            <a href="leanpub" target="_blank" rel="noopener noreferrer" aria-label="leanpub permalink">
-              <svg height="0" width="0" />
-            </a>
-            Leanpub
-          </h3>
+          <H3 text="Leanpub" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
-          <h3>
-            <a href="educative" target="_blank" rel="noopener noreferrer" aria-label="educative permalink">
-              <svg height="0" width="0" />
-            </a>
-            Educative
-          </h3>
+          <H3 text="Educative" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
           <hr className={container1Divider} />
           <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />

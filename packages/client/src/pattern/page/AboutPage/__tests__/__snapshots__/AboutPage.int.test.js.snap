@@ -79,16 +79,9 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
       <div
         className="navBar"
       >
-        <a
-          className="navBarLogo"
-          href="/"
-        >
-          <img
-            alt="logo"
-            height="40"
-            src={Object {}}
-          />
-        </a>
+        <div>
+          some link
+        </div>
         <ul
           className="navBarList"
         >
@@ -179,7 +172,7 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
                 itemProp="dateModified"
               />
               <meta
-                content="american react consultant,american react freelancer,american javascript freelancer,american javascript consultant"
+                content="React consultant,react freelancer,javascript freelancer,javascript consultant"
                 itemProp="keywords"
               />
               <meta
@@ -633,8 +626,7 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
                 Trackpad
               </a>
                
-              and
-               
+               and 
               <a
                 href="https://amzn.to/2SPqZ1K"
                 rel="noopener noreferrer"
@@ -642,7 +634,6 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
               >
                 Keyboard
               </a>
-               
             </li>
             <li
               className="container1ListItem"
@@ -654,12 +645,11 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
               >
                 Display
               </a>
-               
             </li>
           </ul>
           <h3>
             <a
-              aria-label="apps gear permalink"
+              aria-label="apps permalink"
               href="#apps"
               rel="noopener noreferrer"
               target="_blank"
@@ -689,7 +679,7 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
           <h3>
             <a
               aria-label="freelancers permalink"
-              href="freelancers"
+              href="#freelancers"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -756,7 +746,7 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
           <h3>
             <a
               aria-label="revue permalink"
-              href="revue"
+              href="#revue"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -804,7 +794,7 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
           <h3>
             <a
               aria-label="leanpub permalink"
-              href="leanpub"
+              href="#leanpub"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -823,7 +813,7 @@ exports[`<AboutPage /> Snaphot must match defaultRender 1`] = `
           <h3>
             <a
               aria-label="educative permalink"
-              href="educative"
+              href="#educative"
               rel="noopener noreferrer"
               target="_blank"
             >

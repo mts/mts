@@ -75,6 +75,9 @@ import TestimonialFour from '../../../asset/image/testimonial/testimonial-4.jpg'
 import TestimonialFive from '../../../asset/image/testimonial/testimonial-5.jpg'
 import TestimonialSix from '../../../asset/image/testimonial/testimonial-6.jpg'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
+import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
+import { element } from '../../../../../library/src/client/dom'
+import { size } from '../../../../../library/src/client/placeholder'
 
 export function HomeMain({ className }) {
   useEffect(() => {
@@ -154,15 +157,7 @@ export function HomeMain({ className }) {
             </li>
           </ul>
           <div className={container1AboutText}>
-            <p>
-              I am a self-employed software and web engineer dedicated to learning and teaching JavaScript for client-server architectures.
-              After obtaining my Bachelor&apos;s Degree in computer science, I gained experience from the startup world, where I used
-              JavaScript intensively during both my professional life and spare time. Eventually it led me to teach others about these
-              topics and to offer online courses and on-site consulting for companies. I am happy to welcome you on my website{' '}
-              <span role="img" aria-label="smiley">
-                🙂
-              </span>
-            </p>
+            <LoremIpsum container={element.paragraph} length={size.small} count={1} />
           </div>
         </div>
         <div className={container1Services}>
@@ -176,10 +171,7 @@ export function HomeMain({ className }) {
                 <path d="M447.394 429.883H185.822c-4.207 0-8.144 1.75-10.804 4.801s-3.857 7.19-3.283 11.356l25.792 151.535c1.169 8.098 8.46 14.425 16.65 14.425h204.865c8.189 0 15.48-6.326 16.65-14.424l25.763-151.348.029-.188c.573-4.166-.623-8.305-3.282-11.356-2.661-3.051-6.6-4.801-10.808-4.801zM464.972 314.577H321.375v-75.279c.216-.181.434-.36.649-.569 8.385-8.171 22.182-12.549 38.157-17.621 29.136-9.247 65.396-20.757 87.935-62.663 12.157-22.608 18.55-53.377 18-86.643-.439-26.614-5.439-52.364-12.438-64.076C450.614 2.599 447 0 442.936 0c-2.161 0-5.319.77-8.087 4.434-6.812 9.017-21.476 13.579-38.456 18.86-29.086 9.046-65.284 20.305-87.042 60.752-10.962 20.382-16.094 44.868-17.426 68.348-5.319-8.698-12.412-17.157-22.032-25.025-29.923-24.465-75.143-33.146-104.776-33.146-18.874 0-29.899 3.263-32.768 9.696-.712 1.597-1.938 5.787 2.038 10.212 6.446 7.177 7.901 20.42 9.589 35.755 2.927 26.623 6.571 59.756 37.912 85.385 29.348 23.997 72.082 32.55 102.288 32.55 4.249 0 8.846-.169 13.277-.648v47.406H168.247c-8.509 0-15.432 6.922-15.432 15.431v60.096c0 8.508 6.923 15.43 15.432 15.43h296.725c8.509 0 15.431-6.922 15.431-15.43V330.01c0-8.511-6.922-15.433-15.431-15.433zm-189.627-91.075l-.516-.535-.129-.133-.032-.035c-.035-.041.191.238.08.108l-.063-.056-.251-.225-2.024-1.817c-1.437-1.159-2.844-2.375-4.393-3.507-6.103-4.598-13.296-8.773-20.982-12.792-7.659-4.051-15.766-8.013-23.263-12.613-3.747-2.291-7.326-4.758-10.588-7.378-3.258-2.617-6.155-5.478-8.517-8.392-2.342-2.935-4.216-5.856-5.412-8.669a18.082 18.082 0 0 1-.829-2.032 59.904 59.904 0 0 1-.669-1.914c-.327-1.268-.621-2.402-.821-3.447a66.495 66.495 0 0 1-.359-2.828c-.083-.8-.033-1.471-.047-2.023l.029-1.692.902 1.431c.299.459.616 1.072 1.06 1.71l1.5 2.105c.604.74 1.271 1.561 2 2.453.838.805 1.553 1.758 2.547 2.605.468.432.95.878 1.445 1.338l1.62 1.311c.531.453 1.155.86 1.743 1.304.586.444 1.204.878 1.875 1.283 2.584 1.704 5.51 3.351 8.777 4.928 3.25 1.6 6.813 3.137 10.577 4.74 7.526 3.196 15.911 6.612 24.231 10.965 4.15 2.18 8.275 4.621 12.187 7.362 3.915 2.737 7.604 5.807 10.879 9.127 1.649 1.642 3.161 3.393 4.574 5.143.675.904 1.343 1.799 2.005 2.683l.244.329.062.084c-.09-.11.158.193.141.175l.025.039.102.157.402.626c.261.42.522.836.777 1.252a290.056 290.056 0 0 1 5.653 9.473c.831 1.502 1.651 2.924 2.39 4.308a145.985 145.985 0 0 1 2.021 4.005c.411.847.792 1.646 1.159 2.423v6.893c-.237-.191-.468-.377-.721-.585a171.361 171.361 0 0 1-5.506-4.708l-6.925-6.277a288.416 288.416 0 0 1-7.918-7.661c-.348-.343-.693-.691-1.042-1.041zm66.045-35.429l.524-.667.13-.167.032-.042c.027-.032-.121.127-.044.041l.055-.08.224-.321 1.804-2.584c1.129-1.811 2.323-3.607 3.398-5.551 4.397-7.68 8.083-16.564 11.449-25.941 3.406-9.356 6.585-19.169 10.521-28.367 1.96-4.595 4.128-9.025 6.513-13.115 2.379-4.091 5.08-7.807 7.922-10.942 2.871-3.115 5.796-5.713 8.716-7.541.694-.49 1.413-.907 2.118-1.285.693-.391 1.366-.75 2.012-1.088 1.352-.592 2.567-1.126 3.694-1.541a81.887 81.887 0 0 1 3.084-.922c.878-.243 1.637-.319 2.252-.439l1.892-.294-1.507 1.182c-.482.39-1.133.821-1.803 1.397l-2.213 1.954-2.546 2.573c-.421.496-.859 1.014-1.315 1.549a16.27 16.27 0 0 0-1.343 1.681c-.435.59-.886 1.197-1.35 1.823l-1.293 2.021c-.456.667-.837 1.434-1.27 2.167l-.64 1.122-.587 1.198c-1.615 3.186-3.109 6.768-4.458 10.724-1.376 3.94-2.624 8.227-3.902 12.744-2.543 9.033-5.142 19.047-8.755 29.099-1.812 5.018-3.906 10.036-6.36 14.863-2.447 4.829-5.289 9.449-8.466 13.65-1.567 2.112-3.277 4.085-4.996 5.955l-2.665 2.682-.327.327-.081.083-.116.121-.039.035-.158.144-.629.569-1.264 1.11c-1.686 1.459-3.305 2.899-4.912 4.252-1.582 1.353-3.251 2.652-4.806 3.871-1.582 1.208-3.076 2.38-4.53 3.458-1.459 1.062-2.819 2.053-4.136 2.964a278.33 278.33 0 0 1-6.862 4.641c-3.844 2.52-6.195 3.837-6.195 3.837s1.289-2.341 3.814-6.217c1.255-1.953 2.834-4.247 4.677-6.848a759.279 759.279 0 0 1 6.226-8.552l7.492-9.992c.336-.447.675-.892 1.019-1.341z" />
               </svg>
               <h4>Workshops</h4>
-              <p>
-                Teaching your team on-site/remote to get them up to speed with the latest web technologies for client-server applications in
-                JavaScript.
-              </p>
+              <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
             </li>
             <li className={container1ServicesItemsItem}>
               <svg viewBox="0 0 455 455" height="60px" width="60px">
@@ -187,10 +179,7 @@ export function HomeMain({ className }) {
                 <path d="M211.5 197.498h69v-69h120v69h34.799c12.468-20 19.701-42.674 19.701-67.53C455 60.686 398.847 4.51 329.579 4.51c-42.087 0-79.329 20.731-102.079 52.544C204.75 25.24 167.508 4.501 125.421 4.501 56.153 4.501 0 60.664 0 129.947c0 30.118 10.612 57.752 28.299 79.376L227.5 450.499l53-64.169v-68.832h-69v-120z" />
               </svg>
               <h4>Code Audit</h4>
-              <p>
-                Conducting code reviews for your JavaScript application together with your team or a single person which usually last 2-3
-                days.
-              </p>
+              <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
             </li>
             <li className={container1ServicesItemsItem}>
               <svg width="60px" height="60px" viewBox="0 0 557.506 557.506">
@@ -199,10 +188,7 @@ export function HomeMain({ className }) {
                 <path d="M249.171 235.116a38.376 38.376 0 0 0 18.844 24.701 38.024 38.024 0 0 0 11.056 3.984c2.381.462 4.832.722 7.344.722 15.055 0 28.045-8.703 34.314-21.331 1.463-2.947 2.59-6.089 3.256-9.407.494-2.454.76-4.994.76-7.595 0-2.996-.379-5.896-1.029-8.693-2.02-8.7-6.99-16.249-13.818-21.555a38.47 38.47 0 0 0-3.844-2.623 38.12 38.12 0 0 0-7.402-3.427 38.195 38.195 0 0 0-10.296-1.934c-.646-.034-1.285-.098-1.94-.098a38.144 38.144 0 0 0-20.297 5.857c-9.706 6.08-16.505 16.355-17.8 28.308-.024.217-.027.434-.058.651a38.936 38.936 0 0 0-.159 3.127c0 .128-.019.254-.019.386 0 1.239.071 2.46.187 3.669.17 1.797.491 3.545.901 5.258z" />
               </svg>
               <h4>MVP</h4>
-              <p>
-                Bringing your idea to code from zero to one as a minimal viable product (MVP) and beyond within a well-architected
-                application.
-              </p>
+              <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
             </li>
             <li className={container1ServicesItemsItem}>
               <svg width="60px" height="60px" viewBox="0 0 96 96">
@@ -210,30 +196,21 @@ export function HomeMain({ className }) {
                 <path d="M33.234 81.143h7.429V58.787A23.288 23.288 0 0 1 36.71 58h-3.476v23.143zM16.262 81.143h7.427V69.57h-1.74l-5.687 5.688z" />
               </svg>
               <h4>Complex Problems</h4>
-              <p>
-                Solving complex problems in JavaScript code which you want to have eliminated in your application&pos;s code base but no one
-                dares to fix.
-              </p>
+              <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
             </li>
             <li className={container1ServicesItemsItem}>
               <svg viewBox="0 0 512 512" height="60px" width="60px">
                 <path d="M139.13 105.739h-22.26c-22.204 0-40.859 14.619-47.407 34.664C30.096 147.099 0 181.362 0 222.609s30.096 75.51 69.463 82.206c6.548 20.045 25.203 34.664 47.407 34.664h22.261c20.186 0 40.717.963 61.217 2.71v-239.16c-20.5 1.746-41.031 2.71-61.218 2.71zM66.783 269.836c-19.435-6.891-33.391-25.461-33.391-47.228s13.956-40.337 33.391-47.229v94.457zM227.173 448.956l-11.961-71.751c-25.366-2.785-50.991-4.335-76.082-4.335h-22.26c-1.124 0-2.217-.125-3.331-.169l15.559 91.995a49.949 49.949 0 0 0 49.38 41.739c30.506 0 53.707-27.419 48.695-57.479zM478.609 5.565c-18.442 0-33.391 14.949-33.391 33.391V406.26c0 18.442 14.949 33.391 33.391 33.391S512 424.703 512 406.261V38.957c0-18.442-14.949-33.392-33.391-33.392zM233.739 99.385v246.447c79.481 10.338 119.878 26.156 178.087 46.119V53.266c-57.784 19.815-98.276 35.739-178.087 46.119z" />
               </svg>
               <h4>Writing Code</h4>
-              <p>
-                Coding along with your team on a large scale application to make your customers happy with new features and performance
-                improvements.
-              </p>
+              <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
             </li>
             <li className={container1ServicesItemsItem}>
               <svg viewBox="-61 0 511 512" height="60px" width="60px">
                 <path d="M39.29 361l-30 30h252.42l-30-30zm0 0M.5 421h270v91H.5zm0 0M369.637 2.93c-3.254.468-80.13 14.218-135.719 69.808-55.59 55.59-67.41 132.465-67.883 135.719l-.234 1.602c-15.047 19.457-27.461 39.156-38.98 60.941H30.5v30h30v30h150v-30h30v-30h-79.168c9.82-16.89 19.543-32.207 31.695-47.441 17.453-3.817 55.012-14.18 91.575-38.278l6.738-4.453V150h33.531l4.496-3.86c46.582-54.214 56.867-121.437 57.278-124.277L389.559 0zm0 0" />
               </svg>
               <h4>Technical Writing</h4>
-              <p>
-                Writing tutorials about your technical product, open source work, or API (all related to JavaScript) to get more publicity
-                for it.
-              </p>
+              <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
             </li>
           </ul>
         </div>
@@ -310,13 +287,10 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>1993 - 1997</h4>
-                <h4>Bachelor of Science</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
-                  <p>
-                    I graduated with a bachelor of science in computer science. Lots of this knowledge can be applied for more complex
-                    problems in client-server architectures.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
@@ -330,10 +304,10 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2010 - 2014</h4>
-                <h4>Freelancer</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
-                  <p>I got my hands dirty by writing JavaScript and C# applications for several clients.</p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
@@ -347,13 +321,10 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2014 - 2017</h4>
-                <h4>Startups</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
-                  <p>
-                    I worked closely with an exceptional team of engineers at a company in Berlin developing large scale applications for
-                    thousands of customers.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
@@ -367,13 +338,10 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2016</h4>
-                <h4>Yellow Book</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
-                  <p>
-                    This year I published my first book about Yellow.js. Within the first month it had more than 10.000 readers and today it
-                    is one of the most popular React.js books.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
@@ -387,13 +355,10 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2017</h4>
-                <h4>Gray Book</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
-                  <p>
-                    I published my second book about state management with Gray in Yellow.js which I took one level further by packaging it
-                    as a full-blown online course.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
@@ -407,13 +372,10 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2018</h4>
-                <h4>Pink Book</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
-                  <p>
-                    As an early adopter of Pink in my recent jobs, I wrote my third book about it for modern client-server applications
-                    using Pink in JavaScript.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
@@ -427,10 +389,10 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2018</h4>
-                <h4>Developer Magazines</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
-                  <p>Every other month I write for a software developer magazine educational content about JavaScript and its ecosystem.</p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
@@ -444,13 +406,10 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2018</h4>
-                <h4>Orange Book</h4>
+                <h4>Lorem ipsum</h4>
+                <h4>Lorem ipsum dolor sit</h4>
                 <div>
-                  <p>
-                    Later this year, I published my fourth book/course about Firebase in React to build modern frontend applications without
-                    worrying about your backend application.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
@@ -464,13 +423,10 @@ export function HomeMain({ className }) {
                 </div>
               </div>
               <div className={container1TimelineItemsItemCaption}>
-                <h4>2017 - TODAY</h4>
+                <h4>2020 - TODAY</h4>
                 <h4>Self-Employed</h4>
                 <div>
-                  <p>
-                    Lots of demand for JavaScript on-site or remote training, implementations for MVPs, code reviews, or complex JavaScript
-                    problem solving, led me to being self-employed.
-                  </p>
+                  <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
                 </div>
               </div>
             </li>
@@ -508,13 +464,9 @@ export function HomeMain({ className }) {
                 </div>
               </a>
               <div className={container1TestItemsItemCaption}>
-                <h4>Martin Lawrence</h4>
-                <p className={container1TestItemsItemCaptionP1}>Developer Experience at Bad Boys</p>
-                <p className={container1TestItemsItemCaptionP2}>
-                  MTS is one of the most consistently high quality React educators. His approach directly addresses practical concerns you
-                  *will* face in your daily React work, without talking down to you or wasting your time with fluff. Don’t just take my word
-                  for it - look at his public work and you’ll see.
-                </p>
+                <h4>Lorem Ipsum</h4>
+                <p className={container1TestItemsItemCaptionP1}>Lorem ipsum dolor sit</p>
+                <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
             <li className={container1TestItemsItem}>
@@ -534,13 +486,9 @@ export function HomeMain({ className }) {
                 </div>
               </a>
               <div className={container1TestItemsItemCaption}>
-                <h4>Mariah Carey</h4>
-                <p className={container1TestItemsItemCaptionP1}>JS Dev, Online Educator</p>
-                <p className={container1TestItemsItemCaptionP2}>
-                  MTS is an excellent teacher. His articles and tutorials are in-depth and informative, and his code is clear and concise.
-                  I&apos;ve found an answer on his site countless times when researching a problem, and I know that&apos;s one less article
-                  I have to write.
-                </p>
+                <h4>Lorem Ipsum</h4>
+                <p className={container1TestItemsItemCaptionP1}>Lorem ipsum dolor sit</p>
+                <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
             <li className={container1TestItemsItem}>
@@ -560,12 +508,9 @@ export function HomeMain({ className }) {
                 </div>
               </a>
               <div className={container1TestItemsItemCaption}>
-                <h4>Bruce Willis</h4>
-                <p className={container1TestItemsItemCaptionP1}>Full-time JavaScript Instructor</p>
-                <p className={container1TestItemsItemCaptionP2}>
-                  Everything that I&apos;ve read from MTS has been top tier quality stuff. There are blog posts that I have wanted to write,
-                  but then I found one by MTS and decided I didn&apos;t need to. Fantastic content
-                </p>
+                <h4>Lorem Ipsum</h4>
+                <p className={container1TestItemsItemCaptionP1}>Lorem ipsum dolor sit</p>
+                <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
             <li className={container1TestItemsItem}>
@@ -585,13 +530,9 @@ export function HomeMain({ className }) {
                 </div>
               </a>
               <div className={container1TestItemsItemCaption}>
-                <h4>Geoffrey Rush</h4>
-                <p className={container1TestItemsItemCaptionP1}>JS Dev, Organizer of Pirates of the Caribbean</p>
-                <p className={container1TestItemsItemCaptionP2}>
-                  You can tell how much time MTS has put into a teaching piece when you consume his content. I have partnered with MTS and
-                  he sets the bar high for other teachers and content creators – this results to a quality learning ecosystem for his
-                  students regardless if a content or course was thought by him or not.
-                </p>
+                <h4>Lorem Ipsum</h4>
+                <p className={container1TestItemsItemCaptionP1}>Lorem ipsum dolor sit</p>
+                <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
             <li className={container1TestItemsItem}>
@@ -611,12 +552,9 @@ export function HomeMain({ className }) {
                 </div>
               </a>
               <div className={container1TestItemsItemCaption}>
-                <h4>Ray Liotta</h4>
-                <p className={container1TestItemsItemCaptionP1}>Goodfellas Core Team</p>
-                <p className={container1TestItemsItemCaptionP2}>
-                  I haven&apos;t read this book yet, but the previous educational materials made by MTS were nothing short of amazing.
-                  Thanks for creating this content and putting it out there!
-                </p>
+                <h4>Lorem Ipsum</h4>
+                <p className={container1TestItemsItemCaptionP1}>Lorem ipsum dolor sit</p>
+                <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
             <li className={container1TestItemsItem}>
@@ -636,12 +574,9 @@ export function HomeMain({ className }) {
                 </div>
               </a>
               <div className={container1TestItemsItemCaption}>
-                <h4>Lorraine Bracco</h4>
-                <p className={container1TestItemsItemCaptionP1}>Founder & CEO of Goodfellas</p>
-                <p className={container1TestItemsItemCaptionP2}>
-                  If it&apos;s anything to do with React and it&apos;s written by MTS, you can trust that it&apos;ll be world-class. His
-                  books are some of the best content you&apos;ll find on the web for learning React.
-                </p>
+                <h4>Lorem Ipsum</h4>
+                <p className={container1TestItemsItemCaptionP1}>Lorem ipsum dolor sit</p>
+                <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
           </ul>
