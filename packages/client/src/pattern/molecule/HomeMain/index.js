@@ -211,8 +211,8 @@ export function HomeMain({ className }) {
               </svg>
               <h4>Complex Problems</h4>
               <p>
-                Solving complex problems in JavaScript code which you want to have eliminated in your application&pos;s code base but no one
-                dares to fix.
+                Solving complex problems in JavaScript code which you want to have eliminated in your application&apos;s code base but no
+                one dares to fix.
               </p>
             </li>
             <li className={container1ServicesItemsItem}>
