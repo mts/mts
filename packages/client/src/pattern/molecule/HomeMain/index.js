@@ -196,10 +196,7 @@ export function HomeMain({ className }) {
                 <path d="M33.234 81.143h7.429V58.787A23.288 23.288 0 0 1 36.71 58h-3.476v23.143zM16.262 81.143h7.427V69.57h-1.74l-5.687 5.688z" />
               </svg>
               <h4>Complex Problems</h4>
-              <p>
-                Solving complex problems in JavaScript code which you want to have eliminated in your application&apos;s code base but no
-                one dares to fix.
-              </p>
+              <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
             </li>
             <li className={container1ServicesItemsItem}>
               <svg viewBox="0 0 512 512" height="60px" width="60px">
