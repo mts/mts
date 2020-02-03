@@ -531,10 +531,7 @@ export function HomeMain({ className }) {
               <div className={container1TestItemsItemCaption}>
                 <h4>Bruce Willis</h4>
                 <p className={container1TestItemsItemCaptionP1}>Full-time JavaScript Instructor</p>
-                <p className={container1TestItemsItemCaptionP2}>
-                  Everything that I&apos;ve read from MTS has been top tier quality stuff. There are blog posts that I have wanted to write,
-                  but then I found one by MTS and decided I didn&apos;t need to. Fantastic content
-                </p>
+                <LoremIpsum className={container1TestItemsItemCaptionP2} container={element.paragraph} length={size.x1Small} count={1} />
               </div>
             </li>
             <li className={container1TestItemsItem}>
