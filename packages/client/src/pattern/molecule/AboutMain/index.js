@@ -178,12 +178,7 @@ export function AboutMain({ className }) {
               </p>
             </li>
           </ul>
-          <h3>
-            <a href="revue" target="_blank" rel="noopener noreferrer" aria-label="revue permalink">
-              <svg height="0" width="0" />
-            </a>
-            Revue
-          </h3>
+          <H3 text="Revue" />
           <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
           <ul className={container1List}>
             <li className={container1ListItem}>permalinks to newsletters</li>
