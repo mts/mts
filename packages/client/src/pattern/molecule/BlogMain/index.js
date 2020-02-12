@@ -19,6 +19,10 @@ import Blog40 from '../../../asset/image/blog/blog-4-0.jpg'
 import Blog41 from '../../../asset/image/blog/blog-4-1.jpg'
 import Blog42 from '../../../asset/image/blog/blog-4-2.jpg'
 import Blog43 from '../../../asset/image/blog/blog-4-3.jpg'
+import Blog50 from '../../../asset/image/blog/blog-5-0.jpg'
+import Blog51 from '../../../asset/image/blog/blog-5-1.jpg'
+import Blog52 from '../../../asset/image/blog/blog-5-2.jpg'
+import Blog53 from '../../../asset/image/blog/blog-5-3.jpg'
 
 export function BlogMain({ className }) {
   useEffect(() => {
@@ -74,6 +78,15 @@ export function BlogMain({ className }) {
             <BlogItemRegular imageName="blog-4-1" image={Blog41} href="/babel-module-resolver-typescript" title="Lorem ipsum" text={null} />
             <BlogItemRegular imageName="blog-4-2" image={Blog42} href="/npm-crash-course" title="Lorem ipsum" text={null} />
             <BlogItemRegular imageName="blog-4-3" image={Blog43} href="/webpack-code-splitting-library" title="Lorem ipsum" text={null} />
+          </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/react" text="React" />
+          <BlogItemFeatured imageName="blog-5-0" image={Blog50} href="/react-libraries" title="Lorem ipsum" text={null} />
+          <div className={container1BlogList}>
+            <BlogItemRegular imageName="blog-5-1" image={Blog51} href="/conditional-rendering-react" title="Lorem ipsum" text={null} />
+            <BlogItemRegular imageName="blog-5-2" image={Blog52} href="/react-event-handler" title="Lorem ipsum" text={null} />
+            <BlogItemRegular imageName="blog-5-3" image={Blog53} href="/react-range" title="Lorem ipsum" text={null} />
           </div>
         </section>
       </div>
