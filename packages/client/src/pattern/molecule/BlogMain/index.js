@@ -27,6 +27,10 @@ import Blog60 from '../../../asset/image/blog/blog-6-0.jpg'
 import Blog61 from '../../../asset/image/blog/blog-6-1.jpg'
 import Blog62 from '../../../asset/image/blog/blog-6-2.jpg'
 import Blog63 from '../../../asset/image/blog/blog-6-3.jpg'
+import Blog70 from '../../../asset/image/blog/blog-7-0.jpg'
+import Blog71 from '../../../asset/image/blog/blog-7-1.jpg'
+import Blog72 from '../../../asset/image/blog/blog-7-2.jpg'
+import Blog73 from '../../../asset/image/blog/blog-7-3.jpg'
 
 export function BlogMain({ className }) {
   useEffect(() => {
@@ -100,6 +104,15 @@ export function BlogMain({ className }) {
             <BlogItemRegular imageName="blog-6-1" image={Blog61} href="/npm-crash-course" title="Lorem ipsum" text={null} />
             <BlogItemRegular imageName="blog-6-2" image={Blog62} href="/javascript-variable" title="Lorem ipsum" text={null} />
             <BlogItemRegular imageName="blog-6-3" image={Blog63} href="/webpack-code-splitting-library" title="Lorem ipsum" text={null} />
+          </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/node" text="Node" />
+          <BlogItemFeatured imageName="blog-7-0" image={Blog70} href="/npm-crash-course" title="Lorem ipsum" text={null} />
+          <div className={container1BlogList}>
+            <BlogItemRegular imageName="blog-7-1" image={Blog71} href="/webpack-code-splitting-library" title="Lorem ipsum" text={null} />
+            <BlogItemRegular imageName="blog-7-2" image={Blog72} href="/github-webhook-node-js" title="Lorem ipsum" text={null} />
+            <BlogItemRegular imageName="blog-7-3" image={Blog73} href="/minimal-node-js-babel-setup" title="Lorem ipsum" text={null} />
           </div>
         </section>
       </div>
