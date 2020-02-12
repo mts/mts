@@ -16,6 +16,7 @@ import {
   image10,
   image11,
   image12,
+  image13,
 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
@@ -140,6 +141,20 @@ export function BlogMain({ className }) {
           <div className={container1BlogList}>
             <BlogItemRegular imageName="blog-12-1" image={image12.Blog121} href="/jest-snapshot-shallow-render" title="Lorem ipsum" />
             <BlogItemRegular imageName="blog-12-2" image={image12.Blog122} href="/react-testing-jest" title="Lorem ipsum" />
+          </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/webpack" text="Webpack" />
+          <BlogItemFeatured imageName="blog-13-0" image={image13.Blog130} href="/webpack-images" title="Lorem ipsum" />
+          <div className={container1BlogList}>
+            <BlogItemRegular imageName="blog-13-1" image={image13.Blog131} href="/webpack-font" title="Lorem ipsum" />
+            <BlogItemRegular
+              imageName="blog-13-2"
+              image={image13.Blog132}
+              href="/react-testing-mocha-chai-enzyme-sinon"
+              title="Lorem ipsum"
+            />
+            <BlogItemRegular imageName="blog-13-3" image={image13.Blog133} href="/javascript-test-coverage" title="Lorem ipsum" />
           </div>
         </section>
       </div>
