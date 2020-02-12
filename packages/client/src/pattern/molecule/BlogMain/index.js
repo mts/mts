@@ -19,6 +19,7 @@ import {
   image13,
   image14,
   image15,
+  image16,
 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
@@ -172,6 +173,10 @@ export function BlogMain({ className }) {
             title="Lorem ipsum"
           />
           <BlogItemRegular imageName="blog-15-1" image={image15.Blog151} href="/react-testing-jest-enzyme" title="Lorem ipsum" />
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/gatsby" text="Gatsby" />
+          <BlogItemFeatured imageName="blog-16-0" image={image16.Blog160} href="/react-gatsby-js" title="Lorem ipsum" />
         </section>
       </div>
     </main>
