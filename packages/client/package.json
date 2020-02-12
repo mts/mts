@@ -10,8 +10,8 @@
   },
   "version": "0.13.0",
   "engines": {
-    "node": "13.0.6",
-    "npm": "6.13.6"
+    "node": "13.8.0",
+    "npm": "6.13.7"
   },
   "main": "src/index.js",
   "files": [
