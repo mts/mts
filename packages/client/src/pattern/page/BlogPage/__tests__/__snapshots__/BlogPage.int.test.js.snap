@@ -551,6 +551,4154 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </article>
           </div>
         </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/firebase"
+              itemProp="url"
+            >
+              <span>
+                Firebase
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-3-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/firebase-test"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-3-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-firebase-redux-tutorial"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-3-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-firebase-mobx-tutorial"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-3-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/the-road-to-react-with-firebase-book"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/tooling"
+              itemProp="url"
+            >
+              <span>
+                Tooling
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-4-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/babel-module-resolver-jest"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-4-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/babel-module-resolver-typescript"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-4-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/npm-crash-course"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-4-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/webpack-code-splitting-library"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/react"
+              itemProp="url"
+            >
+              <span>
+                React
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-5-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/react-libraries"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-5-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/conditional-rendering-react"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-5-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-event-handler"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-5-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-range"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/javascript"
+              itemProp="url"
+            >
+              <span>
+                JavaScript
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-6-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/javascript-import-export"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-6-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/npm-crash-course"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-6-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/javascript-variable"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-6-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/webpack-code-splitting-library"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/node"
+              itemProp="url"
+            >
+              <span>
+                Node
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-7-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/npm-crash-course"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-7-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/webpack-code-splitting-library"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-7-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/github-webhook-node-js"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-7-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/minimal-node-js-babel-setup"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/web-development"
+              itemProp="url"
+            >
+              <span>
+                Web Development
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-8-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/npm-crash-course"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-8-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/github-webhook-node-js"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-8-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/babel-module-resolver"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-8-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/git-team-workflow"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/redux"
+              itemProp="url"
+            >
+              <span>
+                Redux
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-9-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/redux-javascript"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-9-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-connected-component-test"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-9-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/redux-persist-next-js"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-9-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-firebase-redux-tutorial"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/eslint"
+              itemProp="url"
+            >
+              <span>
+                ESLint
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-10-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/babel-module-resolver"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-10-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-eslint-webpack-babel"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-10-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/webpack-eslint"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/babel"
+              itemProp="url"
+            >
+              <span>
+                Babel
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-11-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/babel-module-resolver"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-11-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/webpack-images"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-11-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/webpack-font"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-11-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-testing-mocha-chai-enzyme-sinon"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/jest"
+              itemProp="url"
+            >
+              <span>
+                Jest
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-12-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/jest-snapshot-test-difference"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-12-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/jest-snapshot-shallow-render"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-12-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-testing-jest"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/webpack"
+              itemProp="url"
+            >
+              <span>
+                Webpack
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-13-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/webpack-images"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-13-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/webpack-font"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-13-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-testing-mocha-chai-enzyme-sinon"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-13-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/javascript-test-coverage"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/nextjs"
+              itemProp="url"
+            >
+              <span>
+                NextJS
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-14-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/redux-persist-next-js"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/enzyme"
+              itemProp="url"
+            >
+              <span>
+                Enzyme
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-15-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/react-testing-mocha-chai-enzyme-sinon"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <article
+            className="container1BlogListContainer1"
+          >
+            <div
+              className="container1BlogListContainer1Image"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "6.69921875%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-15-1"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogListContainer1Content"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/react-testing-jest-enzyme"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/gatsby"
+              itemProp="url"
+            >
+              <span>
+                Gatsby
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-16-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/react-gatsby-js"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/vs-code"
+              itemProp="url"
+            >
+              <span>
+                VS Code
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-17-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/how-to-use-prettier-vscode"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-17-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/prettier-eslint"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-17-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-js-macos-setup"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-17-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-js-windows-setup"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/web-components"
+              itemProp="url"
+            >
+              <span>
+                Web Components
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-18-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/react-web-components"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <article
+            className="container1BlogListContainer1"
+          >
+            <div
+              className="container1BlogListContainer1Image"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "6.69921875%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-18-1"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogListContainer1Content"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/web-components-tutorial"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/mobx"
+              itemProp="url"
+            >
+              <span>
+                MobX
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-19-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/react-firebase-mobx-tutorial"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-19-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/create-react-app-mobx-decorators"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-19-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-redux-mobx-state-management"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-19-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/redux-mobx"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/reason"
+              itemProp="url"
+            >
+              <span>
+                Reason
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-20-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/reason-react-tutorial"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/graphql"
+              itemProp="url"
+            >
+              <span>
+                GraphQL
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-21-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/the-road-to-graphql-book"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-21-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/graphql-tutorial"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-21-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/graphql-apollo-client-tutorial"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-21-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/react-apollo-client-testing"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/angular"
+              itemProp="url"
+            >
+              <span>
+                Angular
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-22-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/why-frameworks-matter"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-22-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/how-to-learn-framework"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-22-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/reasons-why-i-moved-from-angular-to-react"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-22-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/d3-on-angular-resuable-components"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/vue"
+              itemProp="url"
+            >
+              <span>
+                Vue
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-23-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/why-frameworks-matter"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <article
+            className="container1BlogListContainer1"
+          >
+            <div
+              className="container1BlogListContainer1Image"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "6.69921875%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-23-1"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogListContainer1Content"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/how-to-learn-framework"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/machine-learning"
+              itemProp="url"
+            >
+              <span>
+                Machine Learning
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-24-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/machine-learning-javascript-web-developers"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <div
+            className="container1BlogList"
+          >
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-24-1"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/neural-networks-deeplearnjs-javascript"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-24-2"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/logistic-regression-gradient-descent-classification-javascript"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+            <article
+              className="container1BlogListContainer1"
+            >
+              <div
+                className="container1BlogListContainer1Image"
+              >
+                <div
+                  style={
+                    Object {
+                      "paddingBottom": "6.69921875%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <img
+                    alt="blog-24-3"
+                    src={Object {}}
+                  />
+                </picture>
+              </div>
+              <div
+                className="container1BlogListContainer1Content"
+              >
+                <header>
+                  <h2
+                    itemProp="name headline"
+                  >
+                    <a
+                      aria-label="Go To Blog Post"
+                      href="/multivariate-linear-regression-normal-equation-javascript"
+                      itemProp="url"
+                    >
+                      Lorem ipsum
+                    </a>
+                  </h2>
+                </header>
+                <p
+                  className=""
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/growth"
+              itemProp="url"
+            >
+              <span>
+                Growth
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-25-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/lessons-learned-give-and-take"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <article
+            className="container1BlogListContainer1"
+          >
+            <div
+              className="container1BlogListContainer1Image"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "6.69921875%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-25-1"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogListContainer1Content"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/lessons-learned-deep-work-flow"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <article
+            className="container1BlogListContainer1"
+          >
+            <div
+              className="container1BlogListContainer1Image"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "6.69921875%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-25-2"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogListContainer1Content"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/lessons-learned-on-writing-well"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+        </section>
+        <section
+          itemScope={true}
+          itemType="http://schema.org/Blog"
+        >
+          <h2>
+            <span>
+              Read more about
+               
+            </span>
+            <a
+              href="/categories/d3"
+              itemProp="url"
+            >
+              <span>
+                D3
+                <svg
+                  height="16px"
+                  viewBox="0 0 185.343 185.343"
+                  width="16px"
+                >
+                  <path
+                    d="M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z"
+                    fill="#823eb7"
+                  />
+                </svg>
+              </span>
+            </a>
+          </h2>
+          <article
+            className="container1BlogItem container1BlogItemFeatured"
+          >
+            <div
+              className="container1BlogItemImage container1BlogItemImageFeatured"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "64.94140625%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-26-0"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogItemContent container1BlogItemContentFeatured"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/d3-on-angular-resuable-components"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <article
+            className="container1BlogListContainer1"
+          >
+            <div
+              className="container1BlogListContainer1Image"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "6.69921875%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-26-1"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogListContainer1Content"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/d3-angular-small-multiples-brushing"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+          <article
+            className="container1BlogListContainer1"
+          >
+            <div
+              className="container1BlogListContainer1Image"
+            >
+              <div
+                style={
+                  Object {
+                    "paddingBottom": "6.69921875%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <img
+                  alt="blog-26-2"
+                  src={Object {}}
+                />
+              </picture>
+            </div>
+            <div
+              className="container1BlogListContainer1Content"
+            >
+              <header>
+                <h2
+                  itemProp="name headline"
+                >
+                  <a
+                    aria-label="Go To Blog Post"
+                    href="/apple-health-chart-d3"
+                    itemProp="url"
+                  >
+                    Lorem ipsum
+                  </a>
+                </h2>
+              </header>
+              <p
+                className=""
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
+              </p>
+            </div>
+          </article>
+        </section>
       </div>
     </main>
     <div

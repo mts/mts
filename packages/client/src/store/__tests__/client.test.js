@@ -23,7 +23,7 @@ const environmentAppMockObject = require('../../../../library/src/environment') 
 const stateDefaultMockObject = require('../../../../library/src/state/default')
 const reducerMockObject = require('../reducer')
 
-describe('index', () => {
+describe('client', () => {
   beforeEach(() => {
     jest.spyOn(stateDefaultMockObject, 'getAppDefaultStateFromWindow').mockReturnValue(mockAppState)
     jest.spyOn(reducerMockObject, 'getAppReducer').mockImplementation(jest.fn())
