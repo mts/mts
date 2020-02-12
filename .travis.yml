@@ -5,7 +5,7 @@ cache:
 notifications:
   email: false
 node_js:
-  - '13.6.0'
+  - '13.8.0'
 before_script:
   - npm install
   - npm run install-packages
