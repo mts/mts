@@ -3,7 +3,20 @@ import { container1, container1BlogList } from './BlogMain.scss'
 import { H2, BlogItemFeatured, BlogItemRegular } from './BlogMain.part'
 import { blogMainDefaultProps, blogMainPropTypes } from './BlogMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
-import { image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11 } from '../../../asset/image/blog'
+import {
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7,
+  image8,
+  image9,
+  image10,
+  image11,
+  image12,
+} from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
   useEffect(() => {
@@ -119,6 +132,14 @@ export function BlogMain({ className }) {
               href="/react-testing-mocha-chai-enzyme-sinon"
               title="Lorem ipsum"
             />
+          </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/jest" text="Jest" />
+          <BlogItemFeatured imageName="blog-12-0" image={image12.Blog120} href="/jest-snapshot-test-difference" title="Lorem ipsum" />
+          <div className={container1BlogList}>
+            <BlogItemRegular imageName="blog-12-1" image={image12.Blog121} href="/jest-snapshot-shallow-render" title="Lorem ipsum" />
+            <BlogItemRegular imageName="blog-12-2" image={image12.Blog122} href="/react-testing-jest" title="Lorem ipsum" />
           </div>
         </section>
       </div>
