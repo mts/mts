@@ -17,6 +17,7 @@ import {
   image11,
   image12,
   image13,
+  image14,
 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
@@ -156,6 +157,10 @@ export function BlogMain({ className }) {
             />
             <BlogItemRegular imageName="blog-13-3" image={image13.Blog133} href="/javascript-test-coverage" title="Lorem ipsum" />
           </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/nextjs" text="NextJS" />
+          <BlogItemFeatured imageName="blog-14-0" image={image14.Blog140} href="/redux-persist-next-js" title="Lorem ipsum" />
         </section>
       </div>
     </main>
