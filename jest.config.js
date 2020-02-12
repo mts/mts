@@ -22,12 +22,9 @@ module.exports = {
     '!packages/**/src/mts/**',
     '!packages/**/node_modules/**',
     '!packages/**/webpack*',
-    '!packages/client/**/graphql/**',
-    '!packages/client/**/route/**',
-    '!packages/client/**/library/**',
     '!packages/http-server/**',
-    '!packages/library/src/client/startup.js',
-    '!packages/library/src/server/processSass.js',
+    '!packages/library/**/client/startup.js',
+    '!packages/library/**/server/processSass.js',
   ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleNameMapper: {
@@ -37,10 +34,10 @@ module.exports = {
   moduleFileExtensions: ['js', 'jsx'],
   coverageThreshold: {
     global: {
-      statements: 0,
-      branches: 0,
-      functions: 0,
-      lines: 0,
+      statements: 77,
+      branches: 60,
+      functions: 76,
+      lines: 76,
     },
   },
 }
