@@ -26,6 +26,7 @@ import {
   image20,
   image21,
   image22,
+  image23,
 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
@@ -233,6 +234,11 @@ export function BlogMain({ className }) {
             />
             <BlogItemRegular imageName="blog-22-3" image={image22.Blog223} href="/d3 -on-angular-resuable-components" title="Lorem ipsum" />
           </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/vue" text="Vue" />
+          <BlogItemFeatured imageName="blog-23-0" image={image23.Blog230} href="/why-frameworks-matter" title="Lorem ipsum" />
+          <BlogItemRegular imageName="blog-23-1" image={image23.Blog231} href="/how-to-learn-framework" title="Lorem ipsum" />
         </section>
       </div>
     </main>
