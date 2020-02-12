@@ -24,6 +24,7 @@ import {
   image18,
   image19,
   image20,
+  image21,
 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
@@ -208,6 +209,15 @@ export function BlogMain({ className }) {
         <section itemScope itemType="http://schema.org/Blog">
           <H2 prefix="Read more about" href="/categories/reason" text="Reason" />
           <BlogItemFeatured imageName="blog-20-0" image={image20.Blog200} href="/reason-react-tutorial" title="Lorem ipsum" />
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/graphql" text="GraphQL" />
+          <BlogItemFeatured imageName="blog-21-0" image={image21.Blog210} href="/the-road-to-graphql-book" title="Lorem ipsum" />
+          <div className={container1BlogList}>
+            <BlogItemRegular imageName="blog-21-1" image={image21.Blog211} href="/graphql-tutorial" title="Lorem ipsum" />
+            <BlogItemRegular imageName="blog-21-2" image={image21.Blog212} href="/graphql-apollo-client-tutorial" title="Lorem ipsum" />
+            <BlogItemRegular imageName="blog-21-3" image={image21.Blog213} href="/react-apollo-client-testing" title="Lorem ipsum" />
+          </div>
         </section>
       </div>
     </main>
