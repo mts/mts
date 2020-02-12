@@ -23,6 +23,7 @@ import {
   image17,
   image18,
   image19,
+  image20,
 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
@@ -203,6 +204,10 @@ export function BlogMain({ className }) {
             <BlogItemRegular imageName="blog-19-2" image={image19.Blog192} href="/react-redux-mobx-state-management" title="Lorem ipsum" />
             <BlogItemRegular imageName="blog-19-3" image={image19.Blog193} href="/redux-mobx" title="Lorem ipsum" />
           </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/reason" text="Reason" />
+          <BlogItemFeatured imageName="blog-20-0" image={image20.Blog200} href="/reason-react-tutorial" title="Lorem ipsum" />
         </section>
       </div>
     </main>
