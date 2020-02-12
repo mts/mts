@@ -21,6 +21,7 @@ import {
   image15,
   image16,
   image17,
+  image18,
 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
@@ -187,6 +188,11 @@ export function BlogMain({ className }) {
             <BlogItemRegular imageName="blog-17-2" image={image17.Blog172} href="/react-js-macos-setup" title="Lorem ipsum" />
             <BlogItemRegular imageName="blog-17-3" image={image17.Blog173} href="/react-js-windows-setup" title="Lorem ipsum" />
           </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/web-components" text="Web Components" />
+          <BlogItemFeatured imageName="blog-18-0" image={image18.Blog180} href="/react-web-components" title="Lorem ipsum" />
+          <BlogItemRegular imageName="blog-18-1" image={image18.Blog181} href="/web-components-tutorial" title="Lorem ipsum" />
         </section>
       </div>
     </main>
