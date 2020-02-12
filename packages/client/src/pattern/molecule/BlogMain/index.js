@@ -3,7 +3,7 @@ import { container1, container1BlogList } from './BlogMain.scss'
 import { H2, BlogItemFeatured, BlogItemRegular } from './BlogMain.part'
 import { blogMainDefaultProps, blogMainPropTypes } from './BlogMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
-import { image1, image2, image3, image4, image5, image6, image7 } from '../../../asset/image/blog'
+import { image1, image2, image3, image4, image5, image6, image7, image8 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
   useEffect(() => {
@@ -79,6 +79,15 @@ export function BlogMain({ className }) {
             <BlogItemRegular imageName="blog-7-1" image={image7.Blog71} href="/webpack-code-splitting-library" title="Lorem ipsum" />
             <BlogItemRegular imageName="blog-7-2" image={image7.Blog72} href="/github-webhook-node-js" title="Lorem ipsum" />
             <BlogItemRegular imageName="blog-7-3" image={image7.Blog73} href="/minimal-node-js-babel-setup" title="Lorem ipsum" />
+          </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/web-development" text="Web Development" />
+          <BlogItemFeatured imageName="blog-8-0" image={image8.Blog80} href="/npm-crash-course" title="Lorem ipsum" />
+          <div className={container1BlogList}>
+            <BlogItemRegular imageName="blog-8-1" image={image8.Blog81} href="/github-webhook-node-js" title="Lorem ipsum" />
+            <BlogItemRegular imageName="blog-8-2" image={image8.Blog82} href="/babel-module-resolver" title="Lorem ipsum" />
+            <BlogItemRegular imageName="blog-8-3" image={image8.Blog83} href="/git-team-workflow" title="Lorem ipsum" />
           </div>
         </section>
       </div>
