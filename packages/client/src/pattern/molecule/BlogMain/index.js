@@ -20,6 +20,7 @@ import {
   image14,
   image15,
   image16,
+  image17,
 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
@@ -177,6 +178,15 @@ export function BlogMain({ className }) {
         <section itemScope itemType="http://schema.org/Blog">
           <H2 prefix="Read more about" href="/categories/gatsby" text="Gatsby" />
           <BlogItemFeatured imageName="blog-16-0" image={image16.Blog160} href="/react-gatsby-js" title="Lorem ipsum" />
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/vs-code" text="VS Code" />
+          <BlogItemFeatured imageName="blog-17-0" image={image17.Blog170} href="/how-to-use-prettier-vscode" title="Lorem ipsum" />
+          <div className={container1BlogList}>
+            <BlogItemRegular imageName="blog-17-1" image={image17.Blog171} href="/prettier-eslint" title="Lorem ipsum" />
+            <BlogItemRegular imageName="blog-17-2" image={image17.Blog172} href="/react-js-macos-setup" title="Lorem ipsum" />
+            <BlogItemRegular imageName="blog-17-3" image={image17.Blog173} href="/react-js-windows-setup" title="Lorem ipsum" />
+          </div>
         </section>
       </div>
     </main>
