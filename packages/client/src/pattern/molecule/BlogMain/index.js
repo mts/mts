@@ -3,7 +3,7 @@ import { container1, container1BlogList } from './BlogMain.scss'
 import { H2, BlogItemFeatured, BlogItemRegular } from './BlogMain.part'
 import { blogMainDefaultProps, blogMainPropTypes } from './BlogMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
-import { image1, image2, image3, image4, image5, image6, image7, image8, image9, image10 } from '../../../asset/image/blog'
+import { image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
   useEffect(() => {
@@ -105,6 +105,20 @@ export function BlogMain({ className }) {
           <div className={container1BlogList}>
             <BlogItemRegular imageName="blog-10-1" image={image10.Blog101} href="/react-eslint-webpack-babel" title="Lorem ipsum" />
             <BlogItemRegular imageName="blog-10-2" image={image10.Blog102} href="/webpack-eslint" title="Lorem ipsum" />
+          </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/babel" text="Babel" />
+          <BlogItemFeatured imageName="blog-11-0" image={image11.Blog110} href="/babel-module-resolver" title="Lorem ipsum" />
+          <div className={container1BlogList}>
+            <BlogItemRegular imageName="blog-11-1" image={image11.Blog111} href="/webpack-images" title="Lorem ipsum" />
+            <BlogItemRegular imageName="blog-11-2" image={image11.Blog112} href="/webpack-font" title="Lorem ipsum" />
+            <BlogItemRegular
+              imageName="blog-11-3"
+              image={image11.Blog113}
+              href="/react-testing-mocha-chai-enzyme-sinon"
+              title="Lorem ipsum"
+            />
           </div>
         </section>
       </div>
