@@ -3,7 +3,7 @@ import { container1, container1BlogList } from './BlogMain.scss'
 import { H2, BlogItemFeatured, BlogItemRegular } from './BlogMain.part'
 import { blogMainDefaultProps, blogMainPropTypes } from './BlogMain.props'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
-import { image1, image2, image3, image4, image5, image6, image7, image8 } from '../../../asset/image/blog'
+import { image1, image2, image3, image4, image5, image6, image7, image8, image9 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
   useEffect(() => {
@@ -88,6 +88,15 @@ export function BlogMain({ className }) {
             <BlogItemRegular imageName="blog-8-1" image={image8.Blog81} href="/github-webhook-node-js" title="Lorem ipsum" />
             <BlogItemRegular imageName="blog-8-2" image={image8.Blog82} href="/babel-module-resolver" title="Lorem ipsum" />
             <BlogItemRegular imageName="blog-8-3" image={image8.Blog83} href="/git-team-workflow" title="Lorem ipsum" />
+          </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/redux" text="Redux" />
+          <BlogItemFeatured imageName="blog-8-0" image={image9.Blog90} href="/redux-javascript" title="Lorem ipsum" />
+          <div className={container1BlogList}>
+            <BlogItemRegular imageName="blog-8-1" image={image9.Blog91} href="/react-connected-component-test" title="Lorem ipsum" />
+            <BlogItemRegular imageName="blog-8-2" image={image9.Blog92} href="/redux-persist-next-js" title="Lorem ipsum" />
+            <BlogItemRegular imageName="blog-8-3" image={image9.Blog93} href="/react-firebase-redux-tutorial" title="Lorem ipsum" />
           </div>
         </section>
       </div>
