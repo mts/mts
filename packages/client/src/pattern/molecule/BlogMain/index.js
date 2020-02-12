@@ -28,6 +28,7 @@ import {
   blog22,
   blog23,
   blog24,
+  blog25,
 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
@@ -269,6 +270,12 @@ export function BlogMain({ className }) {
               title="Lorem ipsum"
             />
           </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/growth" text="Growth" />
+          <BlogItemFeatured imageName="blog-25-0" image={blog25.image250} href="/lessons-learned-give-and-take" title="Lorem ipsum" />
+          <BlogItemRegular imageName="blog-25-1" image={blog25.image251} href="/lessons-learned-deep-work-flow" title="Lorem ipsum" />
+          <BlogItemRegular imageName="blog-25-2" image={blog25.image252} href="/lessons-learned-on-writing-well" title="Lorem ipsum" />
         </section>
       </div>
     </main>
