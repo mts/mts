@@ -29,6 +29,7 @@ import {
   blog23,
   blog24,
   blog25,
+  blog26,
 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
@@ -234,7 +235,7 @@ export function BlogMain({ className }) {
               href="/reasons-why-i-moved-from-angular-to-react"
               title="Lorem ipsum"
             />
-            <BlogItemRegular imageName="blog-22-3" image={blog22.image223} href="/d3 -on-angular-resuable-components" title="Lorem ipsum" />
+            <BlogItemRegular imageName="blog-22-3" image={blog22.image223} href="/d3-on-angular-resuable-components" title="Lorem ipsum" />
           </div>
         </section>
         <section itemScope itemType="http://schema.org/Blog">
@@ -276,6 +277,12 @@ export function BlogMain({ className }) {
           <BlogItemFeatured imageName="blog-25-0" image={blog25.image250} href="/lessons-learned-give-and-take" title="Lorem ipsum" />
           <BlogItemRegular imageName="blog-25-1" image={blog25.image251} href="/lessons-learned-deep-work-flow" title="Lorem ipsum" />
           <BlogItemRegular imageName="blog-25-2" image={blog25.image252} href="/lessons-learned-on-writing-well" title="Lorem ipsum" />
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/d3" text="D3" />
+          <BlogItemFeatured imageName="blog-26-0" image={blog26.image260} href="/d3-on-angular-resuable-components" title="Lorem ipsum" />
+          <BlogItemRegular imageName="blog-26-1" image={blog26.image261} href="/d3-angular-small-multiples-brushing" title="Lorem ipsum" />
+          <BlogItemRegular imageName="blog-26-2" image={blog26.image262} href="/apple-health-chart-d3" title="Lorem ipsum" />
         </section>
       </div>
     </main>
