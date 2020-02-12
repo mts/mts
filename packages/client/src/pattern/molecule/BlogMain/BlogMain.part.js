@@ -17,9 +17,10 @@ import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
 import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
 
-export function H2({ href, text }) {
+export function H2({ prefix, href, text }) {
   return (
     <h2>
+      {prefix ? <span>{prefix}&nbsp;</span> : null}
       <a itemProp="url" href={href}>
         <span>
           {text}

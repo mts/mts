@@ -8,7 +8,12 @@ export const blogMainPropTypes = {
   className: string,
 }
 
+export const h2DefaultProps = {
+  prefix: null,
+}
+
 export const h2PropTypes = {
+  prefix: string,
   href: string.isRequired,
   text: string.isRequired,
 }

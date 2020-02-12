@@ -11,6 +11,10 @@ import Blog20 from '../../../asset/image/blog/blog-2-0.jpg'
 import Blog21 from '../../../asset/image/blog/blog-2-1.jpg'
 import Blog22 from '../../../asset/image/blog/blog-2-2.jpg'
 import Blog23 from '../../../asset/image/blog/blog-2-3.jpg'
+import Blog30 from '../../../asset/image/blog/blog-3-0.jpg'
+import Blog31 from '../../../asset/image/blog/blog-3-1.jpg'
+import Blog32 from '../../../asset/image/blog/blog-3-2.jpg'
+import Blog33 from '../../../asset/image/blog/blog-3-3.jpg'
 
 export function BlogMain({ className }) {
   useEffect(() => {
@@ -39,6 +43,21 @@ export function BlogMain({ className }) {
               imageName="blog-2-3"
               image={Blog23}
               href="/complete-firebase-authentication-react-tutorial"
+              title="Lorem ipsum"
+              text={null}
+            />
+          </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/firebase" text="Firebase" />
+          <BlogItemFeatured imageName="blog-3-0" image={Blog30} href="/firebase-test" title="Lorem ipsum" text={null} />
+          <div className={container1BlogList}>
+            <BlogItemRegular imageName="blog-3-1" image={Blog31} href="/react-firebase-redux-tutorial" title="Lorem ipsum" text={null} />
+            <BlogItemRegular imageName="blog-3-2" image={Blog32} href="/react-firebase-mobx-tutorial" title="Lorem ipsum" text={null} />
+            <BlogItemRegular
+              imageName="blog-3-3"
+              image={Blog33}
+              href="/the-road-to-react-with-firebase-book"
               title="Lorem ipsum"
               text={null}
             />
