@@ -1,6 +1,12 @@
 import React from 'react'
 import cx from 'classnames'
-import { h2PropTypes, blogItemFeaturedPropTypes, blogItemRegularPropTypes } from './BlogMain.props'
+import {
+  h2PropTypes,
+  blogItemFeaturedDefaultProps,
+  blogItemFeaturedPropTypes,
+  blogItemRegularDefaultProps,
+  blogItemRegularPropTypes,
+} from './BlogMain.props'
 import {
   container1BlogItem,
   container1BlogItemFeatured,
@@ -61,6 +67,7 @@ export function BlogItemFeatured({ imageName, image, href, title, text }) {
   )
 }
 
+BlogItemFeatured.defaultProps = blogItemFeaturedDefaultProps
 BlogItemFeatured.propTypes = blogItemFeaturedPropTypes
 
 export function BlogItemRegular({ imageName, image, href, title, text }) {
@@ -86,4 +93,5 @@ export function BlogItemRegular({ imageName, image, href, title, text }) {
   )
 }
 
+BlogItemRegular.defaultProps = blogItemRegularDefaultProps
 BlogItemRegular.propTypes = blogItemRegularPropTypes
