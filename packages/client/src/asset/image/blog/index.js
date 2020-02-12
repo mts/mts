@@ -49,6 +49,8 @@ import Blog131 from './blog-13-1.jpg'
 import Blog132 from './blog-13-2.jpg'
 import Blog133 from './blog-13-3.jpg'
 import Blog140 from './blog-14-0.jpg'
+import Blog150 from './blog-15-0.jpg'
+import Blog151 from './blog-15-1.jpg'
 
 export const image1 = { Blog10, Blog11, Blog12, Blog13 }
 export const image2 = { Blog20, Blog21, Blog22, Blog23 }
@@ -64,3 +66,4 @@ export const image11 = { Blog110, Blog111, Blog112, Blog113 }
 export const image12 = { Blog120, Blog121, Blog122 }
 export const image13 = { Blog130, Blog131, Blog132, Blog133 }
 export const image14 = { Blog140 }
+export const image15 = { Blog150, Blog151 }
