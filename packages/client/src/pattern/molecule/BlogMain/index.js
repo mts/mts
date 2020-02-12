@@ -27,6 +27,7 @@ import {
   blog21,
   blog22,
   blog23,
+  blog24,
 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
@@ -239,6 +240,35 @@ export function BlogMain({ className }) {
           <H2 prefix="Read more about" href="/categories/vue" text="Vue" />
           <BlogItemFeatured imageName="blog-23-0" image={blog23.image230} href="/why-frameworks-matter" title="Lorem ipsum" />
           <BlogItemRegular imageName="blog-23-1" image={blog23.image231} href="/how-to-learn-framework" title="Lorem ipsum" />
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/machine-learning" text="Machine Learning" />
+          <BlogItemFeatured
+            imageName="blog-24-0"
+            image={blog24.image240}
+            href="/machine-learning-javascript-web-developers"
+            title="Lorem ipsum"
+          />
+          <div className={container1BlogList}>
+            <BlogItemRegular
+              imageName="blog-24-1"
+              image={blog24.image241}
+              href="/neural-networks-deeplearnjs-javascript"
+              title="Lorem ipsum"
+            />
+            <BlogItemRegular
+              imageName="blog-24-2"
+              image={blog24.image242}
+              href="/logistic-regression-gradient-descent-classification-javascript"
+              title="Lorem ipsum"
+            />
+            <BlogItemRegular
+              imageName="blog-24-3"
+              image={blog24.image243}
+              href="/multivariate-linear-regression-normal-equation-javascript"
+              title="Lorem ipsum"
+            />
+          </div>
         </section>
       </div>
     </main>
