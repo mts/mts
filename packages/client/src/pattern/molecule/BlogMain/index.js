@@ -25,6 +25,7 @@ import {
   image19,
   image20,
   image21,
+  image22,
 } from '../../../asset/image/blog'
 
 export function BlogMain({ className }) {
@@ -217,6 +218,20 @@ export function BlogMain({ className }) {
             <BlogItemRegular imageName="blog-21-1" image={image21.Blog211} href="/graphql-tutorial" title="Lorem ipsum" />
             <BlogItemRegular imageName="blog-21-2" image={image21.Blog212} href="/graphql-apollo-client-tutorial" title="Lorem ipsum" />
             <BlogItemRegular imageName="blog-21-3" image={image21.Blog213} href="/react-apollo-client-testing" title="Lorem ipsum" />
+          </div>
+        </section>
+        <section itemScope itemType="http://schema.org/Blog">
+          <H2 prefix="Read more about" href="/categories/angular" text="Angular" />
+          <BlogItemFeatured imageName="blog-22-0" image={image22.Blog220} href="/why-frameworks-matter" title="Lorem ipsum" />
+          <div className={container1BlogList}>
+            <BlogItemRegular imageName="blog-22-1" image={image22.Blog221} href="/how-to-learn-framework" title="Lorem ipsum" />
+            <BlogItemRegular
+              imageName="blog-22-2"
+              image={image22.Blog222}
+              href="/reasons-why-i-moved-from-angular-to-react"
+              title="Lorem ipsum"
+            />
+            <BlogItemRegular imageName="blog-22-3" image={image22.Blog223} href="/d3 -on-angular-resuable-components" title="Lorem ipsum" />
           </div>
         </section>
       </div>
