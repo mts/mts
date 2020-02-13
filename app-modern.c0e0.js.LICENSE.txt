@@ -8,7 +8,7 @@
  * @project        MTS
  * @name           app-modern.c0e0.js
  * @author         MTS
- * @build          Thu, Feb 13, 2020 11:31 AM ET
+ * @build          Thu, Feb 13, 2020 11:34 AM ET
  * @release        7cb0ae89e09135b32415fdee08f5c2334fcf8967 [responsive-courses-page]
  * @copyright      Copyright (c) 2020 MTS
  *
