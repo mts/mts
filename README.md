@@ -305,6 +305,90 @@
   </blockquote>
 </details>
 
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 Application Architecture</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <details>
+      <summary style="color: #006400;">State Container</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Redux</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Package(s): 
+                <ul>
+                  <li><a style="color: #006400;" href="https://github.com/reduxjs/redux">redux</a> repository on GitHub</li>
+                  <li><a style="color: #006400;" href="https://github.com/reduxjs/react-redux">react-redux</a> repository on GitHub</li>
+                </ul>
+              </li>
+              <li>Setup file(s):
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/src/store/client.js">client.js</a> for regular store,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/library/src/store/mock.js">mock.js</a> for mock store
+              </li>
+              <li>Script(s) in project's package.json: n/a</li>
+              <li>Information: 
+                <details>
+                  <summary style="color: #006400;">Flux</summary>
+                  <blockquote style="margin: 0; padding: 0 24px">
+                    This project implements <a href="https://facebook.github.io/flux/">Flux </a>based application architecture through Redux state container and React integration for Redux. <br>
+                    Components initiate changes by dispatching actions or thunks<br>
+                    <img width="400px" height="250px" src=".docs/image/flux-component.png"> <br>
+                    Dispatcher processes dispatched actions and thunks and reducer releases new state<br>
+                    <img width="400px" height="250px" src=".docs/image/flux-flow.png"> <br>
+                  </blockquote>
+                </details>
+                <details>
+                  <summary style="color: #006400;">Store</summary>
+                  <blockquote style="margin: 0; padding: 0 24px">
+                    <ul>
+                      <li>Each application in this project has a Redux store which implements the following:
+                        <ul>
+                          <li><strong><em>Actions</em></strong> to dispatch when mutating existing state in a syncronous flow</li>
+                          <li><strong><em>Thunks</em></strong> to dispatch when mutating existing state in an asyncronous flow through redux-thunk middleware</li>
+                          <li><strong><em>Reducer</em></strong> which takes existing state and an action as arguments and returns a new state. Immutability is achieved by spreading existing state to the level of mutation in the nested data structure</li>
+                          <li><strong><em>State</em></strong>
+                            <ul>
+                              <li><strong><em>Default state</em></strong> to be used by the actual application store which consists of the following three partitions:
+                                <ul>
+                                  <li>context partition reflects user's signed in and authorization response states</li>
+                                  <li>api partition reflects all from API endpoints' response states</li>
+                                  <li>ui partition reflects all atomic design patterns' states</li>
+                                </ul>
+                              </li>
+                              <li><strong><em>Mock state</em></strong>  to be used by a mock store when rendering snapshots and stories <br>
+                                  Mock state consists of exactly the same context, api and ui partitions populated by static data.
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong><em>Difference actions and thunks</em></strong> is that the redux dispatcher passes a dispached action onto the reducer as second argument whereas it directly calls the thunk instead.
+                      </li>
+                      <li>
+                        <strong><em>AppStore class</em></strong> is meant to serve as application's state container and extends a base store called <strong><em>Store</em></strong> which sets
+                        <ul> 
+                          <li>the default application state in setAppDefaultState()</li>
+                          <li>application state container in setAppStore()</li>
+                          <li>populates application state in setAppCompleteState()</li>
+                          <li>sets hot module reloading in setHotModuleReloading() when Webpack HotModuleReplacementPlugin interface is exposed under the module.hot property.</li>
+                        </ul>
+                      </li>
+                        <li>
+                          <strong><em>Store class</em></strong> sets redux-thunk as thunk middleware for redux in setMiddlewares() and composes enhancers in setEnhancer() when initialized.
+                        </li>
+                    </ul>
+                  </blockquote>
+                </details>
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </blockquote>
+</details>
+
 ## Client
 
 - ReactJS, ReduxJS Client
