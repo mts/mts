@@ -19,7 +19,7 @@ import { windowObjectExists } from '../../../../../library/src/environment'
 import Logo from '../../../asset/image/logo.jpg'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { isMobile } from '../../../../../library/src/client/window'
-import { homePagePath, aboutPagePath, blogPagePath } from '../../../route/path'
+import { homePagePath, aboutPagePath, blogPagePath, coursesPagePath } from '../../../route/path'
 
 function Component({ className }) {
   const [isNavBarListToggled, toggleNavBarList] = useState(false)
@@ -57,7 +57,7 @@ function Component({ className }) {
             </Link>
           </li>
           <li className={navBarListItem}>
-            <Link className={navBarListItemLink} to={homePagePath} aria-label="Courses Page">
+            <Link className={navBarListItemLink} to={coursesPagePath} aria-label="Courses Page">
               Courses
             </Link>
           </li>
