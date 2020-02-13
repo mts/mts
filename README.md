@@ -469,7 +469,7 @@
           <li><img width="650px" height="800px" src=".docs/image/code-coverage-report.jpg"></li>
         </ul>
       </blockquote>
-    </details>    
+    </details>
     <details>
       <summary style="color: #006400;">Scaling Unit Tests</summary>
       <blockquote style="margin: 0; padding: 0 24px">
@@ -763,7 +763,7 @@
           </blockquote>
         </details>
       </blockquote>
-    </details>    
+    </details>
     <details>
       <summary style="color: #006400;">Branching Model</summary>
       <blockquote style="margin: 0; padding: 0 24px">
@@ -781,37 +781,50 @@
   </blockquote>
 </details>
 
-## Client
+<h2 style="color: #006400;">🗿 Applications</h2>
 
-- ReactJS, ReduxJS Client
-  - deployed to and running at https://mts.github.io/mts/
-
-## Server
-
-- NodeJS & ExpressJS Server
-  - deployed to https://dashboard.heroku.com/apps/mts-http-server
-  - running at https://mts-http-server.herokuapp.com/mts
-
-## Heroku Setup, Deployment and Monitoring
-
-- `Login`: `heroku login`
-- `Create app`: `heroku create mts-http-server`
-- `Add remote`: `git remote add origin https://git.heroku.com/mts-http-server.git`
-- `Set build pack 1`: `heroku buildpacks:set -a mts-http-server https://github.com/Pagedraw/heroku-buildpack-select-subdir`
-- `Set build pack 2`: `heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#v133 -a mts-http-server`
-- `Configure build pack`: `heroku config:add BUILDPACK='packages/server=https://github.com/heroku/heroku-buildpack-nodejs#v133' -a mts-http-server`
-- `Add environment variable(s)`: `heroku config:add PORT='3001' -a mts-http-server`
-- `Deploy`: `git push heroku master`
-- `Monitor`: `heroku logs --tail`
-- `Check app`: `https://mts-http-server.herokuapp.com/`
-- `Help`: `https://help.heroku.com/P1AVPANS/why-is-my-node-js-app-crashing-with-an-r10-error`
-- `Clone`: `heroku git:clone -a mts-http-server`
-
-## Github Pages
-
-- rm -rf node_modules/gh-pages/.cache
-- change `https://github.com/mts/mts.git` to `git@github.com:mts/mts.git` in `.git/config`
-
-## Localhost
-
-- `Free port 3000`: `kill $(lsof -t -i :3000)`
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 🐝 ReactJS, ReduxJS Client</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <ul>
+      <li>Running locally at <a style="color: #006400;" href="http://localhost:8080/">http://localhost:8080/</a></li>
+      <li>Deployed to Github Pages and running at <a style="color: #006400;" href="https://mts.github.io/mts">https://mts.github.io/mts</a></li>
+      <li>Github Pages Cache Repair:
+        <ul>
+          <li>Remove cache: <kbd>rm -rf node_modules/gh-pages/.cache</kbd></li>
+          <li>Change <kbd>https://github.com/mts/mts.git</kbd> to <kbd>git@github.com:mts/mts.git</kbd> in <kbd>.git/config</kbd></li>
+        </ul>
+      </li>
+      <li>Localhost free server port:
+        <ul>
+          <li>Free port 3000: <kbd>kill $(lsof -t -i :3000)</kbd></li>
+        </ul>
+      </li>
+    </ul>
+  </blockquote>
+</details>
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 🐝 HTTP Server</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <ul>
+      <li>Running locally at <a style="color: #006400;" href="http://localhost:3000/mts">http://localhost:3000/mts</a></li>
+      <li>Deployed to Heroku and running at <a style="color: #006400;" href="https://mts-http-server.herokuapp.com/mts">https://mts-http-server.herokuapp.com/mts</a></li>
+      <li>Heroku Setup, Deployment and Monitoring:
+        <ul>
+          <li>Login: <kbd>heroku login</kbd></li>
+          <li>Create app: <kbd>heroku create mts-http-server</kbd></li>
+          <li>Add remote: <kbd>git remote add origin https://git.heroku.com/mts-http-server.git</kbd></li>
+          <li>Set build pack 1: <kbd>heroku buildpacks:set -a mts-http-server https://github.com/Pagedraw/heroku-buildpack-select-subdir</kbd></li>
+          <li>Set build pack 2: <kbd>heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#v133 -a mts-http-server</kbd></li>
+          <li>Configure build pack: <kbd>heroku config:add BUILDPACK='packages/server=https://github.com/heroku/heroku-buildpack-nodejs#v133' -a mts-http-server</kbd></li>
+          <li>Add environment variable(s): <kbd>heroku config:add PORT='3001' -a mts-http-server</kbd></li>
+          <li>Deploy: <kbd>git push heroku master</kbd></li>
+          <li>Monitor: <kbd>heroku logs --tail</kbd></li>
+          <li>Check app: <kbd>https://mts-http-server.herokuapp.com/</kbd></li>
+          <li>Help: <kbd>https://help.heroku.com/P1AVPANS/why-is-my-node-js-app-crashing-with-an-r10-error</kbd></li>
+          <li>Clone: <kbd>heroku git:clone -a mts-http-server</kbd></li>
+        </ul>
+      </li>
+    </ul>
+  </blockquote>
+</details>
