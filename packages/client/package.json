@@ -27,7 +27,8 @@
   "scripts": {
     "start": "nodemon --watch webpack.settings.js --watch webpack.common.js --watch webpack.dev.js --exec \"webpack-dev-server --config webpack.dev.js\"",
     "serve": "echo \"No serve specified\" && exit 0",
-    "build": "webpack --config webpack.prod.js --progress --hide-modules",
+    "make-404-page": "cp build/index.html build/404.html",
+    "build": "webpack --config webpack.prod.js --progress --hide-modules && npm run make-404-page",
     "release": "npm publish",
     "uninstall-packages": "rm -rf node_modules package-lock.json",
     "install-packages": "npm install",
