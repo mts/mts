@@ -747,6 +747,40 @@
   </blockquote>
 </details>
 
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 CI / CD</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <details>
+      <summary style="color: #006400;">Continuous integration service</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Travis CI</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Check out <a style="color: #006400;" href="https://docs.travis-ci.com/"> documentation</a> by Travis CI</li>
+              <li>Check out <a style="color: #006400;" href="https://travis-ci.org/mts/mts">builds</a> at Travis CI</li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>    
+    <details>
+      <summary style="color: #006400;">Branching Model</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Git Flow</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Check out <a style="color: #006400;" href="https://blog.axosoft.com/gitflow/">Gitflow </a> documentation by Axasoft</li>
+              <li>Check out <a style="color: #006400;" href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">Gitflow </a> documentation by Atlassian</li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </blockquote>
+</details>
+
 ## Client
 
 - ReactJS, ReduxJS Client
