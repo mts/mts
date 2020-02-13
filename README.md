@@ -206,7 +206,7 @@
                 <ul>
                   <li>"lint:format": "npm-run-all lint format"</li>
                   <li>"lint": "npm-run-all lint:js:jsx lint:scss"</li>
-                  <li>"lint:js:jsx": "eslint --ext .js --ext .jsx packages/**/src/**/*.{js,jsx} --fix"</li>
+                  <li>"lint:js:jsx": "eslint --ext .js --ext .jsx packages/**/src --fix"</li>
                 </ul>
               </li>
               <li>Information: <strong><em>Linting scripts meant for JavaScript files recursively go through all js, jsx files under the src directory checking if the source code conforms to ESLint linting rules, applying auto fixes if possible and outputs all other violations through the console.</em></strong></li>
@@ -236,7 +236,7 @@
                   <ul>
                     <li>"lint:format": "npm-run-all lint format"</li>
                     <li>"lint": "npm-run-all lint:js:jsx lint:scss"</li>
-                    <li>"lint:scss": "stylelint \"packages/**/src/**/*.scss\" --syntax=scss --fix"</li>
+                    <li>"lint:scss": "stylelint \"packages/**/src/**/*.{css,scss}\" --syntax=scss --fix"</li>
                   </ul>
               </li>
               <li>Information: <strong><em>Linting scripts meant for Sass files recursively go through all scss files under the src directory checking if the source code conforms to Stylelint linting rules, applying auto fixes if possible and outputs all other violations through the console.</em></strong></li>
@@ -268,7 +268,7 @@
                 <ul>
                   <li>"format": "npm-run-all format:js:jsx format:scss"</li>
                   <li>"format:js:jsx": "prettier --write \"packages/**/src/**/*.{js,jsx}\""</li>
-                  <li>"format:scss": "prettier --write \"packages/**/src/**/*.scss\""</li>
+                  <li>"format:scss": "prettier --write \"packages/**/src/**/*.{css,scss}\""</li>
                 </ul>
               </li>
               <li>Information: <strong><em>Code formatting scripts meant for JavaScript and Sass files recursively go through all js, jsx and scss files under the src directory enforcing a consistent style by parsing code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.</em></strong></li>
@@ -297,6 +297,248 @@
               </li>
               <li>Script(s) in project's package.json: n/a</li>
               <li>Information: <strong><em>File formatting configuration helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs</em></strong></li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </blockquote>
+</details>
+
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 Compiling</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <details>
+      <summary style="color: #006400;">Transpiling</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Babel</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Package(s): <a style="color: #006400;" href="https://github.com/babel/babel">babel</a> repository on GitHub</li>
+              <li>Setup file(s):
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/babel.config.js">babel.config.js</a> for <a href="https://jestjs.io/docs/en/getting-started#using-babel">Jest</a>,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.common.js">webpack.common.js</a> for regular build,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.storybook/.babelrc">.babelrc</a> for storybook build
+              </li>
+              <li>Script(s) in project's package.json:
+                <ul>
+                  <li>"build": "lerna run build --stream"</li>
+                  <li>"build-storybook": "NODE_ENV=develop build-storybook -c .storybook -o .storybook-static",</li>
+                </ul>
+              </li>
+              <li>Information: <strong><em>JavaScript code which eventually goes into the bundle needs to be compiled from ES6 to Vanilla JavaScript to be compiled and executed by a browser</em></strong></li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+    <details>
+      <summary style="color: #006400;">Bundling</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Webpack</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Package(s): <a style="color: #006400;" href="https://github.com/webpack/webpack">webpack</a> repository on GitHub</li>
+              <li>Setup file(s):
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.settings.js">webpack.settings.js</a>,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.common.js">webpack.common.js</a> shared by regular development and production builds,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.dev.js">webpack.dev.js</a> for regular development build,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.prod.js">webpack.prod.js</a> for regular production build,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.storybook/webpack.config.js">webpack.config.js</a> for storybook build
+              </li>
+              <li>Script(s) in project's package.json:
+                <ul>
+                  <li>"build": "webpack --config ./webpack/webpack-build.babel.js --mode=production"</li>
+                  <li>"build-storybook": "NODE_ENV=develop build-storybook -c .storybook -o .storybook-static"</li>
+                </ul>
+              </li>
+              <li>Information: <strong><em>JavaScript and Sass code along with static assets need to be loaded into or next to javascript and css bundles in a bundle output directory by a variety of loaders such as babel-loader, style-loader, css-loader, sass-loader, postcss-loader, file-loader and url-loader to be requested by a browser. Following loaders target specific file types during the bundling process</em></strong>
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </blockquote>
+</details>
+
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 Cross Browser Compatibility</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <details>
+      <summary style="color: #006400;">ECMAScript Features</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 ES6 / ES2015</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>
+                From var to const/let: 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const">const</a> and 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let">let</a><br>
+                const > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                let > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer 🌦<br>
+                Transpiled ✓, Safe to use ✅
+              </li>
+              <li>
+                From objects to Maps: 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">Array.prototype.map()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                Polyfilled if not native ✓ Safe to use ✅
+              </li>
+              <li>
+                New Array methods: 
+                <ul>
+                  <li>From 
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexof">Array.prototype.indexOf()</a> to 
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex">Array.prototype.findIndex()</a><br>
+                    indexOf > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                    findIndex > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                  <li>
+                    From 
+                      <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice">Array.prototype.slice()</a> to 
+                      <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from">Array.from() or the spread operator</a><br>
+                      Array.prototype.slice() > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                      Array.from() > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                      Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                  <li>From 
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array.apply()</a> to 
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill">Array.prototype.fill()</a><br>
+                    Array.apply() > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                    Array.prototype.fill() > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                </ul>
+              </li>
+              <li>
+                From CommonJS modules to ES6 modules: 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules">JavaScript modules</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Transpiled ✓, Safe to use ✅
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+        <details>
+          <summary style="color: #006400;">📜 ES7 / ES2016</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes">Array.prototype.includes()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Exponentiation">Exponentiation operator (**)</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Transpiled ✓, Safe to use ✅
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+        <details>
+          <summary style="color: #006400;">📜 ES8 / ES2017</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function">Async functions</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Transpiled ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries">Object.entries()</a> and 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values">Object.values()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+              <li>
+                New string methods:
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart">String.prototype.padStart()</a> and 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd">String.prototype.padEnd()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptors">Object.getOwnPropertyDescriptors()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas">Trailing commas in function parameter lists and calls</a><br>
+                Trailing commas > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                Trailing commas in functions > Chrome ✓, Firefox ✓, Safari ╳, Edge ╳, Internet Explorer ╳<br>
+                Trailing commas in object literals > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                Transpiled ✓, Safe to use ✅
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+        <details>
+          <summary style="color: #006400;">📜 ES9 / ES2018</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax">Spread syntax</a> and 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Rest_syntax_parameters">Rest syntax (parameters)</a><br>
+                Spread in array literals > Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                Spread in function calls > Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                Spread in destructuring > Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                Spread in object literalsExperimental > Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                Transpiled ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally">Promise.prototype.finally()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+        <details>
+          <summary style="color: #006400;">📜 ES10 / ES2019</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>ES10 / ES2019
+                <ul>
+                  <li>
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat">Array.prototype.flat()</a> and 
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap">Array.prototype.flatMap()</a><br>
+                    Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                  <li>
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries">Object.fromEntries()</a><br>
+                    Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                  <li>
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart">String.prototype.trimStart()</a> and 
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd">String.prototype.trimEnd()</a><br>
+                    Chrome ✓, Firefox ✓, Safari ✓, Edge ?, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                  <li>
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch">Optional catch binding</a><br>
+                    Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                    Transpiled ✓, Safe to use ✅
+                  </li>
+                  <li>
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">Array.prototype.sort()</a><br>
+                    Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                  <li>
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString">Function.prototype.toString() revision</a><br>
+                    Chrome ╳, Firefox ✓, Safari ╳, Edge ╳, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                </ul>
+              </li>
             </ul>
           </blockquote>
         </details>
