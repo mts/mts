@@ -75,6 +75,9 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
     </ul>
     <nav
       className="nav"
+      itemScope=""
+      itemType="http://schema.org/SiteNavigationElement"
+      role="navigation"
     >
       <div
         className="navBar"
@@ -111,6 +114,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           className="navBarMobileToggle"
         >
           <button
+            aria-label="Toggle Mobile Navigation Open/Close"
             className="navBarMobileToggleButton"
             onClick={[Function]}
             type="button"
