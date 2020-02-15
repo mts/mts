@@ -1,3 +1,4 @@
+/* stylelint-disable */
 body,
 html {
   margin: 0;
@@ -7,7 +8,8 @@ html {
   letter-spacing: -0.003em;
   line-height: 1.58;
   color: #333;
-}
+} // 👍
+/* stylelint-enable */
 
 body,
 button,
@@ -15,47 +17,19 @@ html,
 input,
 textarea {
   font-size: 16px;
-}
-
-ol,
-ul {
-  margin: 20px 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: #823eb7;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #333;
-}
-
-a:visited path,
-a:visited svg {
-  fill: #333;
-  stroke: #333;
-}
-
-li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+} // 👍
 
 h1 {
   text-align: center;
   font-size: 30px;
   font-weight: 400;
   margin-top: 20px;
-}
+} // 👍
 
 h1,
 h2 {
   margin-bottom: 10px;
-}
+} // 👍
 
 h2 {
   text-transform: uppercase;
@@ -64,20 +38,29 @@ h2 {
   font-weight: 300;
   line-height: 1.1;
   margin-top: 0;
-}
+} // 👍
 
 h3 {
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: 600;
-}
+} // 👍
 
 h4 {
   margin: 0 0 10px;
   font-size: 20px;
   font-weight: 500;
-}
+} // 👍
+
+small {
+  font-size: 14px;
+} // 👍
+
+input,
+small {
+  color: #545454;
+} // 👍
 
 input {
   background-color: #fff;
@@ -87,13 +70,89 @@ input {
   -webkit-appearance: none;
   padding: 8px;
   display: inline-block;
+} // 👍
+
+input:focus {
+  outline: none;
+  border-width: 1px;
+  border-color: #823eb7;
 }
 
-input,
-small {
-  color: #545454;
+ol,
+ul {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+} // 👍
+
+li > ul {
+  margin: 0 20px;
 }
 
-small {
-  font-size: 14px;
+ul ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+} // 👍
+
+a {
+  color: #823eb7;
+  text-decoration: none;
+} // 👍
+
+a path,
+a svg {
+  fill: #333;
+  stroke: #333;
+} // 👍
+
+a:visited {
+  color: #823eb7;
+} // 👍
+
+a:visited path,
+a:visited svg {
+  fill: #333;
+  stroke: #333;
+} // 👍
+
+a.primary,
+a:hover.primary,
+a:visited.primary {
+  color: #823eb7;
+}
+
+a.primary path,
+a.primary svg,
+a:hover.primary path,
+a:hover.primary svg,
+a:visited.primary path,
+a:visited.primary svg {
+  fill: #823eb7;
+  stroke: #823eb7;
+}
+
+a:hover {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-decoration: underline;
+}
+
+/* stylelint-disable */
+a:hover path,
+a:hover svg {
+  fill: #823eb7;
+  stroke: #823eb7;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/* stylelint-enable */
+
+code {
+  white-space: pre-wrap !important;
 }

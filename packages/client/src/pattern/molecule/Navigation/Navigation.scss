@@ -1,3 +1,5 @@
+@import '../../../../../library/src/sass/mixin';
+
 .nav {
   background-color: transparent;
   box-shadow: none;
@@ -57,14 +59,26 @@
           margin-bottom: 20px;
         }
 
+        a:hover {
+          color: #bc67ff;
+        }
+
         &Link {
           text-transform: uppercase;
           letter-spacing: 3.5px;
           font-weight: 200;
           color: #fff;
 
+          &:visited {
+            color: #fff;
+          }
+
           &Sticky {
             color: #333;
+
+            &:visited {
+              color: #333;
+            }
           }
         }
       }
@@ -79,23 +93,29 @@
       }
 
       &Button {
-        // button module base
-        color: #823eb7;
-        background-color: #fff;
-        border: 1px solid #823eb7;
-        font-size: 13px;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        padding: 6px 12px;
-        margin-bottom: 0;
-        line-height: 1.42857143;
-        border-radius: 0;
-        text-align: center;
-        white-space: nowrap;
-        vertical-align: middle;
-        cursor: pointer;
-        -webkit-transition: all 0.2s ease;
-        transition: all 0.2s ease;
+        @include buttonModuleBase;
+
+        path,
+        svg {
+          fill: #823eb7;
+          stroke: #823eb7;
+        }
+
+        &:hover:enabled {
+          color: #fff;
+          background-color: #823eb7;
+          border-color: #823eb7;
+        }
+
+        &:hover:enabled path {
+          fill: #fff;
+          stroke: #fff;
+        }
+
+        &:hover:enabled svg {
+          fill: #fff;
+          stroke: #fff;
+        }
       }
     }
   }

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CoursesPage /> Snaphot must match asyncRender 1`] = `null`;
+
+exports[`<CoursesPage /> Snaphot must match defaultRender 1`] = `
+<div
+  className=""
+>
+  <div
+    className="coursesTemplate"
+  >
+    CoursesTemplate under construction.
+  </div>
+</div>
+`;

@@ -1,5 +1,3 @@
-import { data } from '../../../http-server/src/data'
-
 export const mockAppState = {
   context: {
     isRunningOnLocalHost: true,
@@ -11,8 +9,5 @@ export const mockAppState = {
       github: {},
     },
   },
-  ui: {
-    homePageData: data.uiData.homePageData,
-    notFoundPageData: data.uiData.notFoundPageData,
-  },
+  ui: {},
 }

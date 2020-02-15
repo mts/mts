@@ -38,7 +38,12 @@ export function BlogMain({ className }) {
   })
 
   return (
-    <main className={className} style={{ marginTop: '55px', display: 'flex', justifyContent: 'center' }}>
+    <main
+      itemScope=""
+      itemProp="mainContentOfPage"
+      className={className}
+      style={{ marginTop: '55px', display: 'flex', justifyContent: 'center' }}
+    >
       <div className={container1}>
         <section itemScope itemType="http://schema.org/Blog">
           <H2 href="/categories/recent" text="Recent articles" />

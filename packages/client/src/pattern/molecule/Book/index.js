@@ -9,13 +9,22 @@ import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
 
 export function Book({ className }) {
+  const bookCoverImgSrc = !windowObjectExists ? 'mts/static/bookcover.jpg' : BookCover
+
   return (
     <div className={cx(className, topBorder)}>
       <div className={container1}>
         <div className={container1Image}>
-          <div style={{ width: '100%', paddingBottom: '75%' }} />
+          <div style={{ width: '100%', paddingBottom: '100%' }} />
           <picture>
-            <img src={!windowObjectExists ? 'mts/static/bookcover.jpg' : BookCover} alt="banner" />
+            <source srcSet={`${bookCoverImgSrc} 256w, ${bookCoverImgSrc} 320w`} sizes="(max-width: 320px) 100vw, 320px" />
+            <img
+              sizes="(max-width: 320px) 100vw, 320px"
+              srcSet={`${bookCoverImgSrc} 256w, ${bookCoverImgSrc} 320w`}
+              src={bookCoverImgSrc}
+              alt="book cover"
+              loading="lazy"
+            />
           </picture>
         </div>
         <div className={container1Info}>

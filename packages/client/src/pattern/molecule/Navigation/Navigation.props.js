@@ -1,4 +1,4 @@
-import { string, object } from 'prop-types'
+import { string, object, func } from 'prop-types'
 
 export const navigationDefaultProps = {
   className: '',
@@ -7,4 +7,8 @@ export const navigationDefaultProps = {
 export const navigationPropTypes = {
   className: string,
   ui: object.isRequired,
+}
+
+export const mobileToggleButtonPropTypes = {
+  onClick: func.isRequired,
 }

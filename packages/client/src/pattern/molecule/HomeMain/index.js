@@ -29,6 +29,7 @@ import {
   container1PortfolioItems,
   container1PortfolioItemsItem,
   container1PortfolioItemsItemImage,
+  container1PortfolioItemsItemImageContainer1,
   container1PortfolioItemsItemCaption,
   container1Timeline,
   container1TimelineSectionHeader,
@@ -84,14 +85,50 @@ export function HomeMain({ className }) {
     handleStickyNavBar()
   })
 
+  const coverImgSrc = !windowObjectExists ? 'mts/static/cover.jpg' : Cover
+  const meImgSrc = !windowObjectExists ? 'mts/static/me.jpg' : Me
+
+  const portfolio1ImgSrc = !windowObjectExists ? 'mts/static/portfolio-1.jpg' : PortfolioOne
+  const portfolio2ImgSrc = !windowObjectExists ? 'mts/static/portfolio-2.jpg' : PortfolioTwo
+  const portfolio3ImgSrc = !windowObjectExists ? 'mts/static/portfolio-3.jpg' : PortfolioThree
+
+  const timeline1ImgSrc = !windowObjectExists ? 'mts/static/timeline-1.jpg' : TimelineOne
+  const timeline2ImgSrc = !windowObjectExists ? 'mts/static/timeline-2.jpg' : TimelineTwo
+  const timeline3ImgSrc = !windowObjectExists ? 'mts/static/timeline-3.jpg' : TimelineThree
+  const timeline4ImgSrc = !windowObjectExists ? 'mts/static/timeline-4.jpg' : TimelineFour
+  const timeline5ImgSrc = !windowObjectExists ? 'mts/static/timeline-5.jpg' : TimelineFive
+  const timeline6ImgSrc = !windowObjectExists ? 'mts/static/timeline-6.jpg' : TimelineSix
+  const timeline7ImgSrc = !windowObjectExists ? 'mts/static/timeline-7.jpg' : TimelineSeven
+  const timeline8ImgSrc = !windowObjectExists ? 'mts/static/timeline-8.jpg' : TimelineEight
+  const timeline9ImgSrc = !windowObjectExists ? 'mts/static/timeline-9.jpg' : TimelineNine
+
+  const testimonial1ImgSrc = !windowObjectExists ? 'mts/static/testimonial-1.jpg' : TestimonialOne
+  const testimonial2ImgSrc = !windowObjectExists ? 'mts/static/testimonial-2.jpg' : TestimonialTwo
+  const testimonial3ImgSrc = !windowObjectExists ? 'mts/static/testimonial-3.jpg' : TestimonialThree
+  const testimonial4ImgSrc = !windowObjectExists ? 'mts/static/testimonial-4.jpg' : TestimonialFour
+  const testimonial5ImgSrc = !windowObjectExists ? 'mts/static/testimonial-5.jpg' : TestimonialFive
+  const testimonial6ImgSrc = !windowObjectExists ? 'mts/static/testimonial-6.jpg' : TestimonialSix
+
   return (
-    <main className={className} style={{ marginTop: '0', display: 'flex', justifyContent: 'center' }}>
+    <main
+      itemScope=""
+      itemProp="mainContentOfPage"
+      className={className}
+      style={{ marginTop: '0', display: 'flex', justifyContent: 'center' }}
+    >
       <div className={container1}>
         <div className={container1Background}>
           <div className={container1BackgroundImage}>
             <div style={{ width: '100%', paddingBottom: '66.6992%' }} />
             <picture>
-              <img src={!windowObjectExists ? 'mts/static/cover.jpg' : Cover} alt="cover" />
+              <source srcSet={`${coverImgSrc} 256w, ${coverImgSrc} 512w, ${coverImgSrc} 1024w`} sizes="(max-width: 1024px) 100vw, 1024px" />
+              <img
+                sizes="(max-width: 1024px) 100vw, 1024px"
+                srcSet={`${coverImgSrc} 256w, ${coverImgSrc} 512w, ${coverImgSrc} 1024w`}
+                src={coverImgSrc}
+                alt="cover"
+                loading="lazy"
+              />
             </picture>
           </div>
           <div className={container1BackgroundDimmer} />
@@ -110,7 +147,14 @@ export function HomeMain({ className }) {
             <div className={container1AboutImageContainer1}>
               <div style={{ width: '100%', paddingBottom: '100%' }} />
               <picture>
-                <img src={!windowObjectExists ? 'mts/static/me.jpg' : Me} alt="me" />
+                <source srcSet={`${meImgSrc} 80w, ${meImgSrc} 160w, ${meImgSrc} 240w`} sizes="(max-width: 240px) 100vw, 240px" />
+                <img
+                  sizes="(max-width: 240px) 100vw, 240px"
+                  srcSet={`${meImgSrc} 80w, ${meImgSrc} 160w, ${meImgSrc} 240w`}
+                  src={meImgSrc}
+                  alt="me"
+                  loading="lazy"
+                />
               </picture>
             </div>
           </div>
@@ -228,9 +272,22 @@ export function HomeMain({ className }) {
                 aria-label="Portfolio Link: https://mtsonlinecourses.com"
               >
                 <div className={container1PortfolioItemsItemImage}>
-                  <picture>
-                    <img src={!windowObjectExists ? 'mts/static/portfolio-1.jpg' : PortfolioOne} alt="portfolio one" />
-                  </picture>
+                  <div className={container1PortfolioItemsItemImageContainer1}>
+                    <div style={{ width: '100%', paddingBottom: '62.3438%' }} />
+                    <picture>
+                      <source
+                        srcSet={`${portfolio1ImgSrc} 75w, ${portfolio1ImgSrc} 150w, ${portfolio1ImgSrc} 300w, ${portfolio1ImgSrc} 450w, ${portfolio1ImgSrc} 600w, ${portfolio1ImgSrc} 640w`}
+                        sizes="(max-width: 300px) 100vw, 300px"
+                      />
+                      <img
+                        sizes="(max-width: 300px) 100vw, 300px"
+                        srcSet={`${portfolio1ImgSrc} 75w, ${portfolio1ImgSrc} 150w, ${portfolio1ImgSrc} 300w, ${portfolio1ImgSrc} 450w, ${portfolio1ImgSrc} 600w, ${portfolio1ImgSrc} 640w`}
+                        src={portfolio1ImgSrc}
+                        alt="portfolio one"
+                        loading="lazy"
+                      />
+                    </picture>
+                  </div>
                 </div>
                 <div className={container1PortfolioItemsItemCaption}>
                   <h4>Online Courses</h4>
@@ -246,9 +303,22 @@ export function HomeMain({ className }) {
                 aria-label="Portfolio Link: https://www.github.com/mts"
               >
                 <div className={container1PortfolioItemsItemImage}>
-                  <picture>
-                    <img src={!windowObjectExists ? 'mts/static/portfolio-2.jpg' : PortfolioTwo} alt="portfolio two" />
-                  </picture>
+                  <div className={container1PortfolioItemsItemImageContainer1}>
+                    <div style={{ width: '100%', paddingBottom: '62.3438%' }} />
+                    <picture>
+                      <source
+                        srcSet={`${portfolio2ImgSrc} 75w, ${portfolio2ImgSrc} 150w, ${portfolio2ImgSrc} 300w, ${portfolio2ImgSrc} 450w, ${portfolio2ImgSrc} 600w, ${portfolio2ImgSrc} 640w`}
+                        sizes="(max-width: 300px) 100vw, 300px"
+                      />
+                      <img
+                        sizes="(max-width: 300px) 100vw, 300px"
+                        srcSet={`${portfolio2ImgSrc} 75w, ${portfolio2ImgSrc} 150w, ${portfolio2ImgSrc} 300w, ${portfolio2ImgSrc} 450w, ${portfolio2ImgSrc} 600w, ${portfolio2ImgSrc} 640w`}
+                        src={portfolio2ImgSrc}
+                        alt="portfolio two"
+                        loading="lazy"
+                      />
+                    </picture>
+                  </div>
                 </div>
                 <div className={container1PortfolioItemsItemCaption}>
                   <h4>Open Source</h4>
@@ -259,9 +329,22 @@ export function HomeMain({ className }) {
             <li className={container1PortfolioItemsItem}>
               <a href="/blog" target="_blank" rel="noopener noreferrer" aria-label="Portfolio Link: /blog">
                 <div className={container1PortfolioItemsItemImage}>
-                  <picture>
-                    <img src={!windowObjectExists ? 'mts/static/portfolio-3.jpg' : PortfolioThree} alt="portfolio three" />
-                  </picture>
+                  <div className={container1PortfolioItemsItemImageContainer1}>
+                    <div style={{ width: '100%', paddingBottom: '62.3438%' }} />
+                    <picture>
+                      <source
+                        srcSet={`${portfolio3ImgSrc} 75w, ${portfolio3ImgSrc} 150w, ${portfolio3ImgSrc} 300w, ${portfolio3ImgSrc} 450w, ${portfolio3ImgSrc} 600w, ${portfolio3ImgSrc} 640w`}
+                        sizes="(max-width: 300px) 100vw, 300px"
+                      />
+                      <img
+                        sizes="(max-width: 300px) 100vw, 300px"
+                        srcSet={`${portfolio3ImgSrc} 75w, ${portfolio3ImgSrc} 150w, ${portfolio3ImgSrc} 300w, ${portfolio3ImgSrc} 450w, ${portfolio3ImgSrc} 600w, ${portfolio3ImgSrc} 640w`}
+                        src={portfolio3ImgSrc}
+                        alt="portfolio three"
+                        loading="lazy"
+                      />
+                    </picture>
+                  </div>
                 </div>
                 <div className={container1PortfolioItemsItemCaption}>
                   <h4>Tutorials</h4>
@@ -282,7 +365,17 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/timeline-1.jpg' : TimelineOne} alt="timeline one" />
+                    <source
+                      srcSet={`${timeline1ImgSrc} 60w, ${timeline1ImgSrc} 120w, ${timeline1ImgSrc} 240w, ${timeline1ImgSrc} 360w, ${timeline1ImgSrc} 450w`}
+                      sizes="(max-width: 240px) 100vw, 240px"
+                    />
+                    <img
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet={`${timeline1ImgSrc} 60w, ${timeline1ImgSrc} 120w, ${timeline1ImgSrc} 240w, ${timeline1ImgSrc} 360w, ${timeline1ImgSrc} 450w`}
+                      src={timeline1ImgSrc}
+                      alt="timeline one"
+                      loading="lazy"
+                    />
                   </picture>
                 </div>
               </div>
@@ -299,7 +392,17 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/timeline-2.jpg' : TimelineTwo} alt="timeline two" />
+                    <source
+                      srcSet={`${timeline2ImgSrc} 60w, ${timeline2ImgSrc} 120w, ${timeline2ImgSrc} 240w, ${timeline2ImgSrc} 360w, ${timeline2ImgSrc} 450w`}
+                      sizes="(max-width: 240px) 100vw, 240px"
+                    />
+                    <img
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet={`${timeline2ImgSrc} 60w, ${timeline2ImgSrc} 120w, ${timeline2ImgSrc} 240w, ${timeline2ImgSrc} 360w, ${timeline2ImgSrc} 450w`}
+                      src={timeline2ImgSrc}
+                      alt="timeline two"
+                      loading="lazy"
+                    />
                   </picture>
                 </div>
               </div>
@@ -316,7 +419,17 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/timeline-3.jpg' : TimelineThree} alt="timeline three" />
+                    <source
+                      srcSet={`${timeline3ImgSrc} 60w, ${timeline3ImgSrc} 120w, ${timeline3ImgSrc} 240w, ${timeline3ImgSrc} 360w, ${timeline3ImgSrc} 450w`}
+                      sizes="(max-width: 240px) 100vw, 240px"
+                    />
+                    <img
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet={`${timeline3ImgSrc} 60w, ${timeline3ImgSrc} 120w, ${timeline3ImgSrc} 240w, ${timeline3ImgSrc} 360w, ${timeline3ImgSrc} 450w`}
+                      src={timeline3ImgSrc}
+                      alt="timeline three"
+                      loading="lazy"
+                    />
                   </picture>
                 </div>
               </div>
@@ -333,7 +446,17 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/timeline-4.jpg' : TimelineFour} alt="timeline four" />
+                    <source
+                      srcSet={`${timeline4ImgSrc} 60w, ${timeline4ImgSrc} 120w, ${timeline4ImgSrc} 240w, ${timeline4ImgSrc} 360w, ${timeline4ImgSrc} 450w`}
+                      sizes="(max-width: 240px) 100vw, 240px"
+                    />
+                    <img
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet={`${timeline4ImgSrc} 60w, ${timeline4ImgSrc} 120w, ${timeline4ImgSrc} 240w, ${timeline4ImgSrc} 360w, ${timeline4ImgSrc} 450w`}
+                      src={timeline4ImgSrc}
+                      alt="timeline four"
+                      loading="lazy"
+                    />
                   </picture>
                 </div>
               </div>
@@ -350,7 +473,17 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/timeline-5.jpg' : TimelineFive} alt="timeline five" />
+                    <source
+                      srcSet={`${timeline5ImgSrc} 60w, ${timeline5ImgSrc} 120w, ${timeline5ImgSrc} 240w, ${timeline5ImgSrc} 360w, ${timeline5ImgSrc} 450w`}
+                      sizes="(max-width: 240px) 100vw, 240px"
+                    />
+                    <img
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet={`${timeline5ImgSrc} 60w, ${timeline5ImgSrc} 120w, ${timeline5ImgSrc} 240w, ${timeline5ImgSrc} 360w, ${timeline5ImgSrc} 450w`}
+                      src={timeline5ImgSrc}
+                      alt="timeline five"
+                      loading="lazy"
+                    />
                   </picture>
                 </div>
               </div>
@@ -367,7 +500,17 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/timeline-6.jpg' : TimelineSix} alt="timeline six" />
+                    <source
+                      srcSet={`${timeline6ImgSrc} 60w, ${timeline6ImgSrc} 120w, ${timeline6ImgSrc} 240w, ${timeline6ImgSrc} 360w, ${timeline6ImgSrc} 450w`}
+                      sizes="(max-width: 240px) 100vw, 240px"
+                    />
+                    <img
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet={`${timeline6ImgSrc} 60w, ${timeline6ImgSrc} 120w, ${timeline6ImgSrc} 240w, ${timeline6ImgSrc} 360w, ${timeline6ImgSrc} 450w`}
+                      src={timeline6ImgSrc}
+                      alt="timeline six"
+                      loading="lazy"
+                    />
                   </picture>
                 </div>
               </div>
@@ -384,7 +527,17 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/timeline-7.jpg' : TimelineSeven} alt="timeline seven" />
+                    <source
+                      srcSet={`${timeline7ImgSrc} 60w, ${timeline7ImgSrc} 120w, ${timeline7ImgSrc} 240w, ${timeline7ImgSrc} 360w, ${timeline7ImgSrc} 450w`}
+                      sizes="(max-width: 240px) 100vw, 240px"
+                    />
+                    <img
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet={`${timeline7ImgSrc} 60w, ${timeline7ImgSrc} 120w, ${timeline7ImgSrc} 240w, ${timeline7ImgSrc} 360w, ${timeline7ImgSrc} 450w`}
+                      src={timeline7ImgSrc}
+                      alt="timeline seven"
+                      loading="lazy"
+                    />
                   </picture>
                 </div>
               </div>
@@ -401,7 +554,17 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/timeline-8.jpg' : TimelineEight} alt="timeline eight" />
+                    <source
+                      srcSet={`${timeline8ImgSrc} 60w, ${timeline8ImgSrc} 120w, ${timeline8ImgSrc} 240w, ${timeline8ImgSrc} 360w, ${timeline8ImgSrc} 450w`}
+                      sizes="(max-width: 240px) 100vw, 240px"
+                    />
+                    <img
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet={`${timeline8ImgSrc} 60w, ${timeline8ImgSrc} 120w, ${timeline8ImgSrc} 240w, ${timeline8ImgSrc} 360w, ${timeline8ImgSrc} 450w`}
+                      src={timeline8ImgSrc}
+                      alt="timeline eight"
+                      loading="lazy"
+                    />
                   </picture>
                 </div>
               </div>
@@ -418,7 +581,17 @@ export function HomeMain({ className }) {
                 <div className={container1TimelineItemsItemMemoryImageContainer}>
                   <div style={{ width: '100%', paddingBottom: '100%' }} />
                   <picture>
-                    <img src={!windowObjectExists ? 'mts/static/timeline-9.jpg' : TimelineNine} alt="timeline nine" />
+                    <source
+                      srcSet={`${timeline9ImgSrc} 60w, ${timeline9ImgSrc} 120w, ${timeline9ImgSrc} 240w, ${timeline9ImgSrc} 360w, ${timeline9ImgSrc} 450w`}
+                      sizes="(max-width: 240px) 100vw, 240px"
+                    />
+                    <img
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet={`${timeline9ImgSrc} 60w, ${timeline9ImgSrc} 120w, ${timeline9ImgSrc} 240w, ${timeline9ImgSrc} 360w, ${timeline9ImgSrc} 450w`}
+                      src={timeline9ImgSrc}
+                      alt="timeline nine"
+                      loading="lazy"
+                    />
                   </picture>
                 </div>
               </div>
@@ -458,6 +631,19 @@ export function HomeMain({ className }) {
                   <div className={container1TestItemsItemImageContainer}>
                     <div style={{ width: '100%', paddingBottom: '100%' }} />
                     <picture>
+                      <source
+                        srcSet={`${testimonial1ImgSrc} 50w, ${testimonial1ImgSrc} 100w, ${testimonial1ImgSrc} 200w, ${testimonial1ImgSrc} 300w, ${testimonial1ImgSrc} 400w`}
+                        sizes="(max-width: 200px) 100vw, 200px"
+                      />
+                      <img
+                        sizes="(max-width: 200px) 100vw, 200px"
+                        srcSet={`${testimonial1ImgSrc} 50w, ${testimonial1ImgSrc} 100w, ${testimonial1ImgSrc} 200w, ${testimonial1ImgSrc} 300w, ${testimonial1ImgSrc} 400w`}
+                        src={testimonial1ImgSrc}
+                        alt="testimonial one"
+                        loading="lazy"
+                      />
+                    </picture>
+                    <picture>
                       <img src={!windowObjectExists ? 'mts/static/testimonial-1.jpg' : TestimonialOne} alt="test one" />
                     </picture>
                   </div>
@@ -480,7 +666,17 @@ export function HomeMain({ className }) {
                   <div className={container1TestItemsItemImageContainer}>
                     <div style={{ width: '100%', paddingBottom: '100%' }} />
                     <picture>
-                      <img src={!windowObjectExists ? 'mts/static/testimonial-2.jpg' : TestimonialTwo} alt="test two" />
+                      <source
+                        srcSet={`${testimonial2ImgSrc} 50w, ${testimonial2ImgSrc} 100w, ${testimonial2ImgSrc} 200w, ${testimonial2ImgSrc} 300w, ${testimonial2ImgSrc} 400w`}
+                        sizes="(max-width: 200px) 100vw, 200px"
+                      />
+                      <img
+                        sizes="(max-width: 200px) 100vw, 200px"
+                        srcSet={`${testimonial2ImgSrc} 50w, ${testimonial2ImgSrc} 100w, ${testimonial2ImgSrc} 200w, ${testimonial2ImgSrc} 300w, ${testimonial2ImgSrc} 400w`}
+                        src={testimonial2ImgSrc}
+                        alt="testimonial two"
+                        loading="lazy"
+                      />
                     </picture>
                   </div>
                 </div>
@@ -502,7 +698,17 @@ export function HomeMain({ className }) {
                   <div className={container1TestItemsItemImageContainer}>
                     <div style={{ width: '100%', paddingBottom: '100%' }} />
                     <picture>
-                      <img src={!windowObjectExists ? 'mts/static/testimonial-3.jpg' : TestimonialThree} alt="test two" />
+                      <source
+                        srcSet={`${testimonial3ImgSrc} 50w, ${testimonial3ImgSrc} 100w, ${testimonial3ImgSrc} 200w, ${testimonial3ImgSrc} 300w, ${testimonial3ImgSrc} 400w`}
+                        sizes="(max-width: 200px) 100vw, 200px"
+                      />
+                      <img
+                        sizes="(max-width: 200px) 100vw, 200px"
+                        srcSet={`${testimonial3ImgSrc} 50w, ${testimonial3ImgSrc} 100w, ${testimonial3ImgSrc} 200w, ${testimonial3ImgSrc} 300w, ${testimonial3ImgSrc} 400w`}
+                        src={testimonial3ImgSrc}
+                        alt="testimonial three"
+                        loading="lazy"
+                      />
                     </picture>
                   </div>
                 </div>
@@ -524,7 +730,17 @@ export function HomeMain({ className }) {
                   <div className={container1TestItemsItemImageContainer}>
                     <div style={{ width: '100%', paddingBottom: '100%' }} />
                     <picture>
-                      <img src={!windowObjectExists ? 'mts/static/testimonial-4.jpg' : TestimonialFour} alt="test four" />
+                      <source
+                        srcSet={`${testimonial4ImgSrc} 50w, ${testimonial4ImgSrc} 100w, ${testimonial4ImgSrc} 200w, ${testimonial4ImgSrc} 300w, ${testimonial4ImgSrc} 400w`}
+                        sizes="(max-width: 200px) 100vw, 200px"
+                      />
+                      <img
+                        sizes="(max-width: 200px) 100vw, 200px"
+                        srcSet={`${testimonial4ImgSrc} 50w, ${testimonial4ImgSrc} 100w, ${testimonial4ImgSrc} 200w, ${testimonial4ImgSrc} 300w, ${testimonial4ImgSrc} 400w`}
+                        src={testimonial4ImgSrc}
+                        alt="testimonial four"
+                        loading="lazy"
+                      />
                     </picture>
                   </div>
                 </div>
@@ -546,7 +762,17 @@ export function HomeMain({ className }) {
                   <div className={container1TestItemsItemImageContainer}>
                     <div style={{ width: '100%', paddingBottom: '100%' }} />
                     <picture>
-                      <img src={!windowObjectExists ? 'mts/static/testimonial-5.jpg' : TestimonialFive} alt="test five" />
+                      <source
+                        srcSet={`${testimonial5ImgSrc} 50w, ${testimonial5ImgSrc} 100w, ${testimonial5ImgSrc} 200w, ${testimonial5ImgSrc} 300w, ${testimonial5ImgSrc} 400w`}
+                        sizes="(max-width: 200px) 100vw, 200px"
+                      />
+                      <img
+                        sizes="(max-width: 200px) 100vw, 200px"
+                        srcSet={`${testimonial5ImgSrc} 50w, ${testimonial5ImgSrc} 100w, ${testimonial5ImgSrc} 200w, ${testimonial5ImgSrc} 300w, ${testimonial5ImgSrc} 400w`}
+                        src={testimonial5ImgSrc}
+                        alt="testimonial five"
+                        loading="lazy"
+                      />
                     </picture>
                   </div>
                 </div>
@@ -568,7 +794,17 @@ export function HomeMain({ className }) {
                   <div className={container1TestItemsItemImageContainer}>
                     <div style={{ width: '100%', paddingBottom: '100%' }} />
                     <picture>
-                      <img src={!windowObjectExists ? 'mts/static/testimonial-6.jpg' : TestimonialSix} alt="test six" />
+                      <source
+                        srcSet={`${testimonial6ImgSrc} 50w, ${testimonial6ImgSrc} 100w, ${testimonial6ImgSrc} 200w, ${testimonial6ImgSrc} 300w, ${testimonial6ImgSrc} 400w`}
+                        sizes="(max-width: 200px) 100vw, 200px"
+                      />
+                      <img
+                        sizes="(max-width: 200px) 100vw, 200px"
+                        srcSet={`${testimonial6ImgSrc} 50w, ${testimonial6ImgSrc} 100w, ${testimonial6ImgSrc} 200w, ${testimonial6ImgSrc} 300w, ${testimonial6ImgSrc} 400w`}
+                        src={testimonial6ImgSrc}
+                        alt="testimonial six"
+                        loading="lazy"
+                      />
                     </picture>
                   </div>
                 </div>

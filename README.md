@@ -206,7 +206,7 @@
                 <ul>
                   <li>"lint:format": "npm-run-all lint format"</li>
                   <li>"lint": "npm-run-all lint:js:jsx lint:scss"</li>
-                  <li>"lint:js:jsx": "eslint --ext .js --ext .jsx packages/**/src/**/*.{js,jsx} --fix"</li>
+                  <li>"lint:js:jsx": "eslint --ext .js --ext .jsx packages/**/src --fix"</li>
                 </ul>
               </li>
               <li>Information: <strong><em>Linting scripts meant for JavaScript files recursively go through all js, jsx files under the src directory checking if the source code conforms to ESLint linting rules, applying auto fixes if possible and outputs all other violations through the console.</em></strong></li>
@@ -236,7 +236,7 @@
                   <ul>
                     <li>"lint:format": "npm-run-all lint format"</li>
                     <li>"lint": "npm-run-all lint:js:jsx lint:scss"</li>
-                    <li>"lint:scss": "stylelint \"packages/**/src/**/*.scss\" --syntax=scss --fix"</li>
+                    <li>"lint:scss": "stylelint \"packages/**/src/**/*.{css,scss}\" --syntax=scss --fix"</li>
                   </ul>
               </li>
               <li>Information: <strong><em>Linting scripts meant for Sass files recursively go through all scss files under the src directory checking if the source code conforms to Stylelint linting rules, applying auto fixes if possible and outputs all other violations through the console.</em></strong></li>
@@ -268,7 +268,7 @@
                 <ul>
                   <li>"format": "npm-run-all format:js:jsx format:scss"</li>
                   <li>"format:js:jsx": "prettier --write \"packages/**/src/**/*.{js,jsx}\""</li>
-                  <li>"format:scss": "prettier --write \"packages/**/src/**/*.scss\""</li>
+                  <li>"format:scss": "prettier --write \"packages/**/src/**/*.{css,scss}\""</li>
                 </ul>
               </li>
               <li>Information: <strong><em>Code formatting scripts meant for JavaScript and Sass files recursively go through all js, jsx and scss files under the src directory enforcing a consistent style by parsing code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.</em></strong></li>
@@ -305,37 +305,768 @@
   </blockquote>
 </details>
 
-## Client
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 Compiling</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <details>
+      <summary style="color: #006400;">Transpiling</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Babel</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Package(s): <a style="color: #006400;" href="https://github.com/babel/babel">babel</a> repository on GitHub</li>
+              <li>Setup file(s):
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/babel.config.js">babel.config.js</a> for <a href="https://jestjs.io/docs/en/getting-started#using-babel">Jest</a>,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.common.js">webpack.common.js</a> for regular build,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.storybook/.babelrc">.babelrc</a> for storybook build
+              </li>
+              <li>Script(s) in project's package.json:
+                <ul>
+                  <li>"build": "lerna run build --stream"</li>
+                  <li>"build-storybook": "NODE_ENV=develop build-storybook -c .storybook -o .storybook-static",</li>
+                </ul>
+              </li>
+              <li>Information: <strong><em>JavaScript code which eventually goes into the bundle needs to be compiled from ES6 to Vanilla JavaScript to be compiled and executed by a browser</em></strong></li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+    <details>
+      <summary style="color: #006400;">Bundling</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Webpack</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Package(s): <a style="color: #006400;" href="https://github.com/webpack/webpack">webpack</a> repository on GitHub</li>
+              <li>Setup file(s):
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.settings.js">webpack.settings.js</a>,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.common.js">webpack.common.js</a> shared by regular development and production builds,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.dev.js">webpack.dev.js</a> for regular development build,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.prod.js">webpack.prod.js</a> for regular production build,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.storybook/webpack.config.js">webpack.config.js</a> for storybook build
+              </li>
+              <li>Script(s) in project's package.json:
+                <ul>
+                  <li>"build": "webpack --config ./webpack/webpack-build.babel.js --mode=production"</li>
+                  <li>"build-storybook": "NODE_ENV=develop build-storybook -c .storybook -o .storybook-static"</li>
+                </ul>
+              </li>
+              <li>Information: <strong><em>JavaScript and Sass code along with static assets need to be loaded into or next to javascript and css bundles in a bundle output directory by a variety of loaders such as babel-loader, style-loader, css-loader, sass-loader, postcss-loader, file-loader and url-loader to be requested by a browser. Following loaders target specific file types during the bundling process</em></strong>
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </blockquote>
+</details>
 
-- ReactJS, ReduxJS Client
-  - deployed to and running at https://mts.github.io/mts/
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 Cross Browser Compatibility</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <details>
+      <summary style="color: #006400;">ECMAScript Features</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 ES6 / ES2015</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>
+                From var to const/let: 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const">const</a> and 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let">let</a><br>
+                const > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                let > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer 🌦<br>
+                Transpiled ✓, Safe to use ✅
+              </li>
+              <li>
+                From objects to Maps: 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">Array.prototype.map()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                Polyfilled if not native ✓ Safe to use ✅
+              </li>
+              <li>
+                New Array methods: 
+                <ul>
+                  <li>From 
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexof">Array.prototype.indexOf()</a> to 
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex">Array.prototype.findIndex()</a><br>
+                    indexOf > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                    findIndex > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                  <li>
+                    From 
+                      <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice">Array.prototype.slice()</a> to 
+                      <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from">Array.from() or the spread operator</a><br>
+                      Array.prototype.slice() > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                      Array.from() > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                      Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                  <li>From 
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array.apply()</a> to 
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill">Array.prototype.fill()</a><br>
+                    Array.apply() > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                    Array.prototype.fill() > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                </ul>
+              </li>
+              <li>
+                From CommonJS modules to ES6 modules: 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules">JavaScript modules</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Transpiled ✓, Safe to use ✅
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+        <details>
+          <summary style="color: #006400;">📜 ES7 / ES2016</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes">Array.prototype.includes()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Exponentiation">Exponentiation operator (**)</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Transpiled ✓, Safe to use ✅
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+        <details>
+          <summary style="color: #006400;">📜 ES8 / ES2017</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function">Async functions</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Transpiled ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries">Object.entries()</a> and 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values">Object.values()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+              <li>
+                New string methods:
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart">String.prototype.padStart()</a> and 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd">String.prototype.padEnd()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptors">Object.getOwnPropertyDescriptors()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas">Trailing commas in function parameter lists and calls</a><br>
+                Trailing commas > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                Trailing commas in functions > Chrome ✓, Firefox ✓, Safari ╳, Edge ╳, Internet Explorer ╳<br>
+                Trailing commas in object literals > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
+                Transpiled ✓, Safe to use ✅
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+        <details>
+          <summary style="color: #006400;">📜 ES9 / ES2018</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax">Spread syntax</a> and 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Rest_syntax_parameters">Rest syntax (parameters)</a><br>
+                Spread in array literals > Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                Spread in function calls > Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                Spread in destructuring > Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                Spread in object literalsExperimental > Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                Transpiled ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally">Promise.prototype.finally()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+        <details>
+          <summary style="color: #006400;">📜 ES10 / ES2019</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>ES10 / ES2019
+                <ul>
+                  <li>
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat">Array.prototype.flat()</a> and 
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap">Array.prototype.flatMap()</a><br>
+                    Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                  <li>
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries">Object.fromEntries()</a><br>
+                    Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                  <li>
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart">String.prototype.trimStart()</a> and 
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd">String.prototype.trimEnd()</a><br>
+                    Chrome ✓, Firefox ✓, Safari ✓, Edge ?, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                  <li>
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch">Optional catch binding</a><br>
+                    Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                    Transpiled ✓, Safe to use ✅
+                  </li>
+                  <li>
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">Array.prototype.sort()</a><br>
+                    Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                  <li>
+                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString">Function.prototype.toString() revision</a><br>
+                    Chrome ╳, Firefox ✓, Safari ╳, Edge ╳, Internet Explorer ╳<br>
+                    Polyfilled if not native ✓, Safe to use ✅
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </blockquote>
+</details>
 
-## Server
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 Application Architecture</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <details>
+      <summary style="color: #006400;">State Container</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Redux</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Package(s): 
+                <ul>
+                  <li><a style="color: #006400;" href="https://github.com/reduxjs/redux">redux</a> repository on GitHub</li>
+                  <li><a style="color: #006400;" href="https://github.com/reduxjs/react-redux">react-redux</a> repository on GitHub</li>
+                </ul>
+              </li>
+              <li>Setup file(s):
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/src/store/client.js">client.js</a> for regular store,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/library/src/store/mock.js">mock.js</a> for mock store
+              </li>
+              <li>Script(s) in project's package.json: n/a</li>
+              <li>Information: 
+                <details>
+                  <summary style="color: #006400;">Flux</summary>
+                  <blockquote style="margin: 0; padding: 0 24px">
+                    This project implements <a href="https://facebook.github.io/flux/">Flux </a>based application architecture through Redux state container and React integration for Redux. <br>
+                    Components initiate changes by dispatching actions or thunks<br>
+                    <img width="400px" height="250px" src=".docs/image/flux-component.png"> <br>
+                    Dispatcher processes dispatched actions and thunks and reducer releases new state<br>
+                    <img width="400px" height="250px" src=".docs/image/flux-flow.png"> <br>
+                  </blockquote>
+                </details>
+                <details>
+                  <summary style="color: #006400;">Store</summary>
+                  <blockquote style="margin: 0; padding: 0 24px">
+                    <ul>
+                      <li>Each application in this project has a Redux store which implements the following:
+                        <ul>
+                          <li><strong><em>Actions</em></strong> to dispatch when mutating existing state in a syncronous flow</li>
+                          <li><strong><em>Thunks</em></strong> to dispatch when mutating existing state in an asyncronous flow through redux-thunk middleware</li>
+                          <li><strong><em>Reducer</em></strong> which takes existing state and an action as arguments and returns a new state. Immutability is achieved by spreading existing state to the level of mutation in the nested data structure</li>
+                          <li><strong><em>State</em></strong>
+                            <ul>
+                              <li><strong><em>Default state</em></strong> to be used by the actual application store which consists of the following three partitions:
+                                <ul>
+                                  <li>context partition reflects user's signed in and authorization response states</li>
+                                  <li>api partition reflects all from API endpoints' response states</li>
+                                  <li>ui partition reflects all atomic design patterns' states</li>
+                                </ul>
+                              </li>
+                              <li><strong><em>Mock state</em></strong>  to be used by a mock store when rendering snapshots and stories <br>
+                                  Mock state consists of exactly the same context, api and ui partitions populated by static data.
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong><em>Difference actions and thunks</em></strong> is that the redux dispatcher passes a dispached action onto the reducer as second argument whereas it directly calls the thunk instead.
+                      </li>
+                      <li>
+                        <strong><em>AppStore class</em></strong> is meant to serve as application's state container and extends a base store called <strong><em>Store</em></strong> which sets
+                        <ul> 
+                          <li>the default application state in setAppDefaultState()</li>
+                          <li>application state container in setAppStore()</li>
+                          <li>populates application state in setAppCompleteState()</li>
+                          <li>sets hot module reloading in setHotModuleReloading() when Webpack HotModuleReplacementPlugin interface is exposed under the module.hot property.</li>
+                        </ul>
+                      </li>
+                        <li>
+                          <strong><em>Store class</em></strong> sets redux-thunk as thunk middleware for redux in setMiddlewares() and composes enhancers in setEnhancer() when initialized.
+                        </li>
+                    </ul>
+                  </blockquote>
+                </details>
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </blockquote>
+</details>
 
-- NodeJS & ExpressJS Server
-  - deployed to https://dashboard.heroku.com/apps/mts-http-server
-  - running at https://mts-http-server.herokuapp.com/mts
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 Component Driven Development</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <details>
+      <summary style="color: #006400;">Methodology</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Atomic Design</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li><strong><em><a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#atoms">Atoms: </a></em></strong>Each Atom renders an atomic piece of UI</li>
+              <li><strong><em><a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#molecules">Molecules: </a></em></strong>Each molecule renders a composition of atoms</li>
+              <li><strong><em><a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#organisms">Organism: </a></em></strong>Each application of this project implements an organism called Landing which renders a composition of molecules</li>
+              <li><strong><em><a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#templates">Templates: </a></em></strong>Templates consist mostly of groups of organisms stitched together to form pages</li>
+              <li><strong><em><a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#pages">Pages: </a></em></strong>Pages are specific instances of templates</li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+    <details>
+      <summary style="color: #006400;">Rendering</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 React</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li><strong><em>Component Type: </em></strong> Preferred choice of component type is staless functional</li>
+              <li><strong><em>Component Partitions: </em></strong>Each component implements the following partitions along with an index.js
+                <ul>
+                  <li><strong><em>.jsx file: </em></strong>Contains the main UI implementation</li>
+                  <li><strong><em>.scss (optional) file: </em></strong>Used in case of any component specific Sass styling implementation</li>
+                  <li><strong><em>.props.js file: </em></strong>Exposes default props to the component </li>
+                  <li><strong><em>.int.render.js file: </em></strong>Exposes various flavors of the component to snapshots and stories for integration testing purposes</li>
+                  <li><strong><em>.int.test.js file: </em></strong>Implements snapshots for flavors of the component exposed by .int.render.js</li>
+                  <li><strong><em>.int.story.js file: </em></strong>Implements stories for flavors of the component exposed by .int.render.js</li>
+                </ul>
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </blockquote>
+</details>
 
-## Heroku Setup, Deployment and Monitoring
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 Scaling Tests</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <details>
+      <summary style="color: #006400;">Testing Strategy</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <ul>
+          <li>Information: <strong><em> Testing strategy consists of<br>
+            <ul>
+              <li>
+                Unit testing covering regular logic by implementing <a href="https://jestjs.io/">Jest unit tests</a>
+              </li>
+              <li>
+                Integration testing covering UI logic, look and feel and responsiveness by implementing<br>
+                <a href="https://jestjs.io/">Jest Snapshots</a> and
+                <a href="https://github.com/storybookjs/storybook">Storybook stories</a>
+              </li>
+            </ul>
+            </em></strong>
+          </li>
+          <li><img width="500px" height="250px" src=".docs/image/testing-strategy.jpg"></li>
+        </ul>
+      </blockquote>
+    </details>
+    <details>
+      <summary style="color: #006400;">Code Coverage Report</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <ul>
+          <li>Information: <strong><em> Code coverage thresholds are setup in
+            <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/jest.config.js">jest.config.js</a><br></em></strong>
+          </li>
+          <li><img width="650px" height="800px" src=".docs/image/code-coverage-report.jpg"></li>
+        </ul>
+      </blockquote>
+    </details>
+    <details>
+      <summary style="color: #006400;">Scaling Unit Tests</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Unit tests run by Jest</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Package(s): <a style="color: #006400;" href="https://github.com/facebook/jest">jest</a> repository on GitHub</li>
+              <li>Setup file(s):
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/jest.config.js">jest.config.js</a>,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/jest.setup.js">jest.setup.js</a>
+              </li>
+              <li>Script(s) in project's package.json:
+                <ul>
+                  <li>"test": "jest -u --no-cache --silent --runInBand --coverage"</li>
+                  <li>"test:coverage": "jest --coverage --silent"</li>
+                </ul>
+              </li>
+              <li>Information:
+                <strong><em>
+                <ul>
+                  <li>Check out <a style="color: #006400;" href="https://jestjs.io/">Jest </a> documentation by Facebook</li>
+                  <li>Each JavaScript file whose implementation is subject to unit testing must have a .test.js file in the __tests__ directory at the same level with the targeted implementation</li>
+                  <li>Test blocks must be implemented conforming to the Arrange, Act, Assert pattern</li>
+                  <li>Using Jest API
+                    <ul>
+                      <li>
+                        <details>
+                          <summary><a style="color: #006400;" href="https://jestjs.io/docs/en/tutorial-async#async-await">async/await</a> Test blocks covering asyncronous functions must be implemented conforming to the following pattern</summary>
+                          <blockquote style="margin: 0; padding: 0 24px">
+                            <code>
+                              test('must ...', async () => {
+                                ...
+                                await expect(someFunction).someExpectMethod()
+                              })
+                            </code>
+                          </blockquote>
+                        </details>
+                      </li>
+                      <li>
+                        <details>
+                          <summary><a style="color: #006400;" href="https://jestjs.io/docs/en/api#describename-fn">describe()</a> must be used to group related tests conforming to the following pattern</summary>
+                          <blockquote style="margin: 0; padding: 0 24px">
+                            <code>
+                              describe('file name of module under test', () => {
+                                beforeEach(() => {
+                                  jest.resetModules()
+                                  ...
+                                })
+                                afterEach(() => {
+                                  jest.clearAllMocks()
+                                  ...
+                                }
+                                describe('name of function as the unit under test', () => {
+                                  test('must do something', () => {
+                                  })
+                                  test('must do something else', () => {
+                                  })
+                                })
+                              })
+                            </code>
+                          </blockquote>
+                        </details>
+                      </li>
+                      <li>
+                        <details>
+                          <summary><a style="color: #006400;" href="https://jestjs.io/docs/en/jest-object#jestmockmodulename-factory-options">jest.mock()</a> must be used to mock dependency modules</summary>
+                          <blockquote style="margin: 0; padding: 0 24px">
+                            <code>
+                              jest.mock('some dependency module name or relative path with module name', () => ({
+                                someExposedFunction: () => ({}),
+                                someOtherExposedFunction: jest.fn(),
+                              }))
+                            </code>
+                          </blockquote>
+                        </details>
+                      </li>
+                      <li>
+                        <details>
+                          <summary><a style="color: #006400;" href="https://nodejs.org/api/modules.html#modules_require_id">require()</a> must be used to access a mocked dependency module</summary>
+                          <blockquote style="margin: 0; padding: 0 24px">
+                            <code>
+                              const someModuleMockObject = require('some-module')
+                              const someOtherModuleMockObject = require('../../../relative-path-to/some-module')
+                            </code>
+                          </blockquote>
+                        </details>
+                      </li>
+                      <li>
+                        <details>
+                          <summary><a style="color: #006400;" href="https://jestjs.io/docs/en/jest-object#jestspyonobject-methodname">jest.spyOn()</a> must be used to mock functions exposed by mocked dependency modules conforming to the following pattern</summary>
+                          <blockquote style="margin: 0; padding: 0 24px">
+                            <code>
+                              jest.spyOn(requiredMockObject, 'functionExposedByRequiredMockObject')
+                            </code>
+                          </blockquote>
+                        </details>
+                      </li>
+                      <li>
+                        <details>
+                          <summary><a style="color: #006400;" href="https://jestjs.io/docs/en/mock-function-api#mockfnmockimplementationfn">jest.mockImplementation()</a> must be used to mock the implementations of mocked functions exposed by mocked dependency modules conforming to the following pattern</summary>
+                          <blockquote style="margin: 0; padding: 0 24px">
+                            <code>
+                              jest.spyOn(requiredMockObject, 'functionExposedByRequiredMockObject').mockImplementation(jest.fn())
+                              jest.spyOn(requiredMockObject, 'functionExposedByRequiredMockObject').mockImplementation(jest.fn() => { replace with desired implementation})
+                            </code>
+                          </blockquote>
+                        </details>
+                      </li>
+                      <li>
+                        <details>
+                          <summary><a style="color: #006400;" href="https://jestjs.io/docs/en/mock-function-api#mockfnmockreturnvaluevalue">jest.mockReturnValue()</a> must be used to mock return values of mocked functions exposed by mocked dependency modules conforming to the following pattern</summary>
+                          <blockquote style="margin: 0; padding: 0 24px">
+                            <code>
+                              jest.spyOn(requiredMockObject, 'functionExposedByRequiredMockObject').mockReturnValue(someValue)
+                            </code>
+                          </blockquote>
+                        </details>
+                      </li>
+                      <li>
+                        <details>
+                          <summary><a style="color: #006400;" href="https://jestjs.io/docs/en/expect">expect()</a> must be used to assert expected values against received values using any of the expect <a style="color: #006400;" href="https://jestjs.io/docs/en/expect">methods conforming to the following pattern</a></summary>
+                          <blockquote style="margin: 0; padding: 0 24px">
+                            <code>
+                              expect(someMockFunction).toHaveBeenCalled()
+                              expect(someMockFunction).not.toHaveBeenCalled()
+                              ...
+                              expect(someMockFunction).toHaveBeenCalledTimes(someNumber)
+                              expect(someMockFunction).not.toHaveBeenCalled()
+                              ...
+                              expect(someMockFunction).toHaveBeenCalledWith({ someObjectProperty: 'some-value', someOtherObjectProperty; expect.any(Boolean)})
+                              ...
+                              expect(someObject).toMatchObject(someOtherObject)
+                              expect(someObject).not.toMatchObject(someOtherObject)
+                              ...
+                              expect(someObject).toBe(someOtherObject)
+                              expect(someObject).not.toBe(someOtherObject)
+                              ...
+                              expect(someValue).toEqual(someOtherValue)
+                              expect(someValue).not.toEqual(someOtherValue)
+                              ...
+                              expect(someObject).toBeUndefined()
+                              expect(someObject).not.toBeUndefined()
+                              ...
+                              expect(somevAlue).toBeTruthy()
+                              expect(somevAlue).toBeFalsy()
+                            </code>
+                          </blockquote>
+                        </details>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                </em></strong>
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+    <details>
+      <summary style="color: #006400;">Scaling Integration Tests</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Snapshots run by Jest</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Package(s):
+                <ul>
+                  <li><a style="color: #006400;" href="https://github.com/facebook/jest">jest</a> repository on GitHub</li>
+                </ul>
+              </li>
+              <li>Setup file(s):
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/jest.config.js">jest.config.js</a>,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/jest.setup.js">jest.setup.js</a>
+              </li>
+              <li>Script(s) in project's package.json:
+                <ul>
+                  <li>"test": "jest -u --no-cache --silent --runInBand --coverage"</li>
+                  <li>"test:coverage": "jest --coverage --silent"</li>
+                </ul>
+              </li>
+              <li>Information:
+                <strong><em>
+                <ul>
+                  <li>Check out <a style="color: #006400;" href="https://jestjs.io/">Jest </a> documentation by Facebook</li>
+                  <li>Each UI component whose jsx render implementation is subject to integration testing <br>
+                      must have a .int.test.js file with snapshots of various flavors of the component in the __tests__ directory at the same level with the targeted implementation</li>
+                  <li>Using Jest API
+                    <ul>
+                      <li>
+                        <details>
+                          <summary><a style="color: #006400;" href="https://jestjs.io/docs/en/snapshot-testing#snapshot-testing-with-jest">Snapshot Testing with Jest</a> Snapshots must be implemented conforming to the following pattern</summary>
+                          <blockquote style="margin: 0; padding: 0 24px">
+                            <code>
+                            describe('<SomeComponent />', () => {
+                              describe('Snaphot', () => {
+                                test('must match composition', () => {
+                                  expect(global.renderToJSON(<SomeComponent />)).toMatchSnapshot()
+                                })
+                              })
+                            })
+                            </code>
+                          </blockquote>
+                        </details>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                </em></strong>
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+        <details>
+          <summary style="color: #006400;">📜 Stories run by Storybook</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Package(s):
+                <ul>
+                  <li><a style="color: #006400;" href="https://github.com/storybookjs/storybook">storybook</a> repository on GitHub</li>
+                </ul>
+              </li>
+              <li>Setup file(s):
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.storybook/addons.js">addons.js</a>,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.storybook/config.js">config.js</a> for storybook
+              </li>
+              <li>Script(s) in project's package.json:
+                <ul>
+                  <li>"start-storybook": "NODE_ENV=develop start-storybook -p 3003 -c .storybook"</li>
+                </ul>
+              </li>
+              <li>Information:
+                <strong><em>
+                <ul>
+                  <li>Check out <a style="color: #006400;" href="https://storybook.js.org/docs/basics/introduction/">Storybook </a> documentation by Storybook.js</li>
+                  <li>Each UI component whose jsx render implementation is subject to integration testing <br>
+                      must have a .int.story.js file with stories of various flavors of the component in the __tests__ directory at the same level with the targeted<br>implementation</li>
+                  <li>Using Storybook API
+                    <ul>
+                      <li>
+                        <details>
+                          <summary><a style="color: #006400;" href="https://storybook.js.org/docs/basics/writing-stories/#docs-content">Writing Stories with Storybook</a> Stories must be implemented conforming to the following pattern</summary>
+                          <blockquote style="margin: 0; padding: 0 24px">
+                            <code>storiesOf('SomeApplication/SomeAtomicDesignPattern/SomeComponent', module).add(someRenderInfo.text, () => someRender, someRenderInfo.parameters)</code>
+                          </blockquote>
+                        </details>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                </em></strong>
+              </li>
+            </ul>
+          </blockquote>
+        </details>
+        <details>
+          <summary style="color: #006400;">📜 Using mock store with mock state</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li><strong><em>Mock store</em></strong> is acquired in <a href="https://github.com/mts/mts/blob/master/packages/library/src/store/mock.js">mock.js</a> and uses redux-mock-store</li>
+              <li><strong><em>Mock state</em></strong> is acquired in <a href="https://github.com/mts/mts/blob/master/packages/library/src/state/mock.js">mock.js</a></li>
+              <li>
+                <strong><em>Immutability</em></strong> of mock state across integration tests is achieved using deepCloneObject() <br>
+                Changes specific to a test scenario can be applied to the immutable mock state clone. <br>
+                Then adjusted mock state clone is passed on to the mock store and mock store is provided to any UI components involved in the test using react-redux provider
+              </li>
+              <li><strong><em>React Redux Provider</em></strong> is used to provide the mock store with a mock state to any UI component. <br>
+                It accepts any store object in the store prop and provides the store to UI components rendered as its children.
+              </li>
+            </ul>
+        </details>
+      </blockquote>
+    </details>
+  </blockquote>
+</details>
 
-- `Login`: `heroku login`
-- `Create app`: `heroku create mts-http-server`
-- `Add remote`: `git remote add origin https://git.heroku.com/mts-http-server.git`
-- `Set build pack 1`: `heroku buildpacks:set -a mts-http-server https://github.com/Pagedraw/heroku-buildpack-select-subdir`
-- `Set build pack 2`: `heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#v133 -a mts-http-server`
-- `Configure build pack`: `heroku config:add BUILDPACK='packages/server=https://github.com/heroku/heroku-buildpack-nodejs#v133' -a mts-http-server`
-- `Add environment variable(s)`: `heroku config:add PORT='3001' -a mts-http-server`
-- `Deploy`: `git push heroku master`
-- `Monitor`: `heroku logs --tail`
-- `Check app`: `https://mts-http-server.herokuapp.com/`
-- `Help`: `https://help.heroku.com/P1AVPANS/why-is-my-node-js-app-crashing-with-an-r10-error`
-- `Clone`: `heroku git:clone -a mts-http-server`
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📗 CI / CD</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <details>
+      <summary style="color: #006400;">Continuous integration service</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Travis CI</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Check out <a style="color: #006400;" href="https://docs.travis-ci.com/"> documentation</a> by Travis CI</li>
+              <li>Check out <a style="color: #006400;" href="https://travis-ci.org/mts/mts">builds</a> at Travis CI</li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+    <details>
+      <summary style="color: #006400;">Branching Model</summary>
+      <blockquote style="margin: 0; padding: 0 24px">
+        <details>
+          <summary style="color: #006400;">📜 Git Flow</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            <ul>
+              <li>Check out <a style="color: #006400;" href="https://blog.axosoft.com/gitflow/">Gitflow </a> documentation by Axasoft</li>
+              <li>Check out <a style="color: #006400;" href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">Gitflow </a> documentation by Atlassian</li>
+            </ul>
+          </blockquote>
+        </details>
+      </blockquote>
+    </details>
+  </blockquote>
+</details>
 
-## Github Pages
+<h2 style="color: #006400;">🗿 Applications</h2>
 
-- rm -rf node_modules/gh-pages/.cache
-- change `https://github.com/mts/mts.git` to `git@github.com:mts/mts.git` in `.git/config`
-
-## Localhost
-
-- `Free port 3000`: `kill $(lsof -t -i :3000)`
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 🐝 ReactJS, ReduxJS Client</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <ul>
+      <li>Running locally at <a style="color: #006400;" href="http://localhost:8080/">http://localhost:8080/</a></li>
+      <li>Deployed to Github Pages and running at <a style="color: #006400;" href="https://mts.github.io/mts">https://mts.github.io/mts</a></li>
+      <li>Github Pages Cache Repair:
+        <ul>
+          <li>Remove cache: <kbd>rm -rf node_modules/gh-pages/.cache</kbd></li>
+          <li>Change <kbd>https://github.com/mts/mts.git</kbd> to <kbd>git@github.com:mts/mts.git</kbd> in <kbd>.git/config</kbd></li>
+        </ul>
+      </li>
+      <li>Localhost free server port:
+        <ul>
+          <li>Free port 3000: <kbd>kill $(lsof -t -i :3000)</kbd></li>
+        </ul>
+      </li>
+    </ul>
+  </blockquote>
+</details>
+<details>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 🐝 HTTP Server</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    <ul>
+      <li>Running locally at <a style="color: #006400;" href="http://localhost:3000/mts">http://localhost:3000/mts</a></li>
+      <li>Deployed to Heroku and running at <a style="color: #006400;" href="https://mts-http-server.herokuapp.com/mts">https://mts-http-server.herokuapp.com/mts</a></li>
+      <li>Heroku Setup, Deployment and Monitoring:
+        <ul>
+          <li>Login: <kbd>heroku login</kbd></li>
+          <li>Create app: <kbd>heroku create mts-http-server</kbd></li>
+          <li>Add remote: <kbd>git remote add origin https://git.heroku.com/mts-http-server.git</kbd></li>
+          <li>Set build pack 1: <kbd>heroku buildpacks:set -a mts-http-server https://github.com/Pagedraw/heroku-buildpack-select-subdir</kbd></li>
+          <li>Set build pack 2: <kbd>heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#v133 -a mts-http-server</kbd></li>
+          <li>Configure build pack: <kbd>heroku config:add BUILDPACK='packages/server=https://github.com/heroku/heroku-buildpack-nodejs#v133' -a mts-http-server</kbd></li>
+          <li>Add environment variable(s): <kbd>heroku config:add PORT='3001' -a mts-http-server</kbd></li>
+          <li>Deploy: <kbd>git push heroku master</kbd></li>
+          <li>Monitor: <kbd>heroku logs --tail</kbd></li>
+          <li>Check app: <kbd>https://mts-http-server.herokuapp.com/</kbd></li>
+          <li>Help: <kbd>https://help.heroku.com/P1AVPANS/why-is-my-node-js-app-crashing-with-an-r10-error</kbd></li>
+          <li>Clone: <kbd>heroku git:clone -a mts-http-server</kbd></li>
+        </ul>
+      </li>
+    </ul>
+  </blockquote>
+</details>

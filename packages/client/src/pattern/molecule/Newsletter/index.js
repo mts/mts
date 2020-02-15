@@ -11,6 +11,7 @@ import {
   labelFormInput,
   labelFormButton,
 } from './Newsletter.scss'
+import { LabelLeadSvg } from './Newsletter.part'
 import { newsletterDefaultProps, newsletterPropTypes } from './Newsletter.props'
 
 export function Newsletter({ className }) {
@@ -22,33 +23,23 @@ export function Newsletter({ className }) {
           <h3 className={labelSectionHeaderH3}>Never miss an article about web development and JavaScript.</h3>
         </div>
         <p className={labelLead}>
-          <svg width="20px" height="20px" viewBox="0 0 123.811 123.811">
-            <path d="M29.85 106.463c3.2 3.2 7.5 5 12 5s8.8-1.8 12-5l64.799-64.8c6.5-6.5 7-17.2.7-23.9-6.6-7.1-17.7-7.2-24.399-.4l-46 46c-3.9 3.9-10.2 3.9-14.1 0l-5.9-6c-6.6-6.6-17.4-6.6-24 0-6.6 6.601-6.6 17.4 0 24l24.9 25.1z" />
-          </svg>
+          <LabelLeadSvg />
           Join 0+ Developers
         </p>
         <p className={labelLead}>
-          <svg width="20px" height="20px" viewBox="0 0 123.811 123.811">
-            <path d="M29.85 106.463c3.2 3.2 7.5 5 12 5s8.8-1.8 12-5l64.799-64.8c6.5-6.5 7-17.2.7-23.9-6.6-7.1-17.7-7.2-24.399-.4l-46 46c-3.9 3.9-10.2 3.9-14.1 0l-5.9-6c-6.6-6.6-17.4-6.6-24 0-6.6 6.601-6.6 17.4 0 24l24.9 25.1z" />
-          </svg>
+          <LabelLeadSvg />
           Learn Web Development with JavaScript
         </p>
         <p className={labelLead}>
-          <svg width="20px" height="20px" viewBox="0 0 123.811 123.811">
-            <path d="M29.85 106.463c3.2 3.2 7.5 5 12 5s8.8-1.8 12-5l64.799-64.8c6.5-6.5 7-17.2.7-23.9-6.6-7.1-17.7-7.2-24.399-.4l-46 46c-3.9 3.9-10.2 3.9-14.1 0l-5.9-6c-6.6-6.6-17.4-6.6-24 0-6.6 6.601-6.6 17.4 0 24l24.9 25.1z" />
-          </svg>
+          <LabelLeadSvg />
           Tips and Tricks
         </p>
         <p className={labelLead}>
-          <svg width="20px" height="20px" viewBox="0 0 123.811 123.811">
-            <path d="M29.85 106.463c3.2 3.2 7.5 5 12 5s8.8-1.8 12-5l64.799-64.8c6.5-6.5 7-17.2.7-23.9-6.6-7.1-17.7-7.2-24.399-.4l-46 46c-3.9 3.9-10.2 3.9-14.1 0l-5.9-6c-6.6-6.6-17.4-6.6-24 0-6.6 6.601-6.6 17.4 0 24l24.9 25.1z" />
-          </svg>
+          <LabelLeadSvg />
           Access Tutorials, eBooks and Courses
         </p>
         <p className={labelLead}>
-          <svg width="20px" height="20px" viewBox="0 0 123.811 123.811">
-            <path d="M29.85 106.463c3.2 3.2 7.5 5 12 5s8.8-1.8 12-5l64.799-64.8c6.5-6.5 7-17.2.7-23.9-6.6-7.1-17.7-7.2-24.399-.4l-46 46c-3.9 3.9-10.2 3.9-14.1 0l-5.9-6c-6.6-6.6-17.4-6.6-24 0-6.6 6.601-6.6 17.4 0 24l24.9 25.1z" />
-          </svg>
+          <LabelLeadSvg />
           Personal Development as a Software Engineer
         </p>
         <div style={{ marginBottom: '20px' }} />
