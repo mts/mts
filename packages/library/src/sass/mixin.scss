@@ -24,3 +24,27 @@
 @mixin buttonModuleBaseLarge {
   padding: 20px;
 }
+
+@mixin blogItemContentAnchor {
+  a {
+    color: #333;
+    text-decoration: none;
+
+    &:hover,
+    &:visited {
+      color: #333;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background-color: transparent;
+    }
+  }
+}

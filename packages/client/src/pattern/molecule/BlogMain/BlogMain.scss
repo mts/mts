@@ -1,3 +1,5 @@
+@import '../../../../../library/src/sass/mixin';
+
 .container1 {
   max-width: 960px;
   align-self: center;
@@ -9,6 +11,12 @@
     &:not(:first-child) {
       margin-top: 60px;
     }
+  }
+
+  path,
+  svg {
+    fill: #823eb7;
+    stroke: #823eb7;
   }
 
   &BlogItem {
@@ -77,21 +85,7 @@
         flex-direction: column;
       }
 
-      a {
-        color: #333;
-
-        &::before {
-          content: '';
-          display: block;
-          position: absolute;
-          z-index: 0;
-          width: 100%;
-          height: 100%;
-          left: 0;
-          top: 0;
-          background-color: transparent;
-        }
-      }
+      @include blogItemContentAnchor;
     }
   }
 
@@ -142,21 +136,7 @@
         flex: 1 1;
         margin: 20px;
 
-        a {
-          color: #333;
-
-          &::before {
-            content: '';
-            display: block;
-            position: absolute;
-            z-index: 0;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            top: 0;
-            background-color: transparent;
-          }
-        }
+        @include blogItemContentAnchor;
       }
     }
   }
