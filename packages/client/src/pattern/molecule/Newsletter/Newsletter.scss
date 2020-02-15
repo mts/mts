@@ -1,3 +1,5 @@
+@import '../../../../../library/src/sass/mixin';
+
 .topBorder {
   border-top: 1px solid #e4e4e4;
 }
@@ -10,8 +12,6 @@
   padding: 85px 20px;
   max-width: 800px;
   margin: 0 auto;
-  //
-  margin-bottom: 20px;
 
   &SectionHeader {
     padding-bottom: 40px;
@@ -59,27 +59,12 @@
     }
 
     &Button {
+      @include buttonModuleBase;
+
+      display: inline-block;
       color: #fff;
       background-color: #823eb7;
       margin: 0;
-
-      // button module base
-      // color: #823eb7;
-      // background-color: #fff;
-      border: 1px solid #823eb7;
-      font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      padding: 6px 12px;
-      margin-bottom: 0;
-      line-height: 1.42857143;
-      border-radius: 0;
-      text-align: center;
-      white-space: nowrap;
-      vertical-align: middle;
-      cursor: pointer;
-      -webkit-transition: all 0.2s ease;
-      transition: all 0.2s ease;
     }
   }
 }
