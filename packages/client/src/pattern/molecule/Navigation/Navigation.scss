@@ -96,6 +96,28 @@
         cursor: pointer;
         -webkit-transition: all 0.2s ease;
         transition: all 0.2s ease;
+
+        path,
+        svg {
+          fill: #823eb7;
+          stroke: #823eb7;
+        }
+
+        &:hover:enabled {
+          color: #fff;
+          background-color: #823eb7;
+          border-color: #823eb7;
+        }
+
+        &:hover:enabled path {
+          fill: #fff;
+          stroke: #fff;
+        }
+
+        &:hover:enabled svg {
+          fill: #fff;
+          stroke: #fff;
+        }
       }
     }
   }
