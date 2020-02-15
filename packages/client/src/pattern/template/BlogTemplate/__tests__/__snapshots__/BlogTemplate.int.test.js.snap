@@ -129,6 +129,8 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
   </nav>
   <main
     className=""
+    itemProp="mainContentOfPage"
+    itemScope=""
     style={
       Object {
         "display": "flex",
@@ -179,9 +181,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-1-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -384,9 +393,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-2-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -593,9 +609,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-3-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -802,9 +825,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-4-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -1011,9 +1041,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-5-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -1220,9 +1257,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-6-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -1429,9 +1473,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-7-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -1638,9 +1689,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-8-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -1847,9 +1905,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-9-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -2056,9 +2121,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-10-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -2221,9 +2293,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-11-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -2430,9 +2509,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-12-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -2595,9 +2681,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-13-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -2804,9 +2897,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-14-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -2877,9 +2977,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-15-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -2994,9 +3101,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-16-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -3067,9 +3181,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-17-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -3276,9 +3397,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-18-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -3393,9 +3521,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-19-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -3602,9 +3737,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-20-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -3675,9 +3817,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-21-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -3884,9 +4033,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-22-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -4093,9 +4249,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-23-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -4210,9 +4373,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-24-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -4419,9 +4589,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-25-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -4580,9 +4757,16 @@ exports[`<BlogTemplate /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 500px) 100vw, 500px"
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
+              />
               <img
                 alt="blog-26-0"
+                loading="lazy"
+                sizes="(max-width: 500px) 100vw, 500px"
                 src={Object {}}
+                srcSet="[object Object] 125w, [object Object] 250w, [object Object] 500w, [object Object] 750w, [object Object] 1000w, [object Object] 1024w"
               />
             </picture>
           </div>
