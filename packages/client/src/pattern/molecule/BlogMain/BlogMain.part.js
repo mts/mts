@@ -45,12 +45,24 @@ export function H2({ prefix, href, text }) {
 H2.propTypes = h2PropTypes
 
 export function BlogItemFeatured({ imageName, image, href, title, text }) {
+  const imgSrc = !windowObjectExists ? `mts/static/${imageName}.jpg` : image
+
   return (
     <article className={cx(container1BlogItem, container1BlogItemFeatured)}>
       <div className={cx(container1BlogItemImage, container1BlogItemImageFeatured)}>
         <div style={{ width: '100%', paddingBottom: '64.94140625%' }} />
         <picture>
-          <img src={!windowObjectExists ? `mts/static/${imageName}.jpg` : image} alt={imageName} />
+          <source
+            srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
+            sizes="(max-width: 500px) 100vw, 500px"
+          />
+          <img
+            sizes="(max-width: 500px) 100vw, 500px"
+            srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
+            src={imgSrc}
+            alt={imageName}
+            loading="lazy"
+          />
         </picture>
       </div>
       <div className={cx(container1BlogItemContent, container1BlogItemContentFeatured)}>
