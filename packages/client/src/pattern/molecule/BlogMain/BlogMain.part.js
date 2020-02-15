@@ -83,12 +83,24 @@ BlogItemFeatured.defaultProps = blogItemFeaturedDefaultProps
 BlogItemFeatured.propTypes = blogItemFeaturedPropTypes
 
 export function BlogItemRegular({ imageName, image, href, title, text }) {
+  const imgSrc = !windowObjectExists ? `mts/static/${imageName}.jpg` : image
+
   return (
     <article className={container1BlogListContainer1}>
       <div className={container1BlogListContainer1Image}>
         <div style={{ width: '100%', paddingBottom: '6.69921875%' }} />
         <picture>
-          <img src={!windowObjectExists ? `mts/static/${imageName}.jpg` : image} alt={imageName} />
+          <source
+            srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
+            sizes="(max-width: 500px) 100vw, 500px"
+          />
+          <img
+            sizes="(max-width: 500px) 100vw, 500px"
+            srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
+            src={imgSrc}
+            alt={imageName}
+            loading="lazy"
+          />
         </picture>
       </div>
       <div className={container1BlogListContainer1Content}>
