@@ -6,10 +6,10 @@
 
 /*!
  * @project        MTS
- * @name           app-modern.c0e0.js
+ * @name           app-modern.64f1.js
  * @author         MTS
- * @build          Thu, Feb 13, 2020 12:44 PM ET
- * @release        236c4405efb49a460448b68312b483203f20cb9c [responsive-courses-page]
+ * @build          Sat, Feb 15, 2020 5:19 PM ET
+ * @release        a5a9f1daed93a6ba6bff747099b6175cd332447b [responsive-courses-page]
  * @copyright      Copyright (c) 2020 MTS
  *
  */
@@ -29,8 +29,8 @@ See the Apache Version 2.0 License for specific language governing permissions
 and limitations under the License.
 ***************************************************************************** */
 
-/*! axe v3.4.1
- * Copyright (c) 2019 Deque Systems, Inc.
+/*! axe v3.5.1
+ * Copyright (c) 2020 Deque Systems, Inc.
  *
  * Your use of this Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
