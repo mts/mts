@@ -1,3 +1,4 @@
+/* stylelint-disable */
 body,
 html {
   margin: 0;
@@ -8,6 +9,7 @@ html {
   line-height: 1.58;
   color: #333;
 }
+/* stylelint-enable */
 
 body,
 button,
@@ -15,34 +17,6 @@ html,
 input,
 textarea {
   font-size: 16px;
-}
-
-ol,
-ul {
-  margin: 20px 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: #823eb7;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #333;
-}
-
-a:visited path,
-a:visited svg {
-  fill: #333;
-  stroke: #333;
-}
-
-li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 h1 {
@@ -79,6 +53,15 @@ h4 {
   font-weight: 500;
 }
 
+small {
+  font-size: 14px;
+}
+
+input,
+small {
+  color: #545454;
+}
+
 input {
   background-color: #fff;
   box-sizing: border-box;
@@ -89,11 +72,93 @@ input {
   display: inline-block;
 }
 
-input,
-small {
-  color: #545454;
+input:focus {
+  outline: none;
+  border-width: 1px;
+  border-color: #823eb7;
 }
 
-small {
-  font-size: 14px;
+ol,
+ul {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+} // 👍
+
+li > ul {
+  margin: 0 20px;
+}
+
+ul ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+} // 👍
+
+a {
+  color: #823eb7;
+  text-decoration: none;
+} // 👍
+
+a path,
+a svg {
+  fill: #333;
+  stroke: #333;
+} // 👍
+
+a:visited {
+  color: #823eb7;
+} // 👍
+
+a:visited path,
+a:visited svg {
+  fill: #333;
+  stroke: #333;
+} // 👍
+
+a.primary,
+a:hover.primary,
+a:visited.primary {
+  color: #823eb7;
+}
+
+a.primary path,
+a.primary svg,
+a:hover.primary path,
+a:hover.primary svg,
+a:visited.primary path,
+a:visited.primary svg {
+  fill: #823eb7;
+  stroke: #823eb7;
+}
+
+a:hover {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-decoration: underline;
+}
+
+/* stylelint-disable */
+a:hover path,
+a:hover svg {
+  fill: #823eb7;
+  stroke: #823eb7;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/* stylelint-enable */
+
+pre:not(.prism-code) {
+  background-color: #2f1e2e !important;
+  border-radius: 4px;
+  border-left: 4px solid #823eb7;
+}
+
+code {
+  white-space: pre-wrap !important;
 }

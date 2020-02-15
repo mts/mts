@@ -1,0 +1,99 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  letter-spacing: -0.003em;
+  line-height: 1.58;
+  color: #333;
+}
+
+body,
+button,
+html,
+input,
+textarea {
+  font-size: 16px;
+}
+
+ol,
+ul {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #823eb7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+}
+
+a:visited path,
+a:visited svg {
+  fill: #333;
+  stroke: #333;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 0.08em;
+  font-weight: 300;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h4 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+input {
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #e4e4e4;
+  border-radius: 0;
+  -webkit-appearance: none;
+  padding: 8px;
+  display: inline-block;
+}
+
+input,
+small {
+  color: #545454;
+}
+
+small {
+  font-size: 14px;
+}
