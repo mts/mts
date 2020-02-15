@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { navBarLogo, navBarListItemLink } from './Navigation.scss'
+import { navBarLogo, navBarListItemLink, navBarMobileToggleButton } from './Navigation.scss'
+import { mobileToggleButtonPropTypes } from './Navigation.props'
 import Logo from '../../../asset/image/logo.jpg'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import { homePagePath, aboutPagePath, blogPagePath, coursesPagePath } from '../../../route/path'
@@ -36,3 +37,15 @@ export function CoursesPageLink() {
     </Link>
   )
 }
+
+export function MobileToggleButton({ onClick }) {
+  return (
+    <button className={navBarMobileToggleButton} onClick={onClick} type="button" aria-label="Toggle Mobile Navigation Open/Close">
+      <svg width="24px" height="24px" viewBox="0 0 124 124">
+        <path d="M112 6H12C5.4 6 0 11.4 0 18s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12zM112 50H12C5.4 50 0 55.4 0 62s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12zM112 94H12c-6.6 0-12 5.4-12 12s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12z" />
+      </svg>
+    </button>
+  )
+}
+
+MobileToggleButton.propTypes = mobileToggleButtonPropTypes
