@@ -1078,6 +1078,9 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
   </div>
   <footer
     className=""
+    itemScope=""
+    itemType="http://schema.org/WPFooter"
+    role="contentinfo"
   >
     <div
       className="topBorder"
