@@ -75,6 +75,9 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
     </ul>
     <nav
       className="nav"
+      itemScope=""
+      itemType="http://schema.org/SiteNavigationElement"
+      role="navigation"
     >
       <div
         className="navBar"
@@ -111,6 +114,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           className="navBarMobileToggle"
         >
           <button
+            aria-label="Toggle Mobile Navigation Open/Close"
             className="navBarMobileToggleButton"
             onClick={[Function]}
             type="button"
@@ -130,6 +134,8 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
     </nav>
     <main
       className=""
+      itemProp="mainContentOfPage"
+      itemScope=""
       style={
         Object {
           "display": "flex",
@@ -156,9 +162,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               }
             />
             <picture>
+              <source
+                sizes="(max-width: 1024px) 100vw, 1024px"
+                srcSet="[object Object] 256w, [object Object] 512w, [object Object] 1024w"
+              />
               <img
                 alt="cover"
+                loading="lazy"
+                sizes="(max-width: 1024px) 100vw, 1024px"
                 src={Object {}}
+                srcSet="[object Object] 256w, [object Object] 512w, [object Object] 1024w"
               />
             </picture>
           </div>
@@ -212,9 +225,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 }
               />
               <picture>
+                <source
+                  sizes="(max-width: 240px) 100vw, 240px"
+                  srcSet="[object Object] 80w, [object Object] 160w, [object Object] 240w"
+                />
                 <img
                   alt="me"
+                  loading="lazy"
+                  sizes="(max-width: 240px) 100vw, 240px"
                   src={Object {}}
+                  srcSet="[object Object] 80w, [object Object] 160w, [object Object] 240w"
                 />
               </picture>
             </div>
@@ -508,12 +528,31 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 <div
                   className="container1PortfolioItemsItemImage"
                 >
-                  <picture>
-                    <img
-                      alt="portfolio one"
-                      src={Object {}}
+                  <div
+                    className="container1PortfolioItemsItemImageContainer1"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "paddingBottom": "62.3438%",
+                          "width": "100%",
+                        }
+                      }
                     />
-                  </picture>
+                    <picture>
+                      <source
+                        sizes="(max-width: 300px) 100vw, 300px"
+                        srcSet="[object Object] 75w, [object Object] 150w, [object Object] 300w, [object Object] 450w, [object Object] 600w, [object Object] 640w"
+                      />
+                      <img
+                        alt="portfolio one"
+                        loading="lazy"
+                        sizes="(max-width: 300px) 100vw, 300px"
+                        src={Object {}}
+                        srcSet="[object Object] 75w, [object Object] 150w, [object Object] 300w, [object Object] 450w, [object Object] 600w, [object Object] 640w"
+                      />
+                    </picture>
+                  </div>
                 </div>
                 <div
                   className="container1PortfolioItemsItemCaption"
@@ -539,12 +578,31 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 <div
                   className="container1PortfolioItemsItemImage"
                 >
-                  <picture>
-                    <img
-                      alt="portfolio two"
-                      src={Object {}}
+                  <div
+                    className="container1PortfolioItemsItemImageContainer1"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "paddingBottom": "62.3438%",
+                          "width": "100%",
+                        }
+                      }
                     />
-                  </picture>
+                    <picture>
+                      <source
+                        sizes="(max-width: 300px) 100vw, 300px"
+                        srcSet="[object Object] 75w, [object Object] 150w, [object Object] 300w, [object Object] 450w, [object Object] 600w, [object Object] 640w"
+                      />
+                      <img
+                        alt="portfolio two"
+                        loading="lazy"
+                        sizes="(max-width: 300px) 100vw, 300px"
+                        src={Object {}}
+                        srcSet="[object Object] 75w, [object Object] 150w, [object Object] 300w, [object Object] 450w, [object Object] 600w, [object Object] 640w"
+                      />
+                    </picture>
+                  </div>
                 </div>
                 <div
                   className="container1PortfolioItemsItemCaption"
@@ -570,12 +628,31 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 <div
                   className="container1PortfolioItemsItemImage"
                 >
-                  <picture>
-                    <img
-                      alt="portfolio three"
-                      src={Object {}}
+                  <div
+                    className="container1PortfolioItemsItemImageContainer1"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "paddingBottom": "62.3438%",
+                          "width": "100%",
+                        }
+                      }
                     />
-                  </picture>
+                    <picture>
+                      <source
+                        sizes="(max-width: 300px) 100vw, 300px"
+                        srcSet="[object Object] 75w, [object Object] 150w, [object Object] 300w, [object Object] 450w, [object Object] 600w, [object Object] 640w"
+                      />
+                      <img
+                        alt="portfolio three"
+                        loading="lazy"
+                        sizes="(max-width: 300px) 100vw, 300px"
+                        src={Object {}}
+                        srcSet="[object Object] 75w, [object Object] 150w, [object Object] 300w, [object Object] 450w, [object Object] 600w, [object Object] 640w"
+                      />
+                    </picture>
+                  </div>
                 </div>
                 <div
                   className="container1PortfolioItemsItemCaption"
@@ -629,9 +706,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                     }
                   />
                   <picture>
+                    <source
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
+                    />
                     <img
                       alt="timeline one"
+                      loading="lazy"
+                      sizes="(max-width: 240px) 100vw, 240px"
                       src={Object {}}
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
                     />
                   </picture>
                 </div>
@@ -672,9 +756,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                     }
                   />
                   <picture>
+                    <source
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
+                    />
                     <img
                       alt="timeline two"
+                      loading="lazy"
+                      sizes="(max-width: 240px) 100vw, 240px"
                       src={Object {}}
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
                     />
                   </picture>
                 </div>
@@ -715,9 +806,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                     }
                   />
                   <picture>
+                    <source
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
+                    />
                     <img
                       alt="timeline three"
+                      loading="lazy"
+                      sizes="(max-width: 240px) 100vw, 240px"
                       src={Object {}}
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
                     />
                   </picture>
                 </div>
@@ -758,9 +856,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                     }
                   />
                   <picture>
+                    <source
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
+                    />
                     <img
                       alt="timeline four"
+                      loading="lazy"
+                      sizes="(max-width: 240px) 100vw, 240px"
                       src={Object {}}
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
                     />
                   </picture>
                 </div>
@@ -801,9 +906,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                     }
                   />
                   <picture>
+                    <source
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
+                    />
                     <img
                       alt="timeline five"
+                      loading="lazy"
+                      sizes="(max-width: 240px) 100vw, 240px"
                       src={Object {}}
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
                     />
                   </picture>
                 </div>
@@ -844,9 +956,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                     }
                   />
                   <picture>
+                    <source
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
+                    />
                     <img
                       alt="timeline six"
+                      loading="lazy"
+                      sizes="(max-width: 240px) 100vw, 240px"
                       src={Object {}}
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
                     />
                   </picture>
                 </div>
@@ -887,9 +1006,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                     }
                   />
                   <picture>
+                    <source
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
+                    />
                     <img
                       alt="timeline seven"
+                      loading="lazy"
+                      sizes="(max-width: 240px) 100vw, 240px"
                       src={Object {}}
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
                     />
                   </picture>
                 </div>
@@ -930,9 +1056,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                     }
                   />
                   <picture>
+                    <source
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
+                    />
                     <img
                       alt="timeline eight"
+                      loading="lazy"
+                      sizes="(max-width: 240px) 100vw, 240px"
                       src={Object {}}
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
                     />
                   </picture>
                 </div>
@@ -973,9 +1106,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                     }
                   />
                   <picture>
+                    <source
+                      sizes="(max-width: 240px) 100vw, 240px"
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
+                    />
                     <img
                       alt="timeline nine"
+                      loading="lazy"
+                      sizes="(max-width: 240px) 100vw, 240px"
                       src={Object {}}
+                      srcSet="[object Object] 60w, [object Object] 120w, [object Object] 240w, [object Object] 360w, [object Object] 450w"
                     />
                   </picture>
                 </div>
@@ -1063,6 +1203,19 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                       }
                     />
                     <picture>
+                      <source
+                        sizes="(max-width: 200px) 100vw, 200px"
+                        srcSet="[object Object] 50w, [object Object] 100w, [object Object] 200w, [object Object] 300w, [object Object] 400w"
+                      />
+                      <img
+                        alt="testimonial one"
+                        loading="lazy"
+                        sizes="(max-width: 200px) 100vw, 200px"
+                        src={Object {}}
+                        srcSet="[object Object] 50w, [object Object] 100w, [object Object] 200w, [object Object] 300w, [object Object] 400w"
+                      />
+                    </picture>
+                    <picture>
                       <img
                         alt="test one"
                         src={Object {}}
@@ -1113,9 +1266,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                       }
                     />
                     <picture>
+                      <source
+                        sizes="(max-width: 200px) 100vw, 200px"
+                        srcSet="[object Object] 50w, [object Object] 100w, [object Object] 200w, [object Object] 300w, [object Object] 400w"
+                      />
                       <img
-                        alt="test two"
+                        alt="testimonial two"
+                        loading="lazy"
+                        sizes="(max-width: 200px) 100vw, 200px"
                         src={Object {}}
+                        srcSet="[object Object] 50w, [object Object] 100w, [object Object] 200w, [object Object] 300w, [object Object] 400w"
                       />
                     </picture>
                   </div>
@@ -1163,9 +1323,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                       }
                     />
                     <picture>
+                      <source
+                        sizes="(max-width: 200px) 100vw, 200px"
+                        srcSet="[object Object] 50w, [object Object] 100w, [object Object] 200w, [object Object] 300w, [object Object] 400w"
+                      />
                       <img
-                        alt="test two"
+                        alt="testimonial three"
+                        loading="lazy"
+                        sizes="(max-width: 200px) 100vw, 200px"
                         src={Object {}}
+                        srcSet="[object Object] 50w, [object Object] 100w, [object Object] 200w, [object Object] 300w, [object Object] 400w"
                       />
                     </picture>
                   </div>
@@ -1213,9 +1380,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                       }
                     />
                     <picture>
+                      <source
+                        sizes="(max-width: 200px) 100vw, 200px"
+                        srcSet="[object Object] 50w, [object Object] 100w, [object Object] 200w, [object Object] 300w, [object Object] 400w"
+                      />
                       <img
-                        alt="test four"
+                        alt="testimonial four"
+                        loading="lazy"
+                        sizes="(max-width: 200px) 100vw, 200px"
                         src={Object {}}
+                        srcSet="[object Object] 50w, [object Object] 100w, [object Object] 200w, [object Object] 300w, [object Object] 400w"
                       />
                     </picture>
                   </div>
@@ -1263,9 +1437,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                       }
                     />
                     <picture>
+                      <source
+                        sizes="(max-width: 200px) 100vw, 200px"
+                        srcSet="[object Object] 50w, [object Object] 100w, [object Object] 200w, [object Object] 300w, [object Object] 400w"
+                      />
                       <img
-                        alt="test five"
+                        alt="testimonial five"
+                        loading="lazy"
+                        sizes="(max-width: 200px) 100vw, 200px"
                         src={Object {}}
+                        srcSet="[object Object] 50w, [object Object] 100w, [object Object] 200w, [object Object] 300w, [object Object] 400w"
                       />
                     </picture>
                   </div>
@@ -1313,9 +1494,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                       }
                     />
                     <picture>
+                      <source
+                        sizes="(max-width: 200px) 100vw, 200px"
+                        srcSet="[object Object] 50w, [object Object] 100w, [object Object] 200w, [object Object] 300w, [object Object] 400w"
+                      />
                       <img
-                        alt="test six"
+                        alt="testimonial six"
+                        loading="lazy"
+                        sizes="(max-width: 200px) 100vw, 200px"
                         src={Object {}}
+                        srcSet="[object Object] 50w, [object Object] 100w, [object Object] 200w, [object Object] 300w, [object Object] 400w"
                       />
                     </picture>
                   </div>
@@ -1474,6 +1662,9 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
     </div>
     <footer
       className=""
+      itemScope=""
+      itemType="http://schema.org/WPFooter"
+      role="contentinfo"
     >
       <div
         className="topBorder"

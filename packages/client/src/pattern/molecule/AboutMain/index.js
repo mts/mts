@@ -28,9 +28,16 @@ export function AboutMain({ className }) {
     handleStickyNavBar()
   })
 
+  const bannerImgSrc = !windowObjectExists ? 'mts/static/banner.jpg' : Banner
+
   return (
-    <main className={className} style={{ marginTop: '55px', display: 'flex', justifyContent: 'center' }}>
-      <section className={container1}>
+    <main
+      itemScope=""
+      itemProp="mainContentOfPage"
+      className={className}
+      style={{ marginTop: '55px', display: 'flex', justifyContent: 'center' }}
+    >
+      <section className={container1} itemScope="" itemType="http://schema.org/Article">
         <header className={container1Header}>
           <h1>About Me</h1>
           <meta itemProp="name" content="About Me" />
@@ -58,7 +65,7 @@ export function AboutMain({ className }) {
               </div>
               <span>
                 &nbsp;-&nbsp;
-                <a href="https://github.com/mts/mts" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/mts/mts/blob/master/README.md" target="_blank" rel="noopener noreferrer">
                   Edit this Post
                 </a>
               </span>
@@ -90,12 +97,22 @@ export function AboutMain({ className }) {
           <div className={container1HeaderContainer1}>
             <div style={{ width: '100%', paddingBottom: '75%' }} />
             <picture>
-              <img src={!windowObjectExists ? 'mts/static/banner.jpg' : Banner} alt="banner" />
+              <source
+                srcSet={`${bannerImgSrc} 225w, ${bannerImgSrc} 450w, ${bannerImgSrc} 900w, ${bannerImgSrc} 1024w`}
+                sizes="(max-width: 900px) 100vw, 900px"
+              />
+              <img
+                sizes="(max-width: 900px) 100vw, 900px"
+                srcSet={`${bannerImgSrc} 225w, ${bannerImgSrc} 450w, ${bannerImgSrc} 900w, ${bannerImgSrc} 1024w`}
+                src={bannerImgSrc}
+                alt="react consultant, react freelancer, javascript freelancer, javascript consultant"
+                loading="lazy"
+              />
             </picture>
           </div>
-          <meta itemProp="image" content={!windowObjectExists ? 'mts/static/banner.jpg' : Banner} />
+          <meta itemProp="image" content={bannerImgSrc} />
         </header>
-        <meta itemProp="mainEntityOfPage" content="https://mts.github.io/about" />
+        <meta itemProp="mainEntityOfPage" content="https://mts.github.io/mts/about" />
         <arcticle itemProp="articleBody">
           <LoremIpsum container={element.paragraph} length={size.small} count={1} />
           <LoremIpsum container={element.paragraph} length={size.large} count={1} />

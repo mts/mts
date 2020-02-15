@@ -10,7 +10,7 @@ export function handleStickyNavBar() {
 
   const sticky = backgroundImage?.height - navBarMobileToggle?.offsetHeight - 20
 
-  function addToClass() {
+  function styleSticky() {
     nav?.classList.add(navSticky)
     navBarLogo?.classList.add(navBarLogoSticky)
     navBarListItemLinks?.forEach(navBarListItemLink => {
@@ -18,7 +18,7 @@ export function handleStickyNavBar() {
     })
   }
 
-  function removeFromClass() {
+  function styleUnSticky() {
     nav?.classList.remove(navSticky)
     navBarLogo?.classList.remove(navBarLogoSticky)
     navBarListItemLinks?.forEach(navBarListItemLink => {
@@ -28,14 +28,14 @@ export function handleStickyNavBar() {
 
   function handleWindowOnScroll() {
     if (window.pageYOffset >= (sticky || 0)) {
-      addToClass()
+      styleSticky()
     } else {
-      removeFromClass()
+      styleUnSticky()
     }
   }
 
   if (Number.isNaN(sticky)) {
-    addToClass()
+    styleSticky()
   }
 
   window.onscroll = () => {

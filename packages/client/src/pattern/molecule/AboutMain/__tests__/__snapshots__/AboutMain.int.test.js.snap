@@ -3,6 +3,8 @@
 exports[`<AboutMain /> Snaphot must match defaultRender 1`] = `
 <main
   className=""
+  itemProp="mainContentOfPage"
+  itemScope=""
   style={
     Object {
       "display": "flex",
@@ -13,6 +15,8 @@ exports[`<AboutMain /> Snaphot must match defaultRender 1`] = `
 >
   <section
     className="container1"
+    itemScope=""
+    itemType="http://schema.org/Article"
   >
     <header
       className="container1Header"
@@ -84,7 +88,7 @@ exports[`<AboutMain /> Snaphot must match defaultRender 1`] = `
           <span>
              - 
             <a
-              href="https://github.com/mts/mts"
+              href="https://github.com/mts/mts/blob/master/README.md"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -144,9 +148,16 @@ exports[`<AboutMain /> Snaphot must match defaultRender 1`] = `
           }
         />
         <picture>
+          <source
+            sizes="(max-width: 900px) 100vw, 900px"
+            srcSet="[object Object] 225w, [object Object] 450w, [object Object] 900w, [object Object] 1024w"
+          />
           <img
-            alt="banner"
+            alt="react consultant, react freelancer, javascript freelancer, javascript consultant"
+            loading="lazy"
+            sizes="(max-width: 900px) 100vw, 900px"
             src={Object {}}
+            srcSet="[object Object] 225w, [object Object] 450w, [object Object] 900w, [object Object] 1024w"
           />
         </picture>
       </div>
@@ -156,7 +167,7 @@ exports[`<AboutMain /> Snaphot must match defaultRender 1`] = `
       />
     </header>
     <meta
-      content="https://mts.github.io/about"
+      content="https://mts.github.io/mts/about"
       itemProp="mainEntityOfPage"
     />
     <arcticle

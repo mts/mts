@@ -1,35 +1,31 @@
 /* eslint-disable import/no-dynamic-require, global-require */
-import React from 'react'
-
 const mockRequireHomePage = () => {
   const homePagePath = '../../pattern/page/HomePage'
-  jest.mock(homePagePath, () => {
-    return <div>HomePage</div>
-  })
+  jest.mock(homePagePath, () => 'HomePage')
   return require(homePagePath)
 }
 
 const mockRequireAboutPage = () => {
   const aboutPagePath = '../../pattern/page/AboutPage'
-  jest.mock(aboutPagePath, () => {
-    return <div>AboutPage</div>
-  })
+  jest.mock(aboutPagePath, () => 'AboutPage')
   return require(aboutPagePath)
 }
 
 const mockRequireBlogPage = () => {
   const blogPagePath = '../../pattern/page/BlogPage'
-  jest.mock(blogPagePath, () => {
-    return <div>BlogPage</div>
-  })
+  jest.mock(blogPagePath, () => 'BlogPage')
   return require(blogPagePath)
+}
+
+const mockRequireCoursesPage = () => {
+  const coursesPagePath = '../../pattern/page/CoursesPage'
+  jest.mock(coursesPagePath, () => 'CoursesPage')
+  return require(coursesPagePath)
 }
 
 const mockRequireNotFoundPage = () => {
   const notFoundPagePath = '../../pattern/page/NotFoundPage'
-  jest.mock(notFoundPagePath, () => {
-    return <div>NotFoundPage</div>
-  })
+  jest.mock(notFoundPagePath, () => 'NotFoundPage')
   return require(notFoundPagePath)
 }
 
@@ -40,6 +36,7 @@ const mockRequirePath = () => {
       homePagePath: 'some-home-page-path',
       aboutPagePath: 'some-about-page-path',
       blogPagePath: 'some-blog-page-path',
+      coursesPagePath: 'some-courses-page-path',
     }
   })
   return require(pathPath)
@@ -97,6 +94,22 @@ describe('index', () => {
     test('must return blog page route object', () => {
       const { blogPageRoute } = requireIndex()
       expect(blogPageRoute).toEqual(expectedBlogPageRoute)
+    })
+  })
+
+  describe('coursesPageRoute', () => {
+    const coursesPage = mockRequireCoursesPage()
+
+    const expectedCoursesPageRoute = {
+      path: path.coursesPagePath,
+      exact: true,
+      clientComponent: coursesPage.AsyncCoursesPage,
+      serverComponent: coursesPage.CoursesPage,
+    }
+
+    test('must return courses page route object', () => {
+      const { coursesPageRoute } = requireIndex()
+      expect(coursesPageRoute).toEqual(expectedCoursesPageRoute)
     })
   })
 

@@ -1,0 +1,62 @@
+@mixin buttonModuleBase {
+  color: #823eb7;
+  background-color: #fff;
+  border: 1px solid #823eb7;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  line-height: 1.42857143;
+  border-radius: 0;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+@mixin buttonModuleBaseRound {
+  border-radius: 5px;
+}
+
+@mixin buttonModuleBaseLarge {
+  padding: 20px;
+}
+
+@mixin blogItemContentAnchor {
+  a {
+    color: #333;
+    text-decoration: none;
+
+    &:hover,
+    &:visited {
+      color: #333;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background-color: transparent;
+    }
+  }
+}
+
+@mixin pictureImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  opacity: 1;
+  transition: opacity 500ms ease 0s;
+}

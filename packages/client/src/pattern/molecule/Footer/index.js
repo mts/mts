@@ -18,7 +18,7 @@ import { footerDefaultProps, footerPropTypes } from './Footer.props'
 
 export function Footer({ className }) {
   return (
-    <footer className={className}>
+    <footer role="contentinfo" itemScope="" itemType="http://schema.org/WPFooter" className={className}>
       <div className={topBorder}>
         <div className={container1}>
           <div className={container1SubFooterLinks1}>

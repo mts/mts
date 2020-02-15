@@ -13,15 +13,22 @@ exports[`<Book /> Snaphot must match defaultRender 1`] = `
       <div
         style={
           Object {
-            "paddingBottom": "75%",
+            "paddingBottom": "100%",
             "width": "100%",
           }
         }
       />
       <picture>
+        <source
+          sizes="(max-width: 320px) 100vw, 320px"
+          srcSet="[object Object] 256w, [object Object] 320w"
+        />
         <img
-          alt="banner"
+          alt="book cover"
+          loading="lazy"
+          sizes="(max-width: 320px) 100vw, 320px"
           src={Object {}}
+          srcSet="[object Object] 256w, [object Object] 320w"
         />
       </picture>
     </div>

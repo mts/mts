@@ -62,6 +62,21 @@ describe('path', () => {
       expect(blogPagePath).toBe('/blog')
     })
   })
+
+  describe(' coursesPagePath', () => {
+    test('must return path with base url when process.env.BASE_URL is present', () => {
+      jest.resetModules()
+      extendEnvironmentVariables()
+      const { coursesPagePath } = requirePath()
+      expect(coursesPagePath).toBe(`${process.env.BASE_URL}/courses`)
+    })
+
+    test('must return path without base url when process.env.BASE_URL is absent', () => {
+      jest.resetModules()
+      const { coursesPagePath } = requirePath()
+      expect(coursesPagePath).toBe('/courses')
+    })
+  })
 })
 
 /* eslint-enable global-require */
