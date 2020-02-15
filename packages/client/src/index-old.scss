@@ -9,20 +9,6 @@ h1 {
   margin-top: 20px;
 }
 
-h1,
-h2 {
-  margin-bottom: 10px;
-}
-
-h2 {
-  text-transform: uppercase;
-  font-size: 22px;
-  letter-spacing: 0.08em;
-  font-weight: 300;
-  line-height: 1.1;
-  margin-top: 0;
-}
-
 h3 {
   margin-top: 5px;
   margin-bottom: 10px;
@@ -44,13 +30,4 @@ input {
   -webkit-appearance: none;
   padding: 8px;
   display: inline-block;
-}
-
-input,
-small {
-  color: #545454;
-}
-
-small {
-  font-size: 14px;
 }
