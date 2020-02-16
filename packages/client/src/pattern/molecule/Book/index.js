@@ -1,7 +1,7 @@
 import React from 'react'
 import cx from 'classnames'
 import { topBorder, container1, container1Image, container1Info, container1InfoLead, container1InfoLink } from './Book.scss'
-import { bookDefaultProps, bookPropTypes } from './Book.props'
+import { bookDefaultProps, bookPropTypes } from './Book.prop'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import BookCover from '../../../asset/image/bookcover.jpg'
 import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
