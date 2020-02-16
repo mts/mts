@@ -5,6 +5,7 @@ import { bookDefaultProps, bookPropTypes } from './Book.prop'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import BookCover from '../../../asset/image/bookcover.jpg'
 import { LoremIpsum } from '../../atom/LoremIpsum'
+import { Image } from '../../atom/Image'
 import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
 
@@ -14,19 +15,15 @@ export function Book({ className }) {
   return (
     <div className={cx(className, topBorder)}>
       <div className={container}>
-        <div className={containerImage}>
-          <div style={{ width: '100%', paddingBottom: '100%' }} />
-          <picture>
-            <source srcSet={`${bookCoverImgSrc} 256w, ${bookCoverImgSrc} 320w`} sizes="(max-width: 320px) 100vw, 320px" />
-            <img
-              sizes="(max-width: 320px) 100vw, 320px"
-              srcSet={`${bookCoverImgSrc} 256w, ${bookCoverImgSrc} 320w`}
-              src={bookCoverImgSrc}
-              alt="book cover"
-              loading="lazy"
-            />
-          </picture>
-        </div>
+        <Image
+          className={containerImage}
+          divStyle={{ width: '100%', paddingBottom: '100%' }}
+          srcSet={`${bookCoverImgSrc} 256w, ${bookCoverImgSrc} 320w`}
+          sizes="(max-width: 320px) 100vw, 320px"
+          src={bookCoverImgSrc}
+          alt="book cover"
+          loading="lazy"
+        />
         <div className={containerInfo}>
           <h2>Will Smith - A Biography</h2>
           <LoremIpsum className={containerInfoLead} container={element.paragraph} length={size.x2Small} count={1} />
