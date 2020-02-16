@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars, no-console */
 import React from 'react'
-import { errorBoundaryPropTypes } from './ErrorBoundary.props'
+import { errorBoundaryPropTypes } from './ErrorBoundary.prop'
 
 export class ErrorBoundary extends React.Component {
   constructor(props) {
