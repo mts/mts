@@ -20,6 +20,7 @@ import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import Banner from '../../../asset/image/banner.jpg'
 import { LoremIpsum } from '../../atom/LoremIpsum'
+import { Image } from '../../atom/Image'
 import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
 
@@ -94,22 +95,15 @@ export function AboutMain({ className }) {
               </a>
             </li>
           </ul>
-          <div className={containerHeaderContainer}>
-            <div style={{ width: '100%', paddingBottom: '75%' }} />
-            <picture>
-              <source
-                srcSet={`${bannerImgSrc} 225w, ${bannerImgSrc} 450w, ${bannerImgSrc} 900w, ${bannerImgSrc} 1024w`}
-                sizes="(max-width: 900px) 100vw, 900px"
-              />
-              <img
-                sizes="(max-width: 900px) 100vw, 900px"
-                srcSet={`${bannerImgSrc} 225w, ${bannerImgSrc} 450w, ${bannerImgSrc} 900w, ${bannerImgSrc} 1024w`}
-                src={bannerImgSrc}
-                alt="react consultant, react freelancer, javascript freelancer, javascript consultant"
-                loading="lazy"
-              />
-            </picture>
-          </div>
+          <Image
+            className={containerHeaderContainer}
+            divStyle={{ width: '100%', paddingBottom: '75%' }}
+            srcSet={`${bannerImgSrc} 225w, ${bannerImgSrc} 450w, ${bannerImgSrc} 900w, ${bannerImgSrc} 1024w`}
+            sizes="(max-width: 900px) 100vw, 900px"
+            src={bannerImgSrc}
+            alt="react consultant, react freelancer, javascript freelancer, javascript consultant"
+            loading="lazy"
+          />
           <meta itemProp="image" content={bannerImgSrc} />
         </header>
         <meta itemProp="mainEntityOfPage" content="https://mts.github.io/mts/about" />
