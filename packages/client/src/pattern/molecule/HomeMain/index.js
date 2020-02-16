@@ -457,10 +457,10 @@ export function HomeMain({ className }) {
                 <Image
                   className={containerTimelineItemsItemMemoryImageContainer}
                   divStyle={{ width: '100%', paddingBottom: '100%' }}
-                  srcSet={`${timeline1ImgSrc} 60w, ${timeline1ImgSrc} 120w, ${timeline1ImgSrc} 240w, ${timeline1ImgSrc} 360w, ${timeline1ImgSrc} 450w`}
+                  srcSet={`${timeline7ImgSrc} 60w, ${timeline7ImgSrc} 120w, ${timeline7ImgSrc} 240w, ${timeline7ImgSrc} 360w, ${timeline7ImgSrc} 450w`}
                   sizes="(max-width: 240px) 100vw, 240px"
-                  src={timeline1ImgSrc}
-                  alt="timeline one"
+                  src={timeline7ImgSrc}
+                  alt="timeline seven"
                   loading="lazy"
                 />
               </div>
