@@ -6,7 +6,7 @@ import { withRouter } from 'react-router'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { homePageRoute, aboutPageRoute, blogPageRoute, coursesPageRoute, notFoundPageRoute } from './route'
 import { checkAccessibilityIssues } from '../../library/src/client/startup'
-import { ErrorBoundary } from './pattern/atom/error/ErrorBoundary'
+import { ErrorBoundary } from './pattern/atom/ErrorBoundary'
 import { clientAppStore } from './store/client'
 
 checkAccessibilityIssues(React, ReactDOM, 1000)

@@ -5,7 +5,7 @@ import { string, shape } from 'prop-types'
 import { Provider } from 'react-redux'
 import { StaticRouter } from 'react-router'
 import { homePageRoute, notFoundPageRoute } from './route'
-import { ErrorBoundary } from './pattern/atom/error/ErrorBoundary'
+import { ErrorBoundary } from './pattern/atom/ErrorBoundary'
 import { serverAppStore } from './store/server'
 
 export function App({ location, context }) {
