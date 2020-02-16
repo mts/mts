@@ -494,22 +494,15 @@ export function HomeMain({ className }) {
             </li>
             <li className={containerTimelineItemsItem}>
               <div className={containerTimelineItemsItemMemoryImage}>
-                <div className={containerTimelineItemsItemMemoryImageContainer}>
-                  <div style={{ width: '100%', paddingBottom: '100%' }} />
-                  <picture>
-                    <source
-                      srcSet={`${timeline9ImgSrc} 60w, ${timeline9ImgSrc} 120w, ${timeline9ImgSrc} 240w, ${timeline9ImgSrc} 360w, ${timeline9ImgSrc} 450w`}
-                      sizes="(max-width: 240px) 100vw, 240px"
-                    />
-                    <img
-                      sizes="(max-width: 240px) 100vw, 240px"
-                      srcSet={`${timeline9ImgSrc} 60w, ${timeline9ImgSrc} 120w, ${timeline9ImgSrc} 240w, ${timeline9ImgSrc} 360w, ${timeline9ImgSrc} 450w`}
-                      src={timeline9ImgSrc}
-                      alt="timeline nine"
-                      loading="lazy"
-                    />
-                  </picture>
-                </div>
+                <Image
+                  className={containerTimelineItemsItemMemoryImageContainer}
+                  divStyle={{ width: '100%', paddingBottom: '100%' }}
+                  srcSet={`${timeline9ImgSrc} 60w, ${timeline9ImgSrc} 120w, ${timeline9ImgSrc} 240w, ${timeline9ImgSrc} 360w, ${timeline9ImgSrc} 450w`}
+                  sizes="(max-width: 240px) 100vw, 240px"
+                  src={timeline9ImgSrc}
+                  alt="timeline nine"
+                  loading="lazy"
+                />
               </div>
               <div className={containerTimelineItemsItemCaption}>
                 <h4>2020 - TODAY</h4>
