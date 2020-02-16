@@ -145,13 +145,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
       }
     >
       <div
-        className="container1"
+        className="container"
       >
         <div
-          className="container1Background"
+          className="containerBackground"
         >
           <div
-            className="container1BackgroundImage"
+            className="containerBackgroundImage"
           >
             <div
               style={
@@ -176,45 +176,45 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
             </picture>
           </div>
           <div
-            className="container1BackgroundDimmer"
+            className="containerBackgroundDimmer"
           />
           <div
-            className="container1BackgroundCaption"
+            className="containerBackgroundCaption"
           >
             <h1
-              className="container1BackgroundCaptionH1"
+              className="containerBackgroundCaptionH1"
             >
               MTS
             </h1>
             <h2
-              className="container1BackgroundCaptionH2"
+              className="containerBackgroundCaptionH2"
             >
               React.js, Node.js and GraphQL
             </h2>
           </div>
         </div>
         <div
-          className="container1About"
+          className="containerAbout"
         >
           <div
-            className="container1AboutSectionHeader"
+            className="containerAboutSectionHeader"
           >
             <h2
-              className="container1AboutSectionHeaderH2"
+              className="containerAboutSectionHeaderH2"
             >
               About me
             </h2>
             <h3
-              className="container1AboutSectionHeaderH3"
+              className="containerAboutSectionHeaderH3"
             >
               Get to know me before you dive into my content.
             </h3>
           </div>
           <div
-            className="container1AboutImage"
+            className="containerAboutImage"
           >
             <div
-              className="container1AboutImageContainer1"
+              className="containerAboutImageContainer"
             >
               <div
                 style={
@@ -240,10 +240,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
             </div>
           </div>
           <ul
-            className="container1AboutSocialIcons"
+            className="containerAboutSocialIcons"
           >
             <li
-              className="container1AboutSocialIconsIcon"
+              className="containerAboutSocialIconsIcon"
             >
               <a
                 aria-label="Go To Social Media: twitter-round"
@@ -263,7 +263,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="container1AboutSocialIconsIcon"
+              className="containerAboutSocialIconsIcon"
             >
               <a
                 aria-label="Go To Social Media: github-round"
@@ -283,7 +283,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="container1AboutSocialIconsIcon"
+              className="containerAboutSocialIconsIcon"
             >
               <a
                 aria-label="Go To Social Media: facebook-round"
@@ -303,7 +303,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="container1AboutSocialIconsIcon"
+              className="containerAboutSocialIconsIcon"
             >
               <a
                 aria-label="Go To Social Media: email"
@@ -327,7 +327,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
             </li>
           </ul>
           <div
-            className="container1AboutText"
+            className="containerAboutText"
           >
             <p
               className=""
@@ -337,27 +337,27 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           </div>
         </div>
         <div
-          className="container1Services"
+          className="containerServices"
         >
           <div
-            className="container1ServicesHeader"
+            className="containerServicesHeader"
           >
             <h2
-              className="container1ServicesHeaderH2"
+              className="containerServicesHeaderH2"
             >
               What I offer
             </h2>
             <h3
-              className="container1ServicesHeaderH3"
+              className="containerServicesHeaderH3"
             >
               Why you might want to hire me.
             </h3>
           </div>
           <ul
-            className="container1ServicesItems"
+            className="containerServicesItems"
           >
             <li
-              className="container1ServicesItemsItem"
+              className="containerServicesItemsItem"
             >
               <svg
                 height="60px"
@@ -378,7 +378,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </p>
             </li>
             <li
-              className="container1ServicesItemsItem"
+              className="containerServicesItemsItem"
             >
               <svg
                 height="60px"
@@ -402,7 +402,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </p>
             </li>
             <li
-              className="container1ServicesItemsItem"
+              className="containerServicesItemsItem"
             >
               <svg
                 height="60px"
@@ -429,7 +429,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </p>
             </li>
             <li
-              className="container1ServicesItemsItem"
+              className="containerServicesItemsItem"
             >
               <svg
                 height="60px"
@@ -453,7 +453,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </p>
             </li>
             <li
-              className="container1ServicesItemsItem"
+              className="containerServicesItemsItem"
             >
               <svg
                 height="60px"
@@ -474,7 +474,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </p>
             </li>
             <li
-              className="container1ServicesItemsItem"
+              className="containerServicesItemsItem"
             >
               <svg
                 height="60px"
@@ -497,27 +497,27 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           </ul>
         </div>
         <div
-          className="container1Portfolio"
+          className="containerPortfolio"
         >
           <div
-            className="container1PortfolioHeader"
+            className="containerPortfolioHeader"
           >
             <h2
-              className="container1PortfolioHeaderH2"
+              className="containerPortfolioHeaderH2"
             >
               Portfolio
             </h2>
             <h3
-              className="container1PortfolioHeaderH3"
+              className="containerPortfolioHeaderH3"
             >
               What you can learn from me.
             </h3>
           </div>
           <ul
-            className="container1PortfolioItems"
+            className="containerPortfolioItems"
           >
             <li
-              className="container1PortfolioItemsItem"
+              className="containerPortfolioItemsItem"
             >
               <a
                 aria-label="Portfolio Link: https://mtsonlinecourses.com"
@@ -526,10 +526,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="container1PortfolioItemsItemImage"
+                  className="containerPortfolioItemsItemImage"
                 >
                   <div
-                    className="container1PortfolioItemsItemImageContainer1"
+                    className="containerPortfolioItemsItemImageContainer"
                   >
                     <div
                       style={
@@ -555,7 +555,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   </div>
                 </div>
                 <div
-                  className="container1PortfolioItemsItemCaption"
+                  className="containerPortfolioItemsItemCaption"
                 >
                   <h4>
                     Online Courses
@@ -567,7 +567,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="container1PortfolioItemsItem"
+              className="containerPortfolioItemsItem"
             >
               <a
                 aria-label="Portfolio Link: https://www.github.com/mts"
@@ -576,10 +576,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="container1PortfolioItemsItemImage"
+                  className="containerPortfolioItemsItemImage"
                 >
                   <div
-                    className="container1PortfolioItemsItemImageContainer1"
+                    className="containerPortfolioItemsItemImageContainer"
                   >
                     <div
                       style={
@@ -605,7 +605,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   </div>
                 </div>
                 <div
-                  className="container1PortfolioItemsItemCaption"
+                  className="containerPortfolioItemsItemCaption"
                 >
                   <h4>
                     Open Source
@@ -617,7 +617,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="container1PortfolioItemsItem"
+              className="containerPortfolioItemsItem"
             >
               <a
                 aria-label="Portfolio Link: /blog"
@@ -626,10 +626,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="container1PortfolioItemsItemImage"
+                  className="containerPortfolioItemsItemImage"
                 >
                   <div
-                    className="container1PortfolioItemsItemImageContainer1"
+                    className="containerPortfolioItemsItemImageContainer"
                   >
                     <div
                       style={
@@ -655,7 +655,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                   </div>
                 </div>
                 <div
-                  className="container1PortfolioItemsItemCaption"
+                  className="containerPortfolioItemsItemCaption"
                 >
                   <h4>
                     Tutorials
@@ -669,33 +669,33 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           </ul>
         </div>
         <div
-          className="container1Timeline"
+          className="containerTimeline"
         >
           <div
-            className="container1TimelineSectionHeader"
+            className="containerTimelineSectionHeader"
           >
             <h2
-              className="container1TimelineSectionHeaderH2"
+              className="containerTimelineSectionHeaderH2"
             >
               TIMELINE
             </h2>
             <h3
-              className="container1TimelineSectionHeaderH3"
+              className="containerTimelineSectionHeaderH3"
             >
               MY PROFESSIONAL STORY.
             </h3>
           </div>
           <ul
-            className="container1TimelineItems"
+            className="containerTimelineItems"
           >
             <li
-              className="container1TimelineItemsItem"
+              className="containerTimelineItemsItem"
             >
               <div
-                className="container1TimelineItemsItemMemoryImage"
+                className="containerTimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1TimelineItemsItemMemoryImageContainer"
+                  className="containerTimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -721,7 +721,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </div>
               <div
-                className="container1TimelineItemsItemCaption"
+                className="containerTimelineItemsItemCaption"
               >
                 <h4>
                   Lorem ipsum
@@ -739,13 +739,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1TimelineItemsItem"
+              className="containerTimelineItemsItem"
             >
               <div
-                className="container1TimelineItemsItemMemoryImage"
+                className="containerTimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1TimelineItemsItemMemoryImageContainer"
+                  className="containerTimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -771,7 +771,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </div>
               <div
-                className="container1TimelineItemsItemCaption"
+                className="containerTimelineItemsItemCaption"
               >
                 <h4>
                   Lorem ipsum
@@ -789,13 +789,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1TimelineItemsItem"
+              className="containerTimelineItemsItem"
             >
               <div
-                className="container1TimelineItemsItemMemoryImage"
+                className="containerTimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1TimelineItemsItemMemoryImageContainer"
+                  className="containerTimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -821,7 +821,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </div>
               <div
-                className="container1TimelineItemsItemCaption"
+                className="containerTimelineItemsItemCaption"
               >
                 <h4>
                   Lorem ipsum
@@ -839,13 +839,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1TimelineItemsItem"
+              className="containerTimelineItemsItem"
             >
               <div
-                className="container1TimelineItemsItemMemoryImage"
+                className="containerTimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1TimelineItemsItemMemoryImageContainer"
+                  className="containerTimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -871,7 +871,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </div>
               <div
-                className="container1TimelineItemsItemCaption"
+                className="containerTimelineItemsItemCaption"
               >
                 <h4>
                   Lorem ipsum
@@ -889,13 +889,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1TimelineItemsItem"
+              className="containerTimelineItemsItem"
             >
               <div
-                className="container1TimelineItemsItemMemoryImage"
+                className="containerTimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1TimelineItemsItemMemoryImageContainer"
+                  className="containerTimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -921,7 +921,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </div>
               <div
-                className="container1TimelineItemsItemCaption"
+                className="containerTimelineItemsItemCaption"
               >
                 <h4>
                   Lorem ipsum
@@ -939,13 +939,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1TimelineItemsItem"
+              className="containerTimelineItemsItem"
             >
               <div
-                className="container1TimelineItemsItemMemoryImage"
+                className="containerTimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1TimelineItemsItemMemoryImageContainer"
+                  className="containerTimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -971,7 +971,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </div>
               <div
-                className="container1TimelineItemsItemCaption"
+                className="containerTimelineItemsItemCaption"
               >
                 <h4>
                   Lorem ipsum
@@ -989,13 +989,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1TimelineItemsItem"
+              className="containerTimelineItemsItem"
             >
               <div
-                className="container1TimelineItemsItemMemoryImage"
+                className="containerTimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1TimelineItemsItemMemoryImageContainer"
+                  className="containerTimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -1021,7 +1021,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </div>
               <div
-                className="container1TimelineItemsItemCaption"
+                className="containerTimelineItemsItemCaption"
               >
                 <h4>
                   Lorem ipsum
@@ -1039,13 +1039,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1TimelineItemsItem"
+              className="containerTimelineItemsItem"
             >
               <div
-                className="container1TimelineItemsItemMemoryImage"
+                className="containerTimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1TimelineItemsItemMemoryImageContainer"
+                  className="containerTimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -1071,7 +1071,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </div>
               <div
-                className="container1TimelineItemsItemCaption"
+                className="containerTimelineItemsItemCaption"
               >
                 <h4>
                   Lorem ipsum
@@ -1089,13 +1089,13 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1TimelineItemsItem"
+              className="containerTimelineItemsItem"
             >
               <div
-                className="container1TimelineItemsItemMemoryImage"
+                className="containerTimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1TimelineItemsItemMemoryImageContainer"
+                  className="containerTimelineItemsItemMemoryImageContainer"
                 >
                   <div
                     style={
@@ -1121,7 +1121,7 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </div>
               <div
-                className="container1TimelineItemsItemCaption"
+                className="containerTimelineItemsItemCaption"
               >
                 <h4>
                   2020 - TODAY
@@ -1139,16 +1139,16 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
               </div>
             </li>
             <li
-              className="container1TimelineItemsItem"
+              className="containerTimelineItemsItem"
             >
               <div
-                className="container1TimelineItemsItemMemoryImage"
+                className="containerTimelineItemsItemMemoryImage"
               >
                 <div
-                  className="container1TimelineItemsItemMemoryImageContainer"
+                  className="containerTimelineItemsItemMemoryImageContainer"
                 >
                   <div
-                    className="container1TimelineItemsItemNewestMemory"
+                    className="containerTimelineItemsItemNewestMemory"
                   >
                     <h4>
                       Be part of my story.
@@ -1160,27 +1160,27 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           </ul>
         </div>
         <div
-          className="container1Test"
+          className="containerTest"
         >
           <div
-            className="container1TestSectionHeader"
+            className="containerTestSectionHeader"
           >
             <h2
-              className="container1TestSectionHeaderH2"
+              className="containerTestSectionHeaderH2"
             >
               Testimonials
             </h2>
             <h3
-              className="container1TestSectionHeaderH3"
+              className="containerTestSectionHeaderH3"
             >
               What industry leaders are saying
             </h3>
           </div>
           <ul
-            className="container1TestItems"
+            className="containerTestItems"
           >
             <li
-              className="container1TestItemsItem"
+              className="containerTestItemsItem"
             >
               <a
                 aria-label="Customer Testimonial Link: https://twitter.com/martinlawrence"
@@ -1189,10 +1189,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="container1TestItemsItemImage"
+                  className="containerTestItemsItemImage"
                 >
                   <div
-                    className="container1TestItemsItemImageContainer"
+                    className="containerTestItemsItemImageContainer"
                   >
                     <div
                       style={
@@ -1225,25 +1225,25 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </a>
               <div
-                className="container1TestItemsItemCaption"
+                className="containerTestItemsItemCaption"
               >
                 <h4>
                   Lorem Ipsum
                 </h4>
                 <p
-                  className="container1TestItemsItemCaptionP1"
+                  className="containerTestItemsItemCaptionP1"
                 >
                   Lorem ipsum dolor sit
                 </p>
                 <p
-                  className="container1TestItemsItemCaptionP2"
+                  className="containerTestItemsItemCaptionP2"
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </li>
             <li
-              className="container1TestItemsItem"
+              className="containerTestItemsItem"
             >
               <a
                 aria-label="Customer Testimonial Link: https://twitter.com/mariahcarey"
@@ -1252,10 +1252,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="container1TestItemsItemImage"
+                  className="containerTestItemsItemImage"
                 >
                   <div
-                    className="container1TestItemsItemImageContainer"
+                    className="containerTestItemsItemImageContainer"
                   >
                     <div
                       style={
@@ -1282,25 +1282,25 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </a>
               <div
-                className="container1TestItemsItemCaption"
+                className="containerTestItemsItemCaption"
               >
                 <h4>
                   Lorem Ipsum
                 </h4>
                 <p
-                  className="container1TestItemsItemCaptionP1"
+                  className="containerTestItemsItemCaptionP1"
                 >
                   Lorem ipsum dolor sit
                 </p>
                 <p
-                  className="container1TestItemsItemCaptionP2"
+                  className="containerTestItemsItemCaptionP2"
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </li>
             <li
-              className="container1TestItemsItem"
+              className="containerTestItemsItem"
             >
               <a
                 aria-label="Customer Testimonial Link: https://twitter.com/brucewillis"
@@ -1309,10 +1309,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="container1TestItemsItemImage"
+                  className="containerTestItemsItemImage"
                 >
                   <div
-                    className="container1TestItemsItemImageContainer"
+                    className="containerTestItemsItemImageContainer"
                   >
                     <div
                       style={
@@ -1339,25 +1339,25 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </a>
               <div
-                className="container1TestItemsItemCaption"
+                className="containerTestItemsItemCaption"
               >
                 <h4>
                   Lorem Ipsum
                 </h4>
                 <p
-                  className="container1TestItemsItemCaptionP1"
+                  className="containerTestItemsItemCaptionP1"
                 >
                   Lorem ipsum dolor sit
                 </p>
                 <p
-                  className="container1TestItemsItemCaptionP2"
+                  className="containerTestItemsItemCaptionP2"
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </li>
             <li
-              className="container1TestItemsItem"
+              className="containerTestItemsItem"
             >
               <a
                 aria-label="Customer Testimonial Link: https://twitter.com/geoffreyrush"
@@ -1366,10 +1366,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="container1TestItemsItemImage"
+                  className="containerTestItemsItemImage"
                 >
                   <div
-                    className="container1TestItemsItemImageContainer"
+                    className="containerTestItemsItemImageContainer"
                   >
                     <div
                       style={
@@ -1396,25 +1396,25 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </a>
               <div
-                className="container1TestItemsItemCaption"
+                className="containerTestItemsItemCaption"
               >
                 <h4>
                   Lorem Ipsum
                 </h4>
                 <p
-                  className="container1TestItemsItemCaptionP1"
+                  className="containerTestItemsItemCaptionP1"
                 >
                   Lorem ipsum dolor sit
                 </p>
                 <p
-                  className="container1TestItemsItemCaptionP2"
+                  className="containerTestItemsItemCaptionP2"
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </li>
             <li
-              className="container1TestItemsItem"
+              className="containerTestItemsItem"
             >
               <a
                 aria-label="Customer Testimonial Link: https://twitter.com/rayliotta"
@@ -1423,10 +1423,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="container1TestItemsItemImage"
+                  className="containerTestItemsItemImage"
                 >
                   <div
-                    className="container1TestItemsItemImageContainer"
+                    className="containerTestItemsItemImageContainer"
                   >
                     <div
                       style={
@@ -1453,25 +1453,25 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </a>
               <div
-                className="container1TestItemsItemCaption"
+                className="containerTestItemsItemCaption"
               >
                 <h4>
                   Lorem Ipsum
                 </h4>
                 <p
-                  className="container1TestItemsItemCaptionP1"
+                  className="containerTestItemsItemCaptionP1"
                 >
                   Lorem ipsum dolor sit
                 </p>
                 <p
-                  className="container1TestItemsItemCaptionP2"
+                  className="containerTestItemsItemCaptionP2"
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
               </div>
             </li>
             <li
-              className="container1TestItemsItem"
+              className="containerTestItemsItem"
             >
               <a
                 aria-label="Customer Testimonial Link: https://twitter.com/lorrainebracco"
@@ -1480,10 +1480,10 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 target="_blank"
               >
                 <div
-                  className="container1TestItemsItemImage"
+                  className="containerTestItemsItemImage"
                 >
                   <div
-                    className="container1TestItemsItemImageContainer"
+                    className="containerTestItemsItemImageContainer"
                   >
                     <div
                       style={
@@ -1510,18 +1510,18 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
                 </div>
               </a>
               <div
-                className="container1TestItemsItemCaption"
+                className="containerTestItemsItemCaption"
               >
                 <h4>
                   Lorem Ipsum
                 </h4>
                 <p
-                  className="container1TestItemsItemCaptionP1"
+                  className="containerTestItemsItemCaptionP1"
                 >
                   Lorem ipsum dolor sit
                 </p>
                 <p
-                  className="container1TestItemsItemCaptionP2"
+                  className="containerTestItemsItemCaptionP2"
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
                 </p>
