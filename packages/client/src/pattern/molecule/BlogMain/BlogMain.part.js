@@ -6,7 +6,7 @@ import {
   blogItemFeaturedPropTypes,
   blogItemRegularDefaultProps,
   blogItemRegularPropTypes,
-} from './BlogMain.props'
+} from './BlogMain.prop'
 import {
   container1BlogItem,
   container1BlogItemFeatured,

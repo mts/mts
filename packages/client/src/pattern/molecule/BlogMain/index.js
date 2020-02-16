@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { container1, container1BlogList } from './BlogMain.scss'
 import { H2, BlogItemFeatured, BlogItemRegular } from './BlogMain.part'
-import { blogMainDefaultProps, blogMainPropTypes } from './BlogMain.props'
+import { blogMainDefaultProps, blogMainPropTypes } from './BlogMain.prop'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import {
   blog1,
