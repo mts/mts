@@ -1,6 +1,6 @@
 import React from 'react'
 import cx from 'classnames'
-import { topBorder, container1, container1Image, container1Info, container1InfoLead, container1InfoLink } from './Book.scss'
+import { topBorder, container, containerImage, containerInfo, containerInfoLead, containerInfoLink } from './Book.scss'
 import { bookDefaultProps, bookPropTypes } from './Book.prop'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import BookCover from '../../../asset/image/bookcover.jpg'
@@ -13,8 +13,8 @@ export function Book({ className }) {
 
   return (
     <div className={cx(className, topBorder)}>
-      <div className={container1}>
-        <div className={container1Image}>
+      <div className={container}>
+        <div className={containerImage}>
           <div style={{ width: '100%', paddingBottom: '100%' }} />
           <picture>
             <source srcSet={`${bookCoverImgSrc} 256w, ${bookCoverImgSrc} 320w`} sizes="(max-width: 320px) 100vw, 320px" />
@@ -27,16 +27,16 @@ export function Book({ className }) {
             />
           </picture>
         </div>
-        <div className={container1Info}>
+        <div className={containerInfo}>
           <h2>Will Smith - A Biography</h2>
-          <LoremIpsum className={container1InfoLead} container={element.paragraph} length={size.x2Small} count={1} />
+          <LoremIpsum className={containerInfoLead} container={element.paragraph} length={size.x2Small} count={1} />
           <div style={{ marginBottom: '10px' }} />
           <div>
             <a
               href="https://www.amazon.com/Will-Smith-Biography-Greenwood-Biographies/dp/0313376107"
               target="_blank"
               rel="noopener noreferrer"
-              className={container1InfoLink}
+              className={containerInfoLink}
             >
               Get the Book&nbsp;
               <svg viewBox="0 0 185.343 185.343" height="10px" width="10px">
