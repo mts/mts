@@ -1084,12 +1084,6 @@ exports[`<HomeMain /> Snaphot must match defaultRender 1`] = `
                     srcSet="[object Object] 50w, [object Object] 100w, [object Object] 200w, [object Object] 300w, [object Object] 400w"
                   />
                 </picture>
-                <picture>
-                  <img
-                    alt="test one"
-                    src={Object {}}
-                  />
-                </picture>
               </div>
             </div>
           </a>
