@@ -1,5 +1,5 @@
 import React from 'react'
-import { notFoundPageDefaultProps, notFoundPagePropTypes } from './NotFoundPage.props'
+import { notFoundPageDefaultProps, notFoundPagePropTypes } from './NotFoundPage.prop'
 
 const LazyNotFoundPage = React.lazy(() => import('./NotFoundPage'))
 
