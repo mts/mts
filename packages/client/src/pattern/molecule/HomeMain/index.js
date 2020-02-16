@@ -141,19 +141,15 @@ export function HomeMain({ className }) {
             <h3 className={containerAboutSectionHeaderH3}>Get to know me before you dive into my content.</h3>
           </div>
           <div className={containerAboutImage}>
-            <div className={containerAboutImageContainer}>
-              <div style={{ width: '100%', paddingBottom: '100%' }} />
-              <picture>
-                <source srcSet={`${meImgSrc} 80w, ${meImgSrc} 160w, ${meImgSrc} 240w`} sizes="(max-width: 240px) 100vw, 240px" />
-                <img
-                  sizes="(max-width: 240px) 100vw, 240px"
-                  srcSet={`${meImgSrc} 80w, ${meImgSrc} 160w, ${meImgSrc} 240w`}
-                  src={meImgSrc}
-                  alt="me"
-                  loading="lazy"
-                />
-              </picture>
-            </div>
+            <Image
+              className={containerAboutImageContainer}
+              divStyle={{ width: '100%', paddingBottom: '100%' }}
+              srcSet={`${meImgSrc} 80w, ${meImgSrc} 160w, ${meImgSrc} 240w`}
+              sizes="(max-width: 240px) 100vw, 240px"
+              src={meImgSrc}
+              alt="me"
+              loading="lazy"
+            />
           </div>
 
           <ul className={containerAboutSocialIcons}>
