@@ -140,12 +140,12 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
     }
   >
     <section
-      className="container1"
+      className="container"
       itemScope=""
       itemType="http://schema.org/Article"
     >
       <header
-        className="container1Header"
+        className="containerHeader"
       >
         <h1>
           About Me
@@ -155,10 +155,10 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           itemProp="name"
         />
         <span
-          className="container1HeaderSubHeader"
+          className="containerHeaderSubHeader"
         >
           <div
-            className="container1HeaderSubHeaderPrimary"
+            className="containerHeaderSubHeaderPrimary"
           >
             <meta
               content="Software Engineer for React.js, Node.js, GraphQL and JavaScript. English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ..."
@@ -224,10 +224,10 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </div>
         </span>
         <ul
-          className="container1HeaderFollowButtons"
+          className="containerHeaderFollowButtons"
         >
           <li
-            className="container1HeaderFollowButtonsItem"
+            className="containerHeaderFollowButtonsItem"
           >
             <a
               href="https://twitter.com/hashtag/willsmith"
@@ -241,10 +241,10 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
             </a>
           </li>
           <li
-            className="container1HeaderFollowButtonsItem"
+            className="containerHeaderFollowButtonsItem"
           >
             <a
-              className="container1HeaderFollowButtonsItemFacebookFollow"
+              className="containerHeaderFollowButtonsItemFacebookFollow"
               href="https://www.facebook.com/Will-Smith-92304305160/"
               rel="noopener noreferrer"
               target="_blank"
@@ -263,7 +263,7 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           </li>
         </ul>
         <div
-          className="container1HeaderContainer1"
+          className="containerHeaderContainer"
         >
           <div
             style={
@@ -310,7 +310,7 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt. Curabitur commodo, sapien id mattis sagittis, lectus dolor ullamcorper purus, et lacinia elit urna tincidunt massa. Nam pretium nisi at vehicula placerat. Ut molestie eros in sapien mollis, tincidunt vehicula arcu pellentesque. Proin vel elementum ante. Curabitur ut erat massa. Integer pellentesque mauris sed libero scelerisque molestie. Morbi ac dapibus urna. Donec magna felis, porta eget felis vel, sodales fringilla quam. Maecenas mauris ligula, tempus et pretium quis, aliquam nec odio. Praesent mattis a leo lacinia facilisis. Integer rutrum ac purus nec blandit. Nullam et felis ut eros sodales laoreet non vel ex. Suspendisse quis viverra purus. Pellentesque lobortis semper laoreet. Proin venenatis lacus nec neque aliquam cursus. Nullam porttitor a nulla a venenatis. Duis eu sapien velit. Phasellus sagittis vitae ligula eget posuere. Nullam volutpat cursus nunc, at molestie tellus pellentesque non. Vestibulum dignissim ante vel diam tincidunt iaculis. Vestibulum vehicula lobortis ultrices.
         </p>
         <h2
-          className="container1Title"
+          className="containerTitle"
         >
           <a
             aria-label="values and mission permalink"
@@ -331,7 +331,7 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt. Curabitur commodo, sapien id mattis sagittis, lectus dolor ullamcorper purus, et lacinia elit urna tincidunt massa. Nam pretium nisi at vehicula placerat. Ut molestie eros in sapien mollis, tincidunt vehicula arcu pellentesque. Proin vel elementum ante. Curabitur ut erat massa. Integer pellentesque mauris sed libero scelerisque molestie. Morbi ac dapibus urna. Donec magna felis, porta eget felis vel, sodales fringilla quam. Maecenas mauris ligula, tempus et pretium quis, aliquam nec odio. Praesent mattis a leo lacinia facilisis. Integer rutrum ac purus nec blandit. Nullam et felis ut eros sodales laoreet non vel ex. Suspendisse quis viverra purus. Pellentesque lobortis semper laoreet. Proin venenatis lacus nec neque aliquam cursus. Nullam porttitor a nulla a venenatis. Duis eu sapien velit. Phasellus sagittis vitae ligula eget posuere. Nullam volutpat cursus nunc, at molestie tellus pellentesque non. Vestibulum dignissim ante vel diam tincidunt iaculis. Vestibulum vehicula lobortis ultrices.
         </p>
         <h2
-          className="container1Title"
+          className="containerTitle"
         >
           <a
             aria-label="passions beyond software development permalink"
@@ -362,7 +362,7 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt.
         </p>
         <h2
-          className="container1Title"
+          className="containerTitle"
         >
           <a
             aria-label="you like my content here are a couple of ways to support it permalink"
@@ -526,7 +526,7 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
         </p>
         <h2
-          className="container1Title"
+          className="containerTitle"
         >
           <a
             aria-label="what i use permalink"
@@ -623,10 +623,10 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
         </p>
         <ul
-          className="container1List"
+          className="containerList"
         >
           <li
-            className="container1ListItem"
+            className="containerListItem"
           >
             <a
               href="https://amzn.to/2RwCPwg"
@@ -646,7 +646,7 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
             </a>
           </li>
           <li
-            className="container1ListItem"
+            className="containerListItem"
           >
             <a
               href="https://amzn.to/2RChPEq"
@@ -672,10 +672,10 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           Apps
         </h3>
         <ul
-          className="container1List"
+          className="containerList"
         >
           <li
-            className="container1ListItem"
+            className="containerListItem"
           >
             <a
               href="https://apps.apple.com/us/app/twitter/id333903271"
@@ -706,10 +706,10 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
         </p>
         <ul
-          className="container1List"
+          className="containerList"
         >
           <li
-            className="container1ListItem"
+            className="containerListItem"
           >
             <p>
               <strong>
@@ -724,7 +724,7 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
             </p>
           </li>
           <li
-            className="container1ListItem"
+            className="containerListItem"
           >
             <p>
               <strong>
@@ -738,7 +738,7 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
             </p>
           </li>
           <li
-            className="container1ListItem"
+            className="containerListItem"
           >
             <p>
               <strong>
@@ -773,30 +773,30 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
         </p>
         <ul
-          className="container1List"
+          className="containerList"
         >
           <li
-            className="container1ListItem"
+            className="containerListItem"
           >
             permalinks to newsletters
           </li>
           <li
-            className="container1ListItem"
+            className="containerListItem"
           >
             powerful integrations for fetching content automatically
           </li>
           <li
-            className="container1ListItem"
+            className="containerListItem"
           >
             simple and intuitive UI/UX
           </li>
           <li
-            className="container1ListItem"
+            className="containerListItem"
           >
             great pricing model for a larger audience
           </li>
           <li
-            className="container1ListItem"
+            className="containerListItem"
           >
             statistics and analytics
           </li>
@@ -840,7 +840,7 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
         </p>
         <hr
-          className="container1Divider"
+          className="containerDivider"
         />
         <p
           className=""
@@ -849,7 +849,7 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
         </p>
       </arcticle>
       <div
-        className="container1DividerButton"
+        className="containerDividerButton"
       >
         <button
           type="button"
