@@ -4,4 +4,4 @@ import { getInfo } from '../../../../../../../.storybook/library'
 
 const defaultRenderInfo = getInfo('default')
 
-storiesOf('Patttern/Atom/Info/UnderConstruction', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+storiesOf('Patttern/Atom/UnderConstruction', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
