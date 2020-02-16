@@ -1,5 +1,5 @@
 import React from 'react'
-import { loremIpsumDefaultProps, loremIpsumPropTypes } from './LoremIpsum.props'
+import { loremIpsumDefaultProps, loremIpsumPropTypes } from './LoremIpsum.prop'
 import { element } from '../../../../../../library/src/client/dom'
 import { size } from '../../../../../../library/src/client/placeholder'
 
