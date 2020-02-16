@@ -1,6 +1,6 @@
 import React from 'react'
 import { BlogTemplate } from '../../template/BlogTemplate'
-import { blogPageDefaultProps, blogPagePropTypes } from './BlogPage.props'
+import { blogPageDefaultProps, blogPagePropTypes } from './BlogPage.prop'
 
 export function BlogPage({ className }) {
   return (
