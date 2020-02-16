@@ -145,7 +145,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
       }
     >
       <div
-        className="container1"
+        className="container"
       >
         <section
           itemScope={true}
@@ -172,10 +172,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -200,7 +200,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -223,13 +223,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -254,7 +254,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -277,10 +277,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -305,7 +305,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -328,10 +328,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -356,7 +356,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -405,10 +405,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -433,7 +433,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -456,13 +456,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -487,7 +487,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -510,10 +510,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -538,7 +538,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -561,10 +561,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -589,7 +589,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -642,10 +642,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -670,7 +670,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -693,13 +693,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -724,7 +724,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -747,10 +747,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -775,7 +775,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -798,10 +798,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -826,7 +826,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -879,10 +879,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -907,7 +907,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -930,13 +930,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -961,7 +961,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -984,10 +984,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -1012,7 +1012,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -1035,10 +1035,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -1063,7 +1063,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -1116,10 +1116,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -1144,7 +1144,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -1167,13 +1167,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -1198,7 +1198,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -1221,10 +1221,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -1249,7 +1249,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -1272,10 +1272,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -1300,7 +1300,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -1353,10 +1353,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -1381,7 +1381,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -1404,13 +1404,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -1435,7 +1435,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -1458,10 +1458,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -1486,7 +1486,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -1509,10 +1509,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -1537,7 +1537,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -1590,10 +1590,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -1618,7 +1618,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -1641,13 +1641,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -1672,7 +1672,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -1695,10 +1695,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -1723,7 +1723,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -1746,10 +1746,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -1774,7 +1774,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -1827,10 +1827,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -1855,7 +1855,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -1878,13 +1878,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -1909,7 +1909,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -1932,10 +1932,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -1960,7 +1960,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -1983,10 +1983,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -2011,7 +2011,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -2064,10 +2064,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -2092,7 +2092,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -2115,13 +2115,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -2146,7 +2146,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -2169,10 +2169,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -2197,7 +2197,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -2220,10 +2220,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -2248,7 +2248,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -2301,10 +2301,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -2329,7 +2329,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -2352,13 +2352,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -2383,7 +2383,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -2406,10 +2406,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -2434,7 +2434,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -2487,10 +2487,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -2515,7 +2515,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -2538,13 +2538,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -2569,7 +2569,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -2592,10 +2592,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -2620,7 +2620,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -2643,10 +2643,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -2671,7 +2671,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -2724,10 +2724,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -2752,7 +2752,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -2775,13 +2775,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -2806,7 +2806,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -2829,10 +2829,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -2857,7 +2857,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -2910,10 +2910,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -2938,7 +2938,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -2961,13 +2961,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -2992,7 +2992,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -3015,10 +3015,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -3043,7 +3043,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -3066,10 +3066,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -3094,7 +3094,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -3147,10 +3147,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -3175,7 +3175,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -3227,10 +3227,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -3255,7 +3255,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -3278,10 +3278,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <article
-            className="container1BlogListContainer1"
+            className="containerBlogListContainer"
           >
             <div
-              className="container1BlogListContainer1Image"
+              className="containerBlogListContainerImage"
             >
               <div
                 style={
@@ -3306,7 +3306,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogListContainer1Content"
+              className="containerBlogListContainerContent"
             >
               <header>
                 <h2
@@ -3358,10 +3358,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -3386,7 +3386,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -3438,10 +3438,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -3466,7 +3466,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -3489,13 +3489,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -3520,7 +3520,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -3543,10 +3543,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -3571,7 +3571,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -3594,10 +3594,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -3622,7 +3622,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -3675,10 +3675,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -3703,7 +3703,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -3726,10 +3726,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <article
-            className="container1BlogListContainer1"
+            className="containerBlogListContainer"
           >
             <div
-              className="container1BlogListContainer1Image"
+              className="containerBlogListContainerImage"
             >
               <div
                 style={
@@ -3754,7 +3754,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogListContainer1Content"
+              className="containerBlogListContainerContent"
             >
               <header>
                 <h2
@@ -3806,10 +3806,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -3834,7 +3834,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -3857,13 +3857,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -3888,7 +3888,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -3911,10 +3911,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -3939,7 +3939,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -3962,10 +3962,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -3990,7 +3990,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -4043,10 +4043,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -4071,7 +4071,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -4123,10 +4123,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -4151,7 +4151,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -4174,13 +4174,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -4205,7 +4205,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -4228,10 +4228,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -4256,7 +4256,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -4279,10 +4279,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -4307,7 +4307,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -4360,10 +4360,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -4388,7 +4388,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -4411,13 +4411,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -4442,7 +4442,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -4465,10 +4465,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -4493,7 +4493,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -4516,10 +4516,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -4544,7 +4544,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -4597,10 +4597,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -4625,7 +4625,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -4648,10 +4648,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <article
-            className="container1BlogListContainer1"
+            className="containerBlogListContainer"
           >
             <div
-              className="container1BlogListContainer1Image"
+              className="containerBlogListContainerImage"
             >
               <div
                 style={
@@ -4676,7 +4676,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogListContainer1Content"
+              className="containerBlogListContainerContent"
             >
               <header>
                 <h2
@@ -4728,10 +4728,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -4756,7 +4756,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -4779,13 +4779,13 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <div
-            className="container1BlogList"
+            className="containerBlogList"
           >
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -4810,7 +4810,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -4833,10 +4833,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -4861,7 +4861,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -4884,10 +4884,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </div>
             </article>
             <article
-              className="container1BlogListContainer1"
+              className="containerBlogListContainer"
             >
               <div
-                className="container1BlogListContainer1Image"
+                className="containerBlogListContainerImage"
               >
                 <div
                   style={
@@ -4912,7 +4912,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
                 </picture>
               </div>
               <div
-                className="container1BlogListContainer1Content"
+                className="containerBlogListContainerContent"
               >
                 <header>
                   <h2
@@ -4965,10 +4965,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -4993,7 +4993,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -5016,10 +5016,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <article
-            className="container1BlogListContainer1"
+            className="containerBlogListContainer"
           >
             <div
-              className="container1BlogListContainer1Image"
+              className="containerBlogListContainerImage"
             >
               <div
                 style={
@@ -5044,7 +5044,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogListContainer1Content"
+              className="containerBlogListContainerContent"
             >
               <header>
                 <h2
@@ -5067,10 +5067,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <article
-            className="container1BlogListContainer1"
+            className="containerBlogListContainer"
           >
             <div
-              className="container1BlogListContainer1Image"
+              className="containerBlogListContainerImage"
             >
               <div
                 style={
@@ -5095,7 +5095,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogListContainer1Content"
+              className="containerBlogListContainerContent"
             >
               <header>
                 <h2
@@ -5147,10 +5147,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </a>
           </h2>
           <article
-            className="container1BlogItem container1BlogItemFeatured"
+            className="containerBlogItem containerBlogItemFeatured"
           >
             <div
-              className="container1BlogItemImage container1BlogItemImageFeatured"
+              className="containerBlogItemImage containerBlogItemImageFeatured"
             >
               <div
                 style={
@@ -5175,7 +5175,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogItemContent container1BlogItemContentFeatured"
+              className="containerBlogItemContent containerBlogItemContentFeatured"
             >
               <header>
                 <h2
@@ -5198,10 +5198,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <article
-            className="container1BlogListContainer1"
+            className="containerBlogListContainer"
           >
             <div
-              className="container1BlogListContainer1Image"
+              className="containerBlogListContainerImage"
             >
               <div
                 style={
@@ -5226,7 +5226,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogListContainer1Content"
+              className="containerBlogListContainerContent"
             >
               <header>
                 <h2
@@ -5249,10 +5249,10 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
             </div>
           </article>
           <article
-            className="container1BlogListContainer1"
+            className="containerBlogListContainer"
           >
             <div
-              className="container1BlogListContainer1Image"
+              className="containerBlogListContainerImage"
             >
               <div
                 style={
@@ -5277,7 +5277,7 @@ exports[`<BlogPage /> Snaphot must match defaultRender 1`] = `
               </picture>
             </div>
             <div
-              className="container1BlogListContainer1Content"
+              className="containerBlogListContainerContent"
             >
               <header>
                 <h2
