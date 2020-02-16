@@ -1,5 +1,5 @@
 import React from 'react'
-import { noMatchDefaultProps, noMatchPropTypes } from './NoMatch.props'
+import { noMatchDefaultProps, noMatchPropTypes } from './NoMatch.prop'
 
 export function NoMatch({ className, location }) {
   return (
