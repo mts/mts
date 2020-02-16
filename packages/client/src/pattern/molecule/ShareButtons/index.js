@@ -2,7 +2,7 @@ import React from 'react'
 import cx from 'classnames'
 import { buttonList, buttonListItem } from './ShareButtons.scss'
 import { FacebookButton, TwitterButton, LinkedInButton } from './ShareButtons.part'
-import { shareButtonsDefaultProps, shareButtonsPropTypes } from './ShareButtons.props'
+import { shareButtonsDefaultProps, shareButtonsPropTypes } from './ShareButtons.prop'
 
 export function ShareButtons({ className }) {
   return (
