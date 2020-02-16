@@ -23,9 +23,9 @@ import {
   containerServicesItems,
   containerServicesItemsItem,
   containerPortfolio,
-  containerPortfolioHeader,
-  containerPortfolioHeaderH2,
-  containerPortfolioHeaderH3,
+  containerPortfolioSectionHeader,
+  containerPortfolioSectionHeaderH2,
+  containerPortfolioSectionHeaderH3,
   containerPortfolioItems,
   containerPortfolioItemsItem,
   containerPortfolioItemsItemImage,
@@ -252,9 +252,9 @@ export function HomeMain({ className }) {
           </ul>
         </div>
         <div className={containerPortfolio}>
-          <div className={containerPortfolioHeader}>
-            <h2 className={containerPortfolioHeaderH2}>Portfolio</h2>
-            <h3 className={containerPortfolioHeaderH3}>What you can learn from me.</h3>
+          <div className={containerPortfolioSectionHeader}>
+            <h2 className={containerPortfolioSectionHeaderH2}>Portfolio</h2>
+            <h3 className={containerPortfolioSectionHeaderH3}>What you can learn from me.</h3>
           </div>
           <ul className={containerPortfolioItems}>
             <li className={containerPortfolioItemsItem}>
