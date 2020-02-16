@@ -8,15 +8,15 @@ import {
   blogItemRegularPropTypes,
 } from './BlogMain.prop'
 import {
-  container1BlogItem,
-  container1BlogItemFeatured,
-  container1BlogItemImage,
-  container1BlogItemImageFeatured,
-  container1BlogItemContent,
-  container1BlogItemContentFeatured,
-  container1BlogListContainer1,
-  container1BlogListContainer1Image,
-  container1BlogListContainer1Content,
+  containerBlogItem,
+  containerBlogItemFeatured,
+  containerBlogItemImage,
+  containerBlogItemImageFeatured,
+  containerBlogItemContent,
+  containerBlogItemContentFeatured,
+  containerBlogListContainer,
+  containerBlogListContainerImage,
+  containerBlogListContainerContent,
 } from './BlogMain.scss'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
@@ -48,8 +48,8 @@ export function BlogItemFeatured({ imageName, image, href, title, text }) {
   const imgSrc = !windowObjectExists ? `mts/static/${imageName}.jpg` : image
 
   return (
-    <article className={cx(container1BlogItem, container1BlogItemFeatured)}>
-      <div className={cx(container1BlogItemImage, container1BlogItemImageFeatured)}>
+    <article className={cx(containerBlogItem, containerBlogItemFeatured)}>
+      <div className={cx(containerBlogItemImage, containerBlogItemImageFeatured)}>
         <div style={{ width: '100%', paddingBottom: '64.94140625%' }} />
         <picture>
           <source
@@ -65,7 +65,7 @@ export function BlogItemFeatured({ imageName, image, href, title, text }) {
           />
         </picture>
       </div>
-      <div className={cx(container1BlogItemContent, container1BlogItemContentFeatured)}>
+      <div className={cx(containerBlogItemContent, containerBlogItemContentFeatured)}>
         <header>
           <h2 itemProp="name headline">
             <a itemProp="url" aria-label="Go To Blog Post" href={href}>
@@ -86,8 +86,8 @@ export function BlogItemRegular({ imageName, image, href, title, text }) {
   const imgSrc = !windowObjectExists ? `mts/static/${imageName}.jpg` : image
 
   return (
-    <article className={container1BlogListContainer1}>
-      <div className={container1BlogListContainer1Image}>
+    <article className={containerBlogListContainer}>
+      <div className={containerBlogListContainerImage}>
         <div style={{ width: '100%', paddingBottom: '6.69921875%' }} />
         <picture>
           <source
@@ -103,7 +103,7 @@ export function BlogItemRegular({ imageName, image, href, title, text }) {
           />
         </picture>
       </div>
-      <div className={container1BlogListContainer1Content}>
+      <div className={containerBlogListContainerContent}>
         <header>
           <h2 itemProp="name headline">
             <a itemProp="url" aria-label="Go To Blog Post" href={href}>
