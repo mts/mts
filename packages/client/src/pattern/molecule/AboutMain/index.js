@@ -15,7 +15,7 @@ import {
   container1DividerButton,
 } from './AboutMain.scss'
 import { A, H2, H3 } from './AboutMain.part'
-import { aboutMainDefaultProps, aboutMainPropTypes } from './AboutMain.props'
+import { aboutMainDefaultProps, aboutMainPropTypes } from './AboutMain.prop'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import Banner from '../../../asset/image/banner.jpg'
