@@ -265,22 +265,15 @@ export function HomeMain({ className }) {
                 aria-label="Portfolio Link: https://mtsonlinecourses.com"
               >
                 <div className={containerPortfolioItemsItemImage}>
-                  <div className={containerPortfolioItemsItemImageContainer}>
-                    <div style={{ width: '100%', paddingBottom: '62.3438%' }} />
-                    <picture>
-                      <source
-                        srcSet={`${portfolio1ImgSrc} 75w, ${portfolio1ImgSrc} 150w, ${portfolio1ImgSrc} 300w, ${portfolio1ImgSrc} 450w, ${portfolio1ImgSrc} 600w, ${portfolio1ImgSrc} 640w`}
-                        sizes="(max-width: 300px) 100vw, 300px"
-                      />
-                      <img
-                        sizes="(max-width: 300px) 100vw, 300px"
-                        srcSet={`${portfolio1ImgSrc} 75w, ${portfolio1ImgSrc} 150w, ${portfolio1ImgSrc} 300w, ${portfolio1ImgSrc} 450w, ${portfolio1ImgSrc} 600w, ${portfolio1ImgSrc} 640w`}
-                        src={portfolio1ImgSrc}
-                        alt="portfolio one"
-                        loading="lazy"
-                      />
-                    </picture>
-                  </div>
+                  <Image
+                    className={containerPortfolioItemsItemImageContainer}
+                    divStyle={{ width: '100%', paddingBottom: '62.3438%' }}
+                    srcSet={`${portfolio1ImgSrc} 75w, ${portfolio1ImgSrc} 150w, ${portfolio1ImgSrc} 300w, ${portfolio1ImgSrc} 450w, ${portfolio1ImgSrc} 600w, ${portfolio1ImgSrc} 640w`}
+                    sizes="(max-width: 300px) 100vw, 300px"
+                    src={portfolio1ImgSrc}
+                    alt="portfolio one"
+                    loading="lazy"
+                  />
                 </div>
                 <div className={containerPortfolioItemsItemCaption}>
                   <h4>Online Courses</h4>
