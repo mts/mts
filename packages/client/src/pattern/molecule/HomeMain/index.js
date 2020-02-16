@@ -308,22 +308,15 @@ export function HomeMain({ className }) {
             <li className={containerPortfolioItemsItem}>
               <a href="/blog" target="_blank" rel="noopener noreferrer" aria-label="Portfolio Link: /blog">
                 <div className={containerPortfolioItemsItemImage}>
-                  <div className={containerPortfolioItemsItemImageContainer}>
-                    <div style={{ width: '100%', paddingBottom: '62.3438%' }} />
-                    <picture>
-                      <source
-                        srcSet={`${portfolio3ImgSrc} 75w, ${portfolio3ImgSrc} 150w, ${portfolio3ImgSrc} 300w, ${portfolio3ImgSrc} 450w, ${portfolio3ImgSrc} 600w, ${portfolio3ImgSrc} 640w`}
-                        sizes="(max-width: 300px) 100vw, 300px"
-                      />
-                      <img
-                        sizes="(max-width: 300px) 100vw, 300px"
-                        srcSet={`${portfolio3ImgSrc} 75w, ${portfolio3ImgSrc} 150w, ${portfolio3ImgSrc} 300w, ${portfolio3ImgSrc} 450w, ${portfolio3ImgSrc} 600w, ${portfolio3ImgSrc} 640w`}
-                        src={portfolio3ImgSrc}
-                        alt="portfolio three"
-                        loading="lazy"
-                      />
-                    </picture>
-                  </div>
+                  <Image
+                    className={containerPortfolioItemsItemImageContainer}
+                    divStyle={{ width: '100%', paddingBottom: '62.3438%' }}
+                    srcSet={`${portfolio3ImgSrc} 75w, ${portfolio3ImgSrc} 150w, ${portfolio3ImgSrc} 300w, ${portfolio3ImgSrc} 450w, ${portfolio3ImgSrc} 600w, ${portfolio3ImgSrc} 640w`}
+                    sizes="(max-width: 300px) 100vw, 300px"
+                    src={portfolio3ImgSrc}
+                    alt="portfolio three"
+                    loading="lazy"
+                  />
                 </div>
                 <div className={containerPortfolioItemsItemCaption}>
                   <h4>Tutorials</h4>
