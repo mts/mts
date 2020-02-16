@@ -863,10 +863,10 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
     className="topBorder"
   >
     <div
-      className="container1"
+      className="container"
     >
       <div
-        className="container1Image"
+        className="containerImage"
       >
         <div
           style={
@@ -891,13 +891,13 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
         </picture>
       </div>
       <div
-        className="container1Info"
+        className="containerInfo"
       >
         <h2>
           Will Smith - A Biography
         </h2>
         <p
-          className="container1InfoLead"
+          className="containerInfoLead"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien.
         </p>
@@ -910,7 +910,7 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
         />
         <div>
           <a
-            className="container1InfoLink"
+            className="containerInfoLink"
             href="https://www.amazon.com/Will-Smith-Biography-Greenwood-Biographies/dp/0313376107"
             rel="noopener noreferrer"
             target="_blank"
