@@ -1,6 +1,6 @@
-import { defaultRender } from './Picture.int.render'
+import { defaultRender } from './Image.int.render'
 
-describe('<Picture />', () => {
+describe('<Image />', () => {
   describe('Snaphot', () => {
     test('must match defaultRender', () => {
       expect(global.renderToJSON(defaultRender)).toMatchSnapshot()

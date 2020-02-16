@@ -77,6 +77,7 @@ import TestimonialFive from '../../../asset/image/testimonial/testimonial-5.jpg'
 import TestimonialSix from '../../../asset/image/testimonial/testimonial-6.jpg'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { LoremIpsum } from '../../atom/LoremIpsum'
+import { Image } from '../../atom/Image'
 import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
 
@@ -118,19 +119,15 @@ export function HomeMain({ className }) {
     >
       <div className={container}>
         <div className={containerBackground}>
-          <div className={containerBackgroundImage}>
-            <div style={{ width: '100%', paddingBottom: '66.6992%' }} />
-            <picture>
-              <source srcSet={`${coverImgSrc} 256w, ${coverImgSrc} 512w, ${coverImgSrc} 1024w`} sizes="(max-width: 1024px) 100vw, 1024px" />
-              <img
-                sizes="(max-width: 1024px) 100vw, 1024px"
-                srcSet={`${coverImgSrc} 256w, ${coverImgSrc} 512w, ${coverImgSrc} 1024w`}
-                src={coverImgSrc}
-                alt="cover"
-                loading="lazy"
-              />
-            </picture>
-          </div>
+          <Image
+            className={containerBackgroundImage}
+            divStyle={{ width: '100%', paddingBottom: '66.6992%' }}
+            srcSet={`${coverImgSrc} 256w, ${coverImgSrc} 512w, ${coverImgSrc} 1024w`}
+            sizes="(max-width: 1024px) 100vw, 1024px"
+            src={coverImgSrc}
+            alt="cover"
+            loading="lazy"
+          />
           <div className={containerBackgroundDimmer} />
           <div className={containerBackgroundCaption}>
             <h1 className={containerBackgroundCaptionH1}>MTS</h1>

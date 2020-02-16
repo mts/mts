@@ -1,9 +1,9 @@
 import { string } from 'prop-types'
 
-export const pictureDefaultProps = {
+export const imageDefaultProps = {
   className: '',
 }
 
-export const picturePropTypes = {
+export const imagePropTypes = {
   className: string,
 }

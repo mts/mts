@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<Picture /> Snaphot must match defaultRender 1`] = `
-<div
-  className=""
->
-  Picture under construction
-</div>
-`;
