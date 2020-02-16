@@ -53,7 +53,7 @@ import {
   container1TestItemsItemCaptionP1,
   container1TestItemsItemCaptionP2,
 } from './HomeMain.scss'
-import { homeMainDefaultProps, homeMainPropTypes } from './HomeMain.props'
+import { homeMainDefaultProps, homeMainPropTypes } from './HomeMain.prop'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import Cover from '../../../asset/image/cover.jpg'
 import Me from '../../../asset/image/me.jpg'
