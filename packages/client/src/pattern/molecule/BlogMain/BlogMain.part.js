@@ -81,22 +81,15 @@ export function BlogItemRegular({ imageName, image, href, title, text }) {
 
   return (
     <article className={containerBlogListContainer}>
-      <div className={containerBlogListContainerImage}>
-        <div style={{ width: '100%', paddingBottom: '6.69921875%' }} />
-        <picture>
-          <source
-            srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
-            sizes="(max-width: 500px) 100vw, 500px"
-          />
-          <img
-            sizes="(max-width: 500px) 100vw, 500px"
-            srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
-            src={imgSrc}
-            alt={imageName}
-            loading="lazy"
-          />
-        </picture>
-      </div>
+      <Image
+        className={containerBlogListContainerImage}
+        divStyle={{ width: '100%', paddingBottom: '6.69921875%' }}
+        srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
+        sizes="(max-width: 500px) 100vw, 500px"
+        src={imgSrc}
+        alt={imageName}
+        loading="lazy"
+      />
       <div className={containerBlogListContainerContent}>
         <header>
           <h2 itemProp="name headline">
