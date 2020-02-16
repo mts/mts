@@ -1,5 +1,5 @@
 import React from 'react'
-import { homePageDefaultProps, homePagePropTypes } from './HomePage.props'
+import { homePageDefaultProps, homePagePropTypes } from './HomePage.prop'
 
 const LazyHomePage = React.lazy(() => import('./HomePage'))
 
