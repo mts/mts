@@ -1,5 +1,5 @@
 import React from 'react'
-import { underConstructionDefaultProps, underConstructionPropTypes } from './UnderConstruction.props'
+import { underConstructionDefaultProps, underConstructionPropTypes } from './UnderConstruction.prop'
 
 export function UnderConstruction({ className }) {
   return (
