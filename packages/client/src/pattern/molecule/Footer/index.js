@@ -14,7 +14,7 @@ import {
   container2SocialIconsLinks2,
   container2SocialIconsLinks2Link,
 } from './Footer.scss'
-import { footerDefaultProps, footerPropTypes } from './Footer.props'
+import { footerDefaultProps, footerPropTypes } from './Footer.prop'
 
 export function Footer({ className }) {
   return (
