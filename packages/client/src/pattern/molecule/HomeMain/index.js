@@ -289,22 +289,15 @@ export function HomeMain({ className }) {
                 aria-label="Portfolio Link: https://www.github.com/mts"
               >
                 <div className={containerPortfolioItemsItemImage}>
-                  <div className={containerPortfolioItemsItemImageContainer}>
-                    <div style={{ width: '100%', paddingBottom: '62.3438%' }} />
-                    <picture>
-                      <source
-                        srcSet={`${portfolio2ImgSrc} 75w, ${portfolio2ImgSrc} 150w, ${portfolio2ImgSrc} 300w, ${portfolio2ImgSrc} 450w, ${portfolio2ImgSrc} 600w, ${portfolio2ImgSrc} 640w`}
-                        sizes="(max-width: 300px) 100vw, 300px"
-                      />
-                      <img
-                        sizes="(max-width: 300px) 100vw, 300px"
-                        srcSet={`${portfolio2ImgSrc} 75w, ${portfolio2ImgSrc} 150w, ${portfolio2ImgSrc} 300w, ${portfolio2ImgSrc} 450w, ${portfolio2ImgSrc} 600w, ${portfolio2ImgSrc} 640w`}
-                        src={portfolio2ImgSrc}
-                        alt="portfolio two"
-                        loading="lazy"
-                      />
-                    </picture>
-                  </div>
+                  <Image
+                    className={containerPortfolioItemsItemImageContainer}
+                    divStyle={{ width: '100%', paddingBottom: '62.3438%' }}
+                    srcSet={`${portfolio2ImgSrc} 75w, ${portfolio2ImgSrc} 150w, ${portfolio2ImgSrc} 300w, ${portfolio2ImgSrc} 450w, ${portfolio2ImgSrc} 600w, ${portfolio2ImgSrc} 640w`}
+                    sizes="(max-width: 300px) 100vw, 300px"
+                    src={portfolio2ImgSrc}
+                    alt="portfolio two"
+                    loading="lazy"
+                  />
                 </div>
                 <div className={containerPortfolioItemsItemCaption}>
                   <h4>Open Source</h4>
