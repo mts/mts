@@ -500,15 +500,15 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           className="containerPortfolio"
         >
           <div
-            className="containerPortfolioHeader"
+            className="containerPortfolioSectionHeader"
           >
             <h2
-              className="containerPortfolioHeaderH2"
+              className="containerPortfolioSectionHeaderH2"
             >
               Portfolio
             </h2>
             <h3
-              className="containerPortfolioHeaderH3"
+              className="containerPortfolioSectionHeaderH3"
             >
               What you can learn from me.
             </h3>
