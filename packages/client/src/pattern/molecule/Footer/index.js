@@ -1,13 +1,13 @@
 import React from 'react'
 import {
   topBorder,
-  container1,
-  container1SubFooterLinks1,
-  container1SubFooterLinks1Label,
-  container1SubFooterLinks1Link,
-  container1SubFooterLinks2,
-  container1SubFooterLinks2Label,
-  container1SubFooterLinks2Link,
+  container,
+  containerSubFooterLinks1,
+  containerSubFooterLinks1Label,
+  containerSubFooterLinks1Link,
+  containerSubFooterLinks2,
+  containerSubFooterLinks2Label,
+  containerSubFooterLinks2Link,
   container2,
   container2SocialIconsLinks1,
   container2SocialIconsLinks1Link,
@@ -20,11 +20,11 @@ export function Footer({ className }) {
   return (
     <footer role="contentinfo" itemScope="" itemType="http://schema.org/WPFooter" className={className}>
       <div className={topBorder}>
-        <div className={container1}>
-          <div className={container1SubFooterLinks1}>
-            <small className={container1SubFooterLinks1Label}>Portfolio</small>
+        <div className={container}>
+          <div className={containerSubFooterLinks1}>
+            <small className={containerSubFooterLinks1Label}>Portfolio</small>
             <ul>
-              <li className={container1SubFooterLinks1Link}>
+              <li className={containerSubFooterLinks1Link}>
                 <a
                   href="https://mtsonlinecourses.com/"
                   target="_blank"
@@ -34,37 +34,37 @@ export function Footer({ className }) {
                   <small>Online Courses</small>
                 </a>
               </li>
-              <li className={container1SubFooterLinks1Link}>
+              <li className={containerSubFooterLinks1Link}>
                 <a href="https://github.com/mts" target="_blank" rel="noopener noreferrer" aria-label="Go To Sub Footer Link: Open Source">
                   <small>Open Source</small>
                 </a>
               </li>
-              <li className={container1SubFooterLinks1Link}>
+              <li className={containerSubFooterLinks1Link}>
                 <a itemProp="url" aria-label="Go To Sub Footer Link: Tutorials" href="/blog">
                   <small>Tutorials</small>
                 </a>
               </li>
             </ul>
           </div>
-          <div className={container1SubFooterLinks2}>
-            <small className={container1SubFooterLinks2Label}>About</small>
+          <div className={containerSubFooterLinks2}>
+            <small className={containerSubFooterLinks2Label}>About</small>
             <ul>
-              <li className={container1SubFooterLinks2Link}>
+              <li className={containerSubFooterLinks2Link}>
                 <a itemProp="url" aria-label="Go To Sub Footer Link: About me" href="/about">
                   <small>About me</small>
                 </a>
               </li>
-              <li className={container1SubFooterLinks2Link}>
+              <li className={containerSubFooterLinks2Link}>
                 <a itemProp="url" aria-label="Go To Sub Footer Link: What I use" href="/about#what-i-use">
                   <small>What I use</small>
                 </a>
               </li>
-              <li className={container1SubFooterLinks2Link}>
+              <li className={containerSubFooterLinks2Link}>
                 <a itemProp="url" aria-label="Go To Sub Footer Link: How to work with me" href="/work-with-me">
                   <small>How to work with me</small>
                 </a>
               </li>
-              <li className={container1SubFooterLinks2Link}>
+              <li className={containerSubFooterLinks2Link}>
                 <a itemProp="url" aria-label="Go To Sub Footer Link: How to support me" href="/about#support-me">
                   <small>How to support me</small>
                 </a>
