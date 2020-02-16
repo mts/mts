@@ -340,15 +340,15 @@ exports[`<HomePage /> Snaphot must match defaultRender 1`] = `
           className="containerServices"
         >
           <div
-            className="containerServicesHeader"
+            className="containerServicesSectionHeader"
           >
             <h2
-              className="containerServicesHeaderH2"
+              className="containerServicesSectionHeaderH2"
             >
               What I offer
             </h2>
             <h3
-              className="containerServicesHeaderH3"
+              className="containerServicesSectionHeaderH3"
             >
               Why you might want to hire me.
             </h3>
