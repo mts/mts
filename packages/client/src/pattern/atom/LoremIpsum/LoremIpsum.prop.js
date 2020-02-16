@@ -1,6 +1,6 @@
 import { string, number, oneOf } from 'prop-types'
-import { element } from '../../../../../../library/src/client/dom'
-import { size } from '../../../../../../library/src/client/placeholder'
+import { element } from '../../../../../library/src/client/dom'
+import { size } from '../../../../../library/src/client/placeholder'
 
 export const loremIpsumDefaultProps = {
   className: '',

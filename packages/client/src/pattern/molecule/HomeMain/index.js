@@ -76,7 +76,7 @@ import TestimonialFour from '../../../asset/image/testimonial/testimonial-4.jpg'
 import TestimonialFive from '../../../asset/image/testimonial/testimonial-5.jpg'
 import TestimonialSix from '../../../asset/image/testimonial/testimonial-6.jpg'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
-import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
+import { LoremIpsum } from '../../atom/LoremIpsum'
 import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
 

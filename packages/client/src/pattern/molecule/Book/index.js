@@ -4,7 +4,7 @@ import { topBorder, container, containerImage, containerInfo, containerInfoLead,
 import { bookDefaultProps, bookPropTypes } from './Book.prop'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import BookCover from '../../../asset/image/bookcover.jpg'
-import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
+import { LoremIpsum } from '../../atom/LoremIpsum'
 import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
 

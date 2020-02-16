@@ -19,7 +19,7 @@ import {
   containerBlogListContainerContent,
 } from './BlogMain.scss'
 import { windowObjectExists } from '../../../../../library/src/environment'
-import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
+import { LoremIpsum } from '../../atom/LoremIpsum'
 import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
 

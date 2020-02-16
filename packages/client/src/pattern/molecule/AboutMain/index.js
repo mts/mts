@@ -19,7 +19,7 @@ import { aboutMainDefaultProps, aboutMainPropTypes } from './AboutMain.prop'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import Banner from '../../../asset/image/banner.jpg'
-import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
+import { LoremIpsum } from '../../atom/LoremIpsum'
 import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
 
