@@ -562,22 +562,15 @@ export function HomeMain({ className }) {
                 aria-label="Customer Testimonial Link: https://twitter.com/mariahcarey"
               >
                 <div className={containerTestItemsItemImage}>
-                  <div className={containerTestItemsItemImageContainer}>
-                    <div style={{ width: '100%', paddingBottom: '100%' }} />
-                    <picture>
-                      <source
-                        srcSet={`${testimonial2ImgSrc} 50w, ${testimonial2ImgSrc} 100w, ${testimonial2ImgSrc} 200w, ${testimonial2ImgSrc} 300w, ${testimonial2ImgSrc} 400w`}
-                        sizes="(max-width: 200px) 100vw, 200px"
-                      />
-                      <img
-                        sizes="(max-width: 200px) 100vw, 200px"
-                        srcSet={`${testimonial2ImgSrc} 50w, ${testimonial2ImgSrc} 100w, ${testimonial2ImgSrc} 200w, ${testimonial2ImgSrc} 300w, ${testimonial2ImgSrc} 400w`}
-                        src={testimonial2ImgSrc}
-                        alt="testimonial two"
-                        loading="lazy"
-                      />
-                    </picture>
-                  </div>
+                  <Image
+                    className={containerTestItemsItemImageContainer}
+                    divStyle={{ width: '100%', paddingBottom: '100%' }}
+                    srcSet={`${testimonial2ImgSrc} 50w, ${testimonial2ImgSrc} 100w, ${testimonial2ImgSrc} 200w, ${testimonial2ImgSrc} 300w, ${testimonial2ImgSrc} 400w`}
+                    sizes="(max-width: 200px) 100vw, 200px"
+                    src={testimonial2ImgSrc}
+                    alt="testimonial two"
+                    loading="lazy"
+                  />
                 </div>
               </a>
               <div className={containerTestItemsItemCaption}>
