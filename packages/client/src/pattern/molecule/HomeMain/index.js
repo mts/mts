@@ -334,22 +334,15 @@ export function HomeMain({ className }) {
           <ul className={containerTimelineItems}>
             <li className={containerTimelineItemsItem}>
               <div className={containerTimelineItemsItemMemoryImage}>
-                <div className={containerTimelineItemsItemMemoryImageContainer}>
-                  <div style={{ width: '100%', paddingBottom: '100%' }} />
-                  <picture>
-                    <source
-                      srcSet={`${timeline1ImgSrc} 60w, ${timeline1ImgSrc} 120w, ${timeline1ImgSrc} 240w, ${timeline1ImgSrc} 360w, ${timeline1ImgSrc} 450w`}
-                      sizes="(max-width: 240px) 100vw, 240px"
-                    />
-                    <img
-                      sizes="(max-width: 240px) 100vw, 240px"
-                      srcSet={`${timeline1ImgSrc} 60w, ${timeline1ImgSrc} 120w, ${timeline1ImgSrc} 240w, ${timeline1ImgSrc} 360w, ${timeline1ImgSrc} 450w`}
-                      src={timeline1ImgSrc}
-                      alt="timeline one"
-                      loading="lazy"
-                    />
-                  </picture>
-                </div>
+                <Image
+                  className={containerTimelineItemsItemMemoryImageContainer}
+                  divStyle={{ width: '100%', paddingBottom: '100%' }}
+                  srcSet={`${timeline1ImgSrc} 60w, ${timeline1ImgSrc} 120w, ${timeline1ImgSrc} 240w, ${timeline1ImgSrc} 360w, ${timeline1ImgSrc} 450w`}
+                  sizes="(max-width: 240px) 100vw, 240px"
+                  src={timeline1ImgSrc}
+                  alt="timeline one"
+                  loading="lazy"
+                />
               </div>
               <div className={containerTimelineItemsItemCaption}>
                 <h4>Lorem ipsum</h4>
