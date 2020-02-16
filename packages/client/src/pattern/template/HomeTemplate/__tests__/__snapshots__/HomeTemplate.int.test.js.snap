@@ -1665,19 +1665,19 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
       className="topBorder"
     >
       <div
-        className="container1"
+        className="container"
       >
         <div
-          className="container1SubFooterLinks1"
+          className="containerSubFooterLinks1"
         >
           <small
-            className="container1SubFooterLinks1Label"
+            className="containerSubFooterLinks1Label"
           >
             Portfolio
           </small>
           <ul>
             <li
-              className="container1SubFooterLinks1Link"
+              className="containerSubFooterLinks1Link"
             >
               <a
                 aria-label="Go To Sub Footer Link: Online Courses"
@@ -1691,7 +1691,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="container1SubFooterLinks1Link"
+              className="containerSubFooterLinks1Link"
             >
               <a
                 aria-label="Go To Sub Footer Link: Open Source"
@@ -1705,7 +1705,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="container1SubFooterLinks1Link"
+              className="containerSubFooterLinks1Link"
             >
               <a
                 aria-label="Go To Sub Footer Link: Tutorials"
@@ -1720,16 +1720,16 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
           </ul>
         </div>
         <div
-          className="container1SubFooterLinks2"
+          className="containerSubFooterLinks2"
         >
           <small
-            className="container1SubFooterLinks2Label"
+            className="containerSubFooterLinks2Label"
           >
             About
           </small>
           <ul>
             <li
-              className="container1SubFooterLinks2Link"
+              className="containerSubFooterLinks2Link"
             >
               <a
                 aria-label="Go To Sub Footer Link: About me"
@@ -1742,7 +1742,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="container1SubFooterLinks2Link"
+              className="containerSubFooterLinks2Link"
             >
               <a
                 aria-label="Go To Sub Footer Link: What I use"
@@ -1755,7 +1755,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="container1SubFooterLinks2Link"
+              className="containerSubFooterLinks2Link"
             >
               <a
                 aria-label="Go To Sub Footer Link: How to work with me"
@@ -1768,7 +1768,7 @@ exports[`<HomeTemplate /> Snaphot must match defaultRender 1`] = `
               </a>
             </li>
             <li
-              className="container1SubFooterLinks2Link"
+              className="containerSubFooterLinks2Link"
             >
               <a
                 aria-label="Go To Sub Footer Link: How to support me"
