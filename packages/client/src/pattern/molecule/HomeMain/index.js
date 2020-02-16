@@ -17,9 +17,9 @@ import {
   containerAboutSocialIconsIcon,
   containerAboutText,
   containerServices,
-  containerServicesHeader,
-  containerServicesHeaderH2,
-  containerServicesHeaderH3,
+  containerServicesSectionHeader,
+  containerServicesSectionHeaderH2,
+  containerServicesSectionHeaderH3,
   containerServicesItems,
   containerServicesItemsItem,
   containerPortfolio,
@@ -198,9 +198,9 @@ export function HomeMain({ className }) {
           </div>
         </div>
         <div className={containerServices}>
-          <div className={containerServicesHeader}>
-            <h2 className={containerServicesHeaderH2}>What I offer</h2>
-            <h3 className={containerServicesHeaderH3}>Why you might want to hire me.</h3>
+          <div className={containerServicesSectionHeader}>
+            <h2 className={containerServicesSectionHeaderH2}>What I offer</h2>
+            <h3 className={containerServicesSectionHeaderH3}>Why you might want to hire me.</h3>
           </div>
           <ul className={containerServicesItems}>
             <li className={containerServicesItemsItem}>
