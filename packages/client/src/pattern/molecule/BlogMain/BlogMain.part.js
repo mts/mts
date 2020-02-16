@@ -20,6 +20,7 @@ import {
 } from './BlogMain.scss'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import { LoremIpsum } from '../../atom/LoremIpsum'
+import { Image } from '../../atom/Image'
 import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
 
@@ -49,22 +50,15 @@ export function BlogItemFeatured({ imageName, image, href, title, text }) {
 
   return (
     <article className={cx(containerBlogItem, containerBlogItemFeatured)}>
-      <div className={cx(containerBlogItemImage, containerBlogItemImageFeatured)}>
-        <div style={{ width: '100%', paddingBottom: '64.94140625%' }} />
-        <picture>
-          <source
-            srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
-            sizes="(max-width: 500px) 100vw, 500px"
-          />
-          <img
-            sizes="(max-width: 500px) 100vw, 500px"
-            srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
-            src={imgSrc}
-            alt={imageName}
-            loading="lazy"
-          />
-        </picture>
-      </div>
+      <Image
+        className={cx(containerBlogItemImage, containerBlogItemImageFeatured)}
+        divStyle={{ width: '100%', paddingBottom: '64.94140625%' }}
+        srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
+        sizes="(max-width: 500px) 100vw, 500px"
+        src={imgSrc}
+        alt={imageName}
+        loading="lazy"
+      />
       <div className={cx(containerBlogItemContent, containerBlogItemContentFeatured)}>
         <header>
           <h2 itemProp="name headline">
