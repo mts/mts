@@ -99,28 +99,7 @@
     }
 
     &SectionHeader {
-      padding-bottom: 40px;
-
-      &H2 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 26px;
-        font-weight: 300;
-        line-height: 1.2;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-      &H3 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 3.5px;
-        text-transform: uppercase;
-        opacity: 0.7;
-      }
+      @include sectionHeader;
     }
 
     &Image {
@@ -180,28 +159,7 @@
     }
 
     &SectionHeader {
-      padding-bottom: 40px;
-
-      &H2 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 26px;
-        font-weight: 300;
-        line-height: 1.2;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-      &H3 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 3.5px;
-        text-transform: uppercase;
-        opacity: 0.7;
-      }
+      @include sectionHeader;
     }
 
     &Items {
@@ -246,28 +204,7 @@
     }
 
     &SectionHeader {
-      padding-bottom: 40px;
-
-      &H2 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 26px;
-        font-weight: 300;
-        line-height: 1.2;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-      &H3 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 3.5px;
-        text-transform: uppercase;
-        opacity: 0.7;
-      }
+      @include sectionHeader;
     }
 
     &Items {
@@ -349,28 +286,7 @@
     padding: 85px 20px;
 
     &SectionHeader {
-      padding-bottom: 40px;
-
-      &H2 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 26px;
-        font-weight: 300;
-        line-height: 1.2;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-      &H3 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 3.5px;
-        text-transform: uppercase;
-        opacity: 0.7;
-      }
+      @include sectionHeader;
     }
 
     &Items {
@@ -474,28 +390,7 @@
     }
 
     &SectionHeader {
-      padding-bottom: 40px;
-
-      &H2 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 26px;
-        font-weight: 300;
-        line-height: 1.2;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-      &H3 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 3.5px;
-        text-transform: uppercase;
-        opacity: 0.7;
-      }
+      @include sectionHeader;
     }
 
     &Items {
