@@ -10,5 +10,6 @@ export const imagePropTypes = {
   srcSet: string.isRequired,
   sizes: string.isRequired,
   src: node.isRequired,
-  altloading: string.isRequired,
+  alt: string.isRequired,
+  loading: string.isRequired,
 }
