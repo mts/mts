@@ -21,10 +21,6 @@
   border-radius: 5px;
 }
 
-@mixin buttonModuleBaseLarge {
-  padding: 20px;
-}
-
 @mixin pictureImage($border-radius: 0) {
   picture img {
     border-radius: $border-radius;
