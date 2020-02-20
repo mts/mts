@@ -15,7 +15,7 @@ import { coursesHeaderDefaultProps, coursesHeaderPropTypes } from './CoursesHead
 
 export function CoursesHeader({ className }) {
   return (
-    <div className={className} style={{ marginTop: '55px', display: 'flex', justifyContent: 'center' }}>
+    <div className={className} /* style={{ marginTop: '55px', display: 'flex', justifyContent: 'center' }} */>
       <div className={container}>
         <div className={containerLogo}>
           <div className={containerLogoImage}>

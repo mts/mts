@@ -3,13 +3,6 @@
 exports[`<CoursesHeader /> Snaphot must match defaultRender 1`] = `
 <div
   className=""
-  style={
-    Object {
-      "display": "flex",
-      "justifyContent": "center",
-      "marginTop": "55px",
-    }
-  }
 >
   <div
     className="container"
