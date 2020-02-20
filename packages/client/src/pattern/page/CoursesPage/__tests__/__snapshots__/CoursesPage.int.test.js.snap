@@ -135,6 +135,11 @@ exports[`<CoursesPage /> Snaphot must match defaultRender 1`] = `
         </div>
       </div>
     </div>
+    <div
+      className="container"
+    >
+      CoursesContent under construction
+    </div>
   </div>
 </div>
 `;
