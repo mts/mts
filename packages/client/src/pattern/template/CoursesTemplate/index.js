@@ -2,9 +2,14 @@ import React from 'react'
 import cx from 'classnames'
 import { coursesTemplate } from './CoursesTemplate.scss'
 import { coursesTemplateDefaultProps, coursesTemplatePropTypes } from './CoursesTemplate.prop'
+import { Navigation } from '../../molecule/Navigation'
 
 export function CoursesTemplate({ className }) {
-  return <div className={cx(className, coursesTemplate)}>CoursesTemplate under construction.</div>
+  return (
+    <div className={cx(className, coursesTemplate)}>
+      <Navigation />
+    </div>
+  )
 }
 
 CoursesTemplate.defaultProps = coursesTemplateDefaultProps
