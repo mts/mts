@@ -1,7 +1,7 @@
 import React from 'react'
 import cx from 'classnames'
 import { blogTemplate } from './BlogTemplate.scss'
-import { blogTemplateDefaultProps, blogTemplatePropTypes } from './BlogTemplate.props'
+import { blogTemplateDefaultProps, blogTemplatePropTypes } from './BlogTemplate.prop'
 import { ShareButtons } from '../../molecule/ShareButtons'
 import { Navigation } from '../../molecule/Navigation'
 import { BlogMain } from '../../molecule/BlogMain'

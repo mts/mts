@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { nav, navBar, navBarList, navBarListToggle, navBarListItem, navBarMobileToggle } from './Navigation.scss'
 import { LogoLink, AboutPageLink, BlogPageLink, CoursesPageLink, MobileToggleButton } from './Navigation.part'
-import { navigationDefaultProps, navigationPropTypes } from './Navigation.props'
+import { navigationDefaultProps, navigationPropTypes } from './Navigation.prop'
 import { handleStickyNavBar } from '../../../../../library/src/client/navBar'
 import { isMobile } from '../../../../../library/src/client/window'
 

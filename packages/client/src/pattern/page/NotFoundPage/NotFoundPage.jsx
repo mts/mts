@@ -1,6 +1,6 @@
 import React from 'react'
-import { UnderConstruction } from '../../atom/info/UnderConstruction'
-import { notFoundPageDefaultProps, notFoundPagePropTypes } from './NotFoundPage.props'
+import { UnderConstruction } from '../../atom/UnderConstruction'
+import { notFoundPageDefaultProps, notFoundPagePropTypes } from './NotFoundPage.prop'
 
 export function NotFoundPage({ className, location }) {
   return (

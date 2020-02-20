@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { homePagePath } from '../../../route/path'
-import { NoMatch } from '../../atom/info/NoMatch'
-import { notFoundTemplateDefaultProps, notFoundTemplatePropTypes } from './NotFoundTemplate.props'
+import { NoMatch } from '../../atom/NoMatch'
+import { notFoundTemplateDefaultProps, notFoundTemplatePropTypes } from './NotFoundTemplate.prop'
 
 export function NotFoundTemplate({ className, location }) {
   return (

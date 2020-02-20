@@ -6,20 +6,21 @@ import {
   blogItemFeaturedPropTypes,
   blogItemRegularDefaultProps,
   blogItemRegularPropTypes,
-} from './BlogMain.props'
+} from './BlogMain.prop'
 import {
-  container1BlogItem,
-  container1BlogItemFeatured,
-  container1BlogItemImage,
-  container1BlogItemImageFeatured,
-  container1BlogItemContent,
-  container1BlogItemContentFeatured,
-  container1BlogListContainer1,
-  container1BlogListContainer1Image,
-  container1BlogListContainer1Content,
+  containerBlogItem,
+  containerBlogItemFeatured,
+  containerBlogItemImage,
+  containerBlogItemImageFeatured,
+  containerBlogItemContent,
+  containerBlogItemContentFeatured,
+  containerBlogListContainer,
+  containerBlogListContainerImage,
+  containerBlogListContainerContent,
 } from './BlogMain.scss'
 import { windowObjectExists } from '../../../../../library/src/environment'
-import { LoremIpsum } from '../../atom/placeholder/LoremIpsum'
+import { LoremIpsum } from '../../atom/LoremIpsum'
+import { Image } from '../../atom/Image'
 import { element } from '../../../../../library/src/client/dom'
 import { size } from '../../../../../library/src/client/placeholder'
 
@@ -48,24 +49,17 @@ export function BlogItemFeatured({ imageName, image, href, title, text }) {
   const imgSrc = !windowObjectExists ? `mts/static/${imageName}.jpg` : image
 
   return (
-    <article className={cx(container1BlogItem, container1BlogItemFeatured)}>
-      <div className={cx(container1BlogItemImage, container1BlogItemImageFeatured)}>
-        <div style={{ width: '100%', paddingBottom: '64.94140625%' }} />
-        <picture>
-          <source
-            srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
-            sizes="(max-width: 500px) 100vw, 500px"
-          />
-          <img
-            sizes="(max-width: 500px) 100vw, 500px"
-            srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
-            src={imgSrc}
-            alt={imageName}
-            loading="lazy"
-          />
-        </picture>
-      </div>
-      <div className={cx(container1BlogItemContent, container1BlogItemContentFeatured)}>
+    <article className={cx(containerBlogItem, containerBlogItemFeatured)}>
+      <Image
+        className={cx(containerBlogItemImage, containerBlogItemImageFeatured)}
+        divStyle={{ width: '100%', paddingBottom: '64.94140625%' }}
+        srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
+        sizes="(max-width: 500px) 100vw, 500px"
+        src={imgSrc}
+        alt={imageName}
+        loading="lazy"
+      />
+      <div className={cx(containerBlogItemContent, containerBlogItemContentFeatured)}>
         <header>
           <h2 itemProp="name headline">
             <a itemProp="url" aria-label="Go To Blog Post" href={href}>
@@ -86,24 +80,17 @@ export function BlogItemRegular({ imageName, image, href, title, text }) {
   const imgSrc = !windowObjectExists ? `mts/static/${imageName}.jpg` : image
 
   return (
-    <article className={container1BlogListContainer1}>
-      <div className={container1BlogListContainer1Image}>
-        <div style={{ width: '100%', paddingBottom: '6.69921875%' }} />
-        <picture>
-          <source
-            srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
-            sizes="(max-width: 500px) 100vw, 500px"
-          />
-          <img
-            sizes="(max-width: 500px) 100vw, 500px"
-            srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
-            src={imgSrc}
-            alt={imageName}
-            loading="lazy"
-          />
-        </picture>
-      </div>
-      <div className={container1BlogListContainer1Content}>
+    <article className={containerBlogListContainer}>
+      <Image
+        className={containerBlogListContainerImage}
+        divStyle={{ width: '100%', paddingBottom: '6.69921875%' }}
+        srcSet={`${imgSrc} 125w, ${imgSrc} 250w, ${imgSrc} 500w, ${imgSrc} 750w, ${imgSrc} 1000w, ${imgSrc} 1024w`}
+        sizes="(max-width: 500px) 100vw, 500px"
+        src={imgSrc}
+        alt={imageName}
+        loading="lazy"
+      />
+      <div className={containerBlogListContainerContent}>
         <header>
           <h2 itemProp="name headline">
             <a itemProp="url" aria-label="Go To Blog Post" href={href}>

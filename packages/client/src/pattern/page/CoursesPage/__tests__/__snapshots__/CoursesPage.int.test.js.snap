@@ -9,7 +9,97 @@ exports[`<CoursesPage /> Snaphot must match defaultRender 1`] = `
   <div
     className="coursesTemplate"
   >
-    CoursesTemplate under construction.
+    <div
+      className=""
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="containerLogo"
+        >
+          <div
+            className="containerLogoImage"
+          />
+        </div>
+        <div
+          className="containerSessionLinks"
+        >
+          <div
+            className="containerSessionLinksMenu"
+          >
+            <div>
+              <span
+                className="containerSessionLinksMenuItem"
+                role="menuitem"
+                tabIndex="0"
+              >
+                <div>
+                  <div
+                    className="containerSessionLinksMenuItemText"
+                  >
+                    <div>
+                      My Courses
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div
+              className="containerSessionLinksMenuSelect"
+            >
+              <button
+                className="containerSessionLinksMenuSelectButton"
+                tabIndex="0"
+                type="button"
+              >
+                <div>
+                  <svg
+                    className="containerSessionLinksMenuSelectButtonImage"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                    />
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "0 24px",
+        }
+      }
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="contentCourse"
+      >
+        <div
+          className="contentCourseContainer"
+        >
+          <div
+            className="contentCourseContainerRoadmap"
+          >
+            <h1>
+              Lorem ipsum dolor sit amet
+            </h1>
+            <h3
+              className="contentCourseContainerRoadmapDescription"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;

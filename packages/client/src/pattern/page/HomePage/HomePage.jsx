@@ -1,6 +1,6 @@
 import React from 'react'
 import { HomeTemplate } from '../../template/HomeTemplate'
-import { homePageDefaultProps, homePagePropTypes } from './HomePage.props'
+import { homePageDefaultProps, homePagePropTypes } from './HomePage.prop'
 
 export function HomePage({ className }) {
   return (

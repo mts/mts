@@ -12,7 +12,7 @@ import {
   labelFormButton,
 } from './Newsletter.scss'
 import { LabelLeadSvg } from './Newsletter.part'
-import { newsletterDefaultProps, newsletterPropTypes } from './Newsletter.props'
+import { newsletterDefaultProps, newsletterPropTypes } from './Newsletter.prop'
 
 export function Newsletter({ className }) {
   return (
