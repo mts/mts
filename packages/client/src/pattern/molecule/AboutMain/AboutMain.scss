@@ -77,9 +77,7 @@
       position: relative;
       overflow: hidden;
 
-      picture img {
-        @include pictureImage;
-      }
+      @include pictureImage();
     }
   }
 
