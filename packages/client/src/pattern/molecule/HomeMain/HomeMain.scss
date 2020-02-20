@@ -17,9 +17,7 @@
       z-index: -1;
       height: 100vh;
 
-      picture img {
-        @include pictureImage;
-      }
+      @include pictureImage();
     }
 
     &Dimmer {
@@ -115,11 +113,7 @@
         position: relative;
         overflow: hidden;
 
-        picture img {
-          border-radius: 50%;
-          //
-          @include pictureImage;
-        }
+        @include pictureImage($border-radius: 50%);
       }
     }
 
@@ -247,9 +241,7 @@
             position: relative;
             overflow: hidden;
 
-            picture img {
-              @include pictureImage;
-            }
+            @include pictureImage();
           }
         }
 
@@ -341,11 +333,7 @@
             position: relative;
             overflow: hidden;
 
-            picture img {
-              border-radius: 50%;
-              //
-              @include pictureImage;
-            }
+            @include pictureImage($border-radius: 50%);
           }
         }
 
@@ -418,11 +406,7 @@
             position: relative;
             overflow: hidden;
 
-            picture img {
-              border-radius: 50%;
-              //
-              @include pictureImage;
-            }
+            @include pictureImage($border-radius: 50%);
           }
         }
 
