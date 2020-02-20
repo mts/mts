@@ -1,5 +1,5 @@
 import React from 'react'
-import { aboutPageDefaultProps, aboutPagePropTypes } from './AboutPage.props'
+import { aboutPageDefaultProps, aboutPagePropTypes } from './AboutPage.prop'
 
 const LazyAboutPage = React.lazy(() => import('./AboutPage'))
 

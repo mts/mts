@@ -1,6 +1,7 @@
 @import '../../../../../library/src/sass/mixin';
+@import './HomeMain.part';
 
-.container1 {
+.container {
   width: 100%;
 
   &Background {
@@ -17,9 +18,7 @@
       z-index: -1;
       height: 100vh;
 
-      picture img {
-        @include pictureImage;
-      }
+      @include pictureImage();
     }
 
     &Dimmer {
@@ -99,28 +98,7 @@
     }
 
     &SectionHeader {
-      padding-bottom: 40px;
-
-      &H2 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 26px;
-        font-weight: 300;
-        line-height: 1.2;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-      &H3 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 3.5px;
-        text-transform: uppercase;
-        opacity: 0.7;
-      }
+      @include sectionHeader;
     }
 
     &Image {
@@ -129,18 +107,14 @@
       max-width: 120px;
       height: auto;
 
-      &Container1 {
+      &Container {
         display: block;
         width: 100%;
         //
         position: relative;
         overflow: hidden;
 
-        picture img {
-          border-radius: 50%;
-          //
-          @include pictureImage;
-        }
+        @include pictureImage($border-radius: 50%);
       }
     }
 
@@ -179,29 +153,8 @@
       padding: 85px 10px;
     }
 
-    &Header {
-      padding-bottom: 40px;
-
-      &H2 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 26px;
-        font-weight: 300;
-        line-height: 1.2;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-      &H3 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 3.5px;
-        text-transform: uppercase;
-        opacity: 0.7;
-      }
+    &SectionHeader {
+      @include sectionHeader;
     }
 
     &Items {
@@ -245,29 +198,8 @@
       padding: 85px 10px;
     }
 
-    &Header {
-      padding-bottom: 40px;
-
-      &H2 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 26px;
-        font-weight: 300;
-        line-height: 1.2;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-      &H3 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 3.5px;
-        text-transform: uppercase;
-        opacity: 0.7;
-      }
+    &SectionHeader {
+      @include sectionHeader;
     }
 
     &Items {
@@ -303,16 +235,14 @@
         &Image {
           width: 300px;
 
-          &Container1 {
+          &Container {
             display: block;
             width: 100%;
             //
             position: relative;
             overflow: hidden;
 
-            picture img {
-              @include pictureImage;
-            }
+            @include pictureImage();
           }
         }
 
@@ -349,28 +279,7 @@
     padding: 85px 20px;
 
     &SectionHeader {
-      padding-bottom: 40px;
-
-      &H2 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 26px;
-        font-weight: 300;
-        line-height: 1.2;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-      &H3 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 3.5px;
-        text-transform: uppercase;
-        opacity: 0.7;
-      }
+      @include sectionHeader;
     }
 
     &Items {
@@ -425,11 +334,7 @@
             position: relative;
             overflow: hidden;
 
-            picture img {
-              border-radius: 50%;
-              //
-              @include pictureImage;
-            }
+            @include pictureImage($border-radius: 50%);
           }
         }
 
@@ -474,28 +379,7 @@
     }
 
     &SectionHeader {
-      padding-bottom: 40px;
-
-      &H2 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 26px;
-        font-weight: 300;
-        line-height: 1.2;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-      &H3 {
-        margin: 0;
-        padding: 0 0 10px;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 3.5px;
-        text-transform: uppercase;
-        opacity: 0.7;
-      }
+      @include sectionHeader;
     }
 
     &Items {
@@ -523,11 +407,7 @@
             position: relative;
             overflow: hidden;
 
-            picture img {
-              border-radius: 50%;
-              //
-              @include pictureImage;
-            }
+            @include pictureImage($border-radius: 50%);
           }
         }
 

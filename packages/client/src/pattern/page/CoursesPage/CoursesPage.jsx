@@ -1,6 +1,6 @@
 import React from 'react'
 import { CoursesTemplate } from '../../template/CoursesTemplate'
-import { coursesPageDefaultProps, coursesPagePropTypes } from './CoursesPage.props'
+import { coursesPageDefaultProps, coursesPagePropTypes } from './CoursesPage.prop'
 
 export function CoursesPage({ className }) {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import cx from 'classnames'
 import { homeTemplate } from './HomeTemplate.scss'
-import { homeTemplateDefaultProps, homeTemplatePropTypes } from './HomeTemplate.props'
+import { homeTemplateDefaultProps, homeTemplatePropTypes } from './HomeTemplate.prop'
 import { ShareButtons } from '../../molecule/ShareButtons'
 import { Navigation } from '../../molecule/Navigation'
 import { HomeMain } from '../../molecule/HomeMain'

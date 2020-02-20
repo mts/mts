@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { navBarLogo, navBarListItemLink, navBarMobileToggleButton } from './Navigation.scss'
-import { mobileToggleButtonPropTypes } from './Navigation.props'
+import { mobileToggleButtonPropTypes } from './Navigation.prop'
 import Logo from '../../../asset/image/logo.jpg'
 import { windowObjectExists } from '../../../../../library/src/environment'
 import { homePagePath, aboutPagePath, blogPagePath, coursesPagePath } from '../../../route/path'
