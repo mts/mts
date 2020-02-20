@@ -68,6 +68,16 @@ exports[`<CoursesPage /> Snaphot must match defaultRender 1`] = `
         </div>
       </div>
     </nav>
+    <div
+      className=""
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "center",
+          "marginTop": "55px",
+        }
+      }
+    />
   </div>
 </div>
 `;
