@@ -1,3 +1,7 @@
+@mixin buttonModuleBaseRound {
+  border-radius: 5px;
+}
+
 @mixin buttonModuleBaseLarge {
   padding: 20px;
 }

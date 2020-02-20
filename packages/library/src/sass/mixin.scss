@@ -17,10 +17,6 @@
   transition: all 0.2s ease;
 }
 
-@mixin buttonModuleBaseRound {
-  border-radius: 5px;
-}
-
 @mixin pictureImage($border-radius: 0) {
   picture img {
     border-radius: $border-radius;
