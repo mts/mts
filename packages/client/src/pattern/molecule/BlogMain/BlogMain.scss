@@ -63,9 +63,7 @@
         width: 500px;
       }
 
-      picture img {
-        @include pictureImage;
-      }
+      @include pictureImage();
     }
 
     &Content {
@@ -111,9 +109,7 @@
           display: none;
         }
 
-        picture img {
-          @include pictureImage;
-        }
+        @include pictureImage();
       }
 
       &Content {
