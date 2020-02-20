@@ -1,5 +1,16 @@
 import React from 'react'
-import { container, containerLogo, containerLogoImage } from './CoursesHeader.scss'
+import {
+  container,
+  containerLogo,
+  containerLogoImage,
+  containerSessionLinks,
+  containerSessionLinksMenu,
+  containerSessionLinksMenuItem,
+  containerSessionLinksMenuItemText,
+  containerSessionLinksMenuSelect,
+  containerSessionLinksMenuSelectButton,
+  containerSessionLinksMenuSelectButtonImage,
+} from './CoursesHeader.scss'
 import { coursesHeaderDefaultProps, coursesHeaderPropTypes } from './CoursesHeader.prop'
 
 export function CoursesHeader({ className }) {
@@ -8,6 +19,7 @@ export function CoursesHeader({ className }) {
       <div className={container}>
         <div className={containerLogo}>
           <div className={containerLogoImage}>
+            {/*
             <svg width="112px" height="55px" viewBox="0 0 112 55">
               <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                 <g id="Artboard-1" fill="#000000">
@@ -15,6 +27,29 @@ export function CoursesHeader({ className }) {
                 </g>
               </g>
             </svg>
+            */}
+          </div>
+        </div>
+        <div className={containerSessionLinks}>
+          <div className={containerSessionLinksMenu}>
+            <div>
+              <span role="menuitem" tabIndex="0" className={containerSessionLinksMenuItem}>
+                <div>
+                  <div className={containerSessionLinksMenuItemText}>
+                    <div>My Courses</div>
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div className={containerSessionLinksMenuSelect}>
+              <button tabIndex="0" type="button" className={containerSessionLinksMenuSelectButton}>
+                <div>
+                  <svg viewBox="0 0 24 24" className={containerSessionLinksMenuSelectButtonImage}>
+                    <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" />
+                  </svg>
+                </div>
+              </button>
+            </div>
           </div>
         </div>
       </div>
