@@ -4,74 +4,8 @@ exports[`<CoursesTemplate /> Snaphot must match defaultRender 1`] = `
 <div
   className="coursesTemplate"
 >
-  <nav
-    className="nav"
-    itemScope=""
-    itemType="http://schema.org/SiteNavigationElement"
-    role="navigation"
-  >
-    <div
-      className="navBar"
-    >
-      <div>
-        some link
-      </div>
-      <ul
-        className="navBarList"
-      >
-        <li
-          className="navBarListItem"
-        >
-          <div>
-            some link
-          </div>
-        </li>
-        <li
-          className="navBarListItem"
-        >
-          <div>
-            some link
-          </div>
-        </li>
-        <li
-          className="navBarListItem"
-        >
-          <div>
-            some link
-          </div>
-        </li>
-      </ul>
-      <div
-        className="navBarMobileToggle"
-      >
-        <button
-          aria-label="Toggle Mobile Navigation Open/Close"
-          className="navBarMobileToggleButton"
-          onClick={[Function]}
-          type="button"
-        >
-          <svg
-            height="24px"
-            viewBox="0 0 124 124"
-            width="24px"
-          >
-            <path
-              d="M112 6H12C5.4 6 0 11.4 0 18s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12zM112 50H12C5.4 50 0 55.4 0 62s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12zM112 94H12c-6.6 0-12 5.4-12 12s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12z"
-            />
-          </svg>
-        </button>
-      </div>
-    </div>
-  </nav>
   <div
     className=""
-    style={
-      Object {
-        "display": "flex",
-        "justifyContent": "center",
-        "marginTop": "55px",
-      }
-    }
   >
     <div
       className="container"
@@ -131,9 +65,35 @@ exports[`<CoursesTemplate /> Snaphot must match defaultRender 1`] = `
     </div>
   </div>
   <div
-    className="container"
+    style={
+      Object {
+        "margin": "0 24px",
+      }
+    }
+  />
+  <div
+    className="content"
   >
-    CoursesContent under construction
+    <div
+      className="contentCourse"
+    >
+      <div
+        className="contentCourseContainer"
+      >
+        <div
+          className="contentCourseContainerRoadmap"
+        >
+          <h1>
+            Lorem ipsum dolor sit amet
+          </h1>
+          <h3
+            className="contentCourseContainerRoadmapDescription"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante.
+          </h3>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
