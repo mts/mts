@@ -13,7 +13,7 @@ module.exports = {
     '!**/node_modules/**',
     'packages/**/*.{js,jsx}',
     '!packages/**/index.js',
-    '!packages/**/*.props.js',
+    '!packages/**/*.prop.js',
     '!packages/**/*.render*.js',
     '!packages/**/*.story.js',
     '!packages/**/*.test.js',
@@ -22,6 +22,7 @@ module.exports = {
     '!packages/**/src/mts/**',
     '!packages/**/node_modules/**',
     '!packages/**/webpack*',
+    '!packages/client/src/mock/*',
     '!packages/http-server/**',
     '!packages/library/**/client/startup.js',
     '!packages/library/**/server/processSass.js',
@@ -34,10 +35,10 @@ module.exports = {
   moduleFileExtensions: ['js', 'jsx'],
   coverageThreshold: {
     global: {
-      statements: 85,
+      statements: 81,
       branches: 70,
       functions: 82,
-      lines: 85,
+      lines: 81,
     },
   },
 }
