@@ -315,7 +315,7 @@
             <ul>
               <li><strong>Package(s): </strong><a style="color: #006400;" href="https://github.com/babel/babel">babel</a> repository on GitHub</li>
               <li><strong>Setup file(s):</strong>
-                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/babel.config.js">babel.config.js</a> for <a href="https://jestjs.io/docs/en/getting-started#using-babel">Jest</a>,
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/babel.config.js">babel.config.js</a> for <a style="color: #006400;" href="https://jestjs.io/docs/en/getting-started#using-babel">Jest</a>,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.common.js">webpack.common.js</a> for regular build,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.storybook/.babelrc">.babelrc</a> for storybook build
               </li>
