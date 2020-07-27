@@ -54,8 +54,8 @@
           <summary style="color: #006400;">📜 Node</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>Package(s): <a style="color: #006400;" href="https://github.com/nodejs/node">node</a> repository on GitHub</li>
-              <li>Information: <strong><em>Node is required to bootstrap the project. Linting, formatting, testing and building scripts run all on Node.</em></strong></li>
+              <li><strong>Package(s): </strong><a style="color: #006400;" href="https://github.com/nodejs/node">node</a> repository on GitHub</li>
+              <li><strong>Information: </strong>Node is required to bootstrap the project. Linting, formatting, testing and building scripts run all on Node.</li>
             </ul>
           </blockquote>
         </details>
@@ -76,7 +76,7 @@
             <ul>
               <li><a style="color: #006400;" href="https://git-scm.com/">Git</a> distributed version control system</li>
               <li><a style="color: #006400;" href="https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud">Git Commands</a> documentation by Atlassian</li>
-              <li>Information: <strong><em>Project source code is maintained in a Git repository. Using Git commands through the command prompt or a Git Client is essential.</em></strong></li>
+              <li><strong>Information: </strong>Project source code is maintained in a Git repository. Using Git commands through the command prompt or a Git Client is essential.</li>
             </ul>
           </blockquote>
         </details>
@@ -89,10 +89,10 @@
         <summary style="color: #006400;">📜 Using Git Hooks</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>Package(s): <a style="color: #006400;" href="https://github.com/typicode/husky">husky</a> repository on GitHub</li>
-              <li>Setup file(s):<a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.huskyrc">.huskyrc</a></li>
-              <li>Script(s) in project's package.json: n/a</li>
-              <li>Information: <strong><em>Husky utilizes Git hooks such as pre-commit and pre-push</em></strong></li>
+              <li><strong>Package(s): </strong><a style="color: #006400;" href="https://github.com/typicode/husky">husky</a> repository on GitHub</li>
+              <li><strong>Setup file(s): </strong><a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.huskyrc">.huskyrc</a></li>
+              <li><strong>Script(s) in project's package.json: </strong>n/a</li>
+              <li><strong>Information: </strong>Husky utilizes Git hooks such as pre-commit and pre-push</li>
             </ul>
           </blockquote>
         </details>
@@ -100,12 +100,10 @@
           <summary style="color: #006400;">📜 Running linters and testers against staged git files</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>Package(s): <a style="color: #006400;" href="https://github.com/okonet/lint-staged">lint-staged</a> repository on GitHub</li>
-              <li>Setup file(s):
-                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.lintstagedrc">.lintstagedrc</a>
-              </li>
-              <li>Script(s) in project's package.json: n/a</li>
-              <li>Information: <strong><em>lint-staged runs linters and testers against staged git files. Using lint-staged combined with husky and thus targeting pre-commit and pre-push Git hooks prevents source code not conforming to linting rules and formatting style being committed or pushed to the Git repository's origin</em></strong></li>
+              <li><strong>Package(s): </strong><a style="color: #006400;" href="https://github.com/okonet/lint-staged">lint-staged</a> repository on GitHub</li>
+              <li><strong>Setup file(s): </strong><a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.lintstagedrc">.lintstagedrc</a></li>
+              <li><strong>Script(s) in project's package.json: </strong>n/a</li>
+              <li><strong>Information: </strong>lint-staged runs linters and testers against staged git files. Using lint-staged combined with husky and thus targeting pre-commit and pre-push Git hooks prevents source code not conforming to linting rules and formatting style being committed or pushed to the Git repository's origin</li>
             </ul>
           </blockquote>
         </details>
@@ -119,7 +117,7 @@
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
               <li><a style="color: #006400;" href="https://www.gitkraken.com/">Website</a></li>
-              <li>Information: <strong><em>The coolest, the finest and the best Git client in the world 👌 Over 1.5 Million GitKraken Users❗</em></strong></li>
+              <li><strong>Information: </strong>The coolest, the finest and the best Git client in the world 👌 Over 1.5 Million GitKraken Users❗</li>
             </ul>
           </blockquote>
         </details>
@@ -128,7 +126,7 @@
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
               <li><a style="color: #006400;" href="https://www.sourcetreeapp.com/">Website</a></li>
-              <li>Information: <strong><em>Sourcetree simplifies how you interact with your Git repositories so you can focus on coding. Visualize and manage your repositories through Sourcetree's simple Git GUI.</em></strong></li>
+              <li><strong>Information: </strong>Sourcetree simplifies how you interact with your Git repositories so you can focus on coding. Visualize and manage your repositories through Sourcetree's simple Git GUI.</li>
             </ul>
           </blockquote>
         </details>
@@ -143,32 +141,32 @@
     <details>
       <summary style="color: #006400;">Install</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        Run <kbd>rm -rf node_modules package-lock.json && npm install</kbd> for<br>
+        <strong>Run </strong><kbd>rm -rf node_modules package-lock.json && npm install</kbd> for<br>
         <kbd>repository root</kbd>, <kbd>packages/http-server folder</kbd> and <kbd>packages/client folder</kbd><br>
-        <strong><em> to remove node_modules directory, package-lock.json file and install all packages from scratch</em></strong>
+        to remove node_modules directory, package-lock.json file and install all packages from scratch
       </blockquote>
     </details>
     <details>
       <summary style="color: #006400;">Bootstrap</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        Run <kbd>npm run bootstrap</kbd>
-        <strong><em>to run linting, formatting, testing and building sequentially</em></strong>
+        <strong>Run </strong><kbd>npm run bootstrap</kbd>
+        to run linting, formatting, testing and building sequentially
       </blockquote>
     </details>
     <details>
       <summary style="color: #006400;">Start</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        Run <kbd>npm start</kbd><strong><em> in 1st terminal in packages/http-server folder to start up http-server</em></strong><br>
-        Run <kbd>npm start</kbd><strong><em> in 2nd terminal in packages/client to start up webpack-dev-server</em></strong><br>
-        Run <kbd>npm run test -- --watch --onlyChanged --verbose</kbd><strong><em> in 3rd terminal to let Jest watch changed tests</em></strong><br>
+        <strong>Run </strong><kbd>npm start</kbd> in 1st terminal in packages/http-server folder to start up http-server<br>
+        <strong>Run </strong><kbd>npm start</kbd> in 2nd terminal in packages/client to start up webpack-dev-server<br>
+        <strong>Run </strong><kbd>npm run test -- --watch --onlyChanged --verbose</kbd> in 3rd terminal to let Jest watch changed tests<br>
       </blockquote>
     </details>
     <details>
       <summary style="color: #006400;">Dynamic Code Splitting</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <ul>
-          <li><strong><em>Babel</em></strong> enables parsing dynamic imports through <a href="https://babeljs.io/docs/en/babel-plugin-syntax-dynamic-import">@babel/plugin-syntax-dynamic-import</a> since <a href="https://babeljs.io/blog/2019/07/03/7.5.0">v7.5.0</a></li>
-          <li><strong><em>Webpack</em></strong> recommends this <a href="https://webpack.js.org/guides/code-splitting/#dynamic-imports">technique</a> instead of the legacy webpack-specific approach through optimization.splitChunks configuration option.
+          <li>Babel enables parsing dynamic imports through <a style="color: #006400;" href="https://babeljs.io/docs/en/babel-plugin-syntax-dynamic-import">@babel/plugin-syntax-dynamic-import</a> since <a style="color: #006400;" href="https://babeljs.io/blog/2019/07/03/7.5.0">v7.5.0</a></li>
+          <li>Webpack recommends this <a style="color: #006400;" href="https://webpack.js.org/guides/code-splitting/#dynamic-imports">technique</a> instead of the legacy webpack-specific approach through optimization.splitChunks configuration option.
           </li>
         </ul>
       </blockquote>
@@ -186,7 +184,7 @@
           <summary style="color: #006400;">📜 JavaScript</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>Package(s): 
+              <li><strong>Package(s): </strong>
                 <ul>
                   <li><a style="color: #006400;" href="https://github.com/eslint/eslint">eslint</a> repository on GitHub</li>
                   <li><a style="color: #006400;" href="https://github.com/SublimeLinter/SublimeLinter-eslint">SublimeLinter-eslint</a> for Sublime Text</li>
@@ -194,22 +192,22 @@
                   <li><a style="color: #006400;" href="http://plugins.jetbrains.com/plugin/7494-eslint">eslint plugin</a> for Webstorm and ItelliJ</li>
                 </ul>
               </li>
-              <li>Setup file(s):
+              <li><strong>Setup file(s):</strong>
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.eslintrc">.eslintrc</a>,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.eslintignore">.eslintignore</a>
               </li>
-              <li>JavaScript Style Guide(s):
+              <li><strong>JavaScript Style Guide(s):</strong>
                 <a style="color: #006400;" href="https://github.com/airbnb/javascript">AirBnb JavaScript Style Guide</a>,
                 <a style="color: #006400;" href="https://github.com/airbnb/javascript/tree/master/react">Airbnb React/JSX Style Guide</a>
               </li>
-              <li>Script(s) in project's package.json:
+              <li><strong>Script(s) in project's package.json:</strong>
                 <ul>
                   <li>"lint:format": "npm-run-all lint format"</li>
                   <li>"lint": "npm-run-all lint:js:jsx lint:scss"</li>
                   <li>"lint:js:jsx": "eslint --ext .js --ext .jsx packages/**/src --fix"</li>
                 </ul>
               </li>
-              <li>Information: <strong><em>Linting scripts meant for JavaScript files recursively go through all js, jsx files under the src directory checking if the source code conforms to ESLint linting rules, applying auto fixes if possible and outputs all other violations through the console.</em></strong></li>
+              <li><strong>Information: </strong>Linting scripts meant for JavaScript files recursively go through all js, jsx files under the src directory checking if the source code conforms to ESLint linting rules, applying auto fixes if possible and outputs all other violations through the console.</li>
             </ul>
           </blockquote>
         </details>
@@ -217,7 +215,7 @@
           <summary style="color: #006400;">📜 Sass</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>Package(s): 
+              <li><strong>Package(s): </strong>
                 <ul>
                   <li><a style="color: #006400;" href="https://github.com/stylelint/stylelint">stylelint</a> repository on GitHub</li>
                   <li><a style="color: #006400;" href="https://github.com/SublimeLinter/SublimeLinter-stylelint">SublimeLinter-stylelint</a> for Sublime Text</li>
@@ -225,21 +223,21 @@
                   <li><a style="color: #006400;" href="https://www.jetbrains.com/help/idea/using-stylelint-code-quality-tool.html">activate stylelint</a> for Webstorm and ItelliJ</li>
                 </ul>
               </li>
-              <li>Setup file(s):
+              <li><strong>Setup file(s):</strong>
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.stylelintrc">.stylelintrc</a>,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.stylelintignore">.stylelintignore</a>
               </li>
-              <li>CSS Style Guide(s):
+              <li><strong>CSS Style Guide(s):</strong>
                 <a style="color: #006400;" href="https://github.com/airbnb/css">Airbnb CSS / Sass Styleguide</a>
               </li>
-              <li>Script(s) in project's package.json:
+              <li><strong>Script(s) in project's package.json:</strong>
                   <ul>
                     <li>"lint:format": "npm-run-all lint format"</li>
                     <li>"lint": "npm-run-all lint:js:jsx lint:scss"</li>
                     <li>"lint:scss": "stylelint \"packages/**/src/**/*.{css,scss}\" --syntax=scss --fix"</li>
                   </ul>
               </li>
-              <li>Information: <strong><em>Linting scripts meant for Sass files recursively go through all scss files under the src directory checking if the source code conforms to Stylelint linting rules, applying auto fixes if possible and outputs all other violations through the console.</em></strong></li>
+              <li><strong>Information: </strong>Linting scripts meant for Sass files recursively go through all scss files under the src directory checking if the source code conforms to Stylelint linting rules, applying auto fixes if possible and outputs all other violations through the console.</li>
             </ul>
           </blockquote>
         </details>
@@ -252,7 +250,7 @@
         <summary style="color: #006400;">📜 HTML, JavaScript and Sass</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>Package(s): 
+              <li><strong>Package(s): </strong>
                 <ul>
                   <li><a style="color: #006400;" href="https://github.com/prettier/prettier">prettier</a> repository on GitHub</li>
                   <li><a style="color: #006400;" href="https://github.com/jonlabelle/SublimeJsPrettier">SublimeJsPrettier</a> for Sublime Text</li>
@@ -260,18 +258,18 @@
                   <li><a style="color: #006400;" href="https://plugins.jetbrains.com/plugin/10456-prettier">prettier plugin</a> for Webstorm and ItelliJ</li>
                 </ul>
               </li>
-              <li>Setup file(s):
+              <li><strong>Setup file(s):</strong>
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.prettierrc">.prettierrc</a>,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.prettierignore">.prettierignore</a>
               </li>
-              <li>Script(s) in project's package.json:
+              <li><strong>Script(s) in project's package.json:</strong>
                 <ul>
                   <li>"format": "npm-run-all format:js:jsx format:scss"</li>
                   <li>"format:js:jsx": "prettier --write \"packages/**/src/**/*.{js,jsx}\""</li>
                   <li>"format:scss": "prettier --write \"packages/**/src/**/*.{css,scss}\""</li>
                 </ul>
               </li>
-              <li>Information: <strong><em>Code formatting scripts meant for JavaScript and Sass files recursively go through all js, jsx and scss files under the src directory enforcing a consistent style by parsing code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.</em></strong></li>
+              <li><strong>Information: </strong>Code formatting scripts meant for JavaScript and Sass files recursively go through all js, jsx and scss files under the src directory enforcing a consistent style by parsing code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.</li>
             </ul>
           </blockquote>
         </details>
@@ -284,7 +282,7 @@
         <summary style="color: #006400;">📜 EditorConfig</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>Package(s):
+              <li><strong>Package(s):</strong>
                 <ul>
                   <li><a style="color: #006400;" href="https://github.com/editorconfig">editorconfig</a> repository on GitHub</li>
                   <li><a style="color: #006400;" href="https://github.com/editorconfig/editorconfig-sublime">editorconfig-sublime</a> for Sublime Text</li>
@@ -292,11 +290,11 @@
                   <li><a style="color: #006400;" href="https://github.com/editorconfig/editorconfig-jetbrains">editorconfig-jetbrains</a> for Webstorm and IntelliJ</li>
                 </ul>
               </li>
-              <li>Setup file(s):
+              <li><strong>Setup file(s):</strong>
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.editorconfig">.editorconfig</a>
               </li>
-              <li>Script(s) in project's package.json: n/a</li>
-              <li>Information: <strong><em>File formatting configuration helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs</em></strong></li>
+              <li><strong>Script(s) in project's package.json: </strong>n/a</li>
+              <li><strong>Information: </strong>File formatting configuration helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs</li>
             </ul>
           </blockquote>
         </details>
@@ -315,19 +313,19 @@
           <summary style="color: #006400;">📜 Babel</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>Package(s): <a style="color: #006400;" href="https://github.com/babel/babel">babel</a> repository on GitHub</li>
-              <li>Setup file(s):
-                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/babel.config.js">babel.config.js</a> for <a href="https://jestjs.io/docs/en/getting-started#using-babel">Jest</a>,
+              <li><strong>Package(s): </strong><a style="color: #006400;" href="https://github.com/babel/babel">babel</a> repository on GitHub</li>
+              <li><strong>Setup file(s):</strong>
+                <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/babel.config.js">babel.config.js</a> for <a style="color: #006400;" href="https://jestjs.io/docs/en/getting-started#using-babel">Jest</a>,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.common.js">webpack.common.js</a> for regular build,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.storybook/.babelrc">.babelrc</a> for storybook build
               </li>
-              <li>Script(s) in project's package.json:
+              <li><strong>Script(s) in project's package.json:</strong>
                 <ul>
                   <li>"build": "lerna run build --stream"</li>
                   <li>"build-storybook": "NODE_ENV=develop build-storybook -c .storybook -o .storybook-static",</li>
                 </ul>
               </li>
-              <li>Information: <strong><em>JavaScript code which eventually goes into the bundle needs to be compiled from ES6 to Vanilla JavaScript to be compiled and executed by a browser</em></strong></li>
+              <li><strong>Information: </strong>JavaScript code which eventually goes into the bundle needs to be compiled from ES6 to Vanilla JavaScript to be compiled and executed by a browser</li>
             </ul>
           </blockquote>
         </details>
@@ -340,21 +338,21 @@
           <summary style="color: #006400;">📜 Webpack</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>Package(s): <a style="color: #006400;" href="https://github.com/webpack/webpack">webpack</a> repository on GitHub</li>
-              <li>Setup file(s):
+              <li><strong>Package(s): </strong><a style="color: #006400;" href="https://github.com/webpack/webpack">webpack</a> repository on GitHub</li>
+              <li><strong>Setup file(s):</strong>
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.settings.js">webpack.settings.js</a>,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.common.js">webpack.common.js</a> shared by regular development and production builds,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.dev.js">webpack.dev.js</a> for regular development build,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/webpack.prod.js">webpack.prod.js</a> for regular production build,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.storybook/webpack.config.js">webpack.config.js</a> for storybook build
               </li>
-              <li>Script(s) in project's package.json:
+              <li><strong>Script(s) in project's package.json:</strong>
                 <ul>
                   <li>"build": "webpack --config ./webpack/webpack-build.babel.js --mode=production"</li>
                   <li>"build-storybook": "NODE_ENV=develop build-storybook -c .storybook -o .storybook-static"</li>
                 </ul>
               </li>
-              <li>Information: <strong><em>JavaScript and Sass code along with static assets need to be loaded into or next to javascript and css bundles in a bundle output directory by a variety of loaders such as babel-loader, style-loader, css-loader, sass-loader, postcss-loader, file-loader and url-loader to be requested by a browser. Following loaders target specific file types during the bundling process</em></strong>
+              <li><strong>Information: </strong>JavaScript and Sass code along with static assets need to be loaded into or next to javascript and css bundles in a bundle output directory by a variety of loaders such as babel-loader, style-loader, css-loader, sass-loader, postcss-loader, file-loader and url-loader to be requested by a browser. Following loaders target specific file types during the bundling process
               </li>
             </ul>
           </blockquote>
@@ -375,7 +373,7 @@
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
               <li>
-                From var to const/let: 
+                <strong>From var to const/let: </strong>
                 <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const">const</a> and 
                 <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let">let</a><br>
                 const > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
@@ -383,13 +381,13 @@
                 Transpiled ✓, Safe to use ✅
               </li>
               <li>
-                From objects to Maps: 
+                <strong>From objects to Maps: </strong>
                 <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">Array.prototype.map()</a><br>
                 Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓<br>
                 Polyfilled if not native ✓ Safe to use ✅
               </li>
               <li>
-                New Array methods: 
+                <strong>New Array methods: </strong>
                 <ul>
                   <li>From 
                     <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexof">Array.prototype.indexOf()</a> to 
@@ -416,7 +414,7 @@
                 </ul>
               </li>
               <li>
-                From CommonJS modules to ES6 modules: 
+                <strong>From CommonJS modules to ES6 modules: </strong>
                 <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules">JavaScript modules</a><br>
                 Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳<br>
                 Transpiled ✓, Safe to use ✅
@@ -503,41 +501,37 @@
           <summary style="color: #006400;">📜 ES10 / ES2019</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>ES10 / ES2019
-                <ul>
-                  <li>
-                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat">Array.prototype.flat()</a> and 
-                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap">Array.prototype.flatMap()</a><br>
-                    Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
-                    Polyfilled if not native ✓, Safe to use ✅
-                  </li>
-                  <li>
-                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries">Object.fromEntries()</a><br>
-                    Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
-                    Polyfilled if not native ✓, Safe to use ✅
-                  </li>
-                  <li>
-                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart">String.prototype.trimStart()</a> and 
-                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd">String.prototype.trimEnd()</a><br>
-                    Chrome ✓, Firefox ✓, Safari ✓, Edge ?, Internet Explorer ╳<br>
-                    Polyfilled if not native ✓, Safe to use ✅
-                  </li>
-                  <li>
-                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch">Optional catch binding</a><br>
-                    Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
-                    Transpiled ✓, Safe to use ✅
-                  </li>
-                  <li>
-                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">Array.prototype.sort()</a><br>
-                    Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
-                    Polyfilled if not native ✓, Safe to use ✅
-                  </li>
-                  <li>
-                    <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString">Function.prototype.toString() revision</a><br>
-                    Chrome ╳, Firefox ✓, Safari ╳, Edge ╳, Internet Explorer ╳<br>
-                    Polyfilled if not native ✓, Safe to use ✅
-                  </li>
-                </ul>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat">Array.prototype.flat()</a> and 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap">Array.prototype.flatMap()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries">Object.fromEntries()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart">String.prototype.trimStart()</a> and 
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd">String.prototype.trimEnd()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ?, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch">Optional catch binding</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                Transpiled ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">Array.prototype.sort()</a><br>
+                Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
+              </li>
+              <li>
+                <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString">Function.prototype.toString() revision</a><br>
+                Chrome ╳, Firefox ✓, Safari ╳, Edge ╳, Internet Explorer ╳<br>
+                Polyfilled if not native ✓, Safe to use ✅
               </li>
             </ul>
           </blockquote>
@@ -557,18 +551,18 @@
           <summary style="color: #006400;">📜 Redux</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>Package(s): 
+              <li><strong>Package(s):</strong>
                 <ul>
                   <li><a style="color: #006400;" href="https://github.com/reduxjs/redux">redux</a> repository on GitHub</li>
                   <li><a style="color: #006400;" href="https://github.com/reduxjs/react-redux">react-redux</a> repository on GitHub</li>
                 </ul>
               </li>
-              <li>Setup file(s):
+              <li><strong>Setup file(s):</strong>
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/client/src/store/client.js">client.js</a> for regular store,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/packages/library/src/store/mock.js">mock.js</a> for mock store
               </li>
-              <li>Script(s) in project's package.json: n/a</li>
-              <li>Information: 
+              <li><strong>Script(s) in project's package.json: </strong>n/a</li>
+              <li><strong>Information:</strong>
                 <details>
                   <summary style="color: #006400;">Flux</summary>
                   <blockquote style="margin: 0; padding: 0 24px">
@@ -583,10 +577,10 @@
                   <summary style="color: #006400;">Store</summary>
                   <blockquote style="margin: 0; padding: 0 24px">
                     <ul>
-                      <li>Each application in this project has a Redux store which implements the following:
+                      <li><strong>State container implementation: </strong>Each application in this project has a Redux store which implements the following:
                         <ul>
-                          <li><strong><em>Actions</em></strong> to dispatch when mutating existing state in a syncronous flow</li>
-                          <li><strong><em>Thunks</em></strong> to dispatch when mutating existing state in an asyncronous flow through redux-thunk middleware</li>
+                          <li><strong><em>Actions</em></strong> to dispatch when mutating existing state in a syncronous flow. Redux dispatcher passes a dispached action onto the reducer as second argument alongsde current state.</li>
+                          <li><strong><em>Thunks</em></strong> to dispatch when mutating existing state in an asyncronous flow through redux-thunk middleware. Redux dispatcher directly calls a thunk.</li>
                           <li><strong><em>Reducer</em></strong> which takes existing state and an action as arguments and returns a new state. Immutability is achieved by spreading existing state to the level of mutation in the nested data structure</li>
                           <li><strong><em>State</em></strong>
                             <ul>
@@ -605,19 +599,16 @@
                         </ul>
                       </li>
                       <li>
-                        <strong><em>Difference actions and thunks</em></strong> is that the redux dispatcher passes a dispached action onto the reducer as second argument whereas it directly calls the thunk instead.
-                      </li>
-                      <li>
                         <strong><em>AppStore class</em></strong> is meant to serve as application's state container and extends a base store called <strong><em>Store</em></strong> which sets
                         <ul> 
-                          <li>the default application state in setAppDefaultState()</li>
-                          <li>application state container in setAppStore()</li>
-                          <li>populates application state in setAppCompleteState()</li>
-                          <li>sets hot module reloading in setHotModuleReloading() when Webpack HotModuleReplacementPlugin interface is exposed under the module.hot property.</li>
+                          <li>the default application state in <strong>setAppDefaultState()</strong></li>
+                          <li>application state container in <strong>setAppStore()</strong></li>
+                          <li>populates application state in <strong>setAppCompleteState()</strong></li>
+                          <li>sets hot module reloading in <strong>setHotModuleReloading()</strong> when Webpack HotModuleReplacementPlugin interface is exposed under the module.hot property.</li>
                         </ul>
                       </li>
                         <li>
-                          <strong><em>Store class</em></strong> sets redux-thunk as thunk middleware for redux in setMiddlewares() and composes enhancers in setEnhancer() when initialized.
+                          <strong><em>Store class</em></strong> sets redux-thunk as thunk middleware for redux in <strong>setMiddlewares()</strong> and composes enhancers in <strong>setEnhancer()</strong> when initialized.
                         </li>
                     </ul>
                   </blockquote>
@@ -658,15 +649,26 @@
           <summary style="color: #006400;">📜 React</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li><strong><em>Component Type: </em></strong> Preferred choice of component type is staless functional</li>
-              <li><strong><em>Component Partitions: </em></strong>Each component implements the following partitions along with an index.js
+              <li><strong><em>Component Flavors: </em></strong>
                 <ul>
-                  <li><strong><em>.jsx file: </em></strong>Contains the main UI implementation</li>
-                  <li><strong><em>.scss (optional) file: </em></strong>Used in case of any component specific Sass styling implementation</li>
-                  <li><strong><em>.props.js file: </em></strong>Exposes default props to the component </li>
-                  <li><strong><em>.int.render.js file: </em></strong>Exposes various flavors of the component to snapshots and stories for integration testing purposes</li>
-                  <li><strong><em>.int.test.js file: </em></strong>Implements snapshots for flavors of the component exposed by .int.render.js</li>
-                  <li><strong><em>.int.story.js file: </em></strong>Implements stories for flavors of the component exposed by .int.render.js</li>
+                  <li>Preferred choice of React component is <a style="color: #006400;" href="https://reactjs.org/docs/hooks-state.html#hooks-and-function-components">function component with hooks </a></li>
+                </ul>
+              </li>
+              <li><strong><em>Component Partitions: </em></strong>Each component implements the following partitions.
+                <ul>
+                  <li><strong><em>index.js: </em></strong>All named exports</li>
+                  <li><strong><em>.jsx: </em></strong>Main UI implementation</li>
+                  <li><strong><em>.part.jsx: </em></strong>Specific JSX parts implementation if any</li>
+                  <li><strong><em>.scss: </em></strong>Sass styling implementation if applicable</li>
+                  <li><strong><em>.part.scss: </em></strong>Sass styling parts implementation if any</li>
+                  <li><strong><em>.prop.js: </em></strong>Default props and prop types</li>
+                  <li>
+                  <ul>__tests__/
+                    <li><strong><em>.int.render.js: </em></strong>Exposes various flavors of the component to snapshots and stories for integration testing purposes</li>
+                    <li><strong><em>.int.test.js: </em></strong>Implements Jest snapshots for flavors of the component exposed by .int.render.js</li>
+                    <li><strong><em>.int.story.js: </em></strong>Implements Storybook stories for flavors of the component exposed by .int.render.js</li>
+                  </ul>
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -684,18 +686,17 @@
       <summary style="color: #006400;">Testing Strategy</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <ul>
-          <li>Information: <strong><em> Testing strategy consists of<br>
+          <li><strong>Information: </strong>Testing strategy consists of<br>
             <ul>
               <li>
-                Unit testing covering regular logic by implementing <a href="https://jestjs.io/">Jest unit tests</a>
+                <strong>Unit testing </strong>covering regular logic by implementing <a style="color: #006400;" href="https://jestjs.io/">Jest unit tests</a>
               </li>
               <li>
-                Integration testing covering UI logic, look and feel and responsiveness by implementing<br>
-                <a href="https://jestjs.io/">Jest Snapshots</a> and
-                <a href="https://github.com/storybookjs/storybook">Storybook stories</a>
+                <strong>Integration testing </strong>covering UI logic, look and feel and responsiveness by implementing<br>
+                <a style="color: #006400;" href="https://jestjs.io/">Jest Snapshots</a> and
+                <a style="color: #006400;" href="https://github.com/storybookjs/storybook">Storybook stories</a>
               </li>
             </ul>
-            </em></strong>
           </li>
           <li><img width="500px" height="250px" src=".docs/image/testing-strategy.jpg"></li>
         </ul>
@@ -705,8 +706,8 @@
       <summary style="color: #006400;">Code Coverage Report</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <ul>
-          <li>Information: <strong><em> Code coverage thresholds are setup in
-            <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/jest.config.js">jest.config.js</a><br></em></strong>
+          <li><strong>Information: </strong>Code coverage thresholds are setup in
+            <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/jest.config.js">jest.config.js</a><br>
           </li>
           <li><img width="650px" height="800px" src=".docs/image/code-coverage-report.jpg"></li>
         </ul>
@@ -719,19 +720,18 @@
           <summary style="color: #006400;">📜 Unit tests run by Jest</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>Package(s): <a style="color: #006400;" href="https://github.com/facebook/jest">jest</a> repository on GitHub</li>
-              <li>Setup file(s):
+              <li><strong>Package(s): </strong><a style="color: #006400;" href="https://github.com/facebook/jest">jest</a> repository on GitHub</li>
+              <li><strong>Setup file(s):</strong>
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/jest.config.js">jest.config.js</a>,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/jest.setup.js">jest.setup.js</a>
               </li>
-              <li>Script(s) in project's package.json:
+              <li><strong>Script(s) in project's package.json:</strong>
                 <ul>
                   <li>"test": "jest -u --no-cache --silent --runInBand --coverage"</li>
                   <li>"test:coverage": "jest --coverage --silent"</li>
                 </ul>
               </li>
-              <li>Information:
-                <strong><em>
+              <li><strong>Information:</strong>
                 <ul>
                   <li>Check out <a style="color: #006400;" href="https://jestjs.io/">Jest </a> documentation by Facebook</li>
                   <li>Each JavaScript file whose implementation is subject to unit testing must have a .test.js file in the __tests__ directory at the same level with the targeted implementation</li>
@@ -865,7 +865,6 @@
                     </ul>
                   </li>
                 </ul>
-                </em></strong>
               </li>
             </ul>
           </blockquote>
@@ -879,23 +878,22 @@
           <summary style="color: #006400;">📜 Snapshots run by Jest</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>Package(s):
+              <li><strong>Package(s):</strong>
                 <ul>
                   <li><a style="color: #006400;" href="https://github.com/facebook/jest">jest</a> repository on GitHub</li>
                 </ul>
               </li>
-              <li>Setup file(s):
+              <li><strong>Setup file(s):</strong>
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/jest.config.js">jest.config.js</a>,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/jest.setup.js">jest.setup.js</a>
               </li>
-              <li>Script(s) in project's package.json:
+              <li><strong>Script(s) in project's package.json:</strong>
                 <ul>
                   <li>"test": "jest -u --no-cache --silent --runInBand --coverage"</li>
                   <li>"test:coverage": "jest --coverage --silent"</li>
                 </ul>
               </li>
-              <li>Information:
-                <strong><em>
+              <li><strong>Information:</strong>
                 <ul>
                   <li>Check out <a style="color: #006400;" href="https://jestjs.io/">Jest </a> documentation by Facebook</li>
                   <li>Each UI component whose jsx render implementation is subject to integration testing <br>
@@ -921,7 +919,6 @@
                     </ul>
                   </li>
                 </ul>
-                </em></strong>
               </li>
             </ul>
           </blockquote>
@@ -930,22 +927,21 @@
           <summary style="color: #006400;">📜 Stories run by Storybook</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <ul>
-              <li>Package(s):
+              <li><strong>Package(s):</strong>
                 <ul>
                   <li><a style="color: #006400;" href="https://github.com/storybookjs/storybook">storybook</a> repository on GitHub</li>
                 </ul>
               </li>
-              <li>Setup file(s):
+              <li><strong>Setup file(s):</strong>
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.storybook/addons.js">addons.js</a>,
                 <a style="color: #006400;" href="https://github.com/mts/mts/blob/master/.storybook/config.js">config.js</a> for storybook
               </li>
-              <li>Script(s) in project's package.json:
+              <li><strong>Script(s) in project's package.json:</strong>
                 <ul>
                   <li>"start-storybook": "NODE_ENV=develop start-storybook -p 3003 -c .storybook"</li>
                 </ul>
               </li>
-              <li>Information:
-                <strong><em>
+              <li><strong>Information:</strong>
                 <ul>
                   <li>Check out <a style="color: #006400;" href="https://storybook.js.org/docs/basics/introduction/">Storybook </a> documentation by Storybook.js</li>
                   <li>Each UI component whose jsx render implementation is subject to integration testing <br>
@@ -963,7 +959,6 @@
                     </ul>
                   </li>
                 </ul>
-                </em></strong>
               </li>
             </ul>
           </blockquote>
@@ -1029,17 +1024,17 @@
   <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 🐝 ReactJS, ReduxJS Client</span></summary>
   <blockquote style="margin: 0; padding: 0 24px">
     <ul>
-      <li>Running locally at <a style="color: #006400;" href="http://localhost:8080/">http://localhost:8080/</a></li>
-      <li>Deployed to Github Pages and running at <a style="color: #006400;" href="https://mts.github.io/mts">https://mts.github.io/mts</a></li>
-      <li>Github Pages Cache Repair:
+      <li><strong>Running </strong>locally at <a style="color: #006400;" href="http://localhost:8080/">http://localhost:8080/</a></li>
+      <li><strong>Deployed </strong>to Github Pages and running at <a style="color: #006400;" href="https://mts.github.io/mts">https://mts.github.io/mts</a></li>
+      <li><strong>Github Pages Cache Repair:</strong>
         <ul>
-          <li>Remove cache: <kbd>rm -rf node_modules/gh-pages/.cache</kbd></li>
-          <li>Change <kbd>https://github.com/mts/mts.git</kbd> to <kbd>git@github.com:mts/mts.git</kbd> in <kbd>.git/config</kbd></li>
+          <li><strong>Remove cache: </strong><kbd>rm -rf node_modules/gh-pages/.cache</kbd></li>
+          <li><strong>Change </strong><kbd>https://github.com/mts/mts.git</kbd> to <kbd>git@github.com:mts/mts.git</kbd> in <kbd>.git/config</kbd></li>
         </ul>
       </li>
-      <li>Localhost free server port:
+      <li><strong>Localhost free server port:</strong>
         <ul>
-          <li>Free port 3000: <kbd>kill $(lsof -t -i :3000)</kbd></li>
+          <li><strong>Free port 3000: </strong><kbd>kill $(lsof -t -i :3000)</kbd></li>
         </ul>
       </li>
     </ul>
@@ -1049,22 +1044,22 @@
   <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 🐝 HTTP Server</span></summary>
   <blockquote style="margin: 0; padding: 0 24px">
     <ul>
-      <li>Running locally at <a style="color: #006400;" href="http://localhost:3000/mts">http://localhost:3000/mts</a></li>
-      <li>Deployed to Heroku and running at <a style="color: #006400;" href="https://mts-http-server.herokuapp.com/mts">https://mts-http-server.herokuapp.com/mts</a></li>
-      <li>Heroku Setup, Deployment and Monitoring:
+      <li><strong>Running </strong>locally at <a style="color: #006400;" href="http://localhost:3000/mts">http://localhost:3000/mts</a></li>
+      <li><strong>Deployed </strong>to Heroku and running at <a style="color: #006400;" href="https://mts-http-server.herokuapp.com/mts">https://mts-http-server.herokuapp.com/mts</a></li>
+      <li><strong>Heroku Setup, Deployment and Monitoring:</strong>
         <ul>
-          <li>Login: <kbd>heroku login</kbd></li>
-          <li>Create app: <kbd>heroku create mts-http-server</kbd></li>
-          <li>Add remote: <kbd>git remote add origin https://git.heroku.com/mts-http-server.git</kbd></li>
-          <li>Set build pack 1: <kbd>heroku buildpacks:set -a mts-http-server https://github.com/Pagedraw/heroku-buildpack-select-subdir</kbd></li>
-          <li>Set build pack 2: <kbd>heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#v133 -a mts-http-server</kbd></li>
-          <li>Configure build pack: <kbd>heroku config:add BUILDPACK='packages/server=https://github.com/heroku/heroku-buildpack-nodejs#v133' -a mts-http-server</kbd></li>
-          <li>Add environment variable(s): <kbd>heroku config:add PORT='3001' -a mts-http-server</kbd></li>
-          <li>Deploy: <kbd>git push heroku master</kbd></li>
-          <li>Monitor: <kbd>heroku logs --tail</kbd></li>
-          <li>Check app: <kbd>https://mts-http-server.herokuapp.com/</kbd></li>
-          <li>Help: <kbd>https://help.heroku.com/P1AVPANS/why-is-my-node-js-app-crashing-with-an-r10-error</kbd></li>
-          <li>Clone: <kbd>heroku git:clone -a mts-http-server</kbd></li>
+          <li><strong>Login: </strong><kbd>heroku login</kbd></li>
+          <li><strong>Create app: </strong><kbd>heroku create mts-http-server</kbd></li>
+          <li><strong>Add remote: </strong><kbd>git remote add origin https://git.heroku.com/mts-http-server.git</kbd></li>
+          <li><strong>Set build pack 1: </strong><kbd>heroku buildpacks:set -a mts-http-server https://github.com/Pagedraw/heroku-buildpack-select-subdir</kbd></li>
+          <li><strong>Set build pack 2: </strong><kbd>heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#v133 -a mts-http-server</kbd></li>
+          <li><strong>Configure build pack: </strong><kbd>heroku config:add BUILDPACK='packages/server=https://github.com/heroku/heroku-buildpack-nodejs#v133' -a mts-http-server</kbd></li>
+          <li><strong>Add environment variable(s): </strong><kbd>heroku config:add PORT='3001' -a mts-http-server</kbd></li>
+          <li><strong>Deploy: </strong><kbd>git push heroku master</kbd></li>
+          <li><strong>Monitor: </strong><kbd>heroku logs --tail</kbd></li>
+          <li><strong>Check app: </strong><kbd>https://mts-http-server.herokuapp.com/</kbd></li>
+          <li><strong>Help: </strong><kbd>https://help.heroku.com/P1AVPANS/why-is-my-node-js-app-crashing-with-an-r10-error</kbd></li>
+          <li><strong>Clone: </strong><kbd>heroku git:clone -a mts-http-server</kbd></li>
         </ul>
       </li>
     </ul>
