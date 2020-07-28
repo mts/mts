@@ -6,7 +6,7 @@ const LEGACY_CONFIG = 'legacy'
 const MODERN_CONFIG = 'modern'
 
 // node modules
-const merge = require('webpack-merge')
+const merge = require('webpack-merge').merge
 const path = require('path')
 const webpack = require('webpack')
 
