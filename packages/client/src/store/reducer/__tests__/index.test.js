@@ -3,7 +3,7 @@ import { mockAppState } from '../../../../../library/src/state/mock'
 
 jest.mock('redux-logger', () => ({
   createLogger: () => {
-    return () => next => action => next(action)
+    return () => (next) => (action) => next(action)
   },
 }))
 jest.mock('../../../../../library/src/state/default', () => ({
@@ -11,7 +11,7 @@ jest.mock('../../../../../library/src/state/default', () => ({
   getAppDefaultStateFromData: () => ({}),
 }))
 jest.mock('../../thunk/completeState', () => ({
-  setAppCompleteStateThunk: () => async dispatch => {}, // eslint-disable-line
+  setAppCompleteStateThunk: () => async (dispatch) => {}, // eslint-disable-line
 }))
 
 const stateDefaultMockObject = require('../../../../../library/src/state/default')

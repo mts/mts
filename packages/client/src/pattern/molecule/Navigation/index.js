@@ -53,5 +53,5 @@ export const Navigation = connect(
     api,
     ui,
   }),
-  dispatch => bindActionCreators({}, dispatch),
+  (dispatch) => bindActionCreators({}, dispatch),
 )(Component)

@@ -13,7 +13,7 @@ export function handleStickyNavBar() {
   function styleSticky() {
     nav?.classList.add(navSticky)
     navBarLogo?.classList.add(navBarLogoSticky)
-    navBarListItemLinks?.forEach(navBarListItemLink => {
+    navBarListItemLinks?.forEach((navBarListItemLink) => {
       navBarListItemLink.classList.add(navBarListItemLinkSticky)
     })
   }
@@ -21,7 +21,7 @@ export function handleStickyNavBar() {
   function styleUnSticky() {
     nav?.classList.remove(navSticky)
     navBarLogo?.classList.remove(navBarLogoSticky)
-    navBarListItemLinks?.forEach(navBarListItemLink => {
+    navBarListItemLinks?.forEach((navBarListItemLink) => {
       navBarListItemLink.classList.remove(navBarListItemLinkSticky)
     })
   }

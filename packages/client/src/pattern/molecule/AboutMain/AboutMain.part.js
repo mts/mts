@@ -15,17 +15,10 @@ export function H2({ className, text }) {
   return (
     <h2 className={className}>
       <a
-        href={`#${text
-          .toLowerCase()
-          .replace(/ /g, '-')
-          .replace('?', '')
-          .replace('.', '')}`}
+        href={`#${text.toLowerCase().replace(/ /g, '-').replace('?', '').replace('.', '')}`}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label={`${text
-          .toLowerCase()
-          .replace('?', '')
-          .replace('.', '')} permalink`}
+        aria-label={`${text.toLowerCase().replace('?', '').replace('.', '')} permalink`}
       >
         <svg height="0" width="0" />
       </a>
