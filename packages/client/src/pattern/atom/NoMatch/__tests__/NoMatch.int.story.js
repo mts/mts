@@ -1,7 +1,22 @@
-import { storiesOf } from '@storybook/react'
-import { defaultRender } from './NoMatch.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import { NoMatch } from '../NoMatch'
+import results from '../../../../../../../.jest-test-results.json'
 
-const defaultRenderInfo = getInfo('default')
+export default {
+  title: 'Pattern/Atom/NoMatch',
+  component: NoMatch,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['NoMatch.int.test.js'] },
+  excludeStories: ['custom'],
+}
 
-storiesOf('Patttern/Atom/NoMatch', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+export function regular() {
+  return (
+    <NoMatch
+      location={{
+        pathname: 'some-path-name',
+      }}
+    />
+  )
+}
