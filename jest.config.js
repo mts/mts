@@ -3,6 +3,7 @@ module.exports = {
   roots: ['<rootDir>'],
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
+    '^.+\\.mdx$': '@storybook/addon-docs/jest-transform-mdx',
     '\\.(gql|graphql)$': 'jest-transform-graphql',
   },
   coverageDirectory: './coverage/',
@@ -14,7 +15,6 @@ module.exports = {
     'packages/**/*.{js,jsx}',
     '!packages/**/index.js',
     '!packages/**/*.props.js',
-    '!packages/**/*.render*.js',
     '!packages/**/*.story.js',
     '!packages/**/*.test.js',
     '!packages/**/build/**',
@@ -28,16 +28,16 @@ module.exports = {
   ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleNameMapper: {
-    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/packages/client/src/mock/file.js',
+    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/.mock/file.js',
     '\\.(css|less|scss)$': 'identity-obj-proxy',
   },
   moduleFileExtensions: ['js', 'jsx'],
   coverageThreshold: {
     global: {
-      statements: 85,
-      branches: 70,
-      functions: 82,
-      lines: 85,
+      statements: 84,
+      branches: 68,
+      functions: 81,
+      lines: 83,
     },
   },
 }
