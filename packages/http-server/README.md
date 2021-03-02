@@ -1,7 +1,7 @@
 # MTS HTTP Server
 
-> MTS HTTP Server implements an ExpressJS Server
+> MTS HTTP Server implements a server
 
 ## Scripts
 
-- `npm start` starts ExpressJS Server
+- `npm start` starts the server
