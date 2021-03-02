@@ -1,4 +1,4 @@
-import axe from 'react-axe'
+import axe from '@axe-core/react'
 
 export function addDivWithIdToBody(divId) {
   const appElement = document.createElement('div')
