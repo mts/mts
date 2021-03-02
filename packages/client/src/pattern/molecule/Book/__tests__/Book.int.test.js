@@ -1,9 +1,9 @@
-import { defaultRender } from './Book.int.render'
+import { regular } from './Book.int.story'
 
 describe('<Book />', () => {
-  describe('Snaphot', () => {
-    test('must match defaultRender', () => {
-      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
+  describe('Render', () => {
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
   })
 })

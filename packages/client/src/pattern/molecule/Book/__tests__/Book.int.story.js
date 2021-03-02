@@ -1,7 +1,16 @@
-import { storiesOf } from '@storybook/react'
-import { defaultRender } from './Book.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import { Book } from '../index'
+import results from '../../../../../../../.jest-test-results.json'
 
-const defaultRenderInfo = getInfo('default')
+export default {
+  title: 'Pattern/Molecule/Book',
+  component: Book,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['Book.int.test.js'] },
+  excludeStories: ['custom'],
+}
 
-storiesOf('Patttern/Molecule/Book', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+export function regular() {
+  return <Book />
+}
