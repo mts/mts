@@ -1,7 +1,16 @@
-import { storiesOf } from '@storybook/react'
-import { defaultRender } from './Image.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import { Image } from '../Image'
+import results from '../../../../../../../.jest-test-results.json'
 
-const defaultRenderInfo = getInfo('default')
+export default {
+  title: 'Pattern/Atom/Image',
+  component: Image,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['Image.int.test.js'] },
+  excludeStories: ['custom'],
+}
 
-storiesOf('Patttern/Atom/Image', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+export function regular() {
+  return <Image />
+}

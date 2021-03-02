@@ -1,9 +1,9 @@
-import { defaultRender } from './Image.int.render'
+import { regular } from './Image.int.story'
 
 describe('<Image />', () => {
-  describe('Snaphot', () => {
-    test('must match defaultRender', () => {
-      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
+  describe('Render', () => {
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
   })
 })
