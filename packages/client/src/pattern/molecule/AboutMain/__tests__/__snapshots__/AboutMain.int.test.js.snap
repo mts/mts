@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<AboutMain /> Snaphot must match defaultRender 1`] = `
+exports[`<AboutMain /> Render must match regular() 1`] = `
 <main
   className=""
   itemProp="mainContentOfPage"
