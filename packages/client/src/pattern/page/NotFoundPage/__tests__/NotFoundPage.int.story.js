@@ -1,10 +1,25 @@
-import { storiesOf } from '@storybook/react'
-import { asyncRender, defaultRender } from './NotFoundPage.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import { AsyncNotFoundPage } from '../AsyncNotFoundPage'
+import { NotFoundPage } from '../NotFoundPage'
+import results from '../../../../../../../.jest-test-results.json'
 
-const asyncRenderInfo = getInfo('async')
-const defaultRenderInfo = getInfo('default')
+const location = {
+  pathname: 'some-path-name',
+}
 
-storiesOf('Patttern/Page/NotFoundPage', module)
-  .add(asyncRenderInfo.text, () => asyncRender, asyncRenderInfo.parameters)
-  .add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+export default {
+  title: 'Pattern/Page/NotFoundPage',
+  component: NotFoundPage,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['NotFoundPage.int.test.js'] },
+  excludeStories: ['custom'],
+}
+
+export function async() {
+  return <AsyncNotFoundPage location={location} />
+}
+
+export function regular() {
+  return <NotFoundPage location={location} />
+}
