@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
+exports[`<AboutTemplate /> Render must match regular 1`] = `
 <div
   className="aboutTemplate"
 >
@@ -77,32 +77,24 @@ exports[`<AboutTemplate /> Snaphot must match defaultRender 1`] = `
     <div
       className="navBar"
     >
-      <div>
-        some link
-      </div>
+      <div />
       <ul
         className="navBarList"
       >
         <li
           className="navBarListItem"
         >
-          <div>
-            some link
-          </div>
+          <div />
         </li>
         <li
           className="navBarListItem"
         >
-          <div>
-            some link
-          </div>
+          <div />
         </li>
         <li
           className="navBarListItem"
         >
-          <div>
-            some link
-          </div>
+          <div />
         </li>
       </ul>
       <div

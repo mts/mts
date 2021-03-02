@@ -1,7 +1,16 @@
-import { storiesOf } from '@storybook/react'
-import { defaultRender } from './ShareButtons.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import { ShareButtons } from '../index'
+import results from '../../../../../../../.jest-test-results.json'
 
-const defaultRenderInfo = getInfo('default')
+export default {
+  title: 'Pattern/Molecule/ShareButtons',
+  component: ShareButtons,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['ShareButtons.int.test.js'] },
+  excludeStories: ['custom'],
+}
 
-storiesOf('Patttern/Molecule/ShareButtons', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+export function regular() {
+  return <ShareButtons />
+}

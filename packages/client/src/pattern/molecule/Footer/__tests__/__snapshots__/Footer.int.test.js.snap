@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Footer /> Snaphot must match defaultRender 1`] = `
+exports[`<Footer /> Render must match regular() 1`] = `
 <footer
   className=""
   itemScope=""

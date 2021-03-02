@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<NotFoundPage /> Snaphot must match asyncRender 1`] = `null`;
+exports[`<NotFoundPage /> Render must match async 1`] = `null`;
 
-exports[`<NotFoundPage /> Snaphot must match defaultRender 1`] = `
+exports[`<NotFoundPage /> Render must match regular 1`] = `
 <div>
   <div
     className=""

@@ -1,9 +1,9 @@
-import { defaultRender } from './ErrorBoundary.int.render'
+import { regular } from './ErrorBoundary.int.story'
 
 describe('<ErrorBoundary />', () => {
-  describe('Snaphot', () => {
-    test('must match defaultRender', () => {
-      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
+  describe('Render', () => {
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
   })
 })

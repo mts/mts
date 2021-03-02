@@ -1,9 +1,9 @@
-import { defaultRender } from './HomeMain.int.render'
+import { regular } from './HomeMain.int.story'
 
 describe('<HomeMain />', () => {
-  describe('Snaphot', () => {
-    test('must match defaultRender', () => {
-      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
+  describe('Render', () => {
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
   })
 })

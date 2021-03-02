@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Navigation /> Snaphot must match defaultRender 1`] = `
+exports[`<Navigation /> Render must match regular 1`] = `
 <nav
   className="nav"
   itemScope=""
@@ -10,32 +10,24 @@ exports[`<Navigation /> Snaphot must match defaultRender 1`] = `
   <div
     className="navBar"
   >
-    <div>
-      some link
-    </div>
+    <div />
     <ul
       className="navBarList"
     >
       <li
         className="navBarListItem"
       >
-        <div>
-          some link
-        </div>
+        <div />
       </li>
       <li
         className="navBarListItem"
       >
-        <div>
-          some link
-        </div>
+        <div />
       </li>
       <li
         className="navBarListItem"
       >
-        <div>
-          some link
-        </div>
+        <div />
       </li>
     </ul>
     <div

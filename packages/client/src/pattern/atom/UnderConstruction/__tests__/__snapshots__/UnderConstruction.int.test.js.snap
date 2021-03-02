@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<UnderConstruction /> Snaphot must match defaultRender 1`] = `
+exports[`<UnderConstruction /> Render must match regular 1`] = `
 <div
   className=""
 >

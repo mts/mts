@@ -1,7 +1,16 @@
-import { storiesOf } from '@storybook/react'
-import { defaultRender } from './Newsletter.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import { Newsletter } from '../index'
+import results from '../../../../../../../.jest-test-results.json'
 
-const defaultRenderInfo = getInfo('default')
+export default {
+  title: 'Pattern/Molecule/Newsletter',
+  component: Newsletter,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['Newsletter.int.test.js'] },
+  excludeStories: ['custom'],
+}
 
-storiesOf('Patttern/Molecule/Newsletter', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+export function regular() {
+  return <Newsletter />
+}

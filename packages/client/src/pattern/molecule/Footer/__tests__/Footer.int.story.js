@@ -1,7 +1,16 @@
-import { storiesOf } from '@storybook/react'
-import { defaultRender } from './Footer.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import { Footer } from '../index'
+import results from '../../../../../../../.jest-test-results.json'
 
-const defaultRenderInfo = getInfo('default')
+export default {
+  title: 'Pattern/Molecule/Footer',
+  component: Footer,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['Footer.int.test.js'] },
+  excludeStories: ['custom'],
+}
 
-storiesOf('Patttern/Molecule/Footer', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+export function regular() {
+  return <Footer />
+}

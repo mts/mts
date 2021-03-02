@@ -1,9 +1,9 @@
-import { defaultRender } from './CoursesHeader.int.render'
+import { regular } from './CoursesHeader.int.story'
 
 describe('<CoursesHeader />', () => {
-  describe('Snaphot', () => {
-    test('must match defaultRender', () => {
-      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
+  describe('Render', () => {
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
   })
 })

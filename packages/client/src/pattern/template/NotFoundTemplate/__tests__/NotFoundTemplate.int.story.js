@@ -1,7 +1,22 @@
-import { storiesOf } from '@storybook/react'
-import { defaultRender } from './NotFoundTemplate.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import { NotFoundTemplate } from '../NotFoundTemplate'
+import results from '../../../../../../../.jest-test-results.json'
 
-const defaultRenderInfo = getInfo('default')
+export default {
+  title: 'Pattern/Template/NotFoundTemplate',
+  component: NotFoundTemplate,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['NotFoundTemplate.int.test.js'] },
+  excludeStories: ['custom'],
+}
 
-storiesOf('Patttern/Template/NotFoundTemplate', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+export function regular() {
+  return (
+    <NotFoundTemplate
+      location={{
+        pathname: 'some-path-name',
+      }}
+    />
+  )
+}

@@ -79,9 +79,7 @@ server.use(
 
 server.use(cors())
 
-router.get('/mts', (req, res) => {
-  return handleRender(req, res)
-})
+router.get('/mts', (req, res) => handleRender(req, res))
 
 server.use(router)
 

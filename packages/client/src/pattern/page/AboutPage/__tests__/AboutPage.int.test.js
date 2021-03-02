@@ -1,18 +1,18 @@
 import React from 'react'
-import { asyncRender, defaultRender } from './AboutPage.int.render'
+import { async, regular } from './AboutPage.int.story'
 
-jest.mock('react-router-dom', () => ({ Link: () => <div>some link</div> }))
+jest.mock('react-router-dom', () => ({ Link: () => <div /> }))
 
 describe('<AboutPage />', () => {
   afterEach(() => jest.clearAllMocks())
 
-  describe('Snaphot', () => {
-    test('must match asyncRender', () => {
-      expect(global.renderToJSON(asyncRender)).toMatchSnapshot()
+  describe('Render', () => {
+    test('must match async', () => {
+      expect(global.renderToJSON(async())).toMatchSnapshot()
     })
 
-    test('must match defaultRender', () => {
-      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
+    test('must match regular', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
   })
 })

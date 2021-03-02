@@ -4,7 +4,7 @@
 // Remove .env file to check production build locally in the build folder
 // !!!
 
-// webpack.prod.js - production builds
+// webpack.release.js - production builds
 
 const LEGACY_CONFIG = 'legacy'
 const MODERN_CONFIG = 'modern'
@@ -51,7 +51,7 @@ const configureBanner = () => {
 }
 
 // Configure Bundle Analyzer
-const configureBundleAnalyzer = buildType => {
+const configureBundleAnalyzer = (buildType) => {
   if (buildType === LEGACY_CONFIG) {
     return {
       analyzerMode: 'static',
@@ -69,10 +69,10 @@ const configureBundleAnalyzer = buildType => {
 }
 
 // Configure Image loader
-const configureImageLoader = buildType => {
+const configureImageLoader = (buildType) => {
   if (buildType === LEGACY_CONFIG) {
     return {
-      test: /\.(png|jpe?g|gif|svg|webp)$/i,
+      test: /\.(png|jpe?g|gif|webp)$/i,
       use: [
         {
           loader: 'file-loader',
@@ -85,7 +85,7 @@ const configureImageLoader = buildType => {
   }
   if (buildType === MODERN_CONFIG) {
     return {
-      test: /\.(png|jpe?g|gif|svg|webp)$/i,
+      test: /\.(png|jpe?g|gif|webp)$/i,
       use: [
         {
           loader: 'file-loader',
@@ -119,7 +119,7 @@ const configureImageLoader = buildType => {
 }
 
 // Configure optimization
-const configureOptimization = buildType => {
+const configureOptimization = (buildType) => {
   if (buildType === LEGACY_CONFIG) {
     return {
       splitChunks: {
@@ -157,7 +157,7 @@ const configureOptimization = buildType => {
 }
 
 // Configure Postcss loader
-const configurePostcssLoader = buildType => {
+const configurePostcssLoader = (buildType) => {
   if (buildType === LEGACY_CONFIG || buildType === MODERN_CONFIG) {
     return {
       test: /\.(scss|css)$/,
@@ -174,17 +174,16 @@ const configurePostcssLoader = buildType => {
           },
         },
         {
-          loader: 'resolve-url-loader',
-        },
-        {
           loader: 'sass-loader',
         },
         {
           loader: 'postcss-loader',
           options: {
-            sourceMap: true,
-            plugins: () => [require('postcss-preset-env')()],
-            parser: 'postcss-scss',
+            postcssOptions: {
+              sourceMap: true,
+              plugins: () => [require('postcss-preset-env')()],
+              parser: 'postcss-scss',
+            },
           },
         },
       ],
@@ -244,7 +243,7 @@ module.exports = [
   //                 {
   //                   module: 'react',
   //                   entry: {
-  //                     path: 'https://unpkg.com/react@16.12.0/umd/react.production.min.js',
+  //                     path: 'https://unpkg.com/react@17.0.1/umd/react.production.min.js',
   //                     attributes: {
   //                       crossorigin: 'anonymous',
   //                     },
@@ -254,7 +253,7 @@ module.exports = [
   //                 {
   //                   module: 'react-dom',
   //                   entry: {
-  //                     path: 'https://unpkg.com/react-dom@16.12.0/umd/react-dom.production.min.js',
+  //                     path: 'https://unpkg.com/react-dom@17.0.1/umd/react-dom.production.min.js',
   //                     attributes: {
   //                       crossorigin: 'anonymous',
   //                     },
@@ -297,7 +296,7 @@ module.exports = [
           {
             module: 'react',
             entry: {
-              path: 'https://unpkg.com/react@16.12.0/umd/react.production.min.js',
+              path: 'https://unpkg.com/react@17.0.1/umd/react.production.min.js',
               attributes: {
                 crossorigin: 'anonymous',
               },
@@ -307,7 +306,7 @@ module.exports = [
           {
             module: 'react-dom',
             entry: {
-              path: 'https://unpkg.com/react-dom@16.12.0/umd/react-dom.production.min.js',
+              path: 'https://unpkg.com/react-dom@17.0.1/umd/react-dom.production.min.js',
               attributes: {
                 crossorigin: 'anonymous',
               },

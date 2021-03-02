@@ -908,7 +908,7 @@
                           <blockquote style="margin: 0; padding: 0 24px">
                             <code>
                             describe('<SomeComponent />', () => {
-                              describe('Snaphot', () => {
+                              describe('Snapshot', () => {
                                 test('must match composition', () => {
                                   expect(global.renderToJSON(<SomeComponent />)).toMatchSnapshot()
                                 })

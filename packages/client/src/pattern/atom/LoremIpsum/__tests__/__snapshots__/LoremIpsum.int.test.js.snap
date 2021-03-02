@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<LoremIpsum /> Snaphot Paragraph must match paragraphLargeTimesOneRender 1`] = `
+exports[`<LoremIpsum /> Render Paragraph must match paragraphLargeTimesOne 1`] = `
 <p
   className=""
 >
@@ -8,7 +8,7 @@ exports[`<LoremIpsum /> Snaphot Paragraph must match paragraphLargeTimesOneRende
 </p>
 `;
 
-exports[`<LoremIpsum /> Snaphot Paragraph must match paragraphMediumTimesOneRender 1`] = `
+exports[`<LoremIpsum /> Render Paragraph must match paragraphMediumTimesOne 1`] = `
 <p
   className=""
 >
@@ -16,7 +16,7 @@ exports[`<LoremIpsum /> Snaphot Paragraph must match paragraphMediumTimesOneRend
 </p>
 `;
 
-exports[`<LoremIpsum /> Snaphot Paragraph must match paragraphSmallTimesOneRender 1`] = `
+exports[`<LoremIpsum /> Render Paragraph must match paragraphSmallTimesOne 1`] = `
 <p
   className=""
 >
@@ -24,7 +24,7 @@ exports[`<LoremIpsum /> Snaphot Paragraph must match paragraphSmallTimesOneRende
 </p>
 `;
 
-exports[`<LoremIpsum /> Snaphot Paragraph must match paragraphX1SmallTimesOneRender 1`] = `
+exports[`<LoremIpsum /> Render Paragraph must match paragraphX1SmallTimesOne 1`] = `
 <p
   className=""
 >
@@ -32,7 +32,7 @@ exports[`<LoremIpsum /> Snaphot Paragraph must match paragraphX1SmallTimesOneRen
 </p>
 `;
 
-exports[`<LoremIpsum /> Snaphot Paragraph must match paragraphX2SmallTimesOneRender 1`] = `
+exports[`<LoremIpsum /> Render Paragraph must match paragraphX2SmallTimesOne 1`] = `
 <p
   className=""
 >
@@ -40,12 +40,12 @@ exports[`<LoremIpsum /> Snaphot Paragraph must match paragraphX2SmallTimesOneRen
 </p>
 `;
 
-exports[`<LoremIpsum /> Snaphot Text must match textLargeTimesOneRender 1`] = `"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt. Curabitur commodo, sapien id mattis sagittis, lectus dolor ullamcorper purus, et lacinia elit urna tincidunt massa. Nam pretium nisi at vehicula placerat. Ut molestie eros in sapien mollis, tincidunt vehicula arcu pellentesque. Proin vel elementum ante. Curabitur ut erat massa. Integer pellentesque mauris sed libero scelerisque molestie. Morbi ac dapibus urna. Donec magna felis, porta eget felis vel, sodales fringilla quam. Maecenas mauris ligula, tempus et pretium quis, aliquam nec odio. Praesent mattis a leo lacinia facilisis. Integer rutrum ac purus nec blandit. Nullam et felis ut eros sodales laoreet non vel ex. Suspendisse quis viverra purus. Pellentesque lobortis semper laoreet. Proin venenatis lacus nec neque aliquam cursus. Nullam porttitor a nulla a venenatis. Duis eu sapien velit. Phasellus sagittis vitae ligula eget posuere. Nullam volutpat cursus nunc, at molestie tellus pellentesque non. Vestibulum dignissim ante vel diam tincidunt iaculis. Vestibulum vehicula lobortis ultrices."`;
+exports[`<LoremIpsum /> Render Text must match textLargeTimesOne 1`] = `"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt. Curabitur commodo, sapien id mattis sagittis, lectus dolor ullamcorper purus, et lacinia elit urna tincidunt massa. Nam pretium nisi at vehicula placerat. Ut molestie eros in sapien mollis, tincidunt vehicula arcu pellentesque. Proin vel elementum ante. Curabitur ut erat massa. Integer pellentesque mauris sed libero scelerisque molestie. Morbi ac dapibus urna. Donec magna felis, porta eget felis vel, sodales fringilla quam. Maecenas mauris ligula, tempus et pretium quis, aliquam nec odio. Praesent mattis a leo lacinia facilisis. Integer rutrum ac purus nec blandit. Nullam et felis ut eros sodales laoreet non vel ex. Suspendisse quis viverra purus. Pellentesque lobortis semper laoreet. Proin venenatis lacus nec neque aliquam cursus. Nullam porttitor a nulla a venenatis. Duis eu sapien velit. Phasellus sagittis vitae ligula eget posuere. Nullam volutpat cursus nunc, at molestie tellus pellentesque non. Vestibulum dignissim ante vel diam tincidunt iaculis. Vestibulum vehicula lobortis ultrices."`;
 
-exports[`<LoremIpsum /> Snaphot Text must match textMediumTimesOneRender 1`] = `"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt. Curabitur commodo, sapien id mattis sagittis, lectus dolor ullamcorper purus, et lacinia elit urna tincidunt massa. Nam pretium nisi at vehicula placerat. Ut molestie eros in sapien mollis, tincidunt vehicula arcu pellentesque. Proin vel elementum ante. Curabitur ut erat massa. Integer pellentesque mauris sed libero scelerisque molestie."`;
+exports[`<LoremIpsum /> Render Text must match textMediumTimesOne 1`] = `"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt. Curabitur commodo, sapien id mattis sagittis, lectus dolor ullamcorper purus, et lacinia elit urna tincidunt massa. Nam pretium nisi at vehicula placerat. Ut molestie eros in sapien mollis, tincidunt vehicula arcu pellentesque. Proin vel elementum ante. Curabitur ut erat massa. Integer pellentesque mauris sed libero scelerisque molestie."`;
 
-exports[`<LoremIpsum /> Snaphot Text must match textSmallTimesOneRender 1`] = `"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt."`;
+exports[`<LoremIpsum /> Render Text must match textSmallTimesOne 1`] = `"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante. Cras tortor nisi, vulputate in pharetra et, cursus non felis. Pellentesque libero nulla, auctor ac viverra eu, gravida eu odio. Vestibulum dolor ex, mollis eget euismod et, auctor ut est. Etiam posuere hendrerit tincidunt."`;
 
-exports[`<LoremIpsum /> Snaphot Text must match textX1SmallTimesOneRender 1`] = `"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante."`;
+exports[`<LoremIpsum /> Render Text must match textX1SmallTimesOne 1`] = `"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien. Sed quis purus quis metus sagittis sollicitudin accumsan in ante."`;
 
-exports[`<LoremIpsum /> Snaphot Text must match textX2SmallTimesOneRender 1`] = `"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien."`;
+exports[`<LoremIpsum /> Render Text must match textX2SmallTimesOne 1`] = `"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis eleifend, pretium leo ut, euismod sapien."`;

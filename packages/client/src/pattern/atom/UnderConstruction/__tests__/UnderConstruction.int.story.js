@@ -1,7 +1,16 @@
-import { storiesOf } from '@storybook/react'
-import { defaultRender } from './UnderConstruction.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import { UnderConstruction } from '../UnderConstruction'
+import results from '../../../../../../../.jest-test-results.json'
 
-const defaultRenderInfo = getInfo('default')
+export default {
+  title: 'Pattern/Atom/UnderConstruction',
+  component: UnderConstruction,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['UnderConstruction.int.test.js'] },
+  excludeStories: ['custom'],
+}
 
-storiesOf('Patttern/Atom/UnderConstruction', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+export function regular() {
+  return <UnderConstruction />
+}

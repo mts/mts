@@ -1,7 +1,7 @@
 # MTS Client
 
-> MTS Client implements an ReactJS, ReduxJS Client
+> MTS Client implements a client microsite
 
 ## Scripts
 
-- `npm start` starts ReactJS, ReduxJS Client
+- `npm start` starts the microsite

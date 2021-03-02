@@ -1,16 +1,12 @@
 import React from 'react'
-import { defaultRender } from './NotFoundTemplate.int.render'
+import { regular } from './NotFoundTemplate.int.story'
 
-jest.mock('react-router-dom', () => {
-  return {
-    Link: () => <div />,
-  }
-})
+jest.mock('react-router-dom', () => ({ Link: () => <div /> }))
 
 describe('<NotFoundTemplate />', () => {
-  describe('Snaphot', () => {
-    test('must match defaultRender', () => {
-      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
+  describe('Render', () => {
+    test('must match regular', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
   })
 })

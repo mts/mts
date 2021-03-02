@@ -2,9 +2,7 @@ import { apiRestGitHubSetMTSRepositoriesAction } from '../../action/actionCreato
 import { mockAppState } from '../../../../../library/src/state/mock'
 
 jest.mock('redux-logger', () => ({
-  createLogger: () => {
-    return () => (next) => (action) => next(action)
-  },
+  createLogger: () => () => (next) => (action) => next(action),
 }))
 jest.mock('../../../../../library/src/state/default', () => ({
   getAppDefaultStateFromWindow: () => ({}),

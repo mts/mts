@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<CoursesHeader /> Snaphot must match defaultRender 1`] = `
+exports[`<CoursesHeader /> Render must match regular() 1`] = `
 <div
   className=""
 >

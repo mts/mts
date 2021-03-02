@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-// webpack.dev.js - development builds
+// webpack.develop.js - development builds
 
 const LEGACY_CONFIG = 'legacy'
 const MODERN_CONFIG = 'modern'
@@ -19,7 +19,7 @@ const pkg = require('./package.json')
 const settings = require('./webpack.settings.js')
 
 // Configure the webpack-dev-server
-const configureDevServer = buildType => {
+const configureDevServer = (buildType) => {
   return {
     public: settings.devServerConfig.public(),
     host: settings.devServerConfig.host(),
@@ -41,10 +41,10 @@ const configureDevServer = buildType => {
 }
 
 // Configure Image loader
-const configureImageLoader = buildType => {
+const configureImageLoader = (buildType) => {
   if (buildType === LEGACY_CONFIG) {
     return {
-      test: /\.(png|jpe?g|gif|svg|webp)$/i,
+      test: /\.(png|jpe?g|gif|webp)$/i,
       use: [
         {
           loader: 'file-loader',
@@ -57,7 +57,7 @@ const configureImageLoader = buildType => {
   }
   if (buildType === MODERN_CONFIG) {
     return {
-      test: /\.(png|jpe?g|gif|svg|webp)$/i,
+      test: /\.(png|jpe?g|gif|webp)$/i,
       use: [
         {
           loader: 'file-loader',
@@ -71,7 +71,7 @@ const configureImageLoader = buildType => {
 }
 
 // Configure the Postcss loader
-const configurePostcssLoader = buildType => {
+const configurePostcssLoader = (buildType) => {
   // Don't generate CSS for the legacy config in development
   if (buildType === LEGACY_CONFIG) {
     return {
@@ -97,17 +97,16 @@ const configurePostcssLoader = buildType => {
           },
         },
         {
-          loader: 'resolve-url-loader',
-        },
-        {
           loader: 'sass-loader',
         },
         {
           loader: 'postcss-loader',
           options: {
-            sourceMap: true,
-            plugins: () => [require('postcss-preset-env')()],
-            parser: 'postcss-scss',
+            postcssOptions: {
+              sourceMap: true,
+              plugins: () => [require('postcss-preset-env')()],
+              parser: 'postcss-scss',
+            },
           },
         },
       ],

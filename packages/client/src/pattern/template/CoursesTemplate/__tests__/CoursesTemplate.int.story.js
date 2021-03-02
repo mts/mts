@@ -1,7 +1,13 @@
-import { storiesOf } from '@storybook/react'
-import { defaultRender } from './CoursesTemplate.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { Provider } from 'react-redux'
+import { CoursesTemplate } from '../index'
+import { getAppMockStore } from '../../../../../../library/src/store/mock'
+import { mockAppState } from '../../../../../../library/src/state/mock'
 
-const defaultRenderInfo = getInfo('default')
-
-storiesOf('Patttern/Template/CoursesTemplate', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+export function regular() {
+  return (
+    <Provider store={getAppMockStore(mockAppState)}>
+      <CoursesTemplate />
+    </Provider>
+  )
+}
