@@ -1,7 +1,17 @@
-import { storiesOf } from '@storybook/react'
-import { defaultRender } from './BlogMain.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import { BlogMain } from '../index'
+import { aboutPageData } from '../../../../../../http-server/src/data/ui/about'
+import results from '../../../../../../../.jest-test-results.json'
 
-const defaultRenderInfo = getInfo('default')
+export default {
+  title: 'Pattern/Molecule/BlogMain',
+  component: BlogMain,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['BlogMain.int.test.js'] },
+  excludeStories: ['custom'],
+}
 
-storiesOf('Patttern/Molecule/BlogMain', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+export function regular() {
+  return <BlogMain data={aboutPageData.mainContent} />
+}
