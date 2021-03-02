@@ -1,12 +1,17 @@
 {
-  "packages/**/src/**/*.{js,jsx}": [
-    "eslint --ext .js --ext .jsx packages/**/src/**/*.{js,jsx} --fix",
-    "prettier --write \"packages/**/src/**/*.{js,jsx}\"",
+  "packages/client/src/**/*.{js,jsx}": [
+    "eslint --ext .js --ext .jsx packages/client/src/**/**/*.{js,jsx} --fix",
+    "prettier --write \"packages/client/src/**/**/*.{js,jsx}\"",
     "git add"
   ],
-  "packages/**/src/**/*.{css,scss}": [
-    "stylelint \"packages/**/src/**/*.{css,scss}\" --syntax=scss --fix",
-    "prettier --write \"packages/**/src/**/*.{css,scss}\"",
+  "packages/http-server/src/**/*.js": [
+    "eslint --ext .js --ext .jsx packages/http-server/src/**/**/*.js --fix",
+    "prettier --write \"packages/http-server/src/**/**/*.js\"",
+    "git add"
+  ],
+  "packages/client/src/**/*.scss": [
+    "stylelint \"packages/client/src/**/**/*.scss\" --syntax=scss --fix",
+    "prettier --write \"packages/client/src/**/**/*.scss\"",
     "git add"
   ]
 }
