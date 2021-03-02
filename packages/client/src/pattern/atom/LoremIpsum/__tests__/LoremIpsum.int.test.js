@@ -1,59 +1,59 @@
 import {
-  paragraphX2SmallTimesOneRender,
-  paragraphX1SmallTimesOneRender,
-  paragraphSmallTimesOneRender,
-  paragraphMediumTimesOneRender,
-  paragraphLargeTimesOneRender,
-  textX2SmallTimesOneRender,
-  textX1SmallTimesOneRender,
-  textSmallTimesOneRender,
-  textMediumTimesOneRender,
-  textLargeTimesOneRender,
-} from './LoremIpsum.int.render'
+  paragraphX2SmallTimesOne,
+  paragraphX1SmallTimesOne,
+  paragraphSmallTimesOne,
+  paragraphMediumTimesOne,
+  paragraphLargeTimesOne,
+  textX2SmallTimesOne,
+  textX1SmallTimesOne,
+  textSmallTimesOne,
+  textMediumTimesOne,
+  textLargeTimesOne,
+} from './LoremIpsum.int.story'
 
 describe('<LoremIpsum />', () => {
-  describe('Snaphot', () => {
+  describe('Render', () => {
     describe('Paragraph', () => {
-      test('must match paragraphX2SmallTimesOneRender', () => {
-        expect(global.renderToJSON(paragraphX2SmallTimesOneRender)).toMatchSnapshot()
+      test('must match paragraphX2SmallTimesOne', () => {
+        expect(global.renderToJSON(paragraphX2SmallTimesOne())).toMatchSnapshot()
       })
 
-      test('must match paragraphX1SmallTimesOneRender', () => {
-        expect(global.renderToJSON(paragraphX1SmallTimesOneRender)).toMatchSnapshot()
+      test('must match paragraphX1SmallTimesOne', () => {
+        expect(global.renderToJSON(paragraphX1SmallTimesOne())).toMatchSnapshot()
       })
 
-      test('must match paragraphSmallTimesOneRender', () => {
-        expect(global.renderToJSON(paragraphSmallTimesOneRender)).toMatchSnapshot()
+      test('must match paragraphSmallTimesOne', () => {
+        expect(global.renderToJSON(paragraphSmallTimesOne())).toMatchSnapshot()
       })
 
-      test('must match paragraphMediumTimesOneRender', () => {
-        expect(global.renderToJSON(paragraphMediumTimesOneRender)).toMatchSnapshot()
+      test('must match paragraphMediumTimesOne', () => {
+        expect(global.renderToJSON(paragraphMediumTimesOne())).toMatchSnapshot()
       })
 
-      test('must match paragraphLargeTimesOneRender', () => {
-        expect(global.renderToJSON(paragraphLargeTimesOneRender)).toMatchSnapshot()
+      test('must match paragraphLargeTimesOne', () => {
+        expect(global.renderToJSON(paragraphLargeTimesOne())).toMatchSnapshot()
       })
     })
 
     describe('Text', () => {
-      test('must match textX2SmallTimesOneRender', () => {
-        expect(global.renderToJSON(textX2SmallTimesOneRender)).toMatchSnapshot()
+      test('must match textX2SmallTimesOne', () => {
+        expect(global.renderToJSON(textX2SmallTimesOne())).toMatchSnapshot()
       })
 
-      test('must match textX1SmallTimesOneRender', () => {
-        expect(global.renderToJSON(textX1SmallTimesOneRender)).toMatchSnapshot()
+      test('must match textX1SmallTimesOne', () => {
+        expect(global.renderToJSON(textX1SmallTimesOne())).toMatchSnapshot()
       })
 
-      test('must match textSmallTimesOneRender', () => {
-        expect(global.renderToJSON(textSmallTimesOneRender)).toMatchSnapshot()
+      test('must match textSmallTimesOne', () => {
+        expect(global.renderToJSON(textSmallTimesOne())).toMatchSnapshot()
       })
 
-      test('must match textMediumTimesOneRender', () => {
-        expect(global.renderToJSON(textMediumTimesOneRender)).toMatchSnapshot()
+      test('must match textMediumTimesOne', () => {
+        expect(global.renderToJSON(textMediumTimesOne())).toMatchSnapshot()
       })
 
-      test('must match textLargeTimesOneRender', () => {
-        expect(global.renderToJSON(textLargeTimesOneRender)).toMatchSnapshot()
+      test('must match textLargeTimesOne', () => {
+        expect(global.renderToJSON(textLargeTimesOne())).toMatchSnapshot()
       })
     })
   })

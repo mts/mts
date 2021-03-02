@@ -1,38 +1,54 @@
-import { storiesOf } from '@storybook/react'
-import {
-  paragraphX2SmallTimesOneRender,
-  paragraphX1SmallTimesOneRender,
-  paragraphSmallTimesOneRender,
-  paragraphMediumTimesOneRender,
-  paragraphLargeTimesOneRender,
-  textX2SmallTimesOneRender,
-  textX1SmallTimesOneRender,
-  textSmallTimesOneRender,
-  textMediumTimesOneRender,
-  textLargeTimesOneRender,
-} from './LoremIpsum.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import { LoremIpsum } from '../LoremIpsum'
+import { element } from '../../../../../../library/src/client/dom'
+import { size } from '../../../../../../library/src/client/placeholder'
+import results from '../../../../../../../.jest-test-results.json'
 
-const paragraphX2SmallTimesOneRenderInfo = getInfo('paragraphX2SmallTimesOne')
-const paragraphX1SmallTimesOneRenderInfo = getInfo('paragraphX1SmallTimesOne')
-const paragraphSmallTimesOneRenderInfo = getInfo('paragraphSmallTimesOne')
-const paragraphMediumTimesOneRenderInfo = getInfo('paragraphMediumTimesOne')
-const paragraphLargeTimesOneRenderInfo = getInfo('paragraphLargeTimesOne')
+export default {
+  title: 'Pattern/Atom/LoremIpsum',
+  component: LoremIpsum,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['LoremIpsum.int.test.js'] },
+  excludeStories: ['custom'],
+}
 
-const textX2SmallTimesOneRenderInfo = getInfo('textX2SmallTimesOne')
-const textX1SmallTimesOneRenderInfo = getInfo('textX1SmallTimesOne')
-const textSmallTimesOneRenderInfo = getInfo('textSmallTimesOne')
-const textMediumTimesOneRenderInfo = getInfo('textMediumTimesOne')
-const textLargeTimesOneRenderInfo = getInfo('textLargeTimesOne')
+export function paragraphX2SmallTimesOne() {
+  return <LoremIpsum container={element.paragraph} length={size.x2Small} count={1} />
+}
 
-storiesOf('Patttern/Atom/LoremIpsum', module)
-  .add(paragraphX2SmallTimesOneRender.text, () => paragraphX2SmallTimesOneRender, paragraphX2SmallTimesOneRenderInfo.parameter)
-  .add(paragraphX1SmallTimesOneRender.text, () => paragraphX1SmallTimesOneRender, paragraphX1SmallTimesOneRenderInfo.parameter)
-  .add(paragraphSmallTimesOneRender.text, () => paragraphSmallTimesOneRender, paragraphSmallTimesOneRenderInfo.parameter)
-  .add(paragraphMediumTimesOneRender.text, () => paragraphMediumTimesOneRender, paragraphMediumTimesOneRenderInfo.parameter)
-  .add(paragraphLargeTimesOneRender.text, () => paragraphLargeTimesOneRender, paragraphLargeTimesOneRenderInfo.parameter)
-  .add(textX2SmallTimesOneRender.text, () => textX2SmallTimesOneRender, textX2SmallTimesOneRenderInfo.parameter)
-  .add(textX1SmallTimesOneRender.text, () => textX1SmallTimesOneRender, textX1SmallTimesOneRenderInfo.parameter)
-  .add(textSmallTimesOneRender.text, () => textSmallTimesOneRender, textSmallTimesOneRenderInfo.parameter)
-  .add(textMediumTimesOneRender.text, () => textMediumTimesOneRender, textMediumTimesOneRenderInfo.parameter)
-  .add(textLargeTimesOneRender.text, () => textLargeTimesOneRender, textLargeTimesOneRenderInfo.parameter)
+export function paragraphX1SmallTimesOne() {
+  return <LoremIpsum container={element.paragraph} length={size.x1Small} count={1} />
+}
+
+export function paragraphSmallTimesOne() {
+  return <LoremIpsum container={element.paragraph} length={size.small} count={1} />
+}
+
+export function paragraphMediumTimesOne() {
+  return <LoremIpsum container={element.paragraph} length={size.medium} count={1} />
+}
+
+export function paragraphLargeTimesOne() {
+  return <LoremIpsum container={element.paragraph} length={size.large} count={1} />
+}
+
+export function textX2SmallTimesOne() {
+  return <LoremIpsum length={size.x2Small} count={1} />
+}
+
+export function textX1SmallTimesOne() {
+  return <LoremIpsum length={size.x1Small} count={1} />
+}
+
+export function textSmallTimesOne() {
+  return <LoremIpsum length={size.small} count={1} />
+}
+
+export function textMediumTimesOne() {
+  return <LoremIpsum length={size.medium} count={1} />
+}
+
+export function textLargeTimesOne() {
+  return <LoremIpsum length={size.large} count={1} />
+}
