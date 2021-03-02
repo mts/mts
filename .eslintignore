@@ -7,17 +7,16 @@ app.sublime-workspace
 
 # Storybook
 .storybook-static
+.jest-test-results.json
 
 # Test
 coverage
 
 # NPM MTS
-.npmrc
 npm-debug.log
 lerna-debug.log
 package-lock.json
 node_modules
-asset
 
 # NPM MTS Client Package
 packages/client/package-lock.json
