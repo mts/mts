@@ -1,9 +1,9 @@
-import { defaultRender } from './Newsletter.int.render'
+import { regular } from './Newsletter.int.story'
 
 describe('<Newsletter />', () => {
-  describe('Snaphot', () => {
-    test('must match defaultRender', () => {
-      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
+  describe('Render', () => {
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
   })
 })
