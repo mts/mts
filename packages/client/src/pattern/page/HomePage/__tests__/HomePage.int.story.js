@@ -1,10 +1,32 @@
-import { storiesOf } from '@storybook/react'
-import { asyncRender, defaultRender } from './HomePage.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { Provider } from 'react-redux'
+import { withTests } from '@storybook/addon-jest'
+import { AsyncHomePage } from '../AsyncHomePage'
+import { HomePage } from '../HomePage'
+import { getAppMockStore } from '../../../../../../library/src/store/mock'
+import { mockAppState } from '../../../../../../library/src/state/mock'
+import results from '../../../../../../../.jest-test-results.json'
 
-const asyncRenderInfo = getInfo('async')
-const defaultRenderInfo = getInfo('default')
+export default {
+  title: 'Pattern/Page/HomePage',
+  component: HomePage,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['HomePage.int.test.js'] },
+  excludeStories: ['custom'],
+}
 
-storiesOf('Patttern/Page/HomePage', module)
-  .add(asyncRenderInfo.text, () => asyncRender, asyncRenderInfo.parameters)
-  .add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+export function async() {
+  return (
+    <Provider store={getAppMockStore(mockAppState)}>
+      <AsyncHomePage />
+    </Provider>
+  )
+}
+
+export function regular() {
+  return (
+    <Provider store={getAppMockStore(mockAppState)}>
+      <HomePage />
+    </Provider>
+  )
+}

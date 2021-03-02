@@ -1,23 +1,19 @@
 import React from 'react'
-import { asyncRender, defaultRender } from './HomePage.int.render'
+import { async, regular } from './HomePage.int.story'
 
-jest.mock('react-router-dom', () => ({ Link: () => <div>some link</div> }))
-jest.mock('../../../../../../library/src/client/navBar', () => {
-  return {
-    handleStickyNavBar: () => {},
-  }
-})
+jest.mock('react-router-dom', () => ({ Link: () => <div /> }))
+jest.mock('../../../../../../library/src/client/navBar', () => ({ handleStickyNavBar: () => {} }))
 
 describe('<HomePage />', () => {
   afterEach(() => jest.clearAllMocks())
 
-  describe('Snaphot', () => {
-    test('must match asyncRender', () => {
-      expect(global.renderToJSON(asyncRender)).toMatchSnapshot()
+  describe('Render', () => {
+    test('must match async', () => {
+      expect(global.renderToJSON(async())).toMatchSnapshot()
     })
 
-    test('must match defaultRender', () => {
-      expect(global.renderToJSON(defaultRender)).toMatchSnapshot()
+    test('must match regular', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
   })
 })
