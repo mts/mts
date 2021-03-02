@@ -1,7 +1,23 @@
-import { storiesOf } from '@storybook/react'
-import { defaultRender } from './Navigation.int.render'
-import { getInfo } from '../../../../../../../.storybook/library'
+import React from 'react'
+import { Provider } from 'react-redux'
+import { withTests } from '@storybook/addon-jest'
+import { Navigation } from '../index'
+import { getAppMockStore } from '../../../../../../library/src/store/mock'
+import { mockAppState } from '../../../../../../library/src/state/mock'
+import results from '../../../../../../../.jest-test-results.json'
 
-const defaultRenderInfo = getInfo('default')
+export default {
+  title: 'Pattern/Molecule/Navigation',
+  component: Navigation,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['Navigation.int.test.js'] },
+  excludeStories: ['custom'],
+}
 
-storiesOf('Patttern/Molecule/Navigation', module).add(defaultRenderInfo.text, () => defaultRender, defaultRenderInfo.parameters)
+export function regular() {
+  return (
+    <Provider store={getAppMockStore(mockAppState)}>
+      <Navigation />
+    </Provider>
+  )
+}
