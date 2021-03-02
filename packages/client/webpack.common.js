@@ -10,7 +10,7 @@ const path = require('path')
 const merge = require('webpack-merge').merge
 
 // webpack plugins
-const ManifestPlugin = require('webpack-manifest-plugin')
+const { WebpackManifestPlugin } = require('webpack-manifest-plugin')
 
 const CleanWebpackPlugin = require('clean-webpack-plugin').CleanWebpackPlugin
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -21,7 +21,7 @@ const pkg = require('./package.json')
 const settings = require('./webpack.settings.js')
 
 // Configure Babel loader
-const configureBabelLoader = browserList => {
+const configureBabelLoader = (browserList) => {
   return {
     test: /\.(js|jsx)$/,
     exclude: /node_modules/,
@@ -34,7 +34,7 @@ const configureBabelLoader = browserList => {
             {
               modules: false,
               useBuiltIns: 'entry',
-              corejs: '3.6.5',
+              corejs: '3.9.1',
               targets: {
                 browsers: browserList,
               },
@@ -44,6 +44,7 @@ const configureBabelLoader = browserList => {
         ],
         plugins: [
           '@babel/plugin-proposal-class-properties',
+          '@babel/plugin-proposal-nullish-coalescing-operator',
           '@babel/plugin-proposal-object-rest-spread',
           '@babel/plugin-proposal-optional-catch-binding',
           '@babel/plugin-proposal-optional-chaining',
@@ -69,6 +70,31 @@ const configureEntries = () => {
   return entries
 }
 
+const configureSVGLoader = () => {
+  return {
+    test: /\.svg$/,
+    use: ['@svgr/webpack'],
+  }
+}
+
+// Configure Markdown loader
+const configureMarkdownLoader = () => {
+  return {
+    test: /\.md$/,
+    use: [
+      {
+        loader: 'html-loader',
+      },
+      {
+        loader: 'markdown-loader',
+        options: {
+          /* your options here */
+        },
+      },
+    ],
+  }
+}
+
 // Configure Font loader
 const configureFontLoader = () => {
   return {
@@ -85,11 +111,11 @@ const configureFontLoader = () => {
 }
 
 // Configure Manifest
-const configureManifest = fileName => {
+const configureManifest = (fileName) => {
   return {
     fileName: fileName,
     basePath: settings.manifestConfig.basePath,
-    map: file => {
+    map: (file) => {
       file.name = file.name.replace(/(\.[a-f0-9]{32})(\..*)$/, '$2')
       return file
     },
@@ -124,7 +150,7 @@ const baseConfig = {
     publicPath: settings.urls.publicPath,
   },
   module: {
-    rules: [configureFontLoader()],
+    rules: [configureSVGLoader(), configureMarkdownLoader(), configureFontLoader()],
   },
   plugins: [
     new CleanWebpackPlugin(configureCleanWebpack()),
@@ -144,7 +170,7 @@ const legacyConfig = {
   module: {
     rules: [configureBabelLoader(Object.values(pkg.browserslist.legacyBrowsers))],
   },
-  plugins: [new ManifestPlugin(configureManifest('manifest-legacy.json'))],
+  plugins: [new WebpackManifestPlugin(configureManifest('manifest-legacy.json'))],
 }
 
 // Modern webpack config
@@ -152,7 +178,7 @@ const modernConfig = {
   module: {
     rules: [configureBabelLoader(Object.values(pkg.browserslist.modernBrowsers))],
   },
-  plugins: [new ManifestPlugin(configureManifest('manifest.json'))],
+  plugins: [new WebpackManifestPlugin(configureManifest('manifest.json'))],
 }
 
 // Common module exports
