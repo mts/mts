@@ -10,9 +10,7 @@ describe('path', () => {
     delete process.env.BASE_URL
   }
 
-  const requirePath = () => {
-    return require('../path')
-  }
+  const requirePath = () => require('../path')
 
   afterEach(() => {
     restoreEnvironmentVariables()
@@ -48,7 +46,7 @@ describe('path', () => {
     })
   })
 
-  describe(' blogPagePath', () => {
+  describe('blogPagePath', () => {
     test('must return path with base url when process.env.BASE_URL is present', () => {
       jest.resetModules()
       extendEnvironmentVariables()
@@ -63,7 +61,7 @@ describe('path', () => {
     })
   })
 
-  describe(' coursesPagePath', () => {
+  describe('coursesPagePath', () => {
     test('must return path with base url when process.env.BASE_URL is present', () => {
       jest.resetModules()
       extendEnvironmentVariables()

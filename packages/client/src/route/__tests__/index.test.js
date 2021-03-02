@@ -31,23 +31,19 @@ const mockRequireNotFoundPage = () => {
 
 const mockRequirePath = () => {
   const pathPath = '../path'
-  jest.mock(pathPath, () => {
-    return {
-      homePagePath: 'some-home-page-path',
-      aboutPagePath: 'some-about-page-path',
-      blogPagePath: 'some-blog-page-path',
-      coursesPagePath: 'some-courses-page-path',
-    }
-  })
+  jest.mock(pathPath, () => ({
+    homePagePath: 'some-home-page-path',
+    aboutPagePath: 'some-about-page-path',
+    blogPagePath: 'some-blog-page-path',
+    coursesPagePath: 'some-courses-page-path',
+  }))
   return require(pathPath)
 }
 
 describe('index', () => {
   const path = mockRequirePath()
 
-  const requireIndex = () => {
-    return require('../index')
-  }
+  const requireIndex = () => require('../index')
 
   describe('homePageRoute', () => {
     const homePage = mockRequireHomePage()
