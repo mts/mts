@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { homePagePath } from '../../../route/path'
 import { NoMatch } from '../../atom/NoMatch'

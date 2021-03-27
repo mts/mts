@@ -1,4 +1,3 @@
-import React from 'react'
 import { Provider } from 'react-redux'
 import { withTests } from '@storybook/addon-jest'
 import { HomeTemplate } from '../index'

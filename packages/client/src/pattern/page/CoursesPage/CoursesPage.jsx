@@ -1,4 +1,3 @@
-import React from 'react'
 import { CoursesTemplate } from '../../template/CoursesTemplate'
 import { coursesPageDefaultProps, coursesPagePropTypes } from './CoursesPage.prop'
 

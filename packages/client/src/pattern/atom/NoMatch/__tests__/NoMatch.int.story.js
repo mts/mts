@@ -1,4 +1,3 @@
-import React from 'react'
 import { withTests } from '@storybook/addon-jest'
 import { NoMatch } from '../NoMatch'
 import results from '../../../../../../../.jest-test-results.json'

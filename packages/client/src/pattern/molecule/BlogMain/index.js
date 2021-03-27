@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { container, containerBlogList } from './BlogMain.scss'
 import { H2, BlogItemFeatured, BlogItemRegular } from './BlogMain.part'
 import { blogMainDefaultProps, blogMainPropTypes } from './BlogMain.prop'

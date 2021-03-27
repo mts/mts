@@ -1,4 +1,3 @@
-import React from 'react'
 import { withTests } from '@storybook/addon-jest'
 import { LoremIpsum } from '../LoremIpsum'
 import { element } from '../../../../../../library/src/client/dom'

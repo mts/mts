@@ -1,4 +1,3 @@
-import React from 'react'
 import { coursesPageDefaultProps, coursesPagePropTypes } from './CoursesPage.prop'
 
 const LazyCoursesPage = React.lazy(() => import('./CoursesPage'))

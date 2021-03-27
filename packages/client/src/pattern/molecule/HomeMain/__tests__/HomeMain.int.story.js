@@ -1,4 +1,3 @@
-import React from 'react'
 import { withTests } from '@storybook/addon-jest'
 import { HomeMain } from '../index'
 import { homePageData } from '../../../../../../http-server/src/data/ui/home'

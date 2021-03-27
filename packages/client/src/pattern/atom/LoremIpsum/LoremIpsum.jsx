@@ -1,4 +1,3 @@
-import React from 'react'
 import {
   loremIpsumTextX2Small,
   loremIpsumTextX1Small,

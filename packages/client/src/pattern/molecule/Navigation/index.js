@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react'
 import cx from 'classnames'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'

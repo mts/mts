@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { topBorder, container, containerImage, containerInfo, containerInfoLead, containerInfoLink } from './Book.scss'
 import { bookDefaultProps, bookPropTypes } from './Book.prop'

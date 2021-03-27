@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { blogTemplate } from './BlogTemplate.scss'
 import { blogTemplateDefaultProps, blogTemplatePropTypes } from './BlogTemplate.prop'

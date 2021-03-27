@@ -1,4 +1,3 @@
-import React from 'react'
 import { AboutTemplate } from '../../template/AboutTemplate'
 import { aboutPageDefaultProps, aboutPagePropTypes } from './AboutPage.prop'
 

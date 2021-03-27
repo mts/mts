@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { coursesTemplate } from './CoursesTemplate.scss'
 import { coursesTemplateDefaultProps, coursesTemplatePropTypes } from './CoursesTemplate.prop'

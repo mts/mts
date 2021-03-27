@@ -1,4 +1,3 @@
-import React from 'react'
 import { withTests } from '@storybook/addon-jest'
 import { AsyncNotFoundPage } from '../AsyncNotFoundPage'
 import { NotFoundPage } from '../NotFoundPage'

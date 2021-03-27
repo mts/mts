@@ -1,4 +1,3 @@
-import React from 'react'
 import { withTests } from '@storybook/addon-jest'
 import { NotFoundTemplate } from '../NotFoundTemplate'
 import results from '../../../../../../../.jest-test-results.json'

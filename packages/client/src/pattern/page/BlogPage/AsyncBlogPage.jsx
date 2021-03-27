@@ -1,4 +1,3 @@
-import React from 'react'
 import { blogPageDefaultProps, blogPagePropTypes } from './BlogPage.prop'
 
 const LazyBlogPage = React.lazy(() => import('./BlogPage'))

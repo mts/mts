@@ -1,4 +1,3 @@
-import React from 'react'
 import { aPropTypes, h2DefaultProps, h2PropTypes, h3PropTypes } from './AboutMain.prop'
 
 export function A({ href, text }) {

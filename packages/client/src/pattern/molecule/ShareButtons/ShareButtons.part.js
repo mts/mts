@@ -1,5 +1,3 @@
-import React from 'react'
-
 export function FacebookButton() {
   return (
     <a href="/" target="_blank" rel="noopener noreferrer" aria-label="Share On Social Media: facebook">

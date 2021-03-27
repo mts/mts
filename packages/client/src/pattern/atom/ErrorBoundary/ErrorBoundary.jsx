@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars, no-console */
-import React from 'react'
+import { Component } from 'react'
 import { errorBoundaryPropTypes } from './ErrorBoundary.prop'
 
-export class ErrorBoundary extends React.Component {
+export class ErrorBoundary extends Component {
   constructor(props) {
     super(props)
     this.state = { hasError: false }

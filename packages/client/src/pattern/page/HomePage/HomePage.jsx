@@ -1,4 +1,3 @@
-import React from 'react'
 import { HomeTemplate } from '../../template/HomeTemplate'
 import { homePageDefaultProps, homePagePropTypes } from './HomePage.prop'
 

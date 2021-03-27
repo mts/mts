@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { aboutTemplate } from './AboutTemplate.scss'
 import { aboutTemplateDefaultProps, aboutTemplatePropTypes } from './AboutTemplate.prop'

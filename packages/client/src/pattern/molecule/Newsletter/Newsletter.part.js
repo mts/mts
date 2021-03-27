@@ -1,5 +1,3 @@
-import React from 'react'
-
 export function LabelLeadSvg() {
   return (
     <svg width="20px" height="20px" viewBox="0 0 123.811 123.811">

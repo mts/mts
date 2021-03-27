@@ -1,4 +1,3 @@
-import React from 'react'
 import { UnderConstruction } from '../../atom/UnderConstruction'
 import { notFoundPageDefaultProps, notFoundPagePropTypes } from './NotFoundPage.prop'
 

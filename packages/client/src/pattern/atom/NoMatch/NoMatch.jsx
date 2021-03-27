@@ -1,4 +1,3 @@
-import React from 'react'
 import { noMatchDefaultProps, noMatchPropTypes } from './NoMatch.prop'
 
 export function NoMatch({ className, location }) {

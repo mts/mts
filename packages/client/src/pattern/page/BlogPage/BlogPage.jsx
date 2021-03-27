@@ -1,4 +1,3 @@
-import React from 'react'
 import { BlogTemplate } from '../../template/BlogTemplate'
 import { blogPageDefaultProps, blogPagePropTypes } from './BlogPage.prop'
 

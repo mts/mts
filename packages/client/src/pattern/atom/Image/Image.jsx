@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { imageDefaultProps, imagePropTypes } from './Image.prop'
 

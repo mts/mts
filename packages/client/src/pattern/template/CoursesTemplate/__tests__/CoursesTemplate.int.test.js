@@ -1,4 +1,3 @@
-import React from 'react'
 import { regular } from './CoursesTemplate.int.story'
 
 jest.mock('react-router-dom', () => ({ Link: () => <div /> }))

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Provider } from 'react-redux'
 import { CoursesTemplate } from '../index'
 import { getAppMockStore } from '../../../../../../library/src/store/mock'

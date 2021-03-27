@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { navBarLogo, navBarListItemLink, navBarMobileToggleButton } from './Navigation.scss'
 import { mobileToggleButtonPropTypes } from './Navigation.prop'
