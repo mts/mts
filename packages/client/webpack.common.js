@@ -50,6 +50,12 @@ const configureBabelLoader = (browserList) => {
           '@babel/plugin-proposal-optional-chaining',
           '@babel/plugin-syntax-dynamic-import',
           '@babel/plugin-transform-classes',
+          [
+            '@babel/plugin-transform-react-jsx',
+            {
+              runtime: 'automatic',
+            },
+          ],
           '@babel/plugin-transform-runtime',
           '@babel/plugin-transform-spread',
           'import-graphql',
