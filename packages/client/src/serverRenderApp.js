@@ -1,4 +1,4 @@
-import { string, shape } from 'prop-types'
+import { string } from 'prop-types'
 import { Provider } from 'react-redux'
 import { StaticRouter } from 'react-router'
 import { homePageRoute } from './route'
@@ -19,12 +19,8 @@ export function App({ location }) {
 
 App.defaultProps = {
   location: '',
-  context: {},
 }
 
 App.propTypes = {
   location: string,
-  context: shape({
-    url: string,
-  }),
 }
