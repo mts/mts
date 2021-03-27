@@ -1,12 +1,13 @@
+import { lazy, Suspense } from 'react'
 import { coursesPageDefaultProps, coursesPagePropTypes } from './CoursesPage.prop'
 
-const LazyCoursesPage = React.lazy(() => import('./CoursesPage'))
+const LazyCoursesPage = lazy(() => import('./CoursesPage'))
 
 export function AsyncCoursesPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyCoursesPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

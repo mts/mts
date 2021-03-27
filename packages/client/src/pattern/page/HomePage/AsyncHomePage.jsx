@@ -1,12 +1,13 @@
+import { lazy, Suspense } from 'react'
 import { homePageDefaultProps, homePagePropTypes } from './HomePage.prop'
 
-const LazyHomePage = React.lazy(() => import('./HomePage'))
+const LazyHomePage = lazy(() => import('./HomePage'))
 
 export function AsyncHomePage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyHomePage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

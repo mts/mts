@@ -1,12 +1,13 @@
+import { lazy, Suspense } from 'react'
 import { aboutPageDefaultProps, aboutPagePropTypes } from './AboutPage.prop'
 
-const LazyAboutPage = React.lazy(() => import('./AboutPage'))
+const LazyAboutPage = lazy(() => import('./AboutPage'))
 
 export function AsyncAboutPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyAboutPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 
