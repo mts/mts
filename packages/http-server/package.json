@@ -29,7 +29,7 @@
     "build": "babel src --out-dir build --copy-files --extensions '.js,.jsx'"
   },
   "dependencies": {
-    "@babel/cli": "^7.13.10",
+    "@babel/cli": "^7.13.14",
     "nodemon": "^2.0.7",
     "rimraf": "^3.0.2"
   },
